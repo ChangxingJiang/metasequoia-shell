@@ -5,6 +5,8 @@
 import dataclasses
 from typing import List, Optional
 
+from metasequoia_shell.simu_env.variable import SimuVariableString
+
 __all__ = [
     "SimuCommandInput",
     "SimuCommandOutput"
@@ -25,4 +27,4 @@ class SimuCommandOutput:
     """模拟执行的命令输出信息类"""
 
     return_code: int = dataclasses.field(kw_only=True)
-    output_stream: Optional[str] = dataclasses.field(kw_only=True)  # 如果为 None 则表示无法推断
+    output_stream: SimuVariableString = dataclasses.field(kw_only=True)  # 如果为 None 则表示无法推断

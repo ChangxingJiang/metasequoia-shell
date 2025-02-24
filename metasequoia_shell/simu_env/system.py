@@ -9,7 +9,6 @@ from metasequoia_shell.simu_env.command_interactive import SimuCommandInput
 from metasequoia_shell.simu_env.command_interactive import SimuCommandOutput
 from metasequoia_shell.simu_env.configuration import SimuConfiguration
 from metasequoia_shell.simu_env.variable import SimuVariable
-from metasequoia_shell.simu_env.variable import SimuVariableString
 
 __all__ = (
     "SimuSystem",
@@ -219,7 +218,7 @@ class SimuProcess:
         if command_name in self.system.regist_executor_dict:
             executor = self.system.regist_executor_dict[command_name]
             command_output = executor.execute(self, command_input)
-            return SimuVariableString.create(command_output.output_stream)
+            return command_output.output_stream
 
         self.add_unknown_command(str(words), "unknown command")
         return SimuVariable.unknown()

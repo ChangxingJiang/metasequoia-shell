@@ -97,6 +97,7 @@ class IfRunMode(enum.Enum):
     ONLY_IF = enum.auto()  # 运行 condition1、commands1
     ONLY_ELIF = enum.auto()  # 运行 elif（elif 子句中的执行逻辑由 ELIF_RUN_MODE 指定）
     ONLY_ELSE = enum.auto()  # 运行 commands3
+    ONLY_COMMAND = enum.auto()  # 运行 commands1、commands3 和 elif（elif 子句中的执行逻辑由 ELIF_RUN_MODE 指定）
     IGNORE = enum.auto()
 
 
@@ -164,7 +165,7 @@ class SimuConfiguration:
     # if 语句运行模式：默认运行所有部分（elif 子句中的执行逻辑由 ELIF_RUN_MODE 指定）
     IF_RUN_MODE: IfRunMode = dataclasses.field(
         kw_only=True,
-        default=IfRunMode.ALL
+        default=IfRunMode.ONLY_COMMAND
     )
 
     # case 语句的每个条件结构的运行模式：默认仅运行命令部分

@@ -454,11 +454,8 @@ class DoubleQuoteString(ASTElement):
     def execute(self, process: SimuProcess, **kwargs) -> SimuVariable:
         result = []
         for element in self.element_list:
-            value = element.execute(process).as_string()
-            if value is None:
-                return SimuVariable.unknown()
-            result.append(value)
-        return SimuVariableString.create("".join(result))
+            result.append(element.execute(process).as_string())
+        return SimuVariableString.create_by_array(result, sep="")
 
 
 @dataclasses.dataclass(slots=True)
@@ -476,11 +473,8 @@ class DollarDoubleQuoteString(ASTElement):
         # TODO 待考虑本地化翻译的特殊处理逻辑
         result = []
         for element in self.element_list:
-            value = element.execute(process).as_string()
-            if value is None:
-                return SimuVariable.unknown()
-            result.append(value)
-        return SimuVariableString.create("".join(result))
+            result.append(element.execute(process).as_string())
+        return SimuVariableString.create_by_array(result, sep="")
 
 
 @dataclasses.dataclass(slots=True)

@@ -34,11 +34,8 @@ class NormalWord(ASTWord):
         return "".join(element.source() for element in self.element_list)
 
     def execute(self, process: SimuProcess, **kwargs) -> SimuVariable:
-        element_var_list = [element.execute(process) for element in self.element_list]  # TODO 待实现大括号扩展
-        if any(element_var.is_unknown for element_var in element_var_list):
-            return SimuVariable.unknown()
-        element_str = "".join(element_var.as_string() for element_var in element_var_list)
-        return SimuVariableString.create(element_str)
+        element_var_list = [element.execute(process).as_string() for element in self.element_list]  # TODO 待实现大括号扩展
+        return SimuVariableString.create_by_array(element_var_list, sep="")
 
 
 @dataclasses.dataclass(slots=True)
@@ -104,12 +101,10 @@ class Assignment(ASTWord):
         return f"{self.name}={value_str}"
 
     def execute(self, process: SimuProcess, **kwargs) -> SimuVariable:
-        value_element_var_list = [element.execute(process) for element in self.value_element_list]
-        if any([element_var.is_unknown for element_var in value_element_var_list]):
-            return SimuVariable.empty()  # 无法推断变量值
-        value_str = "".join(element_var.as_string() for element_var in value_element_var_list)
-        process.set_param(self.name, SimuVariableString.create(value_str))
-        return SimuVariable.empty()
+        array = [element.execute(process).as_string() for element in self.value_element_list]
+        process.set_param(self.name, SimuVariableString.create_by_array(array, sep=""))
+        result = SimuVariableString.create_by_array([self.name, "="] + array, sep="")
+        return result  # TODO 需要考虑如何让不在开头的 = 不再被视为赋值语句
 
 
 @dataclasses.dataclass(slots=True)
@@ -131,5 +126,6 @@ class AssignmentArray(ASTWord):
         if any([element_var.is_unknown for element_var in value_element_var_list]):
             return SimuVariable.empty()  # 无法推断变量值
         value_element_str_list = [element_var.as_string() for element_var in value_element_var_list]
-        process.set_param(name_str, SimuVariableArray.create(value_element_str_list))
-        return SimuVariable.empty()
+        result = SimuVariableArray.create(value_element_str_list)
+        process.set_param(name_str, result)
+        return result  # TODO 需要考虑如何让不在开头的 = 不再被视为赋值语句

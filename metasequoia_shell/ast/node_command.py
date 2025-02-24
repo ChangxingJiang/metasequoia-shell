@@ -54,6 +54,11 @@ class SimpleCommand(ASTCommand):
         return " ".join(element.source() for element in self.word_list)
 
     def execute(self, process: SimuProcess, input_stream: Optional[str] = None, **kwargs) -> SimuVariable:
+        # 处理只包含赋值语句的情况
+        if len(self.word_list) == 1 and self.word_list[0].__class__.__name__ == "Assignment":  # TODO 待优化分析逻辑
+            self.word_list[0].execute(process)
+            return SimuVariable.empty()
+
         word_str_list = [word.execute(process).as_string() for word in self.word_list]
         return process.execute_simple_command(word_str_list, input_stream=input_stream)
 
@@ -239,12 +244,13 @@ class IfCommand(ASTCommand):
         run_mode = process.system.configuration.IF_RUN_MODE
         if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELIF, IfRunMode.IF_ELSE, IfRunMode.ONLY_IF}:
             self.test_script.execute(process)
+        if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELIF, IfRunMode.IF_ELSE, IfRunMode.ONLY_IF, IfRunMode.ONLY_COMMAND}:
             self.consequent_script.execute(process)
             # TODO 考虑移出命名空间
-        if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELIF, IfRunMode.ONLY_ELIF}:
+        if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELIF, IfRunMode.ONLY_ELIF, IfRunMode.ONLY_COMMAND}:
             for else_if in self.else_if_list:
                 else_if.execute(process)
-        if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELSE, IfRunMode.ONLY_ELSE}:
+        if run_mode in {IfRunMode.ALL, IfRunMode.IF_ELSE, IfRunMode.ONLY_ELSE, IfRunMode.ONLY_COMMAND}:
             if self.alternate_script is not None:
                 self.alternate_script.execute(process)
         return SimuVariable.empty()
@@ -548,6 +554,4 @@ class CommandWithList(ASTCommand):
         result = [self.first_command.execute(process, input_stream=input_stream).as_string()]
         for other_command in self.other_command_list:
             result.append(other_command.execute(process, input_stream=input_stream).as_string())
-        if None in result:
-            return SimuVariable.unknown()
-        return SimuVariableString.create("".join(result))
+        return SimuVariableString.create_by_array(result, sep=" ")  # TODO 分隔符待验证

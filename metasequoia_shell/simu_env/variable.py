@@ -80,14 +80,30 @@ class SimuVariableString(SimuVariable):
     """模拟执行的字符串变量"""
 
     value: str = dataclasses.field(kw_only=True)
+    _is_unknown: bool = dataclasses.field(kw_only=True)
 
     @staticmethod
-    def create(value: str) -> "SimuVariableString":
-        return SimuVariableString(value=value)
+    def create(value: str, is_unknown: bool = False) -> "SimuVariableString":
+        return SimuVariableString(value=value, _is_unknown=is_unknown)
+
+    @staticmethod
+    def create_by_array(value_list: List[str], sep: str) -> "SimuVariableString":
+        final_value_list = []
+        contains_unknown = False
+        for value in value_list:
+            if value is None:
+                final_value_list.append("")
+                contains_unknown = True
+            else:
+                final_value_list.append(value)
+        return SimuVariableString(
+            value=sep.join(final_value_list),
+            _is_unknown=contains_unknown
+        )
 
     @property
     def is_unknown(self) -> bool:
-        return False
+        return self._is_unknown
 
     def as_integer(self) -> Optional[int]:
         return None
