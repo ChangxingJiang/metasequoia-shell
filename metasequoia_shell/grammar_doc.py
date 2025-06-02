@@ -844,7 +844,11 @@ def build_grammar():
 
 
 if __name__ == "__main__":
-    parser = ms_parser.parser.ParserLALR1(build_grammar())
+    import time
+
+    start_time = time.time()
+
+    parser = ms_parser.parser.ParserLALR1(build_grammar(), debug=True)
     source_code = ms_parser.compiler.compile_lalr1(parser, import_list=[
         "from metasequoia_shell import ast"
     ])
