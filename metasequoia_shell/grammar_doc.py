@@ -490,19 +490,19 @@ def build_grammar():
             ms_parser.create_rule(
                 symbols=[TType.IF, "script", TType.THEN, "script", "elif_list", TType.ELSE, "script", TType.FI],
                 action=lambda x: ast.IfCommand(test_script=x[1], consequent_script=x[3], else_if_list=x[4],
-                                                alternate_script=x[6])),
+                                               alternate_script=x[6])),
             ms_parser.create_rule(
                 symbols=[TType.IF, "script", TType.THEN, "script", "elif_list", TType.FI],
                 action=lambda x: ast.IfCommand(test_script=x[1], consequent_script=x[3], else_if_list=x[4],
-                                                alternate_script=None)),
+                                               alternate_script=None)),
             ms_parser.create_rule(
                 symbols=[TType.IF, "script", TType.THEN, "script", TType.ELSE, "script", TType.FI],
                 action=lambda x: ast.IfCommand(test_script=x[1], consequent_script=x[3], else_if_list=[],
-                                                alternate_script=x[5])),
+                                               alternate_script=x[5])),
             ms_parser.create_rule(
                 symbols=[TType.IF, "script", TType.THEN, "script", TType.FI],
                 action=lambda x: ast.IfCommand(test_script=x[1], consequent_script=x[3], else_if_list=[],
-                                                alternate_script=None)),
+                                               alternate_script=None)),
 
             # CASE 命令
             ms_parser.create_rule(
@@ -704,7 +704,7 @@ def build_grammar():
         rules=[
             ms_parser.create_rule(symbols=["bare_command", "opt_redirection_list"],
                                   action=lambda x: ast.CommandWithRedirection.create(bare_command=x[0],
-                                                                                      redirection_list=x[1]))
+                                                                                     redirection_list=x[1]))
         ]
     ))
 
@@ -814,7 +814,7 @@ def build_grammar():
             ms_parser.create_rule(
                 symbols=["command_with_pipe", "opt_command_with_relation_list", "command_end_type"],
                 action=lambda x: ast.CommandWithList.create(first_command=x[0], other_command_list=x[1],
-                                                             end_type=x[2]),
+                                                            end_type=x[2]),
                 sr_priority_as=TType.IDENT
             )
         ]
@@ -855,3 +855,6 @@ if __name__ == "__main__":
     with open("parser.py", "w+", encoding="UTF-8") as file:
         for row in source_code:
             file.write(f"{row}\n")
+
+    end_time = time.time()
+    print(f"编译完成，耗时 {end_time - start_time:.2f} 秒")
