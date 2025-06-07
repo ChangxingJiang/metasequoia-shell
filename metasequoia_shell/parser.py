@@ -585,16 +585,16 @@ def action_shift_58(status_stack: List[int], symbol_stack: List[Any], terminal: 
     return status_58, True  # 返回状态栈常量状态的终结符行为函数
 
 
-def action_shift_17(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(17)  # 向状态栈中压入常量
+def action_shift_15(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    status_stack.append(15)  # 向状态栈中压入常量
     symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_17, True  # 返回状态栈常量状态的终结符行为函数
+    return status_15, True  # 返回状态栈常量状态的终结符行为函数
 
 
-def action_shift_18(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(18)  # 向状态栈中压入常量
+def action_shift_14(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    status_stack.append(14)  # 向状态栈中压入常量
     symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_18, True  # 返回状态栈常量状态的终结符行为函数
+    return status_14, True  # 返回状态栈常量状态的终结符行为函数
 
 
 def action_shift_89(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
@@ -1214,22 +1214,14 @@ def action_reduce_13_1(status_stack: List[int], symbol_stack: List[Any], _: ms_p
 
 
 def action_reduce_14_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 157)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
+    symbol_value = ast.CommandRelationType.ASCII_0x7C_0x7C
+    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 154)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
     symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
     status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
     return STATUS_HASH[next_status], False  # 返回新状态的行为函数
 
 
 def action_reduce_15_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 156)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
-
-
-def action_reduce_17_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
     symbol_value = ast.CommandRelationType.ASCII_0x26_0x26
     next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 154)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
     symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
@@ -1237,9 +1229,17 @@ def action_reduce_17_1(status_stack: List[int], symbol_stack: List[Any], _: ms_p
     return STATUS_HASH[next_status], False  # 返回新状态的行为函数
 
 
-def action_reduce_18_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandRelationType.ASCII_0x7C_0x7C
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 154)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
+def action_reduce_16_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    symbol_value = symbol_stack[-1]
+    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 157)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
+    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
+    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
+    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+
+def action_reduce_17_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    symbol_value = [symbol_stack[-1]]
+    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 156)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
     symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
     status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
     return STATUS_HASH[next_status], False  # 返回新状态的行为函数
@@ -2810,11 +2810,48 @@ def status_13(status_stack: List[int], symbol_stack: List[Any], terminal: ms_par
 
 
 STATUS_14_TERMINAL_ACTION_HASH = {
-    2: action_reduce_14_1,
-    10: action_reduce_14_1,
-    19: action_reduce_14_1,
-    72: action_shift_17,
-    73: action_shift_18,
+    1: action_reduce_14_1,
+    5: action_reduce_14_1,
+    8: action_reduce_14_1,
+    11: action_reduce_14_1,
+    12: action_reduce_14_1,
+    21: action_reduce_14_1,
+    27: action_reduce_14_1,
+    29: action_reduce_14_1,
+    30: action_reduce_14_1,
+    34: action_reduce_14_1,
+    35: action_reduce_14_1,
+    36: action_reduce_14_1,
+    37: action_reduce_14_1,
+    38: action_reduce_14_1,
+    39: action_reduce_14_1,
+    40: action_reduce_14_1,
+    41: action_reduce_14_1,
+    42: action_reduce_14_1,
+    43: action_reduce_14_1,
+    44: action_reduce_14_1,
+    45: action_reduce_14_1,
+    46: action_reduce_14_1,
+    47: action_reduce_14_1,
+    48: action_reduce_14_1,
+    49: action_reduce_14_1,
+    50: action_reduce_14_1,
+    51: action_reduce_14_1,
+    60: action_reduce_14_1,
+    61: action_reduce_14_1,
+    62: action_reduce_14_1,
+    64: action_reduce_14_1,
+    65: action_reduce_14_1,
+    69: action_reduce_14_1,
+    70: action_reduce_14_1,
+    94: action_reduce_14_1,
+    100: action_reduce_14_1,
+    102: action_reduce_14_1,
+    103: action_reduce_14_1,
+    106: action_reduce_14_1,
+    108: action_reduce_14_1,
+    109: action_reduce_14_1,
+    110: action_reduce_14_1,
 }
 
 
@@ -2824,11 +2861,48 @@ def status_14(status_stack: List[int], symbol_stack: List[Any], terminal: ms_par
 
 
 STATUS_15_TERMINAL_ACTION_HASH = {
-    2: action_reduce_15_1,
-    10: action_reduce_15_1,
-    19: action_reduce_15_1,
-    72: action_reduce_15_1,
-    73: action_reduce_15_1,
+    1: action_reduce_15_1,
+    5: action_reduce_15_1,
+    8: action_reduce_15_1,
+    11: action_reduce_15_1,
+    12: action_reduce_15_1,
+    21: action_reduce_15_1,
+    27: action_reduce_15_1,
+    29: action_reduce_15_1,
+    30: action_reduce_15_1,
+    34: action_reduce_15_1,
+    35: action_reduce_15_1,
+    36: action_reduce_15_1,
+    37: action_reduce_15_1,
+    38: action_reduce_15_1,
+    39: action_reduce_15_1,
+    40: action_reduce_15_1,
+    41: action_reduce_15_1,
+    42: action_reduce_15_1,
+    43: action_reduce_15_1,
+    44: action_reduce_15_1,
+    45: action_reduce_15_1,
+    46: action_reduce_15_1,
+    47: action_reduce_15_1,
+    48: action_reduce_15_1,
+    49: action_reduce_15_1,
+    50: action_reduce_15_1,
+    51: action_reduce_15_1,
+    60: action_reduce_15_1,
+    61: action_reduce_15_1,
+    62: action_reduce_15_1,
+    64: action_reduce_15_1,
+    65: action_reduce_15_1,
+    69: action_reduce_15_1,
+    70: action_reduce_15_1,
+    94: action_reduce_15_1,
+    100: action_reduce_15_1,
+    102: action_reduce_15_1,
+    103: action_reduce_15_1,
+    106: action_reduce_15_1,
+    108: action_reduce_15_1,
+    109: action_reduce_15_1,
+    110: action_reduce_15_1,
 }
 
 
@@ -2838,6 +2912,34 @@ def status_15(status_stack: List[int], symbol_stack: List[Any], terminal: ms_par
 
 
 STATUS_16_TERMINAL_ACTION_HASH = {
+    2: action_reduce_16_1,
+    10: action_reduce_16_1,
+    19: action_reduce_16_1,
+    72: action_shift_15,
+    73: action_shift_14,
+}
+
+
+def status_16(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    move_action = STATUS_16_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
+    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+
+
+STATUS_17_TERMINAL_ACTION_HASH = {
+    2: action_reduce_17_1,
+    10: action_reduce_17_1,
+    19: action_reduce_17_1,
+    72: action_reduce_17_1,
+    73: action_reduce_17_1,
+}
+
+
+def status_17(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+    move_action = STATUS_17_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
+    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+
+
+STATUS_18_TERMINAL_ACTION_HASH = {
     1: action_shift_195,
     5: action_shift_235,
     8: action_shift_213,
@@ -2880,108 +2982,6 @@ STATUS_16_TERMINAL_ACTION_HASH = {
     108: action_shift_11,
     109: action_shift_10,
     110: action_shift_12,
-}
-
-
-def status_16(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_16_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
-
-
-STATUS_17_TERMINAL_ACTION_HASH = {
-    1: action_reduce_17_1,
-    5: action_reduce_17_1,
-    8: action_reduce_17_1,
-    11: action_reduce_17_1,
-    12: action_reduce_17_1,
-    21: action_reduce_17_1,
-    27: action_reduce_17_1,
-    29: action_reduce_17_1,
-    30: action_reduce_17_1,
-    34: action_reduce_17_1,
-    35: action_reduce_17_1,
-    36: action_reduce_17_1,
-    37: action_reduce_17_1,
-    38: action_reduce_17_1,
-    39: action_reduce_17_1,
-    40: action_reduce_17_1,
-    41: action_reduce_17_1,
-    42: action_reduce_17_1,
-    43: action_reduce_17_1,
-    44: action_reduce_17_1,
-    45: action_reduce_17_1,
-    46: action_reduce_17_1,
-    47: action_reduce_17_1,
-    48: action_reduce_17_1,
-    49: action_reduce_17_1,
-    50: action_reduce_17_1,
-    51: action_reduce_17_1,
-    60: action_reduce_17_1,
-    61: action_reduce_17_1,
-    62: action_reduce_17_1,
-    64: action_reduce_17_1,
-    65: action_reduce_17_1,
-    69: action_reduce_17_1,
-    70: action_reduce_17_1,
-    94: action_reduce_17_1,
-    100: action_reduce_17_1,
-    102: action_reduce_17_1,
-    103: action_reduce_17_1,
-    106: action_reduce_17_1,
-    108: action_reduce_17_1,
-    109: action_reduce_17_1,
-    110: action_reduce_17_1,
-}
-
-
-def status_17(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_17_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
-
-
-STATUS_18_TERMINAL_ACTION_HASH = {
-    1: action_reduce_18_1,
-    5: action_reduce_18_1,
-    8: action_reduce_18_1,
-    11: action_reduce_18_1,
-    12: action_reduce_18_1,
-    21: action_reduce_18_1,
-    27: action_reduce_18_1,
-    29: action_reduce_18_1,
-    30: action_reduce_18_1,
-    34: action_reduce_18_1,
-    35: action_reduce_18_1,
-    36: action_reduce_18_1,
-    37: action_reduce_18_1,
-    38: action_reduce_18_1,
-    39: action_reduce_18_1,
-    40: action_reduce_18_1,
-    41: action_reduce_18_1,
-    42: action_reduce_18_1,
-    43: action_reduce_18_1,
-    44: action_reduce_18_1,
-    45: action_reduce_18_1,
-    46: action_reduce_18_1,
-    47: action_reduce_18_1,
-    48: action_reduce_18_1,
-    49: action_reduce_18_1,
-    50: action_reduce_18_1,
-    51: action_reduce_18_1,
-    60: action_reduce_18_1,
-    61: action_reduce_18_1,
-    62: action_reduce_18_1,
-    64: action_reduce_18_1,
-    65: action_reduce_18_1,
-    69: action_reduce_18_1,
-    70: action_reduce_18_1,
-    94: action_reduce_18_1,
-    100: action_reduce_18_1,
-    102: action_reduce_18_1,
-    103: action_reduce_18_1,
-    106: action_reduce_18_1,
-    108: action_reduce_18_1,
-    109: action_reduce_18_1,
-    110: action_reduce_18_1,
 }
 
 
@@ -8063,8 +8063,8 @@ STATUS_183_TERMINAL_ACTION_HASH = {
     2: action_reduce_183_1,
     10: action_reduce_183_1,
     19: action_reduce_183_1,
-    72: action_shift_17,
-    73: action_shift_18,
+    72: action_shift_15,
+    73: action_shift_14,
 }
 
 
@@ -14678,34 +14678,34 @@ STATUS_SYMBOL_GOTO_HASH = {
     (12, 133): 187, 
     (12, 134): 188, 
     (12, 135): 189, 
-    (14, 154): 16, 
-    (14, 155): 62, 
-    (16, 112): 196, 
-    (16, 113): 190, 
-    (16, 115): 197, 
-    (16, 116): 198, 
-    (16, 117): 199, 
-    (16, 118): 200, 
-    (16, 119): 201, 
-    (16, 120): 202, 
-    (16, 121): 203, 
-    (16, 123): 204, 
-    (16, 124): 206, 
-    (16, 125): 205, 
-    (16, 126): 207, 
-    (16, 127): 208, 
-    (16, 128): 209, 
-    (16, 129): 210, 
-    (16, 130): 184, 
-    (16, 131): 185, 
-    (16, 132): 186, 
-    (16, 133): 187, 
-    (16, 134): 188, 
-    (16, 135): 189, 
-    (16, 136): 4, 
-    (16, 144): 3, 
-    (16, 148): 2, 
-    (16, 153): 63, 
+    (16, 154): 18, 
+    (16, 155): 62, 
+    (18, 112): 196, 
+    (18, 113): 190, 
+    (18, 115): 197, 
+    (18, 116): 198, 
+    (18, 117): 199, 
+    (18, 118): 200, 
+    (18, 119): 201, 
+    (18, 120): 202, 
+    (18, 121): 203, 
+    (18, 123): 204, 
+    (18, 124): 206, 
+    (18, 125): 205, 
+    (18, 126): 207, 
+    (18, 127): 208, 
+    (18, 128): 209, 
+    (18, 129): 210, 
+    (18, 130): 184, 
+    (18, 131): 185, 
+    (18, 132): 186, 
+    (18, 133): 187, 
+    (18, 134): 188, 
+    (18, 135): 189, 
+    (18, 136): 4, 
+    (18, 144): 3, 
+    (18, 148): 2, 
+    (18, 153): 63, 
     (22, 112): 196, 
     (22, 113): 190, 
     (22, 115): 197, 
@@ -15987,9 +15987,9 @@ STATUS_SYMBOL_GOTO_HASH = {
     (181, 148): 2, 
     (181, 153): 183, 
     (181, 159): 240, 
-    (183, 154): 16, 
-    (183, 155): 15, 
-    (183, 156): 14, 
+    (183, 154): 18, 
+    (183, 155): 17, 
+    (183, 156): 16, 
     (183, 157): 241, 
     (190, 112): 243, 
     (190, 115): 197, 
