@@ -848,7 +848,7 @@ if __name__ == "__main__":
 
     start_time = time.time()
 
-    parser = ms_parser.parser.ParserLALR1(build_grammar(), debug=True)
+    parser = ms_parser.parser.ParserLALR1(build_grammar())
     source_code = ms_parser.compiler.compile_lalr1(parser, import_list=[
         "from metasequoia_shell import ast"
     ])
@@ -857,4 +857,4 @@ if __name__ == "__main__":
             file.write(f"{row}\n")
 
     end_time = time.time()
-    print(f"编译完成，耗时 {end_time - start_time:.2f} 秒")
+    print(f"编译完成，耗时 {end_time - start_time:.3f} 秒")
