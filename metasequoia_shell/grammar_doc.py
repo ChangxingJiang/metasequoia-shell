@@ -695,7 +695,7 @@ def build_grammar():
         name="opt_redirection_list",
         rules=[
             ms_parser.create_rule(symbols=["redirection_list"], action=ms_parser.template.action.RETURN_0),
-            ms_parser.template.group.EMPTY_NULL
+            ms_parser.template.rule.EMPTY_RETURN_NULL
         ]
     ))
 
@@ -743,7 +743,7 @@ def build_grammar():
         name="opt_pipe_list",
         rules=[
             ms_parser.create_rule(symbols=["pipe_list"], action=ms_parser.template.action.RETURN_0),
-            ms_parser.template.group.EMPTY_NULL
+            ms_parser.template.rule.EMPTY_RETURN_NULL
         ]
     ))
 
@@ -793,7 +793,7 @@ def build_grammar():
         name="opt_command_with_relation_list",
         rules=[
             ms_parser.create_rule(symbols=["relation_and_command_list"], action=ms_parser.template.action.RETURN_0),
-            ms_parser.template.group.EMPTY_NULL
+            ms_parser.template.rule.EMPTY_RETURN_NULL
         ]
     ))
 
@@ -836,7 +836,7 @@ def build_grammar():
         rules=[
             ms_parser.create_rule(symbols=["command_list"],
                                   action=lambda x: ast.Script(command_list=x[0])),
-            ms_parser.template.group.EMPTY_NULL
+            ms_parser.template.rule.EMPTY_RETURN_NULL
         ]
     ))
 
