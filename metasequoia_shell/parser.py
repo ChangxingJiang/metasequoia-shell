@@ -1,167 +1,5 @@
 """
-END(0): 终结符
-IDENT(1): 终结符
-ASCII_0x0A(2): 终结符
-SPACE(3): 终结符
-ASCII_0x21(4): 终结符
-DOUBLE_QUOTE_OPEN(5): 终结符
-DOUBLE_QUOTE_CLOSE(6): 终结符
-ASCII_0x23(7): 终结符
-DOLLAR(8): 终结符
-ASCII_0x25(9): 终结符
-ASCII_0x26(10): 终结符
-SINGLE_QUOTE(11): 终结符
-ASCII_0x28(12): 终结符
-ASCII_0x29(13): 终结符
-ASCII_0x2A(14): 终结符
-ASCII_0x2C(15): 终结符
-ASCII_0x2D(16): 终结符
-ASCII_0x2F(17): 终结符
-ASCII_0x3A(18): 终结符
-ASCII_0x3B(19): 终结符
-ASCII_0x3C(20): 终结符
-ASCII_0x3D(21): 终结符
-ASCII_0x3E(22): 终结符
-ASCII_0x40(23): 终结符
-ASCII_0x5B(24): 终结符
-ASCII_0x5D(25): 终结符
-ASCII_0x5E(26): 终结符
-BACK_QUOTE_OPEN(27): 终结符
-BACK_QUOTE_CLOSE(28): 终结符
-ASCII_0x7B(29): 终结符
-KEYWORD_BRACE_OPEN(30): 终结符
-ASCII_0x7C(31): 终结符
-ASCII_0x7D(32): 终结符
-KEYWORD_BRACE_CLOSE(33): 终结符
-SLIDE(34): 终结符
-DOLLAR_0(35): 终结符
-DOLLAR_1(36): 终结符
-DOLLAR_2(37): 终结符
-DOLLAR_3(38): 终结符
-DOLLAR_4(39): 终结符
-DOLLAR_5(40): 终结符
-DOLLAR_6(41): 终结符
-DOLLAR_7(42): 终结符
-DOLLAR_8(43): 终结符
-DOLLAR_9(44): 终结符
-DOLLAR_0x21(45): 终结符
-DOLLAR_0x23(46): 终结符
-DOLLAR_0x2A(47): 终结符
-DOLLAR_0x2D(48): 终结符
-DOLLAR_0x3F(49): 终结符
-DOLLAR_0x40(50): 终结符
-DOLLAR_DOLLAR(51): 终结符
-COLON_0x2D(52): 终结符
-COLON_0x3D(53): 终结符
-COLON_0x3F(54): 终结符
-COLON_0x2B(55): 终结符
-ASCII_0x23_0x23(56): 终结符
-ASCII_0x25_0x25(57): 终结符
-ASCII_0x2C_0x2C(58): 终结符
-ASCII_0x5E_0x5E(59): 终结符
-DOLLAR_0x7B(60): 终结符
-DOLLAR_0x28(61): 终结符
-ASCII_0x28_0x28(62): 终结符
-ASCII_0x29_0x29(63): 终结符
-DOLLAR_0x28_0x28(64): 终结符
-ASCII_0x5B_0x5B(65): 终结符
-ASCII_0x5D_0x5D(66): 终结符
-ASCII_0x3C_0x28(67): 终结符
-ASCII_0x3E_0x28(68): 终结符
-DOLLAR_SINGLE_QUOTE(69): 终结符
-DOLLAR_DOUBLE_QUOTE(70): 终结符
-ASCII_0x7C_0x26(71): 终结符
-ASCII_0x26_0x26(72): 终结符
-ASCII_0x7C_0x7C(73): 终结符
-NUMBER_0x3C(74): 终结符
-NUMBER_0x3C_0x26(75): 终结符
-NUMBER_0x3C_0x3C(76): 终结符
-NUMBER_0x3C_0x3E(77): 终结符
-NUMBER_0x3C_0x3C_0x2D(78): 终结符
-NUMBER_0x3C_0x3C_0x3C(79): 终结符
-NUMBER_0x3E(80): 终结符
-NUMBER_0x3E_0x7C(81): 终结符
-NUMBER_0x3E_0x3E(82): 终结符
-NUMBER_0x3E_0x26(83): 终结符
-ASCII_0x3E_0x7C(84): 终结符
-ASCII_0x3E_0x3E(85): 终结符
-ASCII_0x26_0x3E(86): 终结符
-ASCII_0x3E_0x26(87): 终结符
-ASCII_0x26_0x3E_0x3E(88): 终结符
-ASCII_0x3C_0x3C(89): 终结符
-ASCII_0x3C_0x3C_0x2D(90): 终结符
-ASCII_0x3C_0x3C_0x3C(91): 终结符
-ASCII_0x3C_0x26(92): 终结符
-ASCII_0x3C_0x3E(93): 终结符
-IF(94): 终结符
-THEN(95): 终结符
-ELIF(96): 终结符
-ELSE(97): 终结符
-FI(98): 终结符
-TIME(99): 终结符
-FOR(100): 终结符
-IN(101): 终结符
-UNTIL(102): 终结符
-WHILE(103): 终结符
-DO(104): 终结符
-DONE(105): 终结符
-CASE(106): 终结符
-ESAC(107): 终结符
-COPROC(108): 终结符
-SELECT(109): 终结符
-FUNCTION(110): 终结符
-entry(111): [111->·161]
-shell_element(112): [112->·115, 112->·116, 112->·117, 112->·118, 112->·119, 112->·120, 112->·121, 112->·123, 112->·125, 112->·124, 112->·126, 112->·127, 112->·128, 112->·129]
-shell_element_list(113): [113->·113 112, 113->·112]
-shell_element_list_comma(114): [114->·114 15 112, 114->·112]
-ident(115): [115->·1, 115->·21]
-array_at(116): [116->·1 24 23 19 25]
-array_star(117): [117->·1 24 14 19 25]
-array_getter(118): [118->·1 24 161 25]
-arithmetic_expansion(119): [119->·64 161 63]
-brace_expansion(120): [120->·29 114 32]
-tilde_expansion(121): [121->·34 113]
-opt_indirect(122): [122->·4, 122->·]
-parameter_expansion(123): [123->·60 122 113 32, 123->·60 122 113 18 112 32, 123->·60 122 113 18 112 18 112 32, 123->·8 1]
-command_substitution(124): [124->·61 161 13, 124->·27 161 28]
-param(125): [125->·35, 125->·36, 125->·37, 125->·38, 125->·39, 125->·40, 125->·41, 125->·42, 125->·43, 125->·44, 125->·45, 125->·46, 125->·47, 125->·48, 125->·49, 125->·50, 125->·51]
-single_quote_string(126): [126->·11 1 11, 126->·11 11]
-dollar_single_quote_string(127): [127->·69 1 11, 127->·69 11]
-double_quote_string(128): [128->·5 113 6, 128->·5 6]
-dollar_double_quote_string(129): [129->·70 113 6, 129->·70 6]
-shell_word(130): [130->·131, 130->·132, 130->·133, 130->·134, 130->·135]
-normal_word(131): [131->·113]
-arithmetic_expression(132): [132->·62 161 63]
-conditional_expression(133): [133->·65 161 66]
-grouping_command(134): [134->·12 161 13, 134->·30 161 33]
-assignment(135): [135->·1 21 113, 135->·1 21 12 136 19 13]
-shell_word_list(136): [136->·136 3 130, 136->·130]
-elif_item(137): [137->·96 161 95 161]
-elif_list(138): [138->·138 137, 138->·137]
-other_pattern(139): [139->·31 130]
-other_pattern_list(140): [140->·140 139, 140->·139]
-pattern_list(141): [141->·130 140, 141->·130]
-case_item(142): [142->·141 3 161]
-case_item_list(143): [143->·143 142, 143->·142]
-bare_command(144): [144->·136, 144->·102 161 104 161 105, 144->·103 161 104 161 105, 144->·100 130 158 104 161 105, 144->·100 130 101 136 158 104 161 105, 144->·100 62 161 63 19 104 161 105, 144->·94 161 95 161 138 97 161 98, 144->·94 161 95 161 138 98, 144->·94 161 95 161 97 161 98, 144->·94 161 95 161 98, 144->·106 130 101 143 107, 144->·109 130 19 104 161 105, 144->·109 130 101 136 19 104 161 105, 144->·108 130 3 30 161 33, 144->·108 30 161 33, 144->·110 130 3 12 19 13 3 30 161 33, 144->·110 130 3 12 19 13 30 161 33, 144->·110 130 12 19 13 3 30 161 33, 144->·110 130 12 19 13 30 161 33]
-redirection(145): [145->·74 136, 145->·75 136, 145->·76 136, 145->·77 136, 145->·78 136, 145->·79 136, 145->·80 136, 145->·81 136, 145->·82 136, 145->·83 136, 145->·20 136, 145->·22 136, 145->·84 136, 145->·85 136, 145->·86 136, 145->·87 136, 145->·88 136, 145->·89 136, 145->·90 136, 145->·91 136, 145->·92 136, 145->·93 136]
-redirection_list(146): [146->·146 145, 146->·145]
-opt_redirection_list(147): [147->·146, 147->·]
-command_with_redirection(148): [148->·144 147]
-pipe_type(149): [149->·31, 149->·71]
-pipe(150): [150->·149 148]
-pipe_list(151): [151->·151 150, 151->·150]
-opt_pipe_list(152): [152->·151, 152->·]
-command_with_pipe(153): [153->·148 152]
-command_relation(154): [154->·72, 154->·73]
-relation_and_command(155): [155->·154 153]
-relation_and_command_list(156): [156->·156 155, 156->·155]
-opt_command_with_relation_list(157): [157->·156, 157->·]
-command_end_type(158): [158->·2, 158->·10, 158->·19]
-command_with_list(159): [159->·153 157 158]
-command_list(160): [160->·160 159, 160->·159]
-script(161): [161->·160, 161->·]
-S'(162): [162->·111]
+Auto generated by Metasequoia Parser
 """
 
 from typing import Any, Callable, List, Optional, Tuple
@@ -171,2105 +9,2105 @@ import metasequoia_parser as ms_parser
 from metasequoia_shell import ast
 
 
-def action_shift_28(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(28)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_28, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_28(s1, s2, terminal):
+    s1.append(28)
+    s2.append(terminal.symbol_value)
+    return status_28, True
 
 
-def action_shift_71(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(71)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_71, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_71(s1, s2, terminal):
+    s1.append(71)
+    s2.append(terminal.symbol_value)
+    return status_71, True
 
 
-def action_shift_49(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(49)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_49, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_49(s1, s2, terminal):
+    s1.append(49)
+    s2.append(terminal.symbol_value)
+    return status_49, True
 
 
-def action_shift_69(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(69)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_69, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_69(s1, s2, terminal):
+    s1.append(69)
+    s2.append(terminal.symbol_value)
+    return status_69, True
 
 
-def action_shift_26(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(26)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_26, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_26(s1, s2, terminal):
+    s1.append(26)
+    s2.append(terminal.symbol_value)
+    return status_26, True
 
 
-def action_shift_44(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(44)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_44, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_44(s1, s2, terminal):
+    s1.append(44)
+    s2.append(terminal.symbol_value)
+    return status_44, True
 
 
-def action_shift_68(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(68)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_68, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_68(s1, s2, terminal):
+    s1.append(68)
+    s2.append(terminal.symbol_value)
+    return status_68, True
 
 
-def action_shift_46(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(46)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_46, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_46(s1, s2, terminal):
+    s1.append(46)
+    s2.append(terminal.symbol_value)
+    return status_46, True
 
 
-def action_shift_27(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(27)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_27, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_27(s1, s2, terminal):
+    s1.append(27)
+    s2.append(terminal.symbol_value)
+    return status_27, True
 
 
-def action_shift_47(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(47)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_47, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_47(s1, s2, terminal):
+    s1.append(47)
+    s2.append(terminal.symbol_value)
+    return status_47, True
 
 
-def action_shift_50(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(50)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_50, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_50(s1, s2, terminal):
+    s1.append(50)
+    s2.append(terminal.symbol_value)
+    return status_50, True
 
 
-def action_shift_51(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(51)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_51, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_51(s1, s2, terminal):
+    s1.append(51)
+    s2.append(terminal.symbol_value)
+    return status_51, True
 
 
-def action_shift_52(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(52)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_52, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_52(s1, s2, terminal):
+    s1.append(52)
+    s2.append(terminal.symbol_value)
+    return status_52, True
 
 
-def action_shift_53(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(53)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_53, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_53(s1, s2, terminal):
+    s1.append(53)
+    s2.append(terminal.symbol_value)
+    return status_53, True
 
 
-def action_shift_54(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(54)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_54, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_54(s1, s2, terminal):
+    s1.append(54)
+    s2.append(terminal.symbol_value)
+    return status_54, True
 
 
-def action_shift_55(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(55)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_55, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_55(s1, s2, terminal):
+    s1.append(55)
+    s2.append(terminal.symbol_value)
+    return status_55, True
 
 
-def action_shift_56(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(56)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_56, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_56(s1, s2, terminal):
+    s1.append(56)
+    s2.append(terminal.symbol_value)
+    return status_56, True
 
 
-def action_shift_57(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(57)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_57, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_57(s1, s2, terminal):
+    s1.append(57)
+    s2.append(terminal.symbol_value)
+    return status_57, True
 
 
-def action_shift_58(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(58)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_58, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_58(s1, s2, terminal):
+    s1.append(58)
+    s2.append(terminal.symbol_value)
+    return status_58, True
 
 
-def action_shift_59(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(59)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_59, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_59(s1, s2, terminal):
+    s1.append(59)
+    s2.append(terminal.symbol_value)
+    return status_59, True
 
 
-def action_shift_60(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(60)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_60, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_60(s1, s2, terminal):
+    s1.append(60)
+    s2.append(terminal.symbol_value)
+    return status_60, True
 
 
-def action_shift_61(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(61)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_61, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_61(s1, s2, terminal):
+    s1.append(61)
+    s2.append(terminal.symbol_value)
+    return status_61, True
 
 
-def action_shift_62(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(62)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_62, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_62(s1, s2, terminal):
+    s1.append(62)
+    s2.append(terminal.symbol_value)
+    return status_62, True
 
 
-def action_shift_63(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(63)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_63, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_63(s1, s2, terminal):
+    s1.append(63)
+    s2.append(terminal.symbol_value)
+    return status_63, True
 
 
-def action_shift_64(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(64)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_64, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_64(s1, s2, terminal):
+    s1.append(64)
+    s2.append(terminal.symbol_value)
+    return status_64, True
 
 
-def action_shift_65(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(65)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_65, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_65(s1, s2, terminal):
+    s1.append(65)
+    s2.append(terminal.symbol_value)
+    return status_65, True
 
 
-def action_shift_66(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(66)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_66, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_66(s1, s2, terminal):
+    s1.append(66)
+    s2.append(terminal.symbol_value)
+    return status_66, True
 
 
-def action_shift_48(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(48)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_48, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_48(s1, s2, terminal):
+    s1.append(48)
+    s2.append(terminal.symbol_value)
+    return status_48, True
 
 
-def action_shift_67(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(67)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_67, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_67(s1, s2, terminal):
+    s1.append(67)
+    s2.append(terminal.symbol_value)
+    return status_67, True
 
 
-def action_shift_24(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(24)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_24, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_24(s1, s2, terminal):
+    s1.append(24)
+    s2.append(terminal.symbol_value)
+    return status_24, True
 
 
-def action_shift_45(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(45)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_45, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_45(s1, s2, terminal):
+    s1.append(45)
+    s2.append(terminal.symbol_value)
+    return status_45, True
 
 
-def action_shift_25(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(25)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_25, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_25(s1, s2, terminal):
+    s1.append(25)
+    s2.append(terminal.symbol_value)
+    return status_25, True
 
 
-def action_shift_70(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(70)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_70, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_70(s1, s2, terminal):
+    s1.append(70)
+    s2.append(terminal.symbol_value)
+    return status_70, True
 
 
-def action_shift_72(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(72)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_72, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_72(s1, s2, terminal):
+    s1.append(72)
+    s2.append(terminal.symbol_value)
+    return status_72, True
 
 
-def action_shift_12(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(12)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_12, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_12(s1, s2, terminal):
+    s1.append(12)
+    s2.append(terminal.symbol_value)
+    return status_12, True
 
 
-def action_shift_11(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(11)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_11, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_11(s1, s2, terminal):
+    s1.append(11)
+    s2.append(terminal.symbol_value)
+    return status_11, True
 
 
-def action_shift_9(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(9)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_9, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_9(s1, s2, terminal):
+    s1.append(9)
+    s2.append(terminal.symbol_value)
+    return status_9, True
 
 
-def action_shift_10(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(10)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_10, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_10(s1, s2, terminal):
+    s1.append(10)
+    s2.append(terminal.symbol_value)
+    return status_10, True
 
 
-def action_shift_13(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(13)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_13, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_13(s1, s2, terminal):
+    s1.append(13)
+    s2.append(terminal.symbol_value)
+    return status_13, True
 
 
-def action_shift_15(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(15)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_15, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_15(s1, s2, terminal):
+    s1.append(15)
+    s2.append(terminal.symbol_value)
+    return status_15, True
 
 
-def action_shift_14(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(14)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_14, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_14(s1, s2, terminal):
+    s1.append(14)
+    s2.append(terminal.symbol_value)
+    return status_14, True
 
 
-def action_shift_16(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(16)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_16, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_16(s1, s2, terminal):
+    s1.append(16)
+    s2.append(terminal.symbol_value)
+    return status_16, True
 
 
-def action_shift_78(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(78)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_78, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_78(s1, s2, terminal):
+    s1.append(78)
+    s2.append(terminal.symbol_value)
+    return status_78, True
 
 
-def action_shift_79(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(79)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_79, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_79(s1, s2, terminal):
+    s1.append(79)
+    s2.append(terminal.symbol_value)
+    return status_79, True
 
 
-def action_shift_84(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(84)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_84, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_84(s1, s2, terminal):
+    s1.append(84)
+    s2.append(terminal.symbol_value)
+    return status_84, True
 
 
-def action_shift_85(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(85)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_85, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_85(s1, s2, terminal):
+    s1.append(85)
+    s2.append(terminal.symbol_value)
+    return status_85, True
 
 
-def action_shift_99(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(99)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_99, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_99(s1, s2, terminal):
+    s1.append(99)
+    s2.append(terminal.symbol_value)
+    return status_99, True
 
 
-def action_shift_100(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(100)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_100, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_100(s1, s2, terminal):
+    s1.append(100)
+    s2.append(terminal.symbol_value)
+    return status_100, True
 
 
-def action_shift_89(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(89)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_89, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_89(s1, s2, terminal):
+    s1.append(89)
+    s2.append(terminal.symbol_value)
+    return status_89, True
 
 
-def action_shift_90(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(90)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_90, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_90(s1, s2, terminal):
+    s1.append(90)
+    s2.append(terminal.symbol_value)
+    return status_90, True
 
 
-def action_shift_91(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(91)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_91, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_91(s1, s2, terminal):
+    s1.append(91)
+    s2.append(terminal.symbol_value)
+    return status_91, True
 
 
-def action_shift_92(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(92)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_92, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_92(s1, s2, terminal):
+    s1.append(92)
+    s2.append(terminal.symbol_value)
+    return status_92, True
 
 
-def action_shift_93(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(93)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_93, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_93(s1, s2, terminal):
+    s1.append(93)
+    s2.append(terminal.symbol_value)
+    return status_93, True
 
 
-def action_shift_94(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(94)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_94, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_94(s1, s2, terminal):
+    s1.append(94)
+    s2.append(terminal.symbol_value)
+    return status_94, True
 
 
-def action_shift_95(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(95)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_95, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_95(s1, s2, terminal):
+    s1.append(95)
+    s2.append(terminal.symbol_value)
+    return status_95, True
 
 
-def action_shift_96(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(96)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_96, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_96(s1, s2, terminal):
+    s1.append(96)
+    s2.append(terminal.symbol_value)
+    return status_96, True
 
 
-def action_shift_97(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(97)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_97, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_97(s1, s2, terminal):
+    s1.append(97)
+    s2.append(terminal.symbol_value)
+    return status_97, True
 
 
-def action_shift_98(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(98)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_98, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_98(s1, s2, terminal):
+    s1.append(98)
+    s2.append(terminal.symbol_value)
+    return status_98, True
 
 
-def action_shift_101(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(101)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_101, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_101(s1, s2, terminal):
+    s1.append(101)
+    s2.append(terminal.symbol_value)
+    return status_101, True
 
 
-def action_shift_102(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(102)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_102, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_102(s1, s2, terminal):
+    s1.append(102)
+    s2.append(terminal.symbol_value)
+    return status_102, True
 
 
-def action_shift_103(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(103)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_103, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_103(s1, s2, terminal):
+    s1.append(103)
+    s2.append(terminal.symbol_value)
+    return status_103, True
 
 
-def action_shift_104(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(104)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_104, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_104(s1, s2, terminal):
+    s1.append(104)
+    s2.append(terminal.symbol_value)
+    return status_104, True
 
 
-def action_shift_105(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(105)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_105, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_105(s1, s2, terminal):
+    s1.append(105)
+    s2.append(terminal.symbol_value)
+    return status_105, True
 
 
-def action_shift_106(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(106)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_106, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_106(s1, s2, terminal):
+    s1.append(106)
+    s2.append(terminal.symbol_value)
+    return status_106, True
 
 
-def action_shift_107(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(107)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_107, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_107(s1, s2, terminal):
+    s1.append(107)
+    s2.append(terminal.symbol_value)
+    return status_107, True
 
 
-def action_shift_108(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(108)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_108, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_108(s1, s2, terminal):
+    s1.append(108)
+    s2.append(terminal.symbol_value)
+    return status_108, True
 
 
-def action_shift_109(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(109)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_109, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_109(s1, s2, terminal):
+    s1.append(109)
+    s2.append(terminal.symbol_value)
+    return status_109, True
 
 
-def action_shift_110(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(110)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_110, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_110(s1, s2, terminal):
+    s1.append(110)
+    s2.append(terminal.symbol_value)
+    return status_110, True
 
 
-def action_shift_111(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(111)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_111, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_111(s1, s2, terminal):
+    s1.append(111)
+    s2.append(terminal.symbol_value)
+    return status_111, True
 
 
-def action_shift_115(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(115)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_115, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_115(s1, s2, terminal):
+    s1.append(115)
+    s2.append(terminal.symbol_value)
+    return status_115, True
 
 
-def action_shift_120(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(120)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_120, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_120(s1, s2, terminal):
+    s1.append(120)
+    s2.append(terminal.symbol_value)
+    return status_120, True
 
 
-def action_shift_123(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(123)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_123, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_123(s1, s2, terminal):
+    s1.append(123)
+    s2.append(terminal.symbol_value)
+    return status_123, True
 
 
-def action_shift_129(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(129)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_129, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_129(s1, s2, terminal):
+    s1.append(129)
+    s2.append(terminal.symbol_value)
+    return status_129, True
 
 
-def action_shift_128(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(128)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_128, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_128(s1, s2, terminal):
+    s1.append(128)
+    s2.append(terminal.symbol_value)
+    return status_128, True
 
 
-def action_shift_135(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(135)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_135, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_135(s1, s2, terminal):
+    s1.append(135)
+    s2.append(terminal.symbol_value)
+    return status_135, True
 
 
-def action_shift_136(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(136)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_136, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_136(s1, s2, terminal):
+    s1.append(136)
+    s2.append(terminal.symbol_value)
+    return status_136, True
 
 
-def action_shift_139(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(139)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_139, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_139(s1, s2, terminal):
+    s1.append(139)
+    s2.append(terminal.symbol_value)
+    return status_139, True
 
 
-def action_shift_140(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(140)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_140, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_140(s1, s2, terminal):
+    s1.append(140)
+    s2.append(terminal.symbol_value)
+    return status_140, True
 
 
-def action_shift_141(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(141)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_141, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_141(s1, s2, terminal):
+    s1.append(141)
+    s2.append(terminal.symbol_value)
+    return status_141, True
 
 
-def action_shift_142(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(142)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_142, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_142(s1, s2, terminal):
+    s1.append(142)
+    s2.append(terminal.symbol_value)
+    return status_142, True
 
 
-def action_shift_144(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(144)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_144, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_144(s1, s2, terminal):
+    s1.append(144)
+    s2.append(terminal.symbol_value)
+    return status_144, True
 
 
-def action_shift_146(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(146)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_146, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_146(s1, s2, terminal):
+    s1.append(146)
+    s2.append(terminal.symbol_value)
+    return status_146, True
 
 
-def action_shift_148(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(148)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_148, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_148(s1, s2, terminal):
+    s1.append(148)
+    s2.append(terminal.symbol_value)
+    return status_148, True
 
 
-def action_shift_149(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(149)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_149, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_149(s1, s2, terminal):
+    s1.append(149)
+    s2.append(terminal.symbol_value)
+    return status_149, True
 
 
-def action_shift_150(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(150)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_150, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_150(s1, s2, terminal):
+    s1.append(150)
+    s2.append(terminal.symbol_value)
+    return status_150, True
 
 
-def action_shift_179(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(179)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_179, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_179(s1, s2, terminal):
+    s1.append(179)
+    s2.append(terminal.symbol_value)
+    return status_179, True
 
 
-def action_shift_180(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(180)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_180, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_180(s1, s2, terminal):
+    s1.append(180)
+    s2.append(terminal.symbol_value)
+    return status_180, True
 
 
-def action_shift_182(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(182)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_182, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_182(s1, s2, terminal):
+    s1.append(182)
+    s2.append(terminal.symbol_value)
+    return status_182, True
 
 
-def action_shift_184(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(184)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_184, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_184(s1, s2, terminal):
+    s1.append(184)
+    s2.append(terminal.symbol_value)
+    return status_184, True
 
 
-def action_shift_185(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(185)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_185, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_185(s1, s2, terminal):
+    s1.append(185)
+    s2.append(terminal.symbol_value)
+    return status_185, True
 
 
-def action_shift_186(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(186)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_186, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_186(s1, s2, terminal):
+    s1.append(186)
+    s2.append(terminal.symbol_value)
+    return status_186, True
 
 
-def action_shift_187(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(187)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_187, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_187(s1, s2, terminal):
+    s1.append(187)
+    s2.append(terminal.symbol_value)
+    return status_187, True
 
 
-def action_shift_188(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(188)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_188, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_188(s1, s2, terminal):
+    s1.append(188)
+    s2.append(terminal.symbol_value)
+    return status_188, True
 
 
-def action_shift_190(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(190)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_190, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_190(s1, s2, terminal):
+    s1.append(190)
+    s2.append(terminal.symbol_value)
+    return status_190, True
 
 
-def action_shift_191(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(191)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_191, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_191(s1, s2, terminal):
+    s1.append(191)
+    s2.append(terminal.symbol_value)
+    return status_191, True
 
 
-def action_shift_192(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(192)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_192, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_192(s1, s2, terminal):
+    s1.append(192)
+    s2.append(terminal.symbol_value)
+    return status_192, True
 
 
-def action_shift_193(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(193)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_193, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_193(s1, s2, terminal):
+    s1.append(193)
+    s2.append(terminal.symbol_value)
+    return status_193, True
 
 
-def action_shift_194(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(194)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_194, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_194(s1, s2, terminal):
+    s1.append(194)
+    s2.append(terminal.symbol_value)
+    return status_194, True
 
 
-def action_shift_195(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(195)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_195, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_195(s1, s2, terminal):
+    s1.append(195)
+    s2.append(terminal.symbol_value)
+    return status_195, True
 
 
-def action_shift_197(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(197)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_197, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_197(s1, s2, terminal):
+    s1.append(197)
+    s2.append(terminal.symbol_value)
+    return status_197, True
 
 
-def action_shift_196(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(196)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_196, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_196(s1, s2, terminal):
+    s1.append(196)
+    s2.append(terminal.symbol_value)
+    return status_196, True
 
 
-def action_shift_200(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(200)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_200, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_200(s1, s2, terminal):
+    s1.append(200)
+    s2.append(terminal.symbol_value)
+    return status_200, True
 
 
-def action_shift_201(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(201)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_201, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_201(s1, s2, terminal):
+    s1.append(201)
+    s2.append(terminal.symbol_value)
+    return status_201, True
 
 
-def action_shift_202(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(202)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_202, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_202(s1, s2, terminal):
+    s1.append(202)
+    s2.append(terminal.symbol_value)
+    return status_202, True
 
 
-def action_shift_203(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(203)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_203, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_203(s1, s2, terminal):
+    s1.append(203)
+    s2.append(terminal.symbol_value)
+    return status_203, True
 
 
-def action_shift_205(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(205)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_205, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_205(s1, s2, terminal):
+    s1.append(205)
+    s2.append(terminal.symbol_value)
+    return status_205, True
 
 
-def action_shift_206(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(206)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_206, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_206(s1, s2, terminal):
+    s1.append(206)
+    s2.append(terminal.symbol_value)
+    return status_206, True
 
 
-def action_shift_207(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(207)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_207, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_207(s1, s2, terminal):
+    s1.append(207)
+    s2.append(terminal.symbol_value)
+    return status_207, True
 
 
-def action_shift_208(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(208)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_208, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_208(s1, s2, terminal):
+    s1.append(208)
+    s2.append(terminal.symbol_value)
+    return status_208, True
 
 
-def action_shift_209(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(209)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_209, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_209(s1, s2, terminal):
+    s1.append(209)
+    s2.append(terminal.symbol_value)
+    return status_209, True
 
 
-def action_shift_210(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(210)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_210, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_210(s1, s2, terminal):
+    s1.append(210)
+    s2.append(terminal.symbol_value)
+    return status_210, True
 
 
-def action_shift_213(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(213)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_213, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_213(s1, s2, terminal):
+    s1.append(213)
+    s2.append(terminal.symbol_value)
+    return status_213, True
 
 
-def action_shift_215(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(215)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_215, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_215(s1, s2, terminal):
+    s1.append(215)
+    s2.append(terminal.symbol_value)
+    return status_215, True
 
 
-def action_shift_221(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(221)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_221, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_221(s1, s2, terminal):
+    s1.append(221)
+    s2.append(terminal.symbol_value)
+    return status_221, True
 
 
-def action_shift_223(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(223)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_223, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_223(s1, s2, terminal):
+    s1.append(223)
+    s2.append(terminal.symbol_value)
+    return status_223, True
 
 
-def action_shift_224(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(224)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_224, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_224(s1, s2, terminal):
+    s1.append(224)
+    s2.append(terminal.symbol_value)
+    return status_224, True
 
 
-def action_shift_225(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(225)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_225, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_225(s1, s2, terminal):
+    s1.append(225)
+    s2.append(terminal.symbol_value)
+    return status_225, True
 
 
-def action_shift_226(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(226)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_226, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_226(s1, s2, terminal):
+    s1.append(226)
+    s2.append(terminal.symbol_value)
+    return status_226, True
 
 
-def action_shift_227(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(227)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_227, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_227(s1, s2, terminal):
+    s1.append(227)
+    s2.append(terminal.symbol_value)
+    return status_227, True
 
 
-def action_shift_228(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(228)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_228, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_228(s1, s2, terminal):
+    s1.append(228)
+    s2.append(terminal.symbol_value)
+    return status_228, True
 
 
-def action_shift_229(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(229)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_229, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_229(s1, s2, terminal):
+    s1.append(229)
+    s2.append(terminal.symbol_value)
+    return status_229, True
 
 
-def action_shift_233(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(233)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_233, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_233(s1, s2, terminal):
+    s1.append(233)
+    s2.append(terminal.symbol_value)
+    return status_233, True
 
 
-def action_shift_232(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(232)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_232, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_232(s1, s2, terminal):
+    s1.append(232)
+    s2.append(terminal.symbol_value)
+    return status_232, True
 
 
-def action_shift_234(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(234)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_234, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_234(s1, s2, terminal):
+    s1.append(234)
+    s2.append(terminal.symbol_value)
+    return status_234, True
 
 
-def action_shift_235(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(235)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_235, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_235(s1, s2, terminal):
+    s1.append(235)
+    s2.append(terminal.symbol_value)
+    return status_235, True
 
 
-def action_shift_238(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(238)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_238, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_238(s1, s2, terminal):
+    s1.append(238)
+    s2.append(terminal.symbol_value)
+    return status_238, True
 
 
-def action_shift_243(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(243)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_243, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_243(s1, s2, terminal):
+    s1.append(243)
+    s2.append(terminal.symbol_value)
+    return status_243, True
 
 
-def action_shift_240(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(240)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_240, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_240(s1, s2, terminal):
+    s1.append(240)
+    s2.append(terminal.symbol_value)
+    return status_240, True
 
 
-def action_shift_241(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(241)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_241, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_241(s1, s2, terminal):
+    s1.append(241)
+    s2.append(terminal.symbol_value)
+    return status_241, True
 
 
-def action_shift_245(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(245)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_245, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_245(s1, s2, terminal):
+    s1.append(245)
+    s2.append(terminal.symbol_value)
+    return status_245, True
 
 
-def action_shift_246(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(246)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_246, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_246(s1, s2, terminal):
+    s1.append(246)
+    s2.append(terminal.symbol_value)
+    return status_246, True
 
 
-def action_shift_249(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(249)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_249, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_249(s1, s2, terminal):
+    s1.append(249)
+    s2.append(terminal.symbol_value)
+    return status_249, True
 
 
-def action_shift_251(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(251)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_251, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_251(s1, s2, terminal):
+    s1.append(251)
+    s2.append(terminal.symbol_value)
+    return status_251, True
 
 
-def action_shift_253(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(253)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_253, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_253(s1, s2, terminal):
+    s1.append(253)
+    s2.append(terminal.symbol_value)
+    return status_253, True
 
 
-def action_shift_254(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(254)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_254, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_254(s1, s2, terminal):
+    s1.append(254)
+    s2.append(terminal.symbol_value)
+    return status_254, True
 
 
-def action_shift_255(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(255)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_255, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_255(s1, s2, terminal):
+    s1.append(255)
+    s2.append(terminal.symbol_value)
+    return status_255, True
 
 
-def action_shift_256(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(256)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_256, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_256(s1, s2, terminal):
+    s1.append(256)
+    s2.append(terminal.symbol_value)
+    return status_256, True
 
 
-def action_shift_257(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(257)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_257, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_257(s1, s2, terminal):
+    s1.append(257)
+    s2.append(terminal.symbol_value)
+    return status_257, True
 
 
-def action_shift_259(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(259)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_259, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_259(s1, s2, terminal):
+    s1.append(259)
+    s2.append(terminal.symbol_value)
+    return status_259, True
 
 
-def action_shift_260(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(260)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_260, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_260(s1, s2, terminal):
+    s1.append(260)
+    s2.append(terminal.symbol_value)
+    return status_260, True
 
 
-def action_shift_261(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(261)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_261, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_261(s1, s2, terminal):
+    s1.append(261)
+    s2.append(terminal.symbol_value)
+    return status_261, True
 
 
-def action_shift_263(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(263)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_263, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_263(s1, s2, terminal):
+    s1.append(263)
+    s2.append(terminal.symbol_value)
+    return status_263, True
 
 
-def action_shift_264(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(264)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_264, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_264(s1, s2, terminal):
+    s1.append(264)
+    s2.append(terminal.symbol_value)
+    return status_264, True
 
 
-def action_shift_270(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(270)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_270, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_270(s1, s2, terminal):
+    s1.append(270)
+    s2.append(terminal.symbol_value)
+    return status_270, True
 
 
-def action_shift_271(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(271)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_271, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_271(s1, s2, terminal):
+    s1.append(271)
+    s2.append(terminal.symbol_value)
+    return status_271, True
 
 
-def action_shift_272(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(272)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_272, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_272(s1, s2, terminal):
+    s1.append(272)
+    s2.append(terminal.symbol_value)
+    return status_272, True
 
 
-def action_shift_273(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(273)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_273, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_273(s1, s2, terminal):
+    s1.append(273)
+    s2.append(terminal.symbol_value)
+    return status_273, True
 
 
-def action_shift_274(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(274)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_274, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_274(s1, s2, terminal):
+    s1.append(274)
+    s2.append(terminal.symbol_value)
+    return status_274, True
 
 
-def action_shift_275(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(275)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_275, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_275(s1, s2, terminal):
+    s1.append(275)
+    s2.append(terminal.symbol_value)
+    return status_275, True
 
 
-def action_shift_276(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(276)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_276, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_276(s1, s2, terminal):
+    s1.append(276)
+    s2.append(terminal.symbol_value)
+    return status_276, True
 
 
-def action_shift_278(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(278)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_278, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_278(s1, s2, terminal):
+    s1.append(278)
+    s2.append(terminal.symbol_value)
+    return status_278, True
 
 
-def action_shift_277(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(277)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_277, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_277(s1, s2, terminal):
+    s1.append(277)
+    s2.append(terminal.symbol_value)
+    return status_277, True
 
 
-def action_shift_282(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(282)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_282, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_282(s1, s2, terminal):
+    s1.append(282)
+    s2.append(terminal.symbol_value)
+    return status_282, True
 
 
-def action_shift_283(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(283)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_283, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_283(s1, s2, terminal):
+    s1.append(283)
+    s2.append(terminal.symbol_value)
+    return status_283, True
 
 
-def action_shift_285(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(285)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_285, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_285(s1, s2, terminal):
+    s1.append(285)
+    s2.append(terminal.symbol_value)
+    return status_285, True
 
 
-def action_shift_286(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(286)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_286, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_286(s1, s2, terminal):
+    s1.append(286)
+    s2.append(terminal.symbol_value)
+    return status_286, True
 
 
-def action_shift_287(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(287)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_287, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_287(s1, s2, terminal):
+    s1.append(287)
+    s2.append(terminal.symbol_value)
+    return status_287, True
 
 
-def action_shift_290(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(290)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_290, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_290(s1, s2, terminal):
+    s1.append(290)
+    s2.append(terminal.symbol_value)
+    return status_290, True
 
 
-def action_shift_291(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(291)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_291, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_291(s1, s2, terminal):
+    s1.append(291)
+    s2.append(terminal.symbol_value)
+    return status_291, True
 
 
-def action_shift_292(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(292)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_292, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_292(s1, s2, terminal):
+    s1.append(292)
+    s2.append(terminal.symbol_value)
+    return status_292, True
 
 
-def action_shift_294(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(294)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_294, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_294(s1, s2, terminal):
+    s1.append(294)
+    s2.append(terminal.symbol_value)
+    return status_294, True
 
 
-def action_shift_295(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(295)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_295, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_295(s1, s2, terminal):
+    s1.append(295)
+    s2.append(terminal.symbol_value)
+    return status_295, True
 
 
-def action_shift_298(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(298)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_298, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_298(s1, s2, terminal):
+    s1.append(298)
+    s2.append(terminal.symbol_value)
+    return status_298, True
 
 
-def action_shift_299(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(299)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_299, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_299(s1, s2, terminal):
+    s1.append(299)
+    s2.append(terminal.symbol_value)
+    return status_299, True
 
 
-def action_shift_301(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(301)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_301, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_301(s1, s2, terminal):
+    s1.append(301)
+    s2.append(terminal.symbol_value)
+    return status_301, True
 
 
-def action_shift_302(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(302)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_302, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_302(s1, s2, terminal):
+    s1.append(302)
+    s2.append(terminal.symbol_value)
+    return status_302, True
 
 
-def action_shift_303(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    status_stack.append(303)  # 向状态栈中压入常量
-    symbol_stack.append(terminal.symbol_value)  # 向符号栈中压入当前终结符的值
-    return status_303, True  # 返回状态栈常量状态的终结符行为函数
+def action_shift_303(s1, s2, terminal):
+    s1.append(303)
+    s2.append(terminal.symbol_value)
+    return status_303, True
 
 
-def action_reduce_0_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_0_1(s1, s2, _):
     symbol_value = None
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-1], 161)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack.append(symbol_value)  # 出栈 0 个参数（不出栈），入栈新生成的非终结符的值
-    status_stack.append(next_status)  # 出栈 0 个参数（不出栈），入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-1], 161)]
+    s2.append(symbol_value)
+    s1.append(next_status)
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_2_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 111)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_2_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 111)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_3_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Script(command_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 161)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_3_1(s1, s2, _):
+    symbol_value = ast.Script(command_list=s2[-1])
+    next_status = S[(s1[-2], 161)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_4_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 160)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_4_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 160)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_5_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_5_1(s1, s2, _):
     symbol_value = None
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-1], 157)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack.append(symbol_value)  # 出栈 0 个参数（不出栈），入栈新生成的非终结符的值
-    status_stack.append(next_status)  # 出栈 0 个参数（不出栈），入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-1], 157)]
+    s2.append(symbol_value)
+    s1.append(next_status)
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_6_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_6_1(s1, s2, _):
     symbol_value = None
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-1], 152)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack.append(symbol_value)  # 出栈 0 个参数（不出栈），入栈新生成的非终结符的值
-    status_stack.append(next_status)  # 出栈 0 个参数（不出栈），入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-1], 152)]
+    s2.append(symbol_value)
+    s1.append(next_status)
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_7_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_7_1(s1, s2, _):
     symbol_value = None
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-1], 147)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack.append(symbol_value)  # 出栈 0 个参数（不出栈），入栈新生成的非终结符的值
-    status_stack.append(next_status)  # 出栈 0 个参数（不出栈），入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-1], 147)]
+    s2.append(symbol_value)
+    s1.append(next_status)
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_8_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.SimpleCommand(word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_8_1(s1, s2, _):
+    symbol_value = ast.SimpleCommand(word_list=s2[-1])
+    next_status = S[(s1[-2], 144)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_17_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 136)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_17_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 136)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_18_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 130)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_18_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 130)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_23_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.NormalWord(element_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 131)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_23_1(s1, s2, _):
+    symbol_value = ast.NormalWord(element_list=s2[-1])
+    next_status = S[(s1[-2], 131)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_28_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Ident(string=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 115)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_28_1(s1, s2, _):
+    symbol_value = ast.Ident(string=s2[-1])
+    next_status = S[(s1[-2], 115)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_29_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 113)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_29_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 113)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_30_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 112)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_30_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 112)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_44_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_44_1(s1, s2, _):
     symbol_value = ast.Ident(string='=')
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 115)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 115)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_48_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_48_1(s1, s2, _):
     symbol_value = False
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-1], 122)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack.append(symbol_value)  # 出栈 0 个参数（不出栈），入栈新生成的非终结符的值
-    status_stack.append(next_status)  # 出栈 0 个参数（不出栈），入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-1], 122)]
+    s2.append(symbol_value)
+    s1.append(next_status)
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_50_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_50_1(s1, s2, _):
     symbol_value = ast.Param0()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_51_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_51_1(s1, s2, _):
     symbol_value = ast.Param1()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_52_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_52_1(s1, s2, _):
     symbol_value = ast.Param2()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_53_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_53_1(s1, s2, _):
     symbol_value = ast.Param3()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_54_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_54_1(s1, s2, _):
     symbol_value = ast.Param4()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_55_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_55_1(s1, s2, _):
     symbol_value = ast.Param5()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_56_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_56_1(s1, s2, _):
     symbol_value = ast.Param6()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_57_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_57_1(s1, s2, _):
     symbol_value = ast.Param7()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_58_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_58_1(s1, s2, _):
     symbol_value = ast.Param8()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_59_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_59_1(s1, s2, _):
     symbol_value = ast.Param9()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_60_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_60_1(s1, s2, _):
     symbol_value = ast.ParamExclamation()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_61_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_61_1(s1, s2, _):
     symbol_value = ast.ParamPound()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_62_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_62_1(s1, s2, _):
     symbol_value = ast.ParamStar()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_63_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_63_1(s1, s2, _):
     symbol_value = ast.ParamHyphen()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_64_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_64_1(s1, s2, _):
     symbol_value = ast.ParamQuestion()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_65_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_65_1(s1, s2, _):
     symbol_value = ast.ParamAt()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_66_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_66_1(s1, s2, _):
     symbol_value = ast.ParamDollar()
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 125)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 125)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_73_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 160)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_73_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 160)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_75_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 157)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_75_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 157)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_76_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 156)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_76_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 156)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_78_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_78_1(s1, s2, _):
     symbol_value = ast.CommandRelationType.ASCII_0x26_0x26
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 154)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 154)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_79_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_79_1(s1, s2, _):
     symbol_value = ast.CommandRelationType.ASCII_0x7C_0x7C
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 154)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 154)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_80_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandWithPipe.create(command=symbol_stack[-2], pipe_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 153)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_80_1(s1, s2, _):
+    symbol_value = ast.CommandWithPipe.create(command=s2[-2], pipe_list=s2[-1])
+    next_status = S[(s1[-3], 153)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_81_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 152)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_81_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 152)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_82_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 151)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_82_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 151)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_84_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_84_1(s1, s2, _):
     symbol_value = ast.PipeType.ASCII_0x7C
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 149)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 149)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_85_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_85_1(s1, s2, _):
     symbol_value = ast.PipeType.ASCII_0x7C_0x26
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 149)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 149)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_86_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandWithRedirection.create(bare_command=symbol_stack[-2], redirection_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 148)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_86_1(s1, s2, _):
+    symbol_value = ast.CommandWithRedirection.create(bare_command=s2[-2], redirection_list=s2[-1])
+    next_status = S[(s1[-3], 148)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_87_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 147)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_87_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-2], 147)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_88_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 146)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_88_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 146)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_122_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 113)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_122_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 113)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_132_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 114)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_132_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 114)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_133_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.TildeExpansion(element_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 121)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_133_1(s1, s2, _):
+    symbol_value = ast.TildeExpansion(element_list=s2[-1])
+    next_status = S[(s1[-3], 121)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_135_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_135_1(s1, s2, _):
     symbol_value = True
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 122)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 122)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_136_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ParamExpansion(name=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 123)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_136_1(s1, s2, _):
+    symbol_value = ast.ParamExpansion(name=s2[-1])
+    next_status = S[(s1[-3], 123)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_140_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_140_1(s1, s2, _):
     symbol_value = ast.SingleQuoteString(string=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 126)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-3], 126)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_142_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_142_1(s1, s2, _):
     symbol_value = ast.DollarSingleQuoteString.create(string=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 127)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-3], 127)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_144_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_144_1(s1, s2, _):
     symbol_value = ast.DoubleQuoteString(element_list=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 128)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-3], 128)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_146_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_146_1(s1, s2, _):
     symbol_value = ast.DollarDoubleQuoteString(element_list=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 129)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-3], 129)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_147_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandWithList.create(first_command=symbol_stack[-3], other_command_list=symbol_stack[-2], end_type=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 159)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_147_1(s1, s2, _):
+    symbol_value = ast.CommandWithList.create(first_command=s2[-3], other_command_list=s2[-2], end_type=s2[-1])
+    next_status = S[(s1[-4], 159)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_148_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_148_1(s1, s2, _):
     symbol_value = ast.CommandEndType.ASCII_0x0A
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 158)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 158)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_149_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_149_1(s1, s2, _):
     symbol_value = ast.CommandEndType.ASCII_0x26
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 158)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 158)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_150_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_reduce_150_1(s1, s2, _):
     symbol_value = ast.CommandEndType.ASCII_0x3B
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 158)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+    next_status = S[(s1[-2], 158)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_151_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 156)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_151_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 156)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_152_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandWithRelation(relation=symbol_stack[-2], command=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 155)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_152_1(s1, s2, _):
+    symbol_value = ast.CommandWithRelation(relation=s2[-2], command=s2[-1])
+    next_status = S[(s1[-3], 155)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_153_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 151)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_153_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 151)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_154_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Pipe(type=symbol_stack[-2], command=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 150)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_154_1(s1, s2, _):
+    symbol_value = ast.Pipe(type=s2[-2], command=s2[-1])
+    next_status = S[(s1[-3], 150)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_155_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 146)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_155_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 146)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_156_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_156_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_157_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x26, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_157_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x26, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_158_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_158_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_159_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3E, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_159_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3E, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_160_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x2D, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_160_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x2D, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_161_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x3C, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_161_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x3C, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
-
-def action_reduce_162_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+
+def action_reduce_162_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_163_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x7C, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_163_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x7C, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_164_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x3E, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_164_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x3E, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_165_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x26, number=int(symbol_stack[-2][0]), word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_165_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x26, number=int(s2[-2][0]), word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_166_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_166_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_167_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_167_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_168_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x7C, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_168_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x7C, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_169_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x3E, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_169_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x3E, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_170_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_170_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_171_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x26, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_171_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x26, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_172_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E_0x3E, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_172_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E_0x3E, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_173_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_173_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_174_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x2D, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_174_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x2D, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_175_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x3C, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_175_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x3C, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_176_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x26, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_176_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x26, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_177_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3E, word_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 145)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_177_1(s1, s2, _):
+    symbol_value = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3E, word_list=s2[-1])
+    next_status = S[(s1[-3], 145)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_178_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-3] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 136)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_178_1(s1, s2, _):
+    symbol_value = s2[-3] + [s2[-1]]
+    next_status = S[(s1[-4], 136)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_192_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ArithmeticExpression(script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 132)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_192_1(s1, s2, _):
+    symbol_value = ast.ArithmeticExpression(script=s2[-2])
+    next_status = S[(s1[-4], 132)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_193_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ConditionalExpression(script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 133)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_193_1(s1, s2, _):
+    symbol_value = ast.ConditionalExpression(script=s2[-2])
+    next_status = S[(s1[-4], 133)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_194_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.GroupingCommand.create_sub_process(script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 134)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_194_1(s1, s2, _):
+    symbol_value = ast.GroupingCommand.create_sub_process(script=s2[-2])
+    next_status = S[(s1[-4], 134)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_195_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.GroupingCommand.create_context(script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 134)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_195_1(s1, s2, _):
+    symbol_value = ast.GroupingCommand.create_context(script=s2[-2])
+    next_status = S[(s1[-4], 134)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_199_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Assignment(name=symbol_stack[-3], value_element_list=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 135)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_199_1(s1, s2, _):
+    symbol_value = ast.Assignment(name=s2[-3], value_element_list=s2[-1])
+    next_status = S[(s1[-4], 135)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_201_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ArithmeticExpansion(script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 119)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_201_1(s1, s2, _):
+    symbol_value = ast.ArithmeticExpansion(script=s2[-2])
+    next_status = S[(s1[-4], 119)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_203_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.BraceExpansion(element_list=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 120)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_203_1(s1, s2, _):
+    symbol_value = ast.BraceExpansion(element_list=s2[-2])
+    next_status = S[(s1[-4], 120)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_205_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandSubstitution.create_curve(symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 124)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_205_1(s1, s2, _):
+    symbol_value = ast.CommandSubstitution.create_curve(s2[-2])
+    next_status = S[(s1[-4], 124)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_206_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CommandSubstitution.create_back_quote(symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 124)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_206_1(s1, s2, _):
+    symbol_value = ast.CommandSubstitution.create_back_quote(s2[-2])
+    next_status = S[(s1[-4], 124)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_207_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.SingleQuoteString(string=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 126)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_207_1(s1, s2, _):
+    symbol_value = ast.SingleQuoteString(string=s2[-2])
+    next_status = S[(s1[-4], 126)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_208_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.DollarSingleQuoteString.create(string=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 127)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_208_1(s1, s2, _):
+    symbol_value = ast.DollarSingleQuoteString.create(string=s2[-2])
+    next_status = S[(s1[-4], 127)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_209_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.DoubleQuoteString(element_list=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 128)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_209_1(s1, s2, _):
+    symbol_value = ast.DoubleQuoteString(element_list=s2[-2])
+    next_status = S[(s1[-4], 128)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_210_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.DollarDoubleQuoteString(element_list=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 129)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_210_1(s1, s2, _):
+    symbol_value = ast.DollarDoubleQuoteString(element_list=s2[-2])
+    next_status = S[(s1[-4], 129)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_218_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 143)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_218_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 143)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_220_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 141)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_220_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 141)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_224_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Coprocess(name=None, script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-5], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-4:] = [symbol_value]  # 出栈 4 个参数，入栈新生成的非终结符的值
-    status_stack[-4:] = [next_status]  # 出栈 4 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_224_1(s1, s2, _):
+    symbol_value = ast.Coprocess(name=None, script=s2[-2])
+    next_status = S[(s1[-5], 144)]
+    s2[-4:] = [symbol_value]
+    s1[-4:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_229_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ArrayGetter(array=symbol_stack[-4], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-5], 118)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-4:] = [symbol_value]  # 出栈 4 个参数，入栈新生成的非终结符的值
-    status_stack[-4:] = [next_status]  # 出栈 4 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_229_1(s1, s2, _):
+    symbol_value = ast.ArrayGetter(array=s2[-4], script=s2[-2])
+    next_status = S[(s1[-5], 118)]
+    s2[-4:] = [symbol_value]
+    s1[-4:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_231_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-3] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 114)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_231_1(s1, s2, _):
+    symbol_value = s2[-3] + [s2[-1]]
+    next_status = S[(s1[-4], 114)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_232_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.BraceParamExpansion(element_list=symbol_stack[-2], indirect=symbol_stack[-3])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-5], 123)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-4:] = [symbol_value]  # 出栈 4 个参数，入栈新生成的非终结符的值
-    status_stack[-4:] = [next_status]  # 出栈 4 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_232_1(s1, s2, _):
+    symbol_value = ast.BraceParamExpansion(element_list=s2[-2], indirect=s2[-3])
+    next_status = S[(s1[-5], 123)]
+    s2[-4:] = [symbol_value]
+    s1[-4:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_234_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.UntilCommand(test_script=symbol_stack[-4], consequent_script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_234_1(s1, s2, _):
+    symbol_value = ast.UntilCommand(test_script=s2[-4], consequent_script=s2[-2])
+    next_status = S[(s1[-6], 144)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_235_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.WhileCommand(test_script=symbol_stack[-4], consequent_script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_235_1(s1, s2, _):
+    symbol_value = ast.WhileCommand(test_script=s2[-4], consequent_script=s2[-2])
+    next_status = S[(s1[-6], 144)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_241_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.IfCommand(test_script=symbol_stack[-4], consequent_script=symbol_stack[-2], else_if_list=[], alternate_script=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_241_1(s1, s2, _):
+    symbol_value = ast.IfCommand(test_script=s2[-4], consequent_script=s2[-2], else_if_list=[], alternate_script=None)
+    next_status = S[(s1[-6], 144)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_242_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 138)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_242_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 138)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_244_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 143)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_244_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 143)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_245_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CaseCommand(word=symbol_stack[-4], item_list=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_245_1(s1, s2, _):
+    symbol_value = ast.CaseCommand(word=s2[-4], item_list=s2[-2])
+    next_status = S[(s1[-6], 144)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_247_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-2]] + symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 141)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_247_1(s1, s2, _):
+    symbol_value = [s2[-2]] + s2[-1]
+    next_status = S[(s1[-3], 141)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_248_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-2], 140)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-1:] = [symbol_value]  # 出栈 1 个参数，入栈新生成的非终结符的值
-    status_stack[-1:] = [next_status]  # 出栈 1 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_248_1(s1, s2, _):
+    symbol_value = [s2[-1]]
+    next_status = S[(s1[-2], 140)]
+    s2[-1:] = [symbol_value]
+    s1[-1:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_255_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ArrayAt(array=symbol_stack[-5])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 116)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_255_1(s1, s2, _):
+    symbol_value = ast.ArrayAt(array=s2[-5])
+    next_status = S[(s1[-6], 116)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_256_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ArrayStar(array=symbol_stack[-5])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-6], 117)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-5:] = [symbol_value]  # 出栈 5 个参数，入栈新生成的非终结符的值
-    status_stack[-5:] = [next_status]  # 出栈 5 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_256_1(s1, s2, _):
+    symbol_value = ast.ArrayStar(array=s2[-5])
+    next_status = S[(s1[-6], 117)]
+    s2[-5:] = [symbol_value]
+    s1[-5:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_259_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.EnhanceForCommand(name=symbol_stack[-5], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_259_1(s1, s2, _):
+    symbol_value = ast.EnhanceForCommand(name=s2[-5], script=s2[-2])
+    next_status = S[(s1[-7], 144)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_262_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 138)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_262_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 138)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_264_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.IfCommand(test_script=symbol_stack[-5], consequent_script=symbol_stack[-3], else_if_list=symbol_stack[-2], alternate_script=None)
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_264_1(s1, s2, _):
+    symbol_value = ast.IfCommand(test_script=s2[-5], consequent_script=s2[-3], else_if_list=s2[-2], alternate_script=None)
+    next_status = S[(s1[-7], 144)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_267_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.CaseItem(pattern_list=symbol_stack[-3], script=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-4], 142)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-3:] = [symbol_value]  # 出栈 3 个参数，入栈新生成的非终结符的值
-    status_stack[-3:] = [next_status]  # 出栈 3 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_267_1(s1, s2, _):
+    symbol_value = ast.CaseItem(pattern_list=s2[-3], script=s2[-1])
+    next_status = S[(s1[-4], 142)]
+    s2[-3:] = [symbol_value]
+    s1[-3:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_268_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-2] + [symbol_stack[-1]]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 140)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_268_1(s1, s2, _):
+    symbol_value = s2[-2] + [s2[-1]]
+    next_status = S[(s1[-3], 140)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_269_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = symbol_stack[-1]
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-3], 139)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-2:] = [symbol_value]  # 出栈 2 个参数，入栈新生成的非终结符的值
-    status_stack[-2:] = [next_status]  # 出栈 2 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_269_1(s1, s2, _):
+    symbol_value = s2[-1]
+    next_status = S[(s1[-3], 139)]
+    s2[-2:] = [symbol_value]
+    s1[-2:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_270_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.SelectCommand(name=symbol_stack[-5], word_list=None, script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_270_1(s1, s2, _):
+    symbol_value = ast.SelectCommand(name=s2[-5], word_list=None, script=s2[-2])
+    next_status = S[(s1[-7], 144)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_272_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Coprocess(name=symbol_stack[-5], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_272_1(s1, s2, _):
+    symbol_value = ast.Coprocess(name=s2[-5], script=s2[-2])
+    next_status = S[(s1[-7], 144)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_276_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.AssignmentArray(name=symbol_stack[-6], value_element_list=symbol_stack[-3])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 135)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_276_1(s1, s2, _):
+    symbol_value = ast.AssignmentArray(name=s2[-6], value_element_list=s2[-3])
+    next_status = S[(s1[-7], 135)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_277_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.BraceParamExpansion(element_list=symbol_stack[-4], indirect=symbol_stack[-5], offset=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-7], 123)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-6:] = [symbol_value]  # 出栈 6 个参数，入栈新生成的非终结符的值
-    status_stack[-6:] = [next_status]  # 出栈 6 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_277_1(s1, s2, _):
+    symbol_value = ast.BraceParamExpansion(element_list=s2[-4], indirect=s2[-5], offset=s2[-2])
+    next_status = S[(s1[-7], 123)]
+    s2[-6:] = [symbol_value]
+    s1[-6:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_282_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.IfCommand(test_script=symbol_stack[-6], consequent_script=symbol_stack[-4], else_if_list=[], alternate_script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-8], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-7:] = [symbol_value]  # 出栈 7 个参数，入栈新生成的非终结符的值
-    status_stack[-7:] = [next_status]  # 出栈 7 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_282_1(s1, s2, _):
+    symbol_value = ast.IfCommand(test_script=s2[-6], consequent_script=s2[-4], else_if_list=[], alternate_script=s2[-2])
+    next_status = S[(s1[-8], 144)]
+    s2[-7:] = [symbol_value]
+    s1[-7:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_290_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.EnhanceForCommand(name=symbol_stack[-7], word_list=symbol_stack[-5], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_290_1(s1, s2, _):
+    symbol_value = ast.EnhanceForCommand(name=s2[-7], word_list=s2[-5], script=s2[-2])
+    next_status = S[(s1[-9], 144)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_291_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ForCommand(test_script=symbol_stack[-6], consequent_script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_291_1(s1, s2, _):
+    symbol_value = ast.ForCommand(test_script=s2[-6], consequent_script=s2[-2])
+    next_status = S[(s1[-9], 144)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_292_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.IfCommand(test_script=symbol_stack[-7], consequent_script=symbol_stack[-5], else_if_list=symbol_stack[-4], alternate_script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_292_1(s1, s2, _):
+    symbol_value = ast.IfCommand(test_script=s2[-7], consequent_script=s2[-5], else_if_list=s2[-4], alternate_script=s2[-2])
+    next_status = S[(s1[-9], 144)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_293_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.ElifItem(test_script=symbol_stack[-3], consequent_script=symbol_stack[-1])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-5], 137)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-4:] = [symbol_value]  # 出栈 4 个参数，入栈新生成的非终结符的值
-    status_stack[-4:] = [next_status]  # 出栈 4 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_293_1(s1, s2, _):
+    symbol_value = ast.ElifItem(test_script=s2[-3], consequent_script=s2[-1])
+    next_status = S[(s1[-5], 137)]
+    s2[-4:] = [symbol_value]
+    s1[-4:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_294_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.SelectCommand(name=symbol_stack[-7], word_list=symbol_stack[-5], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_294_1(s1, s2, _):
+    symbol_value = ast.SelectCommand(name=s2[-7], word_list=s2[-5], script=s2[-2])
+    next_status = S[(s1[-9], 144)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_298_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Function(name=symbol_stack[-7], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_298_1(s1, s2, _):
+    symbol_value = ast.Function(name=s2[-7], script=s2[-2])
+    next_status = S[(s1[-9], 144)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_299_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.BraceParamExpansion(element_list=symbol_stack[-6], indirect=symbol_stack[-7], offset=symbol_stack[-4], length=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-9], 123)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-8:] = [symbol_value]  # 出栈 8 个参数，入栈新生成的非终结符的值
-    status_stack[-8:] = [next_status]  # 出栈 8 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_299_1(s1, s2, _):
+    symbol_value = ast.BraceParamExpansion(element_list=s2[-6], indirect=s2[-7], offset=s2[-4], length=s2[-2])
+    next_status = S[(s1[-9], 123)]
+    s2[-8:] = [symbol_value]
+    s1[-8:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_301_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Function(name=symbol_stack[-8], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-10], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-9:] = [symbol_value]  # 出栈 9 个参数，入栈新生成的非终结符的值
-    status_stack[-9:] = [next_status]  # 出栈 9 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_301_1(s1, s2, _):
+    symbol_value = ast.Function(name=s2[-8], script=s2[-2])
+    next_status = S[(s1[-10], 144)]
+    s2[-9:] = [symbol_value]
+    s1[-9:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_302_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Function(name=symbol_stack[-8], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-10], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-9:] = [symbol_value]  # 出栈 9 个参数，入栈新生成的非终结符的值
-    status_stack[-9:] = [next_status]  # 出栈 9 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_302_1(s1, s2, _):
+    symbol_value = ast.Function(name=s2[-8], script=s2[-2])
+    next_status = S[(s1[-10], 144)]
+    s2[-9:] = [symbol_value]
+    s1[-9:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_reduce_303_1(status_stack: List[int], symbol_stack: List[Any], _: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    symbol_value = ast.Function(name=symbol_stack[-9], script=symbol_stack[-2])
-    next_status = STATUS_SYMBOL_GOTO_HASH[(status_stack[-11], 144)]  # 根据状态和生成的非终结符获取需要 GOTO 的状态
-    symbol_stack[-10:] = [symbol_value]  # 出栈 10 个参数，入栈新生成的非终结符的值
-    status_stack[-10:] = [next_status]  # 出栈 10 个参数，入栈 GOTO 的新状态
-    return STATUS_HASH[next_status], False  # 返回新状态的行为函数
+def action_reduce_303_1(s1, s2, _):
+    symbol_value = ast.Function(name=s2[-9], script=s2[-2])
+    next_status = S[(s1[-11], 144)]
+    s2[-10:] = [symbol_value]
+    s1[-10:] = [next_status]
+    return STATUS_HASH[next_status], False
 
 
-def action_accept(_1: List[int], _2: List[Any], _3: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
+def action_accept(_1, _2, _3):
     return None, True
 
 
@@ -2320,9 +2158,9 @@ STATUS_0_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_0(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_0_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_0(s1, s2, terminal):
+    move_action = STATUS_0_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_1_TERMINAL_ACTION_HASH = {
@@ -2330,9 +2168,9 @@ STATUS_1_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_1(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_1_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_1(s1, s2, terminal):
+    move_action = STATUS_1_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_2_TERMINAL_ACTION_HASH = {
@@ -2340,9 +2178,9 @@ STATUS_2_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_2(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_2_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_2(s1, s2, terminal):
+    move_action = STATUS_2_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_3_TERMINAL_ACTION_HASH = {
@@ -2405,9 +2243,9 @@ STATUS_3_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_3(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_3_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_3(s1, s2, terminal):
+    move_action = STATUS_3_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_4_TERMINAL_ACTION_HASH = {
@@ -2470,9 +2308,9 @@ STATUS_4_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_4(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_4_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_4(s1, s2, terminal):
+    move_action = STATUS_4_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_5_TERMINAL_ACTION_HASH = {
@@ -2484,9 +2322,9 @@ STATUS_5_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_5(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_5_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_5(s1, s2, terminal):
+    move_action = STATUS_5_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_6_TERMINAL_ACTION_HASH = {
@@ -2500,9 +2338,9 @@ STATUS_6_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_6(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_6_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_6(s1, s2, terminal):
+    move_action = STATUS_6_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_7_TERMINAL_ACTION_HASH = {
@@ -2538,9 +2376,9 @@ STATUS_7_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_7(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_7_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_7(s1, s2, terminal):
+    move_action = STATUS_7_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_8_TERMINAL_ACTION_HASH = {
@@ -2577,9 +2415,9 @@ STATUS_8_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_8(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_8_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_8(s1, s2, terminal):
+    move_action = STATUS_8_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_9_TERMINAL_ACTION_HASH = {
@@ -2629,9 +2467,9 @@ STATUS_9_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_9(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_9_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_9(s1, s2, terminal):
+    move_action = STATUS_9_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_10_TERMINAL_ACTION_HASH = {
@@ -2681,9 +2519,9 @@ STATUS_10_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_10(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_10_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_10(s1, s2, terminal):
+    move_action = STATUS_10_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_11_TERMINAL_ACTION_HASH = {
@@ -2724,9 +2562,9 @@ STATUS_11_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_11(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_11_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_11(s1, s2, terminal):
+    move_action = STATUS_11_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_12_TERMINAL_ACTION_HASH = {
@@ -2776,9 +2614,9 @@ STATUS_12_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_12(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_12_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_12(s1, s2, terminal):
+    move_action = STATUS_12_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_13_TERMINAL_ACTION_HASH = {
@@ -2819,9 +2657,9 @@ STATUS_13_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_13(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_13_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_13(s1, s2, terminal):
+    move_action = STATUS_13_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_14_TERMINAL_ACTION_HASH = {
@@ -2862,9 +2700,9 @@ STATUS_14_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_14(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_14_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_14(s1, s2, terminal):
+    move_action = STATUS_14_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_15_TERMINAL_ACTION_HASH = {
@@ -2905,9 +2743,9 @@ STATUS_15_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_15(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_15_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_15(s1, s2, terminal):
+    move_action = STATUS_15_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_16_TERMINAL_ACTION_HASH = {
@@ -2948,9 +2786,9 @@ STATUS_16_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_16(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_16_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_16(s1, s2, terminal):
+    move_action = STATUS_16_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_17_TERMINAL_ACTION_HASH = {
@@ -2987,9 +2825,9 @@ STATUS_17_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_17(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_17_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_17(s1, s2, terminal):
+    move_action = STATUS_17_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_18_TERMINAL_ACTION_HASH = {
@@ -3028,9 +2866,9 @@ STATUS_18_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_18(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_18_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_18(s1, s2, terminal):
+    move_action = STATUS_18_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_19_TERMINAL_ACTION_HASH = {
@@ -3069,9 +2907,9 @@ STATUS_19_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_19(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_19_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_19(s1, s2, terminal):
+    move_action = STATUS_19_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_20_TERMINAL_ACTION_HASH = {
@@ -3110,9 +2948,9 @@ STATUS_20_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_20(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_20_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_20(s1, s2, terminal):
+    move_action = STATUS_20_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_21_TERMINAL_ACTION_HASH = {
@@ -3151,9 +2989,9 @@ STATUS_21_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_21(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_21_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_21(s1, s2, terminal):
+    move_action = STATUS_21_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_22_TERMINAL_ACTION_HASH = {
@@ -3192,9 +3030,9 @@ STATUS_22_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_22(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_22_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_22(s1, s2, terminal):
+    move_action = STATUS_22_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_23_TERMINAL_ACTION_HASH = {
@@ -3263,9 +3101,9 @@ STATUS_23_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_23(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_23_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_23(s1, s2, terminal):
+    move_action = STATUS_23_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_24_TERMINAL_ACTION_HASH = {
@@ -3315,9 +3153,9 @@ STATUS_24_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_24(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_24_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_24(s1, s2, terminal):
+    move_action = STATUS_24_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_25_TERMINAL_ACTION_HASH = {
@@ -3367,9 +3205,9 @@ STATUS_25_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_25(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_25_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_25(s1, s2, terminal):
+    move_action = STATUS_25_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_26_TERMINAL_ACTION_HASH = {
@@ -3419,9 +3257,9 @@ STATUS_26_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_26(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_26_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_26(s1, s2, terminal):
+    move_action = STATUS_26_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_27_TERMINAL_ACTION_HASH = {
@@ -3471,9 +3309,9 @@ STATUS_27_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_27(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_27_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_27(s1, s2, terminal):
+    move_action = STATUS_27_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_28_TERMINAL_ACTION_HASH = {
@@ -3543,9 +3381,9 @@ STATUS_28_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_28(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_28_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_28(s1, s2, terminal):
+    move_action = STATUS_28_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_29_TERMINAL_ACTION_HASH = {
@@ -3618,9 +3456,9 @@ STATUS_29_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_29(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_29_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_29(s1, s2, terminal):
+    move_action = STATUS_29_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_30_TERMINAL_ACTION_HASH = {
@@ -3693,9 +3531,9 @@ STATUS_30_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_30(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_30_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_30(s1, s2, terminal):
+    move_action = STATUS_30_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_31_TERMINAL_ACTION_HASH = {
@@ -3768,9 +3606,9 @@ STATUS_31_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_31(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_31_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_31(s1, s2, terminal):
+    move_action = STATUS_31_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_32_TERMINAL_ACTION_HASH = {
@@ -3843,9 +3681,9 @@ STATUS_32_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_32(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_32_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_32(s1, s2, terminal):
+    move_action = STATUS_32_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_33_TERMINAL_ACTION_HASH = {
@@ -3918,9 +3756,9 @@ STATUS_33_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_33(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_33_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_33(s1, s2, terminal):
+    move_action = STATUS_33_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_34_TERMINAL_ACTION_HASH = {
@@ -3993,9 +3831,9 @@ STATUS_34_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_34(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_34_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_34(s1, s2, terminal):
+    move_action = STATUS_34_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_35_TERMINAL_ACTION_HASH = {
@@ -4068,9 +3906,9 @@ STATUS_35_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_35(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_35_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_35(s1, s2, terminal):
+    move_action = STATUS_35_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_36_TERMINAL_ACTION_HASH = {
@@ -4143,9 +3981,9 @@ STATUS_36_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_36(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_36_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_36(s1, s2, terminal):
+    move_action = STATUS_36_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_37_TERMINAL_ACTION_HASH = {
@@ -4218,9 +4056,9 @@ STATUS_37_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_37(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_37_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_37(s1, s2, terminal):
+    move_action = STATUS_37_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_38_TERMINAL_ACTION_HASH = {
@@ -4293,9 +4131,9 @@ STATUS_38_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_38(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_38_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_38(s1, s2, terminal):
+    move_action = STATUS_38_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_39_TERMINAL_ACTION_HASH = {
@@ -4368,9 +4206,9 @@ STATUS_39_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_39(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_39_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_39(s1, s2, terminal):
+    move_action = STATUS_39_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_40_TERMINAL_ACTION_HASH = {
@@ -4443,9 +4281,9 @@ STATUS_40_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_40(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_40_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_40(s1, s2, terminal):
+    move_action = STATUS_40_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_41_TERMINAL_ACTION_HASH = {
@@ -4518,9 +4356,9 @@ STATUS_41_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_41(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_41_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_41(s1, s2, terminal):
+    move_action = STATUS_41_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_42_TERMINAL_ACTION_HASH = {
@@ -4593,9 +4431,9 @@ STATUS_42_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_42(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_42_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_42(s1, s2, terminal):
+    move_action = STATUS_42_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_43_TERMINAL_ACTION_HASH = {
@@ -4668,9 +4506,9 @@ STATUS_43_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_43(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_43_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_43(s1, s2, terminal):
+    move_action = STATUS_43_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_44_TERMINAL_ACTION_HASH = {
@@ -4743,9 +4581,9 @@ STATUS_44_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_44(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_44_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_44(s1, s2, terminal):
+    move_action = STATUS_44_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_45_TERMINAL_ACTION_HASH = {
@@ -4795,9 +4633,9 @@ STATUS_45_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_45(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_45_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_45(s1, s2, terminal):
+    move_action = STATUS_45_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_46_TERMINAL_ACTION_HASH = {
@@ -4834,9 +4672,9 @@ STATUS_46_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_46(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_46_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_46(s1, s2, terminal):
+    move_action = STATUS_46_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_47_TERMINAL_ACTION_HASH = {
@@ -4873,9 +4711,9 @@ STATUS_47_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_47(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_47_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_47(s1, s2, terminal):
+    move_action = STATUS_47_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_48_TERMINAL_ACTION_HASH = {
@@ -4913,9 +4751,9 @@ STATUS_48_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_48(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_48_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_48(s1, s2, terminal):
+    move_action = STATUS_48_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_49_TERMINAL_ACTION_HASH = {
@@ -4923,9 +4761,9 @@ STATUS_49_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_49(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_49_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_49(s1, s2, terminal):
+    move_action = STATUS_49_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_50_TERMINAL_ACTION_HASH = {
@@ -4998,9 +4836,9 @@ STATUS_50_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_50(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_50_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_50(s1, s2, terminal):
+    move_action = STATUS_50_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_51_TERMINAL_ACTION_HASH = {
@@ -5073,9 +4911,9 @@ STATUS_51_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_51(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_51_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_51(s1, s2, terminal):
+    move_action = STATUS_51_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_52_TERMINAL_ACTION_HASH = {
@@ -5148,9 +4986,9 @@ STATUS_52_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_52(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_52_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_52(s1, s2, terminal):
+    move_action = STATUS_52_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_53_TERMINAL_ACTION_HASH = {
@@ -5223,9 +5061,9 @@ STATUS_53_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_53(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_53_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_53(s1, s2, terminal):
+    move_action = STATUS_53_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_54_TERMINAL_ACTION_HASH = {
@@ -5298,9 +5136,9 @@ STATUS_54_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_54(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_54_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_54(s1, s2, terminal):
+    move_action = STATUS_54_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_55_TERMINAL_ACTION_HASH = {
@@ -5373,9 +5211,9 @@ STATUS_55_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_55(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_55_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_55(s1, s2, terminal):
+    move_action = STATUS_55_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_56_TERMINAL_ACTION_HASH = {
@@ -5448,9 +5286,9 @@ STATUS_56_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_56(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_56_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_56(s1, s2, terminal):
+    move_action = STATUS_56_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_57_TERMINAL_ACTION_HASH = {
@@ -5523,9 +5361,9 @@ STATUS_57_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_57(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_57_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_57(s1, s2, terminal):
+    move_action = STATUS_57_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_58_TERMINAL_ACTION_HASH = {
@@ -5598,9 +5436,9 @@ STATUS_58_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_58(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_58_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_58(s1, s2, terminal):
+    move_action = STATUS_58_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_59_TERMINAL_ACTION_HASH = {
@@ -5673,9 +5511,9 @@ STATUS_59_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_59(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_59_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_59(s1, s2, terminal):
+    move_action = STATUS_59_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_60_TERMINAL_ACTION_HASH = {
@@ -5748,9 +5586,9 @@ STATUS_60_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_60(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_60_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_60(s1, s2, terminal):
+    move_action = STATUS_60_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_61_TERMINAL_ACTION_HASH = {
@@ -5823,9 +5661,9 @@ STATUS_61_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_61(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_61_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_61(s1, s2, terminal):
+    move_action = STATUS_61_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_62_TERMINAL_ACTION_HASH = {
@@ -5898,9 +5736,9 @@ STATUS_62_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_62(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_62_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_62(s1, s2, terminal):
+    move_action = STATUS_62_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_63_TERMINAL_ACTION_HASH = {
@@ -5973,9 +5811,9 @@ STATUS_63_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_63(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_63_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_63(s1, s2, terminal):
+    move_action = STATUS_63_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_64_TERMINAL_ACTION_HASH = {
@@ -6048,9 +5886,9 @@ STATUS_64_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_64(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_64_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_64(s1, s2, terminal):
+    move_action = STATUS_64_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_65_TERMINAL_ACTION_HASH = {
@@ -6123,9 +5961,9 @@ STATUS_65_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_65(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_65_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_65(s1, s2, terminal):
+    move_action = STATUS_65_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_66_TERMINAL_ACTION_HASH = {
@@ -6198,9 +6036,9 @@ STATUS_66_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_66(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_66_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_66(s1, s2, terminal):
+    move_action = STATUS_66_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_67_TERMINAL_ACTION_HASH = {
@@ -6250,9 +6088,9 @@ STATUS_67_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_67(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_67_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_67(s1, s2, terminal):
+    move_action = STATUS_67_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_68_TERMINAL_ACTION_HASH = {
@@ -6302,9 +6140,9 @@ STATUS_68_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_68(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_68_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_68(s1, s2, terminal):
+    move_action = STATUS_68_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_69_TERMINAL_ACTION_HASH = {
@@ -6313,9 +6151,9 @@ STATUS_69_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_69(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_69_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_69(s1, s2, terminal):
+    move_action = STATUS_69_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_70_TERMINAL_ACTION_HASH = {
@@ -6324,9 +6162,9 @@ STATUS_70_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_70(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_70_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_70(s1, s2, terminal):
+    move_action = STATUS_70_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_71_TERMINAL_ACTION_HASH = {
@@ -6364,9 +6202,9 @@ STATUS_71_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_71(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_71_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_71(s1, s2, terminal):
+    move_action = STATUS_71_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_72_TERMINAL_ACTION_HASH = {
@@ -6404,9 +6242,9 @@ STATUS_72_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_72(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_72_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_72(s1, s2, terminal):
+    move_action = STATUS_72_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_73_TERMINAL_ACTION_HASH = {
@@ -6469,9 +6307,9 @@ STATUS_73_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_73(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_73_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_73(s1, s2, terminal):
+    move_action = STATUS_73_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_74_TERMINAL_ACTION_HASH = {
@@ -6481,9 +6319,9 @@ STATUS_74_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_74(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_74_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_74(s1, s2, terminal):
+    move_action = STATUS_74_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_75_TERMINAL_ACTION_HASH = {
@@ -6495,9 +6333,9 @@ STATUS_75_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_75(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_75_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_75(s1, s2, terminal):
+    move_action = STATUS_75_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_76_TERMINAL_ACTION_HASH = {
@@ -6509,9 +6347,9 @@ STATUS_76_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_76(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_76_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_76(s1, s2, terminal):
+    move_action = STATUS_76_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_77_TERMINAL_ACTION_HASH = {
@@ -6560,9 +6398,9 @@ STATUS_77_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_77(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_77_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_77(s1, s2, terminal):
+    move_action = STATUS_77_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_78_TERMINAL_ACTION_HASH = {
@@ -6611,9 +6449,9 @@ STATUS_78_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_78(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_78_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_78(s1, s2, terminal):
+    move_action = STATUS_78_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_79_TERMINAL_ACTION_HASH = {
@@ -6662,9 +6500,9 @@ STATUS_79_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_79(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_79_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_79(s1, s2, terminal):
+    move_action = STATUS_79_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_80_TERMINAL_ACTION_HASH = {
@@ -6676,9 +6514,9 @@ STATUS_80_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_80(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_80_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_80(s1, s2, terminal):
+    move_action = STATUS_80_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_81_TERMINAL_ACTION_HASH = {
@@ -6692,9 +6530,9 @@ STATUS_81_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_81(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_81_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_81(s1, s2, terminal):
+    move_action = STATUS_81_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_82_TERMINAL_ACTION_HASH = {
@@ -6708,9 +6546,9 @@ STATUS_82_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_82(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_82_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_82(s1, s2, terminal):
+    move_action = STATUS_82_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_83_TERMINAL_ACTION_HASH = {
@@ -6759,9 +6597,9 @@ STATUS_83_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_83(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_83_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_83(s1, s2, terminal):
+    move_action = STATUS_83_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_84_TERMINAL_ACTION_HASH = {
@@ -6810,9 +6648,9 @@ STATUS_84_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_84(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_84_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_84(s1, s2, terminal):
+    move_action = STATUS_84_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_85_TERMINAL_ACTION_HASH = {
@@ -6861,9 +6699,9 @@ STATUS_85_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_85(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_85_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_85(s1, s2, terminal):
+    move_action = STATUS_85_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_86_TERMINAL_ACTION_HASH = {
@@ -6877,9 +6715,9 @@ STATUS_86_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_86(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_86_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_86(s1, s2, terminal):
+    move_action = STATUS_86_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_87_TERMINAL_ACTION_HASH = {
@@ -6915,9 +6753,9 @@ STATUS_87_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_87(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_87_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_87(s1, s2, terminal):
+    move_action = STATUS_87_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_88_TERMINAL_ACTION_HASH = {
@@ -6953,9 +6791,9 @@ STATUS_88_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_88(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_88_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_88(s1, s2, terminal):
+    move_action = STATUS_88_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_89_TERMINAL_ACTION_HASH = {
@@ -6996,9 +6834,9 @@ STATUS_89_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_89(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_89_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_89(s1, s2, terminal):
+    move_action = STATUS_89_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_90_TERMINAL_ACTION_HASH = {
@@ -7039,9 +6877,9 @@ STATUS_90_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_90(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_90_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_90(s1, s2, terminal):
+    move_action = STATUS_90_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_91_TERMINAL_ACTION_HASH = {
@@ -7082,9 +6920,9 @@ STATUS_91_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_91(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_91_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_91(s1, s2, terminal):
+    move_action = STATUS_91_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_92_TERMINAL_ACTION_HASH = {
@@ -7125,9 +6963,9 @@ STATUS_92_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_92(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_92_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_92(s1, s2, terminal):
+    move_action = STATUS_92_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_93_TERMINAL_ACTION_HASH = {
@@ -7168,9 +7006,9 @@ STATUS_93_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_93(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_93_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_93(s1, s2, terminal):
+    move_action = STATUS_93_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_94_TERMINAL_ACTION_HASH = {
@@ -7211,9 +7049,9 @@ STATUS_94_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_94(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_94_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_94(s1, s2, terminal):
+    move_action = STATUS_94_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_95_TERMINAL_ACTION_HASH = {
@@ -7254,9 +7092,9 @@ STATUS_95_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_95(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_95_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_95(s1, s2, terminal):
+    move_action = STATUS_95_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_96_TERMINAL_ACTION_HASH = {
@@ -7297,9 +7135,9 @@ STATUS_96_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_96(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_96_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_96(s1, s2, terminal):
+    move_action = STATUS_96_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_97_TERMINAL_ACTION_HASH = {
@@ -7340,9 +7178,9 @@ STATUS_97_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_97(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_97_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_97(s1, s2, terminal):
+    move_action = STATUS_97_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_98_TERMINAL_ACTION_HASH = {
@@ -7383,9 +7221,9 @@ STATUS_98_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_98(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_98_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_98(s1, s2, terminal):
+    move_action = STATUS_98_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_99_TERMINAL_ACTION_HASH = {
@@ -7426,9 +7264,9 @@ STATUS_99_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_99(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_99_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_99(s1, s2, terminal):
+    move_action = STATUS_99_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_100_TERMINAL_ACTION_HASH = {
@@ -7469,9 +7307,9 @@ STATUS_100_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_100(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_100_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_100(s1, s2, terminal):
+    move_action = STATUS_100_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_101_TERMINAL_ACTION_HASH = {
@@ -7512,9 +7350,9 @@ STATUS_101_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_101(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_101_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_101(s1, s2, terminal):
+    move_action = STATUS_101_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_102_TERMINAL_ACTION_HASH = {
@@ -7555,9 +7393,9 @@ STATUS_102_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_102(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_102_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_102(s1, s2, terminal):
+    move_action = STATUS_102_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_103_TERMINAL_ACTION_HASH = {
@@ -7598,9 +7436,9 @@ STATUS_103_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_103(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_103_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_103(s1, s2, terminal):
+    move_action = STATUS_103_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_104_TERMINAL_ACTION_HASH = {
@@ -7641,9 +7479,9 @@ STATUS_104_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_104(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_104_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_104(s1, s2, terminal):
+    move_action = STATUS_104_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_105_TERMINAL_ACTION_HASH = {
@@ -7684,9 +7522,9 @@ STATUS_105_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_105(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_105_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_105(s1, s2, terminal):
+    move_action = STATUS_105_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_106_TERMINAL_ACTION_HASH = {
@@ -7727,9 +7565,9 @@ STATUS_106_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_106(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_106_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_106(s1, s2, terminal):
+    move_action = STATUS_106_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_107_TERMINAL_ACTION_HASH = {
@@ -7770,9 +7608,9 @@ STATUS_107_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_107(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_107_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_107(s1, s2, terminal):
+    move_action = STATUS_107_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_108_TERMINAL_ACTION_HASH = {
@@ -7813,9 +7651,9 @@ STATUS_108_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_108(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_108_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_108(s1, s2, terminal):
+    move_action = STATUS_108_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_109_TERMINAL_ACTION_HASH = {
@@ -7856,9 +7694,9 @@ STATUS_109_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_109(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_109_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_109(s1, s2, terminal):
+    move_action = STATUS_109_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_110_TERMINAL_ACTION_HASH = {
@@ -7899,9 +7737,9 @@ STATUS_110_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_110(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_110_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_110(s1, s2, terminal):
+    move_action = STATUS_110_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_111_TERMINAL_ACTION_HASH = {
@@ -7942,9 +7780,9 @@ STATUS_111_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_111(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_111_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_111(s1, s2, terminal):
+    move_action = STATUS_111_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_112_TERMINAL_ACTION_HASH = {
@@ -7952,9 +7790,9 @@ STATUS_112_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_112(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_112_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_112(s1, s2, terminal):
+    move_action = STATUS_112_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_113_TERMINAL_ACTION_HASH = {
@@ -7962,9 +7800,9 @@ STATUS_113_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_113(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_113_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_113(s1, s2, terminal):
+    move_action = STATUS_113_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_114_TERMINAL_ACTION_HASH = {
@@ -7975,9 +7813,9 @@ STATUS_114_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_114(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_114_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_114(s1, s2, terminal):
+    move_action = STATUS_114_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_115_TERMINAL_ACTION_HASH = {
@@ -8027,9 +7865,9 @@ STATUS_115_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_115(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_115_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_115(s1, s2, terminal):
+    move_action = STATUS_115_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_116_TERMINAL_ACTION_HASH = {
@@ -8037,9 +7875,9 @@ STATUS_116_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_116(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_116_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_116(s1, s2, terminal):
+    move_action = STATUS_116_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_117_TERMINAL_ACTION_HASH = {
@@ -8047,9 +7885,9 @@ STATUS_117_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_117(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_117_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_117(s1, s2, terminal):
+    move_action = STATUS_117_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_118_TERMINAL_ACTION_HASH = {
@@ -8058,9 +7896,9 @@ STATUS_118_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_118(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_118_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_118(s1, s2, terminal):
+    move_action = STATUS_118_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_119_TERMINAL_ACTION_HASH = {
@@ -8068,9 +7906,9 @@ STATUS_119_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_119(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_119_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_119(s1, s2, terminal):
+    move_action = STATUS_119_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_120_TERMINAL_ACTION_HASH = {
@@ -8120,9 +7958,9 @@ STATUS_120_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_120(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_120_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_120(s1, s2, terminal):
+    move_action = STATUS_120_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_121_TERMINAL_ACTION_HASH = {
@@ -8131,9 +7969,9 @@ STATUS_121_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_121(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_121_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_121(s1, s2, terminal):
+    move_action = STATUS_121_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_122_TERMINAL_ACTION_HASH = {
@@ -8206,9 +8044,9 @@ STATUS_122_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_122(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_122_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_122(s1, s2, terminal):
+    move_action = STATUS_122_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_123_TERMINAL_ACTION_HASH = {
@@ -8282,9 +8120,9 @@ STATUS_123_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_123(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_123_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_123(s1, s2, terminal):
+    move_action = STATUS_123_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_124_TERMINAL_ACTION_HASH = {
@@ -8292,9 +8130,9 @@ STATUS_124_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_124(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_124_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_124(s1, s2, terminal):
+    move_action = STATUS_124_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_125_TERMINAL_ACTION_HASH = {
@@ -8302,9 +8140,9 @@ STATUS_125_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_125(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_125_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_125(s1, s2, terminal):
+    move_action = STATUS_125_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_126_TERMINAL_ACTION_HASH = {
@@ -8312,9 +8150,9 @@ STATUS_126_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_126(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_126_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_126(s1, s2, terminal):
+    move_action = STATUS_126_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_127_TERMINAL_ACTION_HASH = {
@@ -8322,9 +8160,9 @@ STATUS_127_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_127(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_127_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_127(s1, s2, terminal):
+    move_action = STATUS_127_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_128_TERMINAL_ACTION_HASH = {
@@ -8376,9 +8214,9 @@ STATUS_128_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_128(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_128_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_128(s1, s2, terminal):
+    move_action = STATUS_128_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_129_TERMINAL_ACTION_HASH = {
@@ -8416,9 +8254,9 @@ STATUS_129_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_129(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_129_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_129(s1, s2, terminal):
+    move_action = STATUS_129_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_130_TERMINAL_ACTION_HASH = {
@@ -8426,9 +8264,9 @@ STATUS_130_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_130(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_130_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_130(s1, s2, terminal):
+    move_action = STATUS_130_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_131_TERMINAL_ACTION_HASH = {
@@ -8437,9 +8275,9 @@ STATUS_131_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_131(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_131_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_131(s1, s2, terminal):
+    move_action = STATUS_131_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_132_TERMINAL_ACTION_HASH = {
@@ -8448,9 +8286,9 @@ STATUS_132_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_132(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_132_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_132(s1, s2, terminal):
+    move_action = STATUS_132_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_133_TERMINAL_ACTION_HASH = {
@@ -8523,9 +8361,9 @@ STATUS_133_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_133(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_133_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_133(s1, s2, terminal):
+    move_action = STATUS_133_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_134_TERMINAL_ACTION_HASH = {
@@ -8562,9 +8400,9 @@ STATUS_134_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_134(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_134_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_134(s1, s2, terminal):
+    move_action = STATUS_134_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_135_TERMINAL_ACTION_HASH = {
@@ -8601,9 +8439,9 @@ STATUS_135_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_135(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_135_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_135(s1, s2, terminal):
+    move_action = STATUS_135_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_136_TERMINAL_ACTION_HASH = {
@@ -8676,9 +8514,9 @@ STATUS_136_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_136(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_136_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_136(s1, s2, terminal):
+    move_action = STATUS_136_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_137_TERMINAL_ACTION_HASH = {
@@ -8686,9 +8524,9 @@ STATUS_137_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_137(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_137_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_137(s1, s2, terminal):
+    move_action = STATUS_137_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_138_TERMINAL_ACTION_HASH = {
@@ -8696,9 +8534,9 @@ STATUS_138_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_138(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_138_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_138(s1, s2, terminal):
+    move_action = STATUS_138_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_139_TERMINAL_ACTION_HASH = {
@@ -8706,9 +8544,9 @@ STATUS_139_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_139(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_139_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_139(s1, s2, terminal):
+    move_action = STATUS_139_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_140_TERMINAL_ACTION_HASH = {
@@ -8781,9 +8619,9 @@ STATUS_140_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_140(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_140_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_140(s1, s2, terminal):
+    move_action = STATUS_140_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_141_TERMINAL_ACTION_HASH = {
@@ -8791,9 +8629,9 @@ STATUS_141_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_141(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_141_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_141(s1, s2, terminal):
+    move_action = STATUS_141_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_142_TERMINAL_ACTION_HASH = {
@@ -8866,9 +8704,9 @@ STATUS_142_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_142(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_142_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_142(s1, s2, terminal):
+    move_action = STATUS_142_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_143_TERMINAL_ACTION_HASH = {
@@ -8906,9 +8744,9 @@ STATUS_143_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_143(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_143_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_143(s1, s2, terminal):
+    move_action = STATUS_143_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_144_TERMINAL_ACTION_HASH = {
@@ -8981,9 +8819,9 @@ STATUS_144_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_144(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_144_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_144(s1, s2, terminal):
+    move_action = STATUS_144_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_145_TERMINAL_ACTION_HASH = {
@@ -9021,9 +8859,9 @@ STATUS_145_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_145(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_145_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_145(s1, s2, terminal):
+    move_action = STATUS_145_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_146_TERMINAL_ACTION_HASH = {
@@ -9096,9 +8934,9 @@ STATUS_146_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_146(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_146_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_146(s1, s2, terminal):
+    move_action = STATUS_146_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_147_TERMINAL_ACTION_HASH = {
@@ -9161,9 +8999,9 @@ STATUS_147_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_147(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_147_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_147(s1, s2, terminal):
+    move_action = STATUS_147_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_148_TERMINAL_ACTION_HASH = {
@@ -9226,9 +9064,9 @@ STATUS_148_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_148(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_148_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_148(s1, s2, terminal):
+    move_action = STATUS_148_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_149_TERMINAL_ACTION_HASH = {
@@ -9291,9 +9129,9 @@ STATUS_149_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_149(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_149_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_149(s1, s2, terminal):
+    move_action = STATUS_149_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_150_TERMINAL_ACTION_HASH = {
@@ -9356,9 +9194,9 @@ STATUS_150_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_150(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_150_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_150(s1, s2, terminal):
+    move_action = STATUS_150_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_151_TERMINAL_ACTION_HASH = {
@@ -9370,9 +9208,9 @@ STATUS_151_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_151(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_151_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_151(s1, s2, terminal):
+    move_action = STATUS_151_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_152_TERMINAL_ACTION_HASH = {
@@ -9384,9 +9222,9 @@ STATUS_152_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_152(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_152_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_152(s1, s2, terminal):
+    move_action = STATUS_152_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_153_TERMINAL_ACTION_HASH = {
@@ -9400,9 +9238,9 @@ STATUS_153_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_153(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_153_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_153(s1, s2, terminal):
+    move_action = STATUS_153_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_154_TERMINAL_ACTION_HASH = {
@@ -9416,9 +9254,9 @@ STATUS_154_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_154(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_154_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_154(s1, s2, terminal):
+    move_action = STATUS_154_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_155_TERMINAL_ACTION_HASH = {
@@ -9454,9 +9292,9 @@ STATUS_155_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_155(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_155_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_155(s1, s2, terminal):
+    move_action = STATUS_155_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_156_TERMINAL_ACTION_HASH = {
@@ -9493,9 +9331,9 @@ STATUS_156_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_156(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_156_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_156(s1, s2, terminal):
+    move_action = STATUS_156_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_157_TERMINAL_ACTION_HASH = {
@@ -9532,9 +9370,9 @@ STATUS_157_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_157(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_157_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_157(s1, s2, terminal):
+    move_action = STATUS_157_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_158_TERMINAL_ACTION_HASH = {
@@ -9571,9 +9409,9 @@ STATUS_158_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_158(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_158_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_158(s1, s2, terminal):
+    move_action = STATUS_158_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_159_TERMINAL_ACTION_HASH = {
@@ -9610,9 +9448,9 @@ STATUS_159_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_159(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_159_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_159(s1, s2, terminal):
+    move_action = STATUS_159_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_160_TERMINAL_ACTION_HASH = {
@@ -9649,9 +9487,9 @@ STATUS_160_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_160(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_160_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_160(s1, s2, terminal):
+    move_action = STATUS_160_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_161_TERMINAL_ACTION_HASH = {
@@ -9688,9 +9526,9 @@ STATUS_161_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_161(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_161_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_161(s1, s2, terminal):
+    move_action = STATUS_161_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_162_TERMINAL_ACTION_HASH = {
@@ -9727,9 +9565,9 @@ STATUS_162_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_162(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_162_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_162(s1, s2, terminal):
+    move_action = STATUS_162_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_163_TERMINAL_ACTION_HASH = {
@@ -9766,9 +9604,9 @@ STATUS_163_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_163(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_163_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_163(s1, s2, terminal):
+    move_action = STATUS_163_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_164_TERMINAL_ACTION_HASH = {
@@ -9805,9 +9643,9 @@ STATUS_164_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_164(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_164_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_164(s1, s2, terminal):
+    move_action = STATUS_164_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_165_TERMINAL_ACTION_HASH = {
@@ -9844,9 +9682,9 @@ STATUS_165_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_165(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_165_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_165(s1, s2, terminal):
+    move_action = STATUS_165_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_166_TERMINAL_ACTION_HASH = {
@@ -9883,9 +9721,9 @@ STATUS_166_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_166(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_166_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_166(s1, s2, terminal):
+    move_action = STATUS_166_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_167_TERMINAL_ACTION_HASH = {
@@ -9922,9 +9760,9 @@ STATUS_167_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_167(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_167_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_167(s1, s2, terminal):
+    move_action = STATUS_167_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_168_TERMINAL_ACTION_HASH = {
@@ -9961,9 +9799,9 @@ STATUS_168_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_168(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_168_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_168(s1, s2, terminal):
+    move_action = STATUS_168_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_169_TERMINAL_ACTION_HASH = {
@@ -10000,9 +9838,9 @@ STATUS_169_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_169(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_169_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_169(s1, s2, terminal):
+    move_action = STATUS_169_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_170_TERMINAL_ACTION_HASH = {
@@ -10039,9 +9877,9 @@ STATUS_170_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_170(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_170_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_170(s1, s2, terminal):
+    move_action = STATUS_170_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_171_TERMINAL_ACTION_HASH = {
@@ -10078,9 +9916,9 @@ STATUS_171_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_171(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_171_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_171(s1, s2, terminal):
+    move_action = STATUS_171_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_172_TERMINAL_ACTION_HASH = {
@@ -10117,9 +9955,9 @@ STATUS_172_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_172(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_172_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_172(s1, s2, terminal):
+    move_action = STATUS_172_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_173_TERMINAL_ACTION_HASH = {
@@ -10156,9 +9994,9 @@ STATUS_173_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_173(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_173_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_173(s1, s2, terminal):
+    move_action = STATUS_173_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_174_TERMINAL_ACTION_HASH = {
@@ -10195,9 +10033,9 @@ STATUS_174_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_174(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_174_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_174(s1, s2, terminal):
+    move_action = STATUS_174_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_175_TERMINAL_ACTION_HASH = {
@@ -10234,9 +10072,9 @@ STATUS_175_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_175(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_175_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_175(s1, s2, terminal):
+    move_action = STATUS_175_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_176_TERMINAL_ACTION_HASH = {
@@ -10273,9 +10111,9 @@ STATUS_176_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_176(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_176_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_176(s1, s2, terminal):
+    move_action = STATUS_176_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_177_TERMINAL_ACTION_HASH = {
@@ -10312,9 +10150,9 @@ STATUS_177_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_177(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_177_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_177(s1, s2, terminal):
+    move_action = STATUS_177_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_178_TERMINAL_ACTION_HASH = {
@@ -10351,9 +10189,9 @@ STATUS_178_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_178(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_178_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_178(s1, s2, terminal):
+    move_action = STATUS_178_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_179_TERMINAL_ACTION_HASH = {
@@ -10403,9 +10241,9 @@ STATUS_179_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_179(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_179_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_179(s1, s2, terminal):
+    move_action = STATUS_179_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_180_TERMINAL_ACTION_HASH = {
@@ -10455,9 +10293,9 @@ STATUS_180_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_180(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_180_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_180(s1, s2, terminal):
+    move_action = STATUS_180_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_181_TERMINAL_ACTION_HASH = {
@@ -10465,9 +10303,9 @@ STATUS_181_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_181(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_181_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_181(s1, s2, terminal):
+    move_action = STATUS_181_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_182_TERMINAL_ACTION_HASH = {
@@ -10508,9 +10346,9 @@ STATUS_182_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_182(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_182_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_182(s1, s2, terminal):
+    move_action = STATUS_182_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_183_TERMINAL_ACTION_HASH = {
@@ -10518,9 +10356,9 @@ STATUS_183_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_183(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_183_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_183(s1, s2, terminal):
+    move_action = STATUS_183_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_184_TERMINAL_ACTION_HASH = {
@@ -10572,9 +10410,9 @@ STATUS_184_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_184(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_184_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_184(s1, s2, terminal):
+    move_action = STATUS_184_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_185_TERMINAL_ACTION_HASH = {
@@ -10615,9 +10453,9 @@ STATUS_185_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_185(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_185_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_185(s1, s2, terminal):
+    move_action = STATUS_185_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_186_TERMINAL_ACTION_HASH = {
@@ -10625,9 +10463,9 @@ STATUS_186_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_186(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_186_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_186(s1, s2, terminal):
+    move_action = STATUS_186_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_187_TERMINAL_ACTION_HASH = {
@@ -10668,9 +10506,9 @@ STATUS_187_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_187(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_187_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_187(s1, s2, terminal):
+    move_action = STATUS_187_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_188_TERMINAL_ACTION_HASH = {
@@ -10678,9 +10516,9 @@ STATUS_188_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_188(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_188_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_188(s1, s2, terminal):
+    move_action = STATUS_188_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_189_TERMINAL_ACTION_HASH = {
@@ -10688,9 +10526,9 @@ STATUS_189_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_189(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_189_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_189(s1, s2, terminal):
+    move_action = STATUS_189_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_190_TERMINAL_ACTION_HASH = {
@@ -10698,9 +10536,9 @@ STATUS_190_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_190(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_190_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_190(s1, s2, terminal):
+    move_action = STATUS_190_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_191_TERMINAL_ACTION_HASH = {
@@ -10708,9 +10546,9 @@ STATUS_191_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_191(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_191_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_191(s1, s2, terminal):
+    move_action = STATUS_191_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_192_TERMINAL_ACTION_HASH = {
@@ -10749,9 +10587,9 @@ STATUS_192_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_192(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_192_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_192(s1, s2, terminal):
+    move_action = STATUS_192_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_193_TERMINAL_ACTION_HASH = {
@@ -10790,9 +10628,9 @@ STATUS_193_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_193(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_193_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_193(s1, s2, terminal):
+    move_action = STATUS_193_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_194_TERMINAL_ACTION_HASH = {
@@ -10831,9 +10669,9 @@ STATUS_194_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_194(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_194_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_194(s1, s2, terminal):
+    move_action = STATUS_194_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_195_TERMINAL_ACTION_HASH = {
@@ -10872,9 +10710,9 @@ STATUS_195_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_195(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_195_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_195(s1, s2, terminal):
+    move_action = STATUS_195_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_196_TERMINAL_ACTION_HASH = {
@@ -10882,9 +10720,9 @@ STATUS_196_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_196(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_196_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_196(s1, s2, terminal):
+    move_action = STATUS_196_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_197_TERMINAL_ACTION_HASH = {
@@ -10892,9 +10730,9 @@ STATUS_197_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_197(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_197_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_197(s1, s2, terminal):
+    move_action = STATUS_197_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_198_TERMINAL_ACTION_HASH = {
@@ -10902,9 +10740,9 @@ STATUS_198_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_198(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_198_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_198(s1, s2, terminal):
+    move_action = STATUS_198_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_199_TERMINAL_ACTION_HASH = {
@@ -10973,9 +10811,9 @@ STATUS_199_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_199(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_199_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_199(s1, s2, terminal):
+    move_action = STATUS_199_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_200_TERMINAL_ACTION_HASH = {
@@ -11016,9 +10854,9 @@ STATUS_200_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_200(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_200_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_200(s1, s2, terminal):
+    move_action = STATUS_200_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_201_TERMINAL_ACTION_HASH = {
@@ -11091,9 +10929,9 @@ STATUS_201_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_201(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_201_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_201(s1, s2, terminal):
+    move_action = STATUS_201_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_202_TERMINAL_ACTION_HASH = {
@@ -11130,9 +10968,9 @@ STATUS_202_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_202(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_202_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_202(s1, s2, terminal):
+    move_action = STATUS_202_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_203_TERMINAL_ACTION_HASH = {
@@ -11205,9 +11043,9 @@ STATUS_203_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_203(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_203_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_203(s1, s2, terminal):
+    move_action = STATUS_203_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_204_TERMINAL_ACTION_HASH = {
@@ -11246,9 +11084,9 @@ STATUS_204_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_204(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_204_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_204(s1, s2, terminal):
+    move_action = STATUS_204_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_205_TERMINAL_ACTION_HASH = {
@@ -11321,9 +11159,9 @@ STATUS_205_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_205(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_205_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_205(s1, s2, terminal):
+    move_action = STATUS_205_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_206_TERMINAL_ACTION_HASH = {
@@ -11396,9 +11234,9 @@ STATUS_206_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_206(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_206_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_206(s1, s2, terminal):
+    move_action = STATUS_206_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_207_TERMINAL_ACTION_HASH = {
@@ -11471,9 +11309,9 @@ STATUS_207_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_207(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_207_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_207(s1, s2, terminal):
+    move_action = STATUS_207_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_208_TERMINAL_ACTION_HASH = {
@@ -11546,9 +11384,9 @@ STATUS_208_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_208(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_208_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_208(s1, s2, terminal):
+    move_action = STATUS_208_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_209_TERMINAL_ACTION_HASH = {
@@ -11621,9 +11459,9 @@ STATUS_209_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_209(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_209_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_209(s1, s2, terminal):
+    move_action = STATUS_209_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_210_TERMINAL_ACTION_HASH = {
@@ -11696,9 +11534,9 @@ STATUS_210_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_210(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_210_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_210(s1, s2, terminal):
+    move_action = STATUS_210_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_211_TERMINAL_ACTION_HASH = {
@@ -11706,9 +11544,9 @@ STATUS_211_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_211(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_211_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_211(s1, s2, terminal):
+    move_action = STATUS_211_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_212_TERMINAL_ACTION_HASH = {
@@ -11716,9 +11554,9 @@ STATUS_212_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_212(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_212_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_212(s1, s2, terminal):
+    move_action = STATUS_212_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_213_TERMINAL_ACTION_HASH = {
@@ -11768,9 +11606,9 @@ STATUS_213_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_213(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_213_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_213(s1, s2, terminal):
+    move_action = STATUS_213_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_214_TERMINAL_ACTION_HASH = {
@@ -11781,9 +11619,9 @@ STATUS_214_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_214(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_214_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_214(s1, s2, terminal):
+    move_action = STATUS_214_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_215_TERMINAL_ACTION_HASH = {
@@ -11794,9 +11632,9 @@ STATUS_215_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_215(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_215_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_215(s1, s2, terminal):
+    move_action = STATUS_215_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_216_TERMINAL_ACTION_HASH = {
@@ -11806,9 +11644,9 @@ STATUS_216_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_216(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_216_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_216(s1, s2, terminal):
+    move_action = STATUS_216_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_217_TERMINAL_ACTION_HASH = {
@@ -11850,9 +11688,9 @@ STATUS_217_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_217(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_217_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_217(s1, s2, terminal):
+    move_action = STATUS_217_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_218_TERMINAL_ACTION_HASH = {
@@ -11894,9 +11732,9 @@ STATUS_218_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_218(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_218_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_218(s1, s2, terminal):
+    move_action = STATUS_218_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_219_TERMINAL_ACTION_HASH = {
@@ -11904,9 +11742,9 @@ STATUS_219_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_219(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_219_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_219(s1, s2, terminal):
+    move_action = STATUS_219_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_220_TERMINAL_ACTION_HASH = {
@@ -11915,9 +11753,9 @@ STATUS_220_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_220(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_220_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_220(s1, s2, terminal):
+    move_action = STATUS_220_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_221_TERMINAL_ACTION_HASH = {
@@ -11967,9 +11805,9 @@ STATUS_221_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_221(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_221_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_221(s1, s2, terminal):
+    move_action = STATUS_221_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_222_TERMINAL_ACTION_HASH = {
@@ -11978,9 +11816,9 @@ STATUS_222_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_222(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_222_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_222(s1, s2, terminal):
+    move_action = STATUS_222_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_223_TERMINAL_ACTION_HASH = {
@@ -12030,9 +11868,9 @@ STATUS_223_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_223(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_223_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_223(s1, s2, terminal):
+    move_action = STATUS_223_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_224_TERMINAL_ACTION_HASH = {
@@ -12069,9 +11907,9 @@ STATUS_224_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_224(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_224_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_224(s1, s2, terminal):
+    move_action = STATUS_224_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_225_TERMINAL_ACTION_HASH = {
@@ -12079,9 +11917,9 @@ STATUS_225_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_225(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_225_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_225(s1, s2, terminal):
+    move_action = STATUS_225_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_226_TERMINAL_ACTION_HASH = {
@@ -12089,9 +11927,9 @@ STATUS_226_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_226(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_226_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_226(s1, s2, terminal):
+    move_action = STATUS_226_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_227_TERMINAL_ACTION_HASH = {
@@ -12099,9 +11937,9 @@ STATUS_227_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_227(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_227_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_227(s1, s2, terminal):
+    move_action = STATUS_227_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_228_TERMINAL_ACTION_HASH = {
@@ -12109,9 +11947,9 @@ STATUS_228_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_228(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_228_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_228(s1, s2, terminal):
+    move_action = STATUS_228_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_229_TERMINAL_ACTION_HASH = {
@@ -12184,9 +12022,9 @@ STATUS_229_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_229(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_229_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_229(s1, s2, terminal):
+    move_action = STATUS_229_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_230_TERMINAL_ACTION_HASH = {
@@ -12195,9 +12033,9 @@ STATUS_230_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_230(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_230_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_230(s1, s2, terminal):
+    move_action = STATUS_230_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_231_TERMINAL_ACTION_HASH = {
@@ -12206,9 +12044,9 @@ STATUS_231_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_231(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_231_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_231(s1, s2, terminal):
+    move_action = STATUS_231_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_232_TERMINAL_ACTION_HASH = {
@@ -12281,9 +12119,9 @@ STATUS_232_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_232(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_232_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_232(s1, s2, terminal):
+    move_action = STATUS_232_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_233_TERMINAL_ACTION_HASH = {
@@ -12320,9 +12158,9 @@ STATUS_233_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_233(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_233_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_233(s1, s2, terminal):
+    move_action = STATUS_233_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_234_TERMINAL_ACTION_HASH = {
@@ -12358,9 +12196,9 @@ STATUS_234_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_234(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_234_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_234(s1, s2, terminal):
+    move_action = STATUS_234_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_235_TERMINAL_ACTION_HASH = {
@@ -12396,9 +12234,9 @@ STATUS_235_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_235(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_235_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_235(s1, s2, terminal):
+    move_action = STATUS_235_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_236_TERMINAL_ACTION_HASH = {
@@ -12406,9 +12244,9 @@ STATUS_236_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_236(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_236_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_236(s1, s2, terminal):
+    move_action = STATUS_236_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_237_TERMINAL_ACTION_HASH = {
@@ -12416,9 +12254,9 @@ STATUS_237_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_237(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_237_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_237(s1, s2, terminal):
+    move_action = STATUS_237_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_238_TERMINAL_ACTION_HASH = {
@@ -12426,9 +12264,9 @@ STATUS_238_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_238(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_238_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_238(s1, s2, terminal):
+    move_action = STATUS_238_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_239_TERMINAL_ACTION_HASH = {
@@ -12438,9 +12276,9 @@ STATUS_239_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_239(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_239_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_239(s1, s2, terminal):
+    move_action = STATUS_239_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_240_TERMINAL_ACTION_HASH = {
@@ -12490,9 +12328,9 @@ STATUS_240_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_240(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_240_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_240(s1, s2, terminal):
+    move_action = STATUS_240_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_241_TERMINAL_ACTION_HASH = {
@@ -12528,9 +12366,9 @@ STATUS_241_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_241(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_241_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_241(s1, s2, terminal):
+    move_action = STATUS_241_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_242_TERMINAL_ACTION_HASH = {
@@ -12540,9 +12378,9 @@ STATUS_242_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_242(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_242_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_242(s1, s2, terminal):
+    move_action = STATUS_242_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_243_TERMINAL_ACTION_HASH = {
@@ -12592,9 +12430,9 @@ STATUS_243_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_243(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_243_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_243(s1, s2, terminal):
+    move_action = STATUS_243_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_244_TERMINAL_ACTION_HASH = {
@@ -12636,9 +12474,9 @@ STATUS_244_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_244(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_244_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_244(s1, s2, terminal):
+    move_action = STATUS_244_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_245_TERMINAL_ACTION_HASH = {
@@ -12674,9 +12512,9 @@ STATUS_245_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_245(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_245_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_245(s1, s2, terminal):
+    move_action = STATUS_245_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_246_TERMINAL_ACTION_HASH = {
@@ -12726,9 +12564,9 @@ STATUS_246_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_246(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_246_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_246(s1, s2, terminal):
+    move_action = STATUS_246_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_247_TERMINAL_ACTION_HASH = {
@@ -12737,9 +12575,9 @@ STATUS_247_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_247(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_247_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_247(s1, s2, terminal):
+    move_action = STATUS_247_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_248_TERMINAL_ACTION_HASH = {
@@ -12748,9 +12586,9 @@ STATUS_248_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_248(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_248_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_248(s1, s2, terminal):
+    move_action = STATUS_248_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_249_TERMINAL_ACTION_HASH = {
@@ -12791,9 +12629,9 @@ STATUS_249_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_249(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_249_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_249(s1, s2, terminal):
+    move_action = STATUS_249_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_250_TERMINAL_ACTION_HASH = {
@@ -12801,9 +12639,9 @@ STATUS_250_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_250(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_250_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_250(s1, s2, terminal):
+    move_action = STATUS_250_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_251_TERMINAL_ACTION_HASH = {
@@ -12811,9 +12649,9 @@ STATUS_251_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_251(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_251_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_251(s1, s2, terminal):
+    move_action = STATUS_251_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_252_TERMINAL_ACTION_HASH = {
@@ -12821,9 +12659,9 @@ STATUS_252_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_252(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_252_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_252(s1, s2, terminal):
+    move_action = STATUS_252_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_253_TERMINAL_ACTION_HASH = {
@@ -12831,9 +12669,9 @@ STATUS_253_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_253(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_253_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_253(s1, s2, terminal):
+    move_action = STATUS_253_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_254_TERMINAL_ACTION_HASH = {
@@ -12842,9 +12680,9 @@ STATUS_254_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_254(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_254_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_254(s1, s2, terminal):
+    move_action = STATUS_254_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_255_TERMINAL_ACTION_HASH = {
@@ -12917,9 +12755,9 @@ STATUS_255_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_255(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_255_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_255(s1, s2, terminal):
+    move_action = STATUS_255_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_256_TERMINAL_ACTION_HASH = {
@@ -12992,9 +12830,9 @@ STATUS_256_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_256(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_256_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_256(s1, s2, terminal):
+    move_action = STATUS_256_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_257_TERMINAL_ACTION_HASH = {
@@ -13002,9 +12840,9 @@ STATUS_257_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_257(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_257_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_257(s1, s2, terminal):
+    move_action = STATUS_257_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_258_TERMINAL_ACTION_HASH = {
@@ -13013,9 +12851,9 @@ STATUS_258_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_258(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_258_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_258(s1, s2, terminal):
+    move_action = STATUS_258_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_259_TERMINAL_ACTION_HASH = {
@@ -13051,9 +12889,9 @@ STATUS_259_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_259(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_259_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_259(s1, s2, terminal):
+    move_action = STATUS_259_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_260_TERMINAL_ACTION_HASH = {
@@ -13103,9 +12941,9 @@ STATUS_260_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_260(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_260_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_260(s1, s2, terminal):
+    move_action = STATUS_260_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_261_TERMINAL_ACTION_HASH = {
@@ -13155,9 +12993,9 @@ STATUS_261_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_261(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_261_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_261(s1, s2, terminal):
+    move_action = STATUS_261_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_262_TERMINAL_ACTION_HASH = {
@@ -13167,9 +13005,9 @@ STATUS_262_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_262(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_262_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_262(s1, s2, terminal):
+    move_action = STATUS_262_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_263_TERMINAL_ACTION_HASH = {
@@ -13219,9 +13057,9 @@ STATUS_263_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_263(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_263_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_263(s1, s2, terminal):
+    move_action = STATUS_263_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_264_TERMINAL_ACTION_HASH = {
@@ -13257,9 +13095,9 @@ STATUS_264_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_264(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_264_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_264(s1, s2, terminal):
+    move_action = STATUS_264_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_265_TERMINAL_ACTION_HASH = {
@@ -13267,9 +13105,9 @@ STATUS_265_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_265(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_265_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_265(s1, s2, terminal):
+    move_action = STATUS_265_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_266_TERMINAL_ACTION_HASH = {
@@ -13277,9 +13115,9 @@ STATUS_266_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_266(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_266_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_266(s1, s2, terminal):
+    move_action = STATUS_266_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_267_TERMINAL_ACTION_HASH = {
@@ -13321,9 +13159,9 @@ STATUS_267_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_267(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_267_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_267(s1, s2, terminal):
+    move_action = STATUS_267_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_268_TERMINAL_ACTION_HASH = {
@@ -13332,9 +13170,9 @@ STATUS_268_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_268(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_268_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_268(s1, s2, terminal):
+    move_action = STATUS_268_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_269_TERMINAL_ACTION_HASH = {
@@ -13343,9 +13181,9 @@ STATUS_269_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_269(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_269_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_269(s1, s2, terminal):
+    move_action = STATUS_269_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_270_TERMINAL_ACTION_HASH = {
@@ -13381,9 +13219,9 @@ STATUS_270_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_270(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_270_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_270(s1, s2, terminal):
+    move_action = STATUS_270_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_271_TERMINAL_ACTION_HASH = {
@@ -13433,9 +13271,9 @@ STATUS_271_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_271(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_271_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_271(s1, s2, terminal):
+    move_action = STATUS_271_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_272_TERMINAL_ACTION_HASH = {
@@ -13471,9 +13309,9 @@ STATUS_272_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_272(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_272_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_272(s1, s2, terminal):
+    move_action = STATUS_272_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_273_TERMINAL_ACTION_HASH = {
@@ -13482,9 +13320,9 @@ STATUS_273_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_273(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_273_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_273(s1, s2, terminal):
+    move_action = STATUS_273_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_274_TERMINAL_ACTION_HASH = {
@@ -13492,9 +13330,9 @@ STATUS_274_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_274(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_274_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_274(s1, s2, terminal):
+    move_action = STATUS_274_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_275_TERMINAL_ACTION_HASH = {
@@ -13544,9 +13382,9 @@ STATUS_275_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_275(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_275_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_275(s1, s2, terminal):
+    move_action = STATUS_275_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_276_TERMINAL_ACTION_HASH = {
@@ -13585,9 +13423,9 @@ STATUS_276_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_276(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_276_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_276(s1, s2, terminal):
+    move_action = STATUS_276_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_277_TERMINAL_ACTION_HASH = {
@@ -13660,9 +13498,9 @@ STATUS_277_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_277(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_277_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_277(s1, s2, terminal):
+    move_action = STATUS_277_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_278_TERMINAL_ACTION_HASH = {
@@ -13699,9 +13537,9 @@ STATUS_278_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_278(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_278_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_278(s1, s2, terminal):
+    move_action = STATUS_278_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_279_TERMINAL_ACTION_HASH = {
@@ -13709,9 +13547,9 @@ STATUS_279_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_279(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_279_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_279(s1, s2, terminal):
+    move_action = STATUS_279_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_280_TERMINAL_ACTION_HASH = {
@@ -13719,9 +13557,9 @@ STATUS_280_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_280(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_280_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_280(s1, s2, terminal):
+    move_action = STATUS_280_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_281_TERMINAL_ACTION_HASH = {
@@ -13729,9 +13567,9 @@ STATUS_281_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_281(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_281_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_281(s1, s2, terminal):
+    move_action = STATUS_281_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_282_TERMINAL_ACTION_HASH = {
@@ -13767,9 +13605,9 @@ STATUS_282_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_282(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_282_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_282(s1, s2, terminal):
+    move_action = STATUS_282_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_283_TERMINAL_ACTION_HASH = {
@@ -13821,9 +13659,9 @@ STATUS_283_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_283(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_283_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_283(s1, s2, terminal):
+    move_action = STATUS_283_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_284_TERMINAL_ACTION_HASH = {
@@ -13831,9 +13669,9 @@ STATUS_284_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_284(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_284_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_284(s1, s2, terminal):
+    move_action = STATUS_284_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_285_TERMINAL_ACTION_HASH = {
@@ -13841,9 +13679,9 @@ STATUS_285_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_285(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_285_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_285(s1, s2, terminal):
+    move_action = STATUS_285_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_286_TERMINAL_ACTION_HASH = {
@@ -13893,9 +13731,9 @@ STATUS_286_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_286(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_286_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_286(s1, s2, terminal):
+    move_action = STATUS_286_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_287_TERMINAL_ACTION_HASH = {
@@ -13945,9 +13783,9 @@ STATUS_287_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_287(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_287_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_287(s1, s2, terminal):
+    move_action = STATUS_287_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_288_TERMINAL_ACTION_HASH = {
@@ -13955,9 +13793,9 @@ STATUS_288_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_288(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_288_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_288(s1, s2, terminal):
+    move_action = STATUS_288_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_289_TERMINAL_ACTION_HASH = {
@@ -13965,9 +13803,9 @@ STATUS_289_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_289(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_289_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_289(s1, s2, terminal):
+    move_action = STATUS_289_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_290_TERMINAL_ACTION_HASH = {
@@ -14003,9 +13841,9 @@ STATUS_290_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_290(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_290_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_290(s1, s2, terminal):
+    move_action = STATUS_290_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_291_TERMINAL_ACTION_HASH = {
@@ -14041,9 +13879,9 @@ STATUS_291_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_291(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_291_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_291(s1, s2, terminal):
+    move_action = STATUS_291_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_292_TERMINAL_ACTION_HASH = {
@@ -14079,9 +13917,9 @@ STATUS_292_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_292(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_292_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_292(s1, s2, terminal):
+    move_action = STATUS_292_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_293_TERMINAL_ACTION_HASH = {
@@ -14091,9 +13929,9 @@ STATUS_293_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_293(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_293_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_293(s1, s2, terminal):
+    move_action = STATUS_293_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_294_TERMINAL_ACTION_HASH = {
@@ -14129,9 +13967,9 @@ STATUS_294_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_294(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_294_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_294(s1, s2, terminal):
+    move_action = STATUS_294_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_295_TERMINAL_ACTION_HASH = {
@@ -14181,9 +14019,9 @@ STATUS_295_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_295(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_295_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_295(s1, s2, terminal):
+    move_action = STATUS_295_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_296_TERMINAL_ACTION_HASH = {
@@ -14191,9 +14029,9 @@ STATUS_296_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_296(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_296_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_296(s1, s2, terminal):
+    move_action = STATUS_296_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_297_TERMINAL_ACTION_HASH = {
@@ -14201,9 +14039,9 @@ STATUS_297_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_297(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_297_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_297(s1, s2, terminal):
+    move_action = STATUS_297_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_298_TERMINAL_ACTION_HASH = {
@@ -14239,9 +14077,9 @@ STATUS_298_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_298(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_298_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_298(s1, s2, terminal):
+    move_action = STATUS_298_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_299_TERMINAL_ACTION_HASH = {
@@ -14314,9 +14152,9 @@ STATUS_299_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_299(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_299_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_299(s1, s2, terminal):
+    move_action = STATUS_299_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_300_TERMINAL_ACTION_HASH = {
@@ -14324,9 +14162,9 @@ STATUS_300_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_300(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_300_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_300(s1, s2, terminal):
+    move_action = STATUS_300_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_301_TERMINAL_ACTION_HASH = {
@@ -14362,9 +14200,9 @@ STATUS_301_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_301(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_301_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_301(s1, s2, terminal):
+    move_action = STATUS_301_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_302_TERMINAL_ACTION_HASH = {
@@ -14400,9 +14238,9 @@ STATUS_302_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_302(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_302_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_302(s1, s2, terminal):
+    move_action = STATUS_302_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
 STATUS_303_TERMINAL_ACTION_HASH = {
@@ -14438,12 +14276,12 @@ STATUS_303_TERMINAL_ACTION_HASH = {
 }
 
 
-def status_303(status_stack: List[int], symbol_stack: List[Any], terminal: ms_parser.symbol.Terminal) -> Tuple[Optional[Callable], bool]:
-    move_action = STATUS_303_TERMINAL_ACTION_HASH[terminal.symbol_id]  # 通过哈希映射获取行为函数
-    return move_action(status_stack, symbol_stack, terminal)  # 执行行为函数
+def status_303(s1, s2, terminal):
+    move_action = STATUS_303_TERMINAL_ACTION_HASH[terminal.symbol_id]
+    return move_action(s1, s2, terminal)
 
 
-STATUS_SYMBOL_GOTO_HASH = {
+S = {
     (0, 111): 1, 
     (0, 112): 29, 
     (0, 113): 23, 
@@ -16489,7 +16327,6 @@ STATUS_SYMBOL_GOTO_HASH = {
 }
 
 
-# 状态 > 状态函数的字典
 STATUS_HASH = {
     0: status_0,
     1: status_1,
@@ -16799,17 +16636,17 @@ STATUS_HASH = {
 
 
 def parse(lexical_iterator: ms_parser.lexical.LexicalBase):
-    status_stack = [0]  # 初始化状态栈
-    symbol_stack = []  # 初始化对象栈
+    s1 = [0]
+    s2 = []
 
-    action = status_0  # 初始化状态函数
-    terminal = lexical_iterator.lex()  # 词法解析出下一个终结符
+    action = status_0
+    terminal = lexical_iterator.lex()
     next_terminal = False
     try:
         while action:
             if next_terminal is True:
-                terminal = lexical_iterator.lex()  # 词法解析出下一个终结符
-            action, next_terminal = action(status_stack, symbol_stack, terminal)  # 调用状态函数
+                terminal = lexical_iterator.lex()
+            action, next_terminal = action(s1, s2, terminal)
     except KeyError as e:
         next_terminal_list = []
         for _ in range(10):
@@ -16820,5 +16657,5 @@ def parse(lexical_iterator: ms_parser.lexical.LexicalBase):
         next_terminal_text = "".join(next_terminal_list)
         raise KeyError("解析失败:", next_terminal_text) from e
 
-    return symbol_stack[0]  # 返回最终结果
+    return s2[0]
 
