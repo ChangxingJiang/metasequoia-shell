@@ -849,7 +849,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     parser = ms_parser.parser.ParserLALR1(build_grammar())
-    source_code = ms_parser.compiler.compile_lalr1(parser, import_list=[
+    source_code = ms_parser.compiler.compress_compile_lalr1(parser, import_list=[
         "from metasequoia_shell import ast"
     ])
     with open("parser.py", "w+", encoding="UTF-8") as file:
