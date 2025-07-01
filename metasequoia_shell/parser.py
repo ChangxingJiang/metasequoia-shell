@@ -7,16321 +7,6821 @@ import metasequoia_parser as ms_parser
 from metasequoia_shell import ast
 
 
-def h28(a, b, terminal):
+def h0(a,b,c):
     a.append(28)
-    b.append(terminal.v)
-    return s28, True
+    b.append(c.v)
+    return s28,True
 
 
-def h71(a, b, terminal):
+def h1(a,b,c):
     a.append(71)
-    b.append(terminal.v)
-    return s71, True
+    b.append(c.v)
+    return s71,True
 
 
-def h49(a, b, terminal):
+def h2(a,b,c):
     a.append(49)
-    b.append(terminal.v)
-    return s49, True
+    b.append(c.v)
+    return s49,True
 
 
-def h69(a, b, terminal):
+def h3(a,b,c):
     a.append(69)
-    b.append(terminal.v)
-    return s69, True
+    b.append(c.v)
+    return s69,True
 
 
-def h26(a, b, terminal):
+def h4(a,b,c):
     a.append(26)
-    b.append(terminal.v)
-    return s26, True
+    b.append(c.v)
+    return s26,True
 
 
-def h44(a, b, terminal):
+def h5(a,b,c):
     a.append(44)
-    b.append(terminal.v)
-    return s44, True
+    b.append(c.v)
+    return s44,True
 
 
-def h68(a, b, terminal):
+def h6(a,b,c):
     a.append(68)
-    b.append(terminal.v)
-    return s68, True
+    b.append(c.v)
+    return s68,True
 
 
-def h46(a, b, terminal):
+def h7(a,b,c):
     a.append(46)
-    b.append(terminal.v)
-    return s46, True
+    b.append(c.v)
+    return s46,True
 
 
-def h27(a, b, terminal):
+def h8(a,b,c):
     a.append(27)
-    b.append(terminal.v)
-    return s27, True
+    b.append(c.v)
+    return s27,True
 
 
-def h47(a, b, terminal):
+def h9(a,b,c):
     a.append(47)
-    b.append(terminal.v)
-    return s47, True
+    b.append(c.v)
+    return s46,True
 
 
-def h50(a, b, terminal):
+def ha(a,b,c):
     a.append(50)
-    b.append(terminal.v)
-    return s50, True
+    b.append(c.v)
+    return s50,True
 
 
-def h51(a, b, terminal):
+def hb(a,b,c):
     a.append(51)
-    b.append(terminal.v)
-    return s51, True
+    b.append(c.v)
+    return s51,True
 
 
-def h52(a, b, terminal):
+def hc(a,b,c):
     a.append(52)
-    b.append(terminal.v)
-    return s52, True
+    b.append(c.v)
+    return s52,True
 
 
-def h53(a, b, terminal):
+def hd(a,b,c):
     a.append(53)
-    b.append(terminal.v)
-    return s53, True
+    b.append(c.v)
+    return s53,True
 
 
-def h54(a, b, terminal):
+def he(a,b,c):
     a.append(54)
-    b.append(terminal.v)
-    return s54, True
+    b.append(c.v)
+    return s54,True
 
 
-def h55(a, b, terminal):
+def hf(a,b,c):
     a.append(55)
-    b.append(terminal.v)
-    return s55, True
+    b.append(c.v)
+    return s55,True
 
 
-def h56(a, b, terminal):
+def hg(a,b,c):
     a.append(56)
-    b.append(terminal.v)
-    return s56, True
+    b.append(c.v)
+    return s56,True
 
 
-def h57(a, b, terminal):
+def hh(a,b,c):
     a.append(57)
-    b.append(terminal.v)
-    return s57, True
+    b.append(c.v)
+    return s57,True
 
 
-def h58(a, b, terminal):
+def hi(a,b,c):
     a.append(58)
-    b.append(terminal.v)
-    return s58, True
+    b.append(c.v)
+    return s58,True
 
 
-def h59(a, b, terminal):
+def hj(a,b,c):
     a.append(59)
-    b.append(terminal.v)
-    return s59, True
+    b.append(c.v)
+    return s59,True
 
 
-def h60(a, b, terminal):
+def hk(a,b,c):
     a.append(60)
-    b.append(terminal.v)
-    return s60, True
+    b.append(c.v)
+    return s60,True
 
 
-def h61(a, b, terminal):
+def hl(a,b,c):
     a.append(61)
-    b.append(terminal.v)
-    return s61, True
+    b.append(c.v)
+    return s61,True
 
 
-def h62(a, b, terminal):
+def hm(a,b,c):
     a.append(62)
-    b.append(terminal.v)
-    return s62, True
+    b.append(c.v)
+    return s62,True
 
 
-def h63(a, b, terminal):
+def hn(a,b,c):
     a.append(63)
-    b.append(terminal.v)
-    return s63, True
+    b.append(c.v)
+    return s63,True
 
 
-def h64(a, b, terminal):
+def ho(a,b,c):
     a.append(64)
-    b.append(terminal.v)
-    return s64, True
+    b.append(c.v)
+    return s64,True
 
 
-def h65(a, b, terminal):
+def hp(a,b,c):
     a.append(65)
-    b.append(terminal.v)
-    return s65, True
+    b.append(c.v)
+    return s65,True
 
 
-def h66(a, b, terminal):
+def hq(a,b,c):
     a.append(66)
-    b.append(terminal.v)
-    return s66, True
+    b.append(c.v)
+    return s66,True
 
 
-def h48(a, b, terminal):
+def hr(a,b,c):
     a.append(48)
-    b.append(terminal.v)
-    return s48, True
+    b.append(c.v)
+    return s48,True
 
 
-def h67(a, b, terminal):
+def hs(a,b,c):
     a.append(67)
-    b.append(terminal.v)
-    return s67, True
+    b.append(c.v)
+    return s26,True
 
 
-def h24(a, b, terminal):
+def ht(a,b,c):
     a.append(24)
-    b.append(terminal.v)
-    return s24, True
+    b.append(c.v)
+    return s24,True
 
 
-def h45(a, b, terminal):
+def hu(a,b,c):
     a.append(45)
-    b.append(terminal.v)
-    return s45, True
+    b.append(c.v)
+    return s24,True
 
 
-def h25(a, b, terminal):
+def hv(a,b,c):
     a.append(25)
-    b.append(terminal.v)
-    return s25, True
+    b.append(c.v)
+    return s25,True
 
 
-def h70(a, b, terminal):
+def hw(a,b,c):
     a.append(70)
-    b.append(terminal.v)
-    return s70, True
+    b.append(c.v)
+    return s70,True
 
 
-def h72(a, b, terminal):
+def hx(a,b,c):
     a.append(72)
-    b.append(terminal.v)
-    return s72, True
+    b.append(c.v)
+    return s72,True
 
 
-def h12(a, b, terminal):
+def hy(a,b,c):
     a.append(12)
-    b.append(terminal.v)
-    return s12, True
+    b.append(c.v)
+    return s12,True
 
 
-def h11(a, b, terminal):
+def hz(a,b,c):
     a.append(11)
-    b.append(terminal.v)
-    return s11, True
+    b.append(c.v)
+    return s11,True
 
 
-def h9(a, b, terminal):
+def h10(a,b,c):
     a.append(9)
-    b.append(terminal.v)
-    return s9, True
+    b.append(c.v)
+    return s9,True
 
 
-def h10(a, b, terminal):
+def h11(a,b,c):
     a.append(10)
-    b.append(terminal.v)
-    return s10, True
+    b.append(c.v)
+    return s9,True
 
 
-def h13(a, b, terminal):
+def h12(a,b,c):
     a.append(13)
-    b.append(terminal.v)
-    return s13, True
+    b.append(c.v)
+    return s13,True
 
 
-def h15(a, b, terminal):
+def h13(a,b,c):
     a.append(15)
-    b.append(terminal.v)
-    return s15, True
+    b.append(c.v)
+    return s15,True
 
 
-def h14(a, b, terminal):
+def h14(a,b,c):
     a.append(14)
-    b.append(terminal.v)
-    return s14, True
+    b.append(c.v)
+    return s13,True
 
 
-def h16(a, b, terminal):
+def h15(a,b,c):
     a.append(16)
-    b.append(terminal.v)
-    return s16, True
+    b.append(c.v)
+    return s13,True
 
 
-def h78(a, b, terminal):
+def h16(a,b,c):
     a.append(78)
-    b.append(terminal.v)
-    return s78, True
+    b.append(c.v)
+    return s78,True
 
 
-def h79(a, b, terminal):
+def h17(a,b,c):
     a.append(79)
-    b.append(terminal.v)
-    return s79, True
+    b.append(c.v)
+    return s79,True
 
 
-def h84(a, b, terminal):
+def h18(a,b,c):
     a.append(84)
-    b.append(terminal.v)
-    return s84, True
+    b.append(c.v)
+    return s84,True
 
 
-def h85(a, b, terminal):
+def h19(a,b,c):
     a.append(85)
-    b.append(terminal.v)
-    return s85, True
+    b.append(c.v)
+    return s85,True
 
 
-def h99(a, b, terminal):
+def h1a(a,b,c):
     a.append(99)
-    b.append(terminal.v)
-    return s99, True
+    b.append(c.v)
+    return s13,True
 
 
-def h100(a, b, terminal):
+def h1b(a,b,c):
     a.append(100)
-    b.append(terminal.v)
-    return s100, True
+    b.append(c.v)
+    return s13,True
 
 
-def h89(a, b, terminal):
+def h1c(a,b,c):
     a.append(89)
-    b.append(terminal.v)
-    return s89, True
+    b.append(c.v)
+    return s13,True
 
 
-def h90(a, b, terminal):
+def h1d(a,b,c):
     a.append(90)
-    b.append(terminal.v)
-    return s90, True
+    b.append(c.v)
+    return s13,True
 
 
-def h91(a, b, terminal):
+def h1e(a,b,c):
     a.append(91)
-    b.append(terminal.v)
-    return s91, True
+    b.append(c.v)
+    return s13,True
 
 
-def h92(a, b, terminal):
+def h1f(a,b,c):
     a.append(92)
-    b.append(terminal.v)
-    return s92, True
+    b.append(c.v)
+    return s13,True
 
 
-def h93(a, b, terminal):
+def h1g(a,b,c):
     a.append(93)
-    b.append(terminal.v)
-    return s93, True
+    b.append(c.v)
+    return s13,True
 
 
-def h94(a, b, terminal):
+def h1h(a,b,c):
     a.append(94)
-    b.append(terminal.v)
-    return s94, True
+    b.append(c.v)
+    return s13,True
 
 
-def h95(a, b, terminal):
+def h1i(a,b,c):
     a.append(95)
-    b.append(terminal.v)
-    return s95, True
+    b.append(c.v)
+    return s13,True
 
 
-def h96(a, b, terminal):
+def h1j(a,b,c):
     a.append(96)
-    b.append(terminal.v)
-    return s96, True
+    b.append(c.v)
+    return s13,True
 
 
-def h97(a, b, terminal):
+def h1k(a,b,c):
     a.append(97)
-    b.append(terminal.v)
-    return s97, True
+    b.append(c.v)
+    return s13,True
 
 
-def h98(a, b, terminal):
+def h1l(a,b,c):
     a.append(98)
-    b.append(terminal.v)
-    return s98, True
+    b.append(c.v)
+    return s13,True
 
 
-def h101(a, b, terminal):
+def h1m(a,b,c):
     a.append(101)
-    b.append(terminal.v)
-    return s101, True
+    b.append(c.v)
+    return s13,True
 
 
-def h102(a, b, terminal):
+def h1n(a,b,c):
     a.append(102)
-    b.append(terminal.v)
-    return s102, True
+    b.append(c.v)
+    return s13,True
 
 
-def h103(a, b, terminal):
+def h1o(a,b,c):
     a.append(103)
-    b.append(terminal.v)
-    return s103, True
+    b.append(c.v)
+    return s13,True
 
 
-def h104(a, b, terminal):
+def h1p(a,b,c):
     a.append(104)
-    b.append(terminal.v)
-    return s104, True
+    b.append(c.v)
+    return s13,True
 
 
-def h105(a, b, terminal):
+def h1q(a,b,c):
     a.append(105)
-    b.append(terminal.v)
-    return s105, True
+    b.append(c.v)
+    return s13,True
 
 
-def h106(a, b, terminal):
+def h1r(a,b,c):
     a.append(106)
-    b.append(terminal.v)
-    return s106, True
+    b.append(c.v)
+    return s13,True
 
 
-def h107(a, b, terminal):
+def h1s(a,b,c):
     a.append(107)
-    b.append(terminal.v)
-    return s107, True
+    b.append(c.v)
+    return s13,True
 
 
-def h108(a, b, terminal):
+def h1t(a,b,c):
     a.append(108)
-    b.append(terminal.v)
-    return s108, True
+    b.append(c.v)
+    return s13,True
 
 
-def h109(a, b, terminal):
+def h1u(a,b,c):
     a.append(109)
-    b.append(terminal.v)
-    return s109, True
+    b.append(c.v)
+    return s13,True
 
 
-def h110(a, b, terminal):
+def h1v(a,b,c):
     a.append(110)
-    b.append(terminal.v)
-    return s110, True
+    b.append(c.v)
+    return s13,True
 
 
-def h111(a, b, terminal):
+def h1w(a,b,c):
     a.append(111)
-    b.append(terminal.v)
-    return s111, True
+    b.append(c.v)
+    return s13,True
 
 
-def h115(a, b, terminal):
+def h1x(a,b,c):
     a.append(115)
-    b.append(terminal.v)
-    return s115, True
+    b.append(c.v)
+    return s24,True
 
 
-def h120(a, b, terminal):
+def h1y(a,b,c):
     a.append(120)
-    b.append(terminal.v)
-    return s120, True
+    b.append(c.v)
+    return s27,True
 
 
-def h123(a, b, terminal):
+def h1z(a,b,c):
     a.append(123)
-    b.append(terminal.v)
-    return s123, True
+    b.append(c.v)
+    return s123,True
 
 
-def h129(a, b, terminal):
+def h20(a,b,c):
     a.append(129)
-    b.append(terminal.v)
-    return s129, True
+    b.append(c.v)
+    return s129,True
 
 
-def h128(a, b, terminal):
+def h21(a,b,c):
     a.append(128)
-    b.append(terminal.v)
-    return s128, True
+    b.append(c.v)
+    return s128,True
 
 
-def h135(a, b, terminal):
+def h22(a,b,c):
     a.append(135)
-    b.append(terminal.v)
-    return s135, True
+    b.append(c.v)
+    return s135,True
 
 
-def h136(a, b, terminal):
+def h23(a,b,c):
     a.append(136)
-    b.append(terminal.v)
-    return s136, True
+    b.append(c.v)
+    return s136,True
 
 
-def h139(a, b, terminal):
+def h24(a,b,c):
     a.append(139)
-    b.append(terminal.v)
-    return s139, True
+    b.append(c.v)
+    return s139,True
 
 
-def h140(a, b, terminal):
+def h25(a,b,c):
     a.append(140)
-    b.append(terminal.v)
-    return s140, True
+    b.append(c.v)
+    return s140,True
 
 
-def h141(a, b, terminal):
+def h26(a,b,c):
     a.append(141)
-    b.append(terminal.v)
-    return s141, True
+    b.append(c.v)
+    return s141,True
 
 
-def h142(a, b, terminal):
+def h27(a,b,c):
     a.append(142)
-    b.append(terminal.v)
-    return s142, True
+    b.append(c.v)
+    return s142,True
 
 
-def h144(a, b, terminal):
+def h28(a,b,c):
     a.append(144)
-    b.append(terminal.v)
-    return s144, True
+    b.append(c.v)
+    return s144,True
 
 
-def h146(a, b, terminal):
+def h29(a,b,c):
     a.append(146)
-    b.append(terminal.v)
-    return s146, True
+    b.append(c.v)
+    return s146,True
 
 
-def h148(a, b, terminal):
+def h2a(a,b,c):
     a.append(148)
-    b.append(terminal.v)
-    return s148, True
+    b.append(c.v)
+    return s148,True
 
 
-def h149(a, b, terminal):
+def h2b(a,b,c):
     a.append(149)
-    b.append(terminal.v)
-    return s149, True
+    b.append(c.v)
+    return s149,True
 
 
-def h150(a, b, terminal):
+def h2c(a,b,c):
     a.append(150)
-    b.append(terminal.v)
-    return s150, True
+    b.append(c.v)
+    return s150,True
 
 
-def h179(a, b, terminal):
+def h2d(a,b,c):
     a.append(179)
-    b.append(terminal.v)
-    return s179, True
+    b.append(c.v)
+    return s179,True
 
 
-def h180(a, b, terminal):
+def h2e(a,b,c):
     a.append(180)
-    b.append(terminal.v)
-    return s180, True
+    b.append(c.v)
+    return s179,True
 
 
-def h182(a, b, terminal):
+def h2f(a,b,c):
     a.append(182)
-    b.append(terminal.v)
-    return s182, True
+    b.append(c.v)
+    return s13,True
 
 
-def h184(a, b, terminal):
+def h2g(a,b,c):
     a.append(184)
-    b.append(terminal.v)
-    return s184, True
+    b.append(c.v)
+    return s184,True
 
 
-def h185(a, b, terminal):
+def h2h(a,b,c):
     a.append(185)
-    b.append(terminal.v)
-    return s185, True
+    b.append(c.v)
+    return s13,True
 
 
-def h186(a, b, terminal):
+def h2i(a,b,c):
     a.append(186)
-    b.append(terminal.v)
-    return s186, True
+    b.append(c.v)
+    return s186,True
 
 
-def h187(a, b, terminal):
+def h2j(a,b,c):
     a.append(187)
-    b.append(terminal.v)
-    return s187, True
+    b.append(c.v)
+    return s13,True
 
 
-def h188(a, b, terminal):
+def h2k(a,b,c):
     a.append(188)
-    b.append(terminal.v)
-    return s188, True
+    b.append(c.v)
+    return s188,True
 
 
-def h190(a, b, terminal):
+def h2l(a,b,c):
     a.append(190)
-    b.append(terminal.v)
-    return s190, True
+    b.append(c.v)
+    return s190,True
 
 
-def h191(a, b, terminal):
+def h2m(a,b,c):
     a.append(191)
-    b.append(terminal.v)
-    return s191, True
+    b.append(c.v)
+    return s191,True
 
 
-def h192(a, b, terminal):
+def h2n(a,b,c):
     a.append(192)
-    b.append(terminal.v)
-    return s192, True
+    b.append(c.v)
+    return s192,True
 
 
-def h193(a, b, terminal):
+def h2o(a,b,c):
     a.append(193)
-    b.append(terminal.v)
-    return s193, True
+    b.append(c.v)
+    return s193,True
 
 
-def h194(a, b, terminal):
+def h2p(a,b,c):
     a.append(194)
-    b.append(terminal.v)
-    return s194, True
+    b.append(c.v)
+    return s194,True
 
 
-def h195(a, b, terminal):
+def h2q(a,b,c):
     a.append(195)
-    b.append(terminal.v)
-    return s195, True
+    b.append(c.v)
+    return s195,True
 
 
-def h197(a, b, terminal):
+def h2r(a,b,c):
     a.append(197)
-    b.append(terminal.v)
-    return s197, True
+    b.append(c.v)
+    return s197,True
 
 
-def h196(a, b, terminal):
+def h2s(a,b,c):
     a.append(196)
-    b.append(terminal.v)
-    return s196, True
+    b.append(c.v)
+    return s196,True
 
 
-def h200(a, b, terminal):
+def h2t(a,b,c):
     a.append(200)
-    b.append(terminal.v)
-    return s200, True
+    b.append(c.v)
+    return s13,True
 
 
-def h201(a, b, terminal):
+def h2u(a,b,c):
     a.append(201)
-    b.append(terminal.v)
-    return s201, True
+    b.append(c.v)
+    return s201,True
 
 
-def h202(a, b, terminal):
+def h2v(a,b,c):
     a.append(202)
-    b.append(terminal.v)
-    return s202, True
+    b.append(c.v)
+    return s46,True
 
 
-def h203(a, b, terminal):
+def h2w(a,b,c):
     a.append(203)
-    b.append(terminal.v)
-    return s203, True
+    b.append(c.v)
+    return s203,True
 
 
-def h205(a, b, terminal):
+def h2x(a,b,c):
     a.append(205)
-    b.append(terminal.v)
-    return s205, True
+    b.append(c.v)
+    return s205,True
 
 
-def h206(a, b, terminal):
+def h2y(a,b,c):
     a.append(206)
-    b.append(terminal.v)
-    return s206, True
+    b.append(c.v)
+    return s206,True
 
 
-def h207(a, b, terminal):
+def h2z(a,b,c):
     a.append(207)
-    b.append(terminal.v)
-    return s207, True
+    b.append(c.v)
+    return s207,True
 
 
-def h208(a, b, terminal):
+def h30(a,b,c):
     a.append(208)
-    b.append(terminal.v)
-    return s208, True
+    b.append(c.v)
+    return s208,True
 
 
-def h209(a, b, terminal):
+def h31(a,b,c):
     a.append(209)
-    b.append(terminal.v)
-    return s209, True
+    b.append(c.v)
+    return s209,True
 
 
-def h210(a, b, terminal):
+def h32(a,b,c):
     a.append(210)
-    b.append(terminal.v)
-    return s210, True
+    b.append(c.v)
+    return s210,True
 
 
-def h213(a, b, terminal):
+def h33(a,b,c):
     a.append(213)
-    b.append(terminal.v)
-    return s213, True
+    b.append(c.v)
+    return s179,True
 
 
-def h215(a, b, terminal):
+def h34(a,b,c):
     a.append(215)
-    b.append(terminal.v)
-    return s215, True
+    b.append(c.v)
+    return s215,True
 
 
-def h221(a, b, terminal):
+def h35(a,b,c):
     a.append(221)
-    b.append(terminal.v)
-    return s221, True
+    b.append(c.v)
+    return s179,True
 
 
-def h223(a, b, terminal):
+def h36(a,b,c):
     a.append(223)
-    b.append(terminal.v)
-    return s223, True
+    b.append(c.v)
+    return s27,True
 
 
-def h224(a, b, terminal):
+def h37(a,b,c):
     a.append(224)
-    b.append(terminal.v)
-    return s224, True
+    b.append(c.v)
+    return s224,True
 
 
-def h225(a, b, terminal):
+def h38(a,b,c):
     a.append(225)
-    b.append(terminal.v)
-    return s225, True
+    b.append(c.v)
+    return s225,True
 
 
-def h226(a, b, terminal):
+def h39(a,b,c):
     a.append(226)
-    b.append(terminal.v)
-    return s226, True
+    b.append(c.v)
+    return s226,True
 
 
-def h227(a, b, terminal):
+def h3a(a,b,c):
     a.append(227)
-    b.append(terminal.v)
-    return s227, True
+    b.append(c.v)
+    return s227,True
 
 
-def h228(a, b, terminal):
+def h3b(a,b,c):
     a.append(228)
-    b.append(terminal.v)
-    return s228, True
+    b.append(c.v)
+    return s228,True
 
 
-def h229(a, b, terminal):
+def h3c(a,b,c):
     a.append(229)
-    b.append(terminal.v)
-    return s229, True
+    b.append(c.v)
+    return s229,True
 
 
-def h233(a, b, terminal):
+def h3d(a,b,c):
     a.append(233)
-    b.append(terminal.v)
-    return s233, True
+    b.append(c.v)
+    return s46,True
 
 
-def h232(a, b, terminal):
+def h3e(a,b,c):
     a.append(232)
-    b.append(terminal.v)
-    return s232, True
+    b.append(c.v)
+    return s232,True
 
 
-def h234(a, b, terminal):
+def h3f(a,b,c):
     a.append(234)
-    b.append(terminal.v)
-    return s234, True
+    b.append(c.v)
+    return s234,True
 
 
-def h235(a, b, terminal):
+def h3g(a,b,c):
     a.append(235)
-    b.append(terminal.v)
-    return s235, True
+    b.append(c.v)
+    return s235,True
 
 
-def h238(a, b, terminal):
+def h3h(a,b,c):
     a.append(238)
-    b.append(terminal.v)
-    return s238, True
+    b.append(c.v)
+    return s238,True
 
 
-def h243(a, b, terminal):
+def h3i(a,b,c):
     a.append(243)
-    b.append(terminal.v)
-    return s243, True
+    b.append(c.v)
+    return s12,True
 
 
-def h240(a, b, terminal):
+def h3j(a,b,c):
     a.append(240)
-    b.append(terminal.v)
-    return s240, True
+    b.append(c.v)
+    return s240,True
 
 
-def h241(a, b, terminal):
+def h3k(a,b,c):
     a.append(241)
-    b.append(terminal.v)
-    return s241, True
+    b.append(c.v)
+    return s241,True
 
 
-def h245(a, b, terminal):
+def h3l(a,b,c):
     a.append(245)
-    b.append(terminal.v)
-    return s245, True
+    b.append(c.v)
+    return s245,True
 
 
-def h246(a, b, terminal):
+def h3m(a,b,c):
     a.append(246)
-    b.append(terminal.v)
-    return s246, True
+    b.append(c.v)
+    return s246,True
 
 
-def h249(a, b, terminal):
+def h3n(a,b,c):
     a.append(249)
-    b.append(terminal.v)
-    return s249, True
+    b.append(c.v)
+    return s13,True
 
 
-def h251(a, b, terminal):
+def h3o(a,b,c):
     a.append(251)
-    b.append(terminal.v)
-    return s251, True
+    b.append(c.v)
+    return s251,True
 
 
-def h253(a, b, terminal):
+def h3p(a,b,c):
     a.append(253)
-    b.append(terminal.v)
-    return s253, True
+    b.append(c.v)
+    return s253,True
 
 
-def h254(a, b, terminal):
+def h3q(a,b,c):
     a.append(254)
-    b.append(terminal.v)
-    return s254, True
+    b.append(c.v)
+    return s254,True
 
 
-def h255(a, b, terminal):
+def h3r(a,b,c):
     a.append(255)
-    b.append(terminal.v)
-    return s255, True
+    b.append(c.v)
+    return s255,True
 
 
-def h256(a, b, terminal):
+def h3s(a,b,c):
     a.append(256)
-    b.append(terminal.v)
-    return s256, True
+    b.append(c.v)
+    return s256,True
 
 
-def h257(a, b, terminal):
+def h3t(a,b,c):
     a.append(257)
-    b.append(terminal.v)
-    return s257, True
+    b.append(c.v)
+    return s257,True
 
 
-def h259(a, b, terminal):
+def h3u(a,b,c):
     a.append(259)
-    b.append(terminal.v)
-    return s259, True
+    b.append(c.v)
+    return s259,True
 
 
-def h260(a, b, terminal):
+def h3v(a,b,c):
     a.append(260)
-    b.append(terminal.v)
-    return s260, True
+    b.append(c.v)
+    return s179,True
 
 
-def h261(a, b, terminal):
+def h3w(a,b,c):
     a.append(261)
-    b.append(terminal.v)
-    return s261, True
+    b.append(c.v)
+    return s179,True
 
 
-def h263(a, b, terminal):
+def h3x(a,b,c):
     a.append(263)
-    b.append(terminal.v)
-    return s263, True
+    b.append(c.v)
+    return s240,True
 
 
-def h264(a, b, terminal):
+def h3y(a,b,c):
     a.append(264)
-    b.append(terminal.v)
-    return s264, True
+    b.append(c.v)
+    return s264,True
 
 
-def h270(a, b, terminal):
+def h3z(a,b,c):
     a.append(270)
-    b.append(terminal.v)
-    return s270, True
+    b.append(c.v)
+    return s270,True
 
 
-def h271(a, b, terminal):
+def h40(a,b,c):
     a.append(271)
-    b.append(terminal.v)
-    return s271, True
+    b.append(c.v)
+    return s179,True
 
 
-def h272(a, b, terminal):
+def h41(a,b,c):
     a.append(272)
-    b.append(terminal.v)
-    return s272, True
+    b.append(c.v)
+    return s272,True
 
 
-def h273(a, b, terminal):
+def h42(a,b,c):
     a.append(273)
-    b.append(terminal.v)
-    return s273, True
+    b.append(c.v)
+    return s273,True
 
 
-def h274(a, b, terminal):
+def h43(a,b,c):
     a.append(274)
-    b.append(terminal.v)
-    return s274, True
+    b.append(c.v)
+    return s274,True
 
 
-def h275(a, b, terminal):
+def h44(a,b,c):
     a.append(275)
-    b.append(terminal.v)
-    return s275, True
+    b.append(c.v)
+    return s27,True
 
 
-def h276(a, b, terminal):
+def h45(a,b,c):
     a.append(276)
-    b.append(terminal.v)
-    return s276, True
+    b.append(c.v)
+    return s276,True
 
 
-def h278(a, b, terminal):
+def h46(a,b,c):
     a.append(278)
-    b.append(terminal.v)
-    return s278, True
+    b.append(c.v)
+    return s46,True
 
 
-def h277(a, b, terminal):
+def h47(a,b,c):
     a.append(277)
-    b.append(terminal.v)
-    return s277, True
+    b.append(c.v)
+    return s277,True
 
 
-def h282(a, b, terminal):
+def h48(a,b,c):
     a.append(282)
-    b.append(terminal.v)
-    return s282, True
+    b.append(c.v)
+    return s282,True
 
 
-def h283(a, b, terminal):
+def h49(a,b,c):
     a.append(283)
-    b.append(terminal.v)
-    return s283, True
+    b.append(c.v)
+    return s184,True
 
 
-def h285(a, b, terminal):
+def h4a(a,b,c):
     a.append(285)
-    b.append(terminal.v)
-    return s285, True
+    b.append(c.v)
+    return s285,True
 
 
-def h286(a, b, terminal):
+def h4b(a,b,c):
     a.append(286)
-    b.append(terminal.v)
-    return s286, True
+    b.append(c.v)
+    return s27,True
 
 
-def h287(a, b, terminal):
+def h4c(a,b,c):
     a.append(287)
-    b.append(terminal.v)
-    return s287, True
+    b.append(c.v)
+    return s27,True
 
 
-def h290(a, b, terminal):
+def h4d(a,b,c):
     a.append(290)
-    b.append(terminal.v)
-    return s290, True
+    b.append(c.v)
+    return s290,True
 
 
-def h291(a, b, terminal):
+def h4e(a,b,c):
     a.append(291)
-    b.append(terminal.v)
-    return s291, True
+    b.append(c.v)
+    return s291,True
 
 
-def h292(a, b, terminal):
+def h4f(a,b,c):
     a.append(292)
-    b.append(terminal.v)
-    return s292, True
+    b.append(c.v)
+    return s292,True
 
 
-def h294(a, b, terminal):
+def h4g(a,b,c):
     a.append(294)
-    b.append(terminal.v)
-    return s294, True
+    b.append(c.v)
+    return s294,True
 
 
-def h295(a, b, terminal):
+def h4h(a,b,c):
     a.append(295)
-    b.append(terminal.v)
-    return s295, True
+    b.append(c.v)
+    return s27,True
 
 
-def h298(a, b, terminal):
+def h4i(a,b,c):
     a.append(298)
-    b.append(terminal.v)
-    return s298, True
+    b.append(c.v)
+    return s298,True
 
 
-def h299(a, b, terminal):
+def h4j(a,b,c):
     a.append(299)
-    b.append(terminal.v)
-    return s299, True
+    b.append(c.v)
+    return s299,True
 
 
-def h301(a, b, terminal):
+def h4k(a,b,c):
     a.append(301)
-    b.append(terminal.v)
-    return s301, True
+    b.append(c.v)
+    return s301,True
 
 
-def h302(a, b, terminal):
+def h4l(a,b,c):
     a.append(302)
-    b.append(terminal.v)
-    return s302, True
+    b.append(c.v)
+    return s302,True
 
 
-def h303(a, b, terminal):
+def h4m(a,b,c):
     a.append(303)
-    b.append(terminal.v)
-    return s303, True
+    b.append(c.v)
+    return s303,True
 
 
-def ar0_1(a, b, _):
+def r0(a,b,_):
     v = None
-    n = S[(a[-1], 161)]
+    n=S[(a[-1],161)]
     b.append(v)
     a.append(n)
-    return H[n], False
+    return H[n],False
 
 
-def ar2_1(a, b, _):
+def r1(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 111)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],111)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar3_1(a, b, _):
+def r2(a,b,_):
     v = ast.Script(command_list=b[-1])
-    n = S[(a[-2], 161)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],161)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar4_1(a, b, _):
+def r3(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 160)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],160)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar5_1(a, b, _):
+def r4(a,b,_):
     v = None
-    n = S[(a[-1], 157)]
+    n=S[(a[-1],157)]
     b.append(v)
     a.append(n)
-    return H[n], False
+    return H[n],False
 
 
-def ar6_1(a, b, _):
+def r5(a,b,_):
     v = None
-    n = S[(a[-1], 152)]
+    n=S[(a[-1],152)]
     b.append(v)
     a.append(n)
-    return H[n], False
+    return H[n],False
 
 
-def ar7_1(a, b, _):
+def r6(a,b,_):
     v = None
-    n = S[(a[-1], 147)]
+    n=S[(a[-1],147)]
     b.append(v)
     a.append(n)
-    return H[n], False
+    return H[n],False
 
 
-def ar8_1(a, b, _):
+def r7(a,b,_):
     v = ast.SimpleCommand(word_list=b[-1])
-    n = S[(a[-2], 144)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],144)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar17_1(a, b, _):
+def r8(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 136)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],136)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar18_1(a, b, _):
+def r9(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 130)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],130)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar23_1(a, b, _):
+def ra(a,b,_):
     v = ast.NormalWord(element_list=b[-1])
-    n = S[(a[-2], 131)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],131)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar28_1(a, b, _):
+def rb(a,b,_):
     v = ast.Ident(string=b[-1])
-    n = S[(a[-2], 115)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],115)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar29_1(a, b, _):
+def rc(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 113)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],113)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar30_1(a, b, _):
+def rd(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 112)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],112)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar44_1(a, b, _):
+def re(a,b,_):
     v = ast.Ident(string='=')
-    n = S[(a[-2], 115)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],115)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar48_1(a, b, _):
+def rf(a,b,_):
     v = False
-    n = S[(a[-1], 122)]
+    n=S[(a[-1],122)]
     b.append(v)
     a.append(n)
-    return H[n], False
+    return H[n],False
 
 
-def ar50_1(a, b, _):
+def rg(a,b,_):
     v = ast.Param0()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar51_1(a, b, _):
+def rh(a,b,_):
     v = ast.Param1()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar52_1(a, b, _):
+def ri(a,b,_):
     v = ast.Param2()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar53_1(a, b, _):
+def rj(a,b,_):
     v = ast.Param3()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar54_1(a, b, _):
+def rk(a,b,_):
     v = ast.Param4()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar55_1(a, b, _):
+def rl(a,b,_):
     v = ast.Param5()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar56_1(a, b, _):
+def rm(a,b,_):
     v = ast.Param6()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar57_1(a, b, _):
+def rn(a,b,_):
     v = ast.Param7()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar58_1(a, b, _):
+def ro(a,b,_):
     v = ast.Param8()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar59_1(a, b, _):
+def rp(a,b,_):
     v = ast.Param9()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar60_1(a, b, _):
+def rq(a,b,_):
     v = ast.ParamExclamation()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar61_1(a, b, _):
+def rr(a,b,_):
     v = ast.ParamPound()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar62_1(a, b, _):
+def rs(a,b,_):
     v = ast.ParamStar()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar63_1(a, b, _):
+def rt(a,b,_):
     v = ast.ParamHyphen()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar64_1(a, b, _):
+def ru(a,b,_):
     v = ast.ParamQuestion()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar65_1(a, b, _):
+def rv(a,b,_):
     v = ast.ParamAt()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar66_1(a, b, _):
+def rw(a,b,_):
     v = ast.ParamDollar()
-    n = S[(a[-2], 125)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],125)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar73_1(a, b, _):
+def rx(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 160)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],160)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar75_1(a, b, _):
+def ry(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 157)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],157)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar76_1(a, b, _):
+def rz(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 156)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],156)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar78_1(a, b, _):
+def r10(a,b,_):
     v = ast.CommandRelationType.ASCII_0x26_0x26
-    n = S[(a[-2], 154)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],154)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar79_1(a, b, _):
+def r11(a,b,_):
     v = ast.CommandRelationType.ASCII_0x7C_0x7C
-    n = S[(a[-2], 154)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],154)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar80_1(a, b, _):
+def r12(a,b,_):
     v = ast.CommandWithPipe.create(command=b[-2], pipe_list=b[-1])
-    n = S[(a[-3], 153)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],153)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar81_1(a, b, _):
+def r13(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 152)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],152)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar82_1(a, b, _):
+def r14(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 151)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],151)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar84_1(a, b, _):
+def r15(a,b,_):
     v = ast.PipeType.ASCII_0x7C
-    n = S[(a[-2], 149)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],149)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar85_1(a, b, _):
+def r16(a,b,_):
     v = ast.PipeType.ASCII_0x7C_0x26
-    n = S[(a[-2], 149)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],149)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar86_1(a, b, _):
+def r17(a,b,_):
     v = ast.CommandWithRedirection.create(bare_command=b[-2], redirection_list=b[-1])
-    n = S[(a[-3], 148)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],148)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar87_1(a, b, _):
+def r18(a,b,_):
     v = b[-1]
-    n = S[(a[-2], 147)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],147)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar88_1(a, b, _):
+def r19(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 146)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],146)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar122_1(a, b, _):
+def r1a(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 113)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],113)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar132_1(a, b, _):
+def r1b(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 114)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],114)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar133_1(a, b, _):
+def r1c(a,b,_):
     v = ast.TildeExpansion(element_list=b[-1])
-    n = S[(a[-3], 121)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],121)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar135_1(a, b, _):
+def r1d(a,b,_):
     v = True
-    n = S[(a[-2], 122)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],122)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar136_1(a, b, _):
+def r1e(a,b,_):
     v = ast.ParamExpansion(name=b[-1])
-    n = S[(a[-3], 123)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],123)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar140_1(a, b, _):
+def r1f(a,b,_):
     v = ast.SingleQuoteString(string=None)
-    n = S[(a[-3], 126)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],126)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar142_1(a, b, _):
+def r1g(a,b,_):
     v = ast.DollarSingleQuoteString.create(string=None)
-    n = S[(a[-3], 127)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],127)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar144_1(a, b, _):
+def r1h(a,b,_):
     v = ast.DoubleQuoteString(element_list=None)
-    n = S[(a[-3], 128)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],128)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar146_1(a, b, _):
+def r1i(a,b,_):
     v = ast.DollarDoubleQuoteString(element_list=None)
-    n = S[(a[-3], 129)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],129)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar147_1(a, b, _):
+def r1j(a,b,_):
     v = ast.CommandWithList.create(first_command=b[-3], other_command_list=b[-2], end_type=b[-1])
-    n = S[(a[-4], 159)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],159)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar148_1(a, b, _):
+def r1k(a,b,_):
     v = ast.CommandEndType.ASCII_0x0A
-    n = S[(a[-2], 158)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],158)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar149_1(a, b, _):
+def r1l(a,b,_):
     v = ast.CommandEndType.ASCII_0x26
-    n = S[(a[-2], 158)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],158)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar150_1(a, b, _):
+def r1m(a,b,_):
     v = ast.CommandEndType.ASCII_0x3B
-    n = S[(a[-2], 158)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],158)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar151_1(a, b, _):
+def r1n(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 156)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],156)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar152_1(a, b, _):
+def r1o(a,b,_):
     v = ast.CommandWithRelation(relation=b[-2], command=b[-1])
-    n = S[(a[-3], 155)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],155)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar153_1(a, b, _):
+def r1p(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 151)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],151)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar154_1(a, b, _):
+def r1q(a,b,_):
     v = ast.Pipe(type=b[-2], command=b[-1])
-    n = S[(a[-3], 150)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],150)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar155_1(a, b, _):
+def r1r(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 146)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],146)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar156_1(a, b, _):
+def r1s(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar157_1(a, b, _):
+def r1t(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x26, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar158_1(a, b, _):
+def r1u(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar159_1(a, b, _):
+def r1v(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar160_1(a, b, _):
+def r1w(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x2D, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar161_1(a, b, _):
+def r1x(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar162_1(a, b, _):
+def r1y(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar163_1(a, b, _):
+def r1z(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x7C, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar164_1(a, b, _):
+def r20(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar165_1(a, b, _):
+def r21(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x26, number=int(b[-2][0]), word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar166_1(a, b, _):
+def r22(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar167_1(a, b, _):
+def r23(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar168_1(a, b, _):
+def r24(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x7C, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar169_1(a, b, _):
+def r25(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x3E, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar170_1(a, b, _):
+def r26(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar171_1(a, b, _):
+def r27(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x26, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar172_1(a, b, _):
+def r28(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E_0x3E, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar173_1(a, b, _):
+def r29(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar174_1(a, b, _):
+def r2a(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x2D, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar175_1(a, b, _):
+def r2b(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x3C, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar176_1(a, b, _):
+def r2c(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x26, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar177_1(a, b, _):
+def r2d(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3E, word_list=b[-1])
-    n = S[(a[-3], 145)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],145)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar178_1(a, b, _):
+def r2e(a,b,_):
     v = b[-3] + [b[-1]]
-    n = S[(a[-4], 136)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],136)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar192_1(a, b, _):
+def r2f(a,b,_):
     v = ast.ArithmeticExpression(script=b[-2])
-    n = S[(a[-4], 132)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],132)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar193_1(a, b, _):
+def r2g(a,b,_):
     v = ast.ConditionalExpression(script=b[-2])
-    n = S[(a[-4], 133)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],133)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar194_1(a, b, _):
+def r2h(a,b,_):
     v = ast.GroupingCommand.create_sub_process(script=b[-2])
-    n = S[(a[-4], 134)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],134)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar195_1(a, b, _):
+def r2i(a,b,_):
     v = ast.GroupingCommand.create_context(script=b[-2])
-    n = S[(a[-4], 134)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],134)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar199_1(a, b, _):
+def r2j(a,b,_):
     v = ast.Assignment(name=b[-3], value_element_list=b[-1])
-    n = S[(a[-4], 135)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],135)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar201_1(a, b, _):
+def r2k(a,b,_):
     v = ast.ArithmeticExpansion(script=b[-2])
-    n = S[(a[-4], 119)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],119)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar203_1(a, b, _):
+def r2l(a,b,_):
     v = ast.BraceExpansion(element_list=b[-2])
-    n = S[(a[-4], 120)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],120)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar205_1(a, b, _):
+def r2m(a,b,_):
     v = ast.CommandSubstitution.create_curve(b[-2])
-    n = S[(a[-4], 124)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],124)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar206_1(a, b, _):
+def r2n(a,b,_):
     v = ast.CommandSubstitution.create_back_quote(b[-2])
-    n = S[(a[-4], 124)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],124)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar207_1(a, b, _):
+def r2o(a,b,_):
     v = ast.SingleQuoteString(string=b[-2])
-    n = S[(a[-4], 126)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],126)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar208_1(a, b, _):
+def r2p(a,b,_):
     v = ast.DollarSingleQuoteString.create(string=b[-2])
-    n = S[(a[-4], 127)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],127)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar209_1(a, b, _):
+def r2q(a,b,_):
     v = ast.DoubleQuoteString(element_list=b[-2])
-    n = S[(a[-4], 128)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],128)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar210_1(a, b, _):
+def r2r(a,b,_):
     v = ast.DollarDoubleQuoteString(element_list=b[-2])
-    n = S[(a[-4], 129)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],129)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar218_1(a, b, _):
+def r2s(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 143)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],143)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar220_1(a, b, _):
+def r2t(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 141)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],141)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar224_1(a, b, _):
+def r2u(a,b,_):
     v = ast.Coprocess(name=None, script=b[-2])
-    n = S[(a[-5], 144)]
-    b[-4:] = [v]
-    a[-4:] = [n]
-    return H[n], False
+    n=S[(a[-5],144)]
+    b[-4:]=[v]
+    a[-4:]=[n]
+    return H[n],False
 
 
-def ar229_1(a, b, _):
+def r2v(a,b,_):
     v = ast.ArrayGetter(array=b[-4], script=b[-2])
-    n = S[(a[-5], 118)]
-    b[-4:] = [v]
-    a[-4:] = [n]
-    return H[n], False
+    n=S[(a[-5],118)]
+    b[-4:]=[v]
+    a[-4:]=[n]
+    return H[n],False
 
 
-def ar231_1(a, b, _):
+def r2w(a,b,_):
     v = b[-3] + [b[-1]]
-    n = S[(a[-4], 114)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],114)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar232_1(a, b, _):
+def r2x(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-2], indirect=b[-3])
-    n = S[(a[-5], 123)]
-    b[-4:] = [v]
-    a[-4:] = [n]
-    return H[n], False
+    n=S[(a[-5],123)]
+    b[-4:]=[v]
+    a[-4:]=[n]
+    return H[n],False
 
 
-def ar234_1(a, b, _):
+def r2y(a,b,_):
     v = ast.UntilCommand(test_script=b[-4], consequent_script=b[-2])
-    n = S[(a[-6], 144)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],144)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar235_1(a, b, _):
+def r2z(a,b,_):
     v = ast.WhileCommand(test_script=b[-4], consequent_script=b[-2])
-    n = S[(a[-6], 144)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],144)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar241_1(a, b, _):
+def r30(a,b,_):
     v = ast.IfCommand(test_script=b[-4], consequent_script=b[-2], else_if_list=[], alternate_script=None)
-    n = S[(a[-6], 144)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],144)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar242_1(a, b, _):
+def r31(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 138)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],138)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar244_1(a, b, _):
+def r32(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 143)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],143)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar245_1(a, b, _):
+def r33(a,b,_):
     v = ast.CaseCommand(word=b[-4], item_list=b[-2])
-    n = S[(a[-6], 144)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],144)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar247_1(a, b, _):
+def r34(a,b,_):
     v = [b[-2]] + b[-1]
-    n = S[(a[-3], 141)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],141)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar248_1(a, b, _):
+def r35(a,b,_):
     v = [b[-1]]
-    n = S[(a[-2], 140)]
-    b[-1:] = [v]
-    a[-1:] = [n]
-    return H[n], False
+    n=S[(a[-2],140)]
+    b[-1:]=[v]
+    a[-1:]=[n]
+    return H[n],False
 
 
-def ar255_1(a, b, _):
+def r36(a,b,_):
     v = ast.ArrayAt(array=b[-5])
-    n = S[(a[-6], 116)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],116)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar256_1(a, b, _):
+def r37(a,b,_):
     v = ast.ArrayStar(array=b[-5])
-    n = S[(a[-6], 117)]
-    b[-5:] = [v]
-    a[-5:] = [n]
-    return H[n], False
+    n=S[(a[-6],117)]
+    b[-5:]=[v]
+    a[-5:]=[n]
+    return H[n],False
 
 
-def ar259_1(a, b, _):
+def r38(a,b,_):
     v = ast.EnhanceForCommand(name=b[-5], script=b[-2])
-    n = S[(a[-7], 144)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],144)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar262_1(a, b, _):
+def r39(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 138)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],138)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar264_1(a, b, _):
+def r3a(a,b,_):
     v = ast.IfCommand(test_script=b[-5], consequent_script=b[-3], else_if_list=b[-2], alternate_script=None)
-    n = S[(a[-7], 144)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],144)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar267_1(a, b, _):
+def r3b(a,b,_):
     v = ast.CaseItem(pattern_list=b[-3], script=b[-1])
-    n = S[(a[-4], 142)]
-    b[-3:] = [v]
-    a[-3:] = [n]
-    return H[n], False
+    n=S[(a[-4],142)]
+    b[-3:]=[v]
+    a[-3:]=[n]
+    return H[n],False
 
 
-def ar268_1(a, b, _):
+def r3c(a,b,_):
     v = b[-2] + [b[-1]]
-    n = S[(a[-3], 140)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],140)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar269_1(a, b, _):
+def r3d(a,b,_):
     v = b[-1]
-    n = S[(a[-3], 139)]
-    b[-2:] = [v]
-    a[-2:] = [n]
-    return H[n], False
+    n=S[(a[-3],139)]
+    b[-2:]=[v]
+    a[-2:]=[n]
+    return H[n],False
 
 
-def ar270_1(a, b, _):
+def r3e(a,b,_):
     v = ast.SelectCommand(name=b[-5], word_list=None, script=b[-2])
-    n = S[(a[-7], 144)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],144)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar272_1(a, b, _):
+def r3f(a,b,_):
     v = ast.Coprocess(name=b[-5], script=b[-2])
-    n = S[(a[-7], 144)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],144)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar276_1(a, b, _):
+def r3g(a,b,_):
     v = ast.AssignmentArray(name=b[-6], value_element_list=b[-3])
-    n = S[(a[-7], 135)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],135)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar277_1(a, b, _):
+def r3h(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-4], indirect=b[-5], offset=b[-2])
-    n = S[(a[-7], 123)]
-    b[-6:] = [v]
-    a[-6:] = [n]
-    return H[n], False
+    n=S[(a[-7],123)]
+    b[-6:]=[v]
+    a[-6:]=[n]
+    return H[n],False
 
 
-def ar282_1(a, b, _):
+def r3i(a,b,_):
     v = ast.IfCommand(test_script=b[-6], consequent_script=b[-4], else_if_list=[], alternate_script=b[-2])
-    n = S[(a[-8], 144)]
-    b[-7:] = [v]
-    a[-7:] = [n]
-    return H[n], False
+    n=S[(a[-8],144)]
+    b[-7:]=[v]
+    a[-7:]=[n]
+    return H[n],False
 
 
-def ar290_1(a, b, _):
+def r3j(a,b,_):
     v = ast.EnhanceForCommand(name=b[-7], word_list=b[-5], script=b[-2])
-    n = S[(a[-9], 144)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],144)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar291_1(a, b, _):
+def r3k(a,b,_):
     v = ast.ForCommand(test_script=b[-6], consequent_script=b[-2])
-    n = S[(a[-9], 144)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],144)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar292_1(a, b, _):
+def r3l(a,b,_):
     v = ast.IfCommand(test_script=b[-7], consequent_script=b[-5], else_if_list=b[-4], alternate_script=b[-2])
-    n = S[(a[-9], 144)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],144)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar293_1(a, b, _):
+def r3m(a,b,_):
     v = ast.ElifItem(test_script=b[-3], consequent_script=b[-1])
-    n = S[(a[-5], 137)]
-    b[-4:] = [v]
-    a[-4:] = [n]
-    return H[n], False
+    n=S[(a[-5],137)]
+    b[-4:]=[v]
+    a[-4:]=[n]
+    return H[n],False
 
 
-def ar294_1(a, b, _):
+def r3n(a,b,_):
     v = ast.SelectCommand(name=b[-7], word_list=b[-5], script=b[-2])
-    n = S[(a[-9], 144)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],144)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar298_1(a, b, _):
+def r3o(a,b,_):
     v = ast.Function(name=b[-7], script=b[-2])
-    n = S[(a[-9], 144)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],144)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar299_1(a, b, _):
+def r3p(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-6], indirect=b[-7], offset=b[-4], length=b[-2])
-    n = S[(a[-9], 123)]
-    b[-8:] = [v]
-    a[-8:] = [n]
-    return H[n], False
+    n=S[(a[-9],123)]
+    b[-8:]=[v]
+    a[-8:]=[n]
+    return H[n],False
 
 
-def ar301_1(a, b, _):
+def r3q(a,b,_):
     v = ast.Function(name=b[-8], script=b[-2])
-    n = S[(a[-10], 144)]
-    b[-9:] = [v]
-    a[-9:] = [n]
-    return H[n], False
+    n=S[(a[-10],144)]
+    b[-9:]=[v]
+    a[-9:]=[n]
+    return H[n],False
 
 
-def ar302_1(a, b, _):
+def r3r(a,b,_):
     v = ast.Function(name=b[-8], script=b[-2])
-    n = S[(a[-10], 144)]
-    b[-9:] = [v]
-    a[-9:] = [n]
-    return H[n], False
+    n=S[(a[-10],144)]
+    b[-9:]=[v]
+    a[-9:]=[n]
+    return H[n],False
 
 
-def ar303_1(a, b, _):
+def r3s(a,b,_):
     v = ast.Function(name=b[-9], script=b[-2])
-    n = S[(a[-11], 144)]
-    b[-10:] = [v]
-    a[-10:] = [n]
-    return H[n], False
-
-
-def ac(_1, _2, _3):
-    return None, True
-
-
-SH0 = {
-    0: ar0_1,
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
+    n=S[(a[-11],144)]
+    b[-10:]=[v]
+    a[-10:]=[n]
+    return H[n],False
+
+
+def p(a,b,c):
+    return None,True
+
+
+SH0={
+    0:r0,
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s0(a,b,c):
+    m=SH0[c.i]
+    return m(a,b,c)
+
+
+def s1(a,b,c):
+    assert c.i==0
+    return p(a,b,c)
+
+
+def s2(a,b,c):
+    assert c.i==0
+    return r1(a,b,c)
+
+
+SH3={
+    1:h0,
+    21:h5,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+E0={0,5,8,11,12,13,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,95,96,97,98,104,105,107}
+SH3.update({v: r2 for v in E0})
+
+
+def s3(a,b,c):
+    m=SH3[c.i]
+    return m(a,b,c)
+
+
+E1={0,1,5,8,11,12,13,21,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,94,95,96,97,98,100,102,103,104,105,106,107,108,109,110}
+def s4(a,b,c):
+    assert c.i in E1
+    return r3(a,b,c)
+
+
+SH5={
+    72:h16,
+    73:h17,
+}
+E2={2,10,19}
+SH5.update({v: r4 for v in E2})
+
+
+def s5(a,b,c):
+    m=SH5[c.i]
+    return m(a,b,c)
+
+
+SH6={
+    31:h18,
+    71:h19,
+}
+E3={2,10,19,72,73}
+SH6.update({v: r5 for v in E3})
+
+
+def s6(a,b,c):
+    m=SH6[c.i]
+    return m(a,b,c)
+
+
+SH7={
+    2:r6,
+    10:r6,
+    19:r6,
+    20:h1a,
+    22:h1b,
+    31:r6,
+    71:r6,
+    72:r6,
+    73:r6,
+    74:h1c,
+    75:h1d,
+    76:h1e,
+    77:h1f,
+    78:h1g,
+    79:h1h,
+    80:h1i,
+    81:h1j,
+    82:h1k,
+    83:h1l,
+    84:h1m,
+    85:h1n,
+    86:h1o,
+    87:h1p,
+    88:h1q,
+    89:h1r,
+    90:h1s,
+    91:h1t,
+    92:h1u,
+    93:h1v,
+}
+
+
+def s7(a,b,c):
+    m=SH7[c.i]
+    return m(a,b,c)
+
+
+SH8={
+    3:h1w,
+}
+E4={2,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
+SH8.update({v: r7 for v in E4})
+
+
+def s8(a,b,c):
+    m=SH8[c.i]
+    return m(a,b,c)
+
+
+SH9={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    104:r0,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s9(a,b,c):
+    m=SH9[c.i]
+    return m(a,b,c)
+
+
+SH11={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:h1x,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+}
+
+
+def s11(a,b,c):
+    m=SH11[c.i]
+    return m(a,b,c)
+
+
+SH12={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    95:r0,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s12(a,b,c):
+    m=SH12[c.i]
+    return m(a,b,c)
+
+
+SH13={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+}
+
+
+def s13(a,b,c):
+    m=SH13[c.i]
+    return m(a,b,c)
+
+
+SH15={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h1y,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+}
+
+
+def s15(a,b,c):
+    m=SH15[c.i]
+    return m(a,b,c)
+
+
+E5={2,3,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
+def s17(a,b,c):
+    assert c.i in E5
+    return r8(a,b,c)
+
+
+E6={2,3,10,12,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+def s18(a,b,c):
+    assert c.i in E6
+    return r9(a,b,c)
+
+
+SH23={
+    1:h1z,
+    5:h1,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+SH23.update({v: ra for v in E6})
+
+
+def s23(a,b,c):
+    m=SH23[c.i]
+    return m(a,b,c)
+
+
+SH24={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    63:r0,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s24(a,b,c):
+    m=SH24[c.i]
+    return m(a,b,c)
+
+
+SH25={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    66:r0,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s25(a,b,c):
+    m=SH25[c.i]
+    return m(a,b,c)
+
+
+SH26={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    13:r0,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s26(a,b,c):
+    m=SH26[c.i]
+    return m(a,b,c)
+
+
+SH27={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    33:r0,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s27(a,b,c):
+    m=SH27[c.i]
+    return m(a,b,c)
+
+
+SH28={
+    21:h20,
+    24:h21,
+}
+E7={1,2,3,5,8,10,11,12,19,20,22,27,29,31,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+SH28.update({v: rb for v in E7})
+
+
+def s28(a,b,c):
+    m=SH28[c.i]
+    return m(a,b,c)
+
+
+E8={1,2,3,5,6,8,10,11,12,15,18,19,20,21,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+def s29(a,b,c):
+    assert c.i in E8
+    return rc(a,b,c)
+
+
+def s30(a,b,c):
+    assert c.i in E8
+    return rd(a,b,c)
+
+
+def s44(a,b,c):
+    assert c.i in E8
+    return re(a,b,c)
+
+
+SH46={
+    1:h1z,
+    5:h1,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s46(a,b,c):
+    m=SH46[c.i]
+    return m(a,b,c)
+
+
+SH48={
+    4:h22,
+}
+E9={1,5,8,11,21,27,29,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70}
+SH48.update({v: rf for v in E9})
+
+
+def s48(a,b,c):
+    m=SH48[c.i]
+    return m(a,b,c)
+
+
+def s49(a,b,c):
+    assert c.i==1
+    return h23(a,b,c)
+
+
+def s50(a,b,c):
+    assert c.i in E8
+    return rg(a,b,c)
+
+
+def s51(a,b,c):
+    assert c.i in E8
+    return rh(a,b,c)
+
+
+def s52(a,b,c):
+    assert c.i in E8
+    return ri(a,b,c)
+
+
+def s53(a,b,c):
+    assert c.i in E8
+    return rj(a,b,c)
+
+
+def s54(a,b,c):
+    assert c.i in E8
+    return rk(a,b,c)
+
+
+def s55(a,b,c):
+    assert c.i in E8
+    return rl(a,b,c)
+
+
+def s56(a,b,c):
+    assert c.i in E8
+    return rm(a,b,c)
+
+
+def s57(a,b,c):
+    assert c.i in E8
+    return rn(a,b,c)
+
+
+def s58(a,b,c):
+    assert c.i in E8
+    return ro(a,b,c)
+
+
+def s59(a,b,c):
+    assert c.i in E8
+    return rp(a,b,c)
+
+
+def s60(a,b,c):
+    assert c.i in E8
+    return rq(a,b,c)
+
+
+def s61(a,b,c):
+    assert c.i in E8
+    return rr(a,b,c)
+
+
+def s62(a,b,c):
+    assert c.i in E8
+    return rs(a,b,c)
+
+
+def s63(a,b,c):
+    assert c.i in E8
+    return rt(a,b,c)
+
+
+def s64(a,b,c):
+    assert c.i in E8
+    return ru(a,b,c)
+
+
+def s65(a,b,c):
+    assert c.i in E8
+    return rv(a,b,c)
+
+
+def s66(a,b,c):
+    assert c.i in E8
+    return rw(a,b,c)
+
+
+SH68={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    28:r0,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s68(a,b,c):
+    m=SH68[c.i]
+    return m(a,b,c)
+
+
+SH69={
+    1:h24,
+    11:h25,
+}
+
+
+def s69(a,b,c):
+    m=SH69[c.i]
+    return m(a,b,c)
+
+
+SH70={
+    1:h26,
+    11:h27,
+}
+
+
+def s70(a,b,c):
+    m=SH70[c.i]
+    return m(a,b,c)
+
+
+SH71={
+    1:h1z,
+    5:h1,
+    6:h28,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s71(a,b,c):
+    m=SH71[c.i]
+    return m(a,b,c)
+
+
+SH72={
+    1:h1z,
+    5:h1,
+    6:h29,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s72(a,b,c):
+    m=SH72[c.i]
+    return m(a,b,c)
+
+
+def s73(a,b,c):
+    assert c.i in E1
+    return rx(a,b,c)
+
+
+SH74={
+    2:h2a,
+    10:h2b,
+    19:h2c,
+}
+
+
+def s74(a,b,c):
+    m=SH74[c.i]
+    return m(a,b,c)
+
+
+SH75={
+    72:h16,
+    73:h17,
+}
+SH75.update({v: ry for v in E2})
+
+
+def s75(a,b,c):
+    m=SH75[c.i]
+    return m(a,b,c)
+
+
+def s76(a,b,c):
+    assert c.i in E3
+    return rz(a,b,c)
+
+
+SH77={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s77(a,b,c):
+    m=SH77[c.i]
+    return m(a,b,c)
+
+
+Ea={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,94,100,102,103,106,108,109,110}
+def s78(a,b,c):
+    assert c.i in Ea
+    return r10(a,b,c)
+
+
+def s79(a,b,c):
+    assert c.i in Ea
+    return r11(a,b,c)
+
+
+def s80(a,b,c):
+    assert c.i in E3
+    return r12(a,b,c)
+
+
+SH81={
+    31:h18,
+    71:h19,
+}
+SH81.update({v: r13 for v in E3})
+
+
+def s81(a,b,c):
+    m=SH81[c.i]
+    return m(a,b,c)
+
+
+Eb={2,10,19,31,71,72,73}
+def s82(a,b,c):
+    assert c.i in Eb
+    return r14(a,b,c)
+
+
+def s84(a,b,c):
+    assert c.i in Ea
+    return r15(a,b,c)
+
+
+def s85(a,b,c):
+    assert c.i in Ea
+    return r16(a,b,c)
+
+
+def s86(a,b,c):
+    assert c.i in Eb
+    return r17(a,b,c)
+
+
+SH87={
+    2:r18,
+    10:r18,
+    19:r18,
+    20:h1a,
+    22:h1b,
+    31:r18,
+    71:r18,
+    72:r18,
+    73:r18,
+    74:h1c,
+    75:h1d,
+    76:h1e,
+    77:h1f,
+    78:h1g,
+    79:h1h,
+    80:h1i,
+    81:h1j,
+    82:h1k,
+    83:h1l,
+    84:h1m,
+    85:h1n,
+    86:h1o,
+    87:h1p,
+    88:h1q,
+    89:h1r,
+    90:h1s,
+    91:h1t,
+    92:h1u,
+    93:h1v,
+}
+
+
+def s87(a,b,c):
+    m=SH87[c.i]
+    return m(a,b,c)
+
+
+def s88(a,b,c):
+    assert c.i in E4
+    return r19(a,b,c)
+
+
+def s112(a,b,c):
+    assert c.i==104
+    return h2d(a,b,c)
+
+
+def s113(a,b,c):
+    assert c.i==104
+    return h2e(a,b,c)
+
+
+SH114={
+    2:h2a,
+    10:h2b,
+    19:h2c,
+    101:h2f,
+}
+
+
+def s114(a,b,c):
+    m=SH114[c.i]
+    return m(a,b,c)
+
+
+def s116(a,b,c):
+    assert c.i==95
+    return h2g(a,b,c)
+
+
+def s117(a,b,c):
+    assert c.i==101
+    return h2h(a,b,c)
+
+
+SH118={
+    19:h2i,
+    101:h2j,
+}
+
+
+def s118(a,b,c):
+    m=SH118[c.i]
+    return m(a,b,c)
+
+
+def s119(a,b,c):
+    assert c.i==3
+    return h2k(a,b,c)
+
+
+SH121={
+    3:h2l,
+    12:h2m,
+}
+
+
+def s121(a,b,c):
+    m=SH121[c.i]
+    return m(a,b,c)
+
+
+def s122(a,b,c):
+    assert c.i in E8
+    return r1a(a,b,c)
+
+
+SH123={
+    24:h21,
+}
+SH123.update({v: rb for v in E8})
+
+
+def s123(a,b,c):
+    m=SH123[c.i]
+    return m(a,b,c)
+
+
+def s124(a,b,c):
+    assert c.i==63
+    return h2n(a,b,c)
+
+
+def s125(a,b,c):
+    assert c.i==66
+    return h2o(a,b,c)
+
+
+def s126(a,b,c):
+    assert c.i==13
+    return h2p(a,b,c)
+
+
+def s127(a,b,c):
+    assert c.i==33
+    return h2q(a,b,c)
+
+
+SH128={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    14:h2r,
+    21:h5,
+    23:h2s,
+    25:r0,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s128(a,b,c):
+    m=SH128[c.i]
+    return m(a,b,c)
+
+
+SH129={
+    1:h1z,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h2t,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s129(a,b,c):
+    m=SH129[c.i]
+    return m(a,b,c)
+
+
+def s130(a,b,c):
+    assert c.i==63
+    return h2u(a,b,c)
+
+
+SH131={
+    15:h2v,
+    32:h2w,
+}
+
+
+def s131(a,b,c):
+    m=SH131[c.i]
+    return m(a,b,c)
+
+
+Ec={15,32}
+def s132(a,b,c):
+    assert c.i in Ec
+    return r1b(a,b,c)
+
+
+SH133={
+    1:h1z,
+    21:h5,
+}
+Ed={2,3,5,6,8,10,11,12,15,18,19,20,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+SH133.update({v: r1c for v in Ed})
+
+
+def s133(a,b,c):
+    m=SH133[c.i]
+    return m(a,b,c)
+
+
+def s135(a,b,c):
+    assert c.i in E9
+    return r1d(a,b,c)
+
+
+def s136(a,b,c):
+    assert c.i in E8
+    return r1e(a,b,c)
+
+
+def s137(a,b,c):
+    assert c.i==13
+    return h2x(a,b,c)
+
+
+def s138(a,b,c):
+    assert c.i==28
+    return h2y(a,b,c)
+
+
+def s139(a,b,c):
+    assert c.i==11
+    return h2z(a,b,c)
+
+
+def s140(a,b,c):
+    assert c.i in E8
+    return r1f(a,b,c)
+
+
+def s141(a,b,c):
+    assert c.i==11
+    return h30(a,b,c)
+
+
+def s142(a,b,c):
+    assert c.i in E8
+    return r1g(a,b,c)
+
+
+SH143={
+    1:h1z,
+    5:h1,
+    6:h31,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s143(a,b,c):
+    m=SH143[c.i]
+    return m(a,b,c)
+
+
+def s144(a,b,c):
+    assert c.i in E8
+    return r1h(a,b,c)
+
+
+SH145={
+    1:h1z,
+    5:h1,
+    6:h32,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s145(a,b,c):
+    m=SH145[c.i]
+    return m(a,b,c)
+
+
+def s146(a,b,c):
+    assert c.i in E8
+    return r1i(a,b,c)
+
+
+def s147(a,b,c):
+    assert c.i in E1
+    return r1j(a,b,c)
+
+
+def s148(a,b,c):
+    assert c.i in E1
+    return r1k(a,b,c)
+
+
+def s149(a,b,c):
+    assert c.i in E1
+    return r1l(a,b,c)
+
+
+def s150(a,b,c):
+    assert c.i in E1
+    return r1m(a,b,c)
+
+
+def s151(a,b,c):
+    assert c.i in E3
+    return r1n(a,b,c)
+
+
+def s152(a,b,c):
+    assert c.i in E3
+    return r1o(a,b,c)
+
+
+def s153(a,b,c):
+    assert c.i in Eb
+    return r1p(a,b,c)
+
+
+def s154(a,b,c):
+    assert c.i in Eb
+    return r1q(a,b,c)
+
+
+def s155(a,b,c):
+    assert c.i in E4
+    return r1r(a,b,c)
+
+
+SH156={
+    3:h1w,
+}
+SH156.update({v: r1s for v in E4})
+
+
+def s156(a,b,c):
+    m=SH156[c.i]
+    return m(a,b,c)
+
+
+SH157={
+    3:h1w,
+}
+SH157.update({v: r1t for v in E4})
+
+
+def s157(a,b,c):
+    m=SH157[c.i]
+    return m(a,b,c)
+
+
+SH158={
+    3:h1w,
+}
+SH158.update({v: r1u for v in E4})
+
+
+def s158(a,b,c):
+    m=SH158[c.i]
+    return m(a,b,c)
+
+
+SH159={
+    3:h1w,
+}
+SH159.update({v: r1v for v in E4})
+
+
+def s159(a,b,c):
+    m=SH159[c.i]
+    return m(a,b,c)
+
+
+SH160={
+    3:h1w,
+}
+SH160.update({v: r1w for v in E4})
+
+
+def s160(a,b,c):
+    m=SH160[c.i]
+    return m(a,b,c)
+
+
+SH161={
+    3:h1w,
+}
+SH161.update({v: r1x for v in E4})
+
+
+def s161(a,b,c):
+    m=SH161[c.i]
+    return m(a,b,c)
+
+
+SH162={
+    3:h1w,
+}
+SH162.update({v: r1y for v in E4})
+
+
+def s162(a,b,c):
+    m=SH162[c.i]
+    return m(a,b,c)
+
+
+SH163={
+    3:h1w,
+}
+SH163.update({v: r1z for v in E4})
+
+
+def s163(a,b,c):
+    m=SH163[c.i]
+    return m(a,b,c)
+
+
+SH164={
+    3:h1w,
+}
+SH164.update({v: r20 for v in E4})
+
+
+def s164(a,b,c):
+    m=SH164[c.i]
+    return m(a,b,c)
+
+
+SH165={
+    3:h1w,
+}
+SH165.update({v: r21 for v in E4})
+
+
+def s165(a,b,c):
+    m=SH165[c.i]
+    return m(a,b,c)
+
+
+SH166={
+    3:h1w,
+}
+SH166.update({v: r22 for v in E4})
+
+
+def s166(a,b,c):
+    m=SH166[c.i]
+    return m(a,b,c)
+
+
+SH167={
+    3:h1w,
+}
+SH167.update({v: r23 for v in E4})
+
+
+def s167(a,b,c):
+    m=SH167[c.i]
+    return m(a,b,c)
+
+
+SH168={
+    3:h1w,
+}
+SH168.update({v: r24 for v in E4})
+
+
+def s168(a,b,c):
+    m=SH168[c.i]
+    return m(a,b,c)
+
+
+SH169={
+    3:h1w,
+}
+SH169.update({v: r25 for v in E4})
+
+
+def s169(a,b,c):
+    m=SH169[c.i]
+    return m(a,b,c)
+
+
+SH170={
+    3:h1w,
+}
+SH170.update({v: r26 for v in E4})
+
+
+def s170(a,b,c):
+    m=SH170[c.i]
+    return m(a,b,c)
+
+
+SH171={
+    3:h1w,
+}
+SH171.update({v: r27 for v in E4})
+
+
+def s171(a,b,c):
+    m=SH171[c.i]
+    return m(a,b,c)
+
+
+SH172={
+    3:h1w,
+}
+SH172.update({v: r28 for v in E4})
+
+
+def s172(a,b,c):
+    m=SH172[c.i]
+    return m(a,b,c)
+
+
+SH173={
+    3:h1w,
+}
+SH173.update({v: r29 for v in E4})
+
+
+def s173(a,b,c):
+    m=SH173[c.i]
+    return m(a,b,c)
+
+
+SH174={
+    3:h1w,
+}
+SH174.update({v: r2a for v in E4})
+
+
+def s174(a,b,c):
+    m=SH174[c.i]
+    return m(a,b,c)
+
+
+SH175={
+    3:h1w,
+}
+SH175.update({v: r2b for v in E4})
+
+
+def s175(a,b,c):
+    m=SH175[c.i]
+    return m(a,b,c)
+
+
+SH176={
+    3:h1w,
+}
+SH176.update({v: r2c for v in E4})
+
+
+def s176(a,b,c):
+    m=SH176[c.i]
+    return m(a,b,c)
+
+
+SH177={
+    3:h1w,
+}
+SH177.update({v: r2d for v in E4})
+
+
+def s177(a,b,c):
+    m=SH177[c.i]
+    return m(a,b,c)
+
+
+def s178(a,b,c):
+    assert c.i in E5
+    return r2e(a,b,c)
+
+
+SH179={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    105:r0,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s179(a,b,c):
+    m=SH179[c.i]
+    return m(a,b,c)
+
+
+def s181(a,b,c):
+    assert c.i==104
+    return h33(a,b,c)
+
+
+def s183(a,b,c):
+    assert c.i==63
+    return h34(a,b,c)
+
+
+SH184={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    96:r0,
+    97:r0,
+    98:r0,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
+}
+
+
+def s184(a,b,c):
+    m=SH184[c.i]
+    return m(a,b,c)
+
+
+def s186(a,b,c):
+    assert c.i==104
+    return h35(a,b,c)
+
+
+def s188(a,b,c):
+    assert c.i==30
+    return h36(a,b,c)
+
+
+def s189(a,b,c):
+    assert c.i==33
+    return h37(a,b,c)
+
+
+def s190(a,b,c):
+    assert c.i==12
+    return h38(a,b,c)
+
+
+def s191(a,b,c):
+    assert c.i==19
+    return h39(a,b,c)
+
+
+def s192(a,b,c):
+    assert c.i in E6
+    return r2f(a,b,c)
+
+
+def s193(a,b,c):
+    assert c.i in E6
+    return r2g(a,b,c)
+
+
+def s194(a,b,c):
+    assert c.i in E6
+    return r2h(a,b,c)
+
+
+def s195(a,b,c):
+    assert c.i in E6
+    return r2i(a,b,c)
+
+
+def s196(a,b,c):
+    assert c.i==19
+    return h3a(a,b,c)
+
+
+def s197(a,b,c):
+    assert c.i==19
+    return h3b(a,b,c)
+
+
+def s198(a,b,c):
+    assert c.i==25
+    return h3c(a,b,c)
+
+
+SH199={
+    1:h1z,
+    5:h1,
+    8:h2,
+    11:h3,
+    21:h5,
+    27:h6,
+    29:h7,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+SH199.update({v: r2j for v in E6})
+
+
+def s199(a,b,c):
+    m=SH199[c.i]
+    return m(a,b,c)
+
+
+def s201(a,b,c):
+    assert c.i in E8
+    return r2k(a,b,c)
+
+
+def s203(a,b,c):
+    assert c.i in E8
+    return r2l(a,b,c)
+
+
+SH204={
+    1:h1z,
+    5:h1,
+    8:h2,
+    11:h3,
+    18:h3d,
+    21:h5,
+    27:h6,
+    29:h7,
+    32:h3e,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    64:hu,
+    69:hw,
+    70:hx,
+}
+
+
+def s204(a,b,c):
+    m=SH204[c.i]
+    return m(a,b,c)
+
+
+def s205(a,b,c):
+    assert c.i in E8
+    return r2m(a,b,c)
+
+
+def s206(a,b,c):
+    assert c.i in E8
+    return r2n(a,b,c)
+
+
+def s207(a,b,c):
+    assert c.i in E8
+    return r2o(a,b,c)
+
+
+def s208(a,b,c):
+    assert c.i in E8
+    return r2p(a,b,c)
+
+
+def s209(a,b,c):
+    assert c.i in E8
+    return r2q(a,b,c)
+
+
+def s210(a,b,c):
+    assert c.i in E8
+    return r2r(a,b,c)
+
+
+def s211(a,b,c):
+    assert c.i==105
+    return h3f(a,b,c)
+
+
+def s212(a,b,c):
+    assert c.i==105
+    return h3g(a,b,c)
+
+
+SH214={
+    2:h2a,
+    3:h1w,
+    10:h2b,
+    19:h2c,
+}
+
+
+def s214(a,b,c):
+    m=SH214[c.i]
+    return m(a,b,c)
+
+
+SH215={
+    19:h3h,
+}
+Ee={2,10,101}
+SH215.update({v: r2f for v in Ee})
+
+
+def s215(a,b,c):
+    m=SH215[c.i]
+    return m(a,b,c)
+
+
+SH216={
+    96:h3i,
+    97:h3j,
+    98:h3k,
+}
+
+
+def s216(a,b,c):
+    m=SH216[c.i]
+    return m(a,b,c)
+
+
+SH217={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    107:h3l,
 }
 
 
-def s0(a, b, terminal):
-    move_action = SH0[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s217(a,b,c):
+    m=SH217[c.i]
+    return m(a,b,c)
 
 
-SH1 = {
-    0: ac,
-}
-
-
-def s1(a, b, terminal):
-    move_action = SH1[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH2 = {
-    0: ar2_1,
-}
-
-
-def s2(a, b, terminal):
-    move_action = SH2[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH3 = {
-    0: ar3_1,
-    1: h28,
-    5: ar3_1,
-    8: ar3_1,
-    11: ar3_1,
-    12: ar3_1,
-    13: ar3_1,
-    21: h44,
-    25: ar3_1,
-    27: ar3_1,
-    28: ar3_1,
-    29: ar3_1,
-    30: ar3_1,
-    33: ar3_1,
-    34: ar3_1,
-    35: ar3_1,
-    36: ar3_1,
-    37: ar3_1,
-    38: ar3_1,
-    39: ar3_1,
-    40: ar3_1,
-    41: ar3_1,
-    42: ar3_1,
-    43: ar3_1,
-    44: ar3_1,
-    45: ar3_1,
-    46: ar3_1,
-    47: ar3_1,
-    48: ar3_1,
-    49: ar3_1,
-    50: ar3_1,
-    51: ar3_1,
-    60: ar3_1,
-    61: ar3_1,
-    62: ar3_1,
-    63: ar3_1,
-    64: ar3_1,
-    65: ar3_1,
-    66: ar3_1,
-    69: ar3_1,
-    70: ar3_1,
-    94: h12,
-    95: ar3_1,
-    96: ar3_1,
-    97: ar3_1,
-    98: ar3_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    104: ar3_1,
-    105: ar3_1,
-    106: h13,
-    107: ar3_1,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s3(a, b, terminal):
-    move_action = SH3[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH4 = {
-    0: ar4_1,
-    1: ar4_1,
-    5: ar4_1,
-    8: ar4_1,
-    11: ar4_1,
-    12: ar4_1,
-    13: ar4_1,
-    21: ar4_1,
-    25: ar4_1,
-    27: ar4_1,
-    28: ar4_1,
-    29: ar4_1,
-    30: ar4_1,
-    33: ar4_1,
-    34: ar4_1,
-    35: ar4_1,
-    36: ar4_1,
-    37: ar4_1,
-    38: ar4_1,
-    39: ar4_1,
-    40: ar4_1,
-    41: ar4_1,
-    42: ar4_1,
-    43: ar4_1,
-    44: ar4_1,
-    45: ar4_1,
-    46: ar4_1,
-    47: ar4_1,
-    48: ar4_1,
-    49: ar4_1,
-    50: ar4_1,
-    51: ar4_1,
-    60: ar4_1,
-    61: ar4_1,
-    62: ar4_1,
-    63: ar4_1,
-    64: ar4_1,
-    65: ar4_1,
-    66: ar4_1,
-    69: ar4_1,
-    70: ar4_1,
-    94: ar4_1,
-    95: ar4_1,
-    96: ar4_1,
-    97: ar4_1,
-    98: ar4_1,
-    100: ar4_1,
-    102: ar4_1,
-    103: ar4_1,
-    104: ar4_1,
-    105: ar4_1,
-    106: ar4_1,
-    107: ar4_1,
-    108: ar4_1,
-    109: ar4_1,
-    110: ar4_1,
-}
-
-
-def s4(a, b, terminal):
-    move_action = SH4[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH5 = {
-    2: ar5_1,
-    10: ar5_1,
-    19: ar5_1,
-    72: h78,
-    73: h79,
-}
-
-
-def s5(a, b, terminal):
-    move_action = SH5[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH6 = {
-    2: ar6_1,
-    10: ar6_1,
-    19: ar6_1,
-    31: h84,
-    71: h85,
-    72: ar6_1,
-    73: ar6_1,
-}
-
-
-def s6(a, b, terminal):
-    move_action = SH6[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH7 = {
-    2: ar7_1,
-    10: ar7_1,
-    19: ar7_1,
-    20: h99,
-    22: h100,
-    31: ar7_1,
-    71: ar7_1,
-    72: ar7_1,
-    73: ar7_1,
-    74: h89,
-    75: h90,
-    76: h91,
-    77: h92,
-    78: h93,
-    79: h94,
-    80: h95,
-    81: h96,
-    82: h97,
-    83: h98,
-    84: h101,
-    85: h102,
-    86: h103,
-    87: h104,
-    88: h105,
-    89: h106,
-    90: h107,
-    91: h108,
-    92: h109,
-    93: h110,
-}
-
-
-def s7(a, b, terminal):
-    move_action = SH7[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH8 = {
-    2: ar8_1,
-    3: h111,
-    10: ar8_1,
-    19: ar8_1,
-    20: ar8_1,
-    22: ar8_1,
-    31: ar8_1,
-    71: ar8_1,
-    72: ar8_1,
-    73: ar8_1,
-    74: ar8_1,
-    75: ar8_1,
-    76: ar8_1,
-    77: ar8_1,
-    78: ar8_1,
-    79: ar8_1,
-    80: ar8_1,
-    81: ar8_1,
-    82: ar8_1,
-    83: ar8_1,
-    84: ar8_1,
-    85: ar8_1,
-    86: ar8_1,
-    87: ar8_1,
-    88: ar8_1,
-    89: ar8_1,
-    90: ar8_1,
-    91: ar8_1,
-    92: ar8_1,
-    93: ar8_1,
-}
-
-
-def s8(a, b, terminal):
-    move_action = SH8[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH9 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    104: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s9(a, b, terminal):
-    move_action = SH9[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH10 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    104: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s10(a, b, terminal):
-    move_action = SH10[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH11 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h115,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s11(a, b, terminal):
-    move_action = SH11[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH12 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    95: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s12(a, b, terminal):
-    move_action = SH12[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH13 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s13(a, b, terminal):
-    move_action = SH13[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH14 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s14(a, b, terminal):
-    move_action = SH14[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH15 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h120,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s15(a, b, terminal):
-    move_action = SH15[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH16 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s16(a, b, terminal):
-    move_action = SH16[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH17 = {
-    2: ar17_1,
-    3: ar17_1,
-    10: ar17_1,
-    19: ar17_1,
-    20: ar17_1,
-    22: ar17_1,
-    31: ar17_1,
-    71: ar17_1,
-    72: ar17_1,
-    73: ar17_1,
-    74: ar17_1,
-    75: ar17_1,
-    76: ar17_1,
-    77: ar17_1,
-    78: ar17_1,
-    79: ar17_1,
-    80: ar17_1,
-    81: ar17_1,
-    82: ar17_1,
-    83: ar17_1,
-    84: ar17_1,
-    85: ar17_1,
-    86: ar17_1,
-    87: ar17_1,
-    88: ar17_1,
-    89: ar17_1,
-    90: ar17_1,
-    91: ar17_1,
-    92: ar17_1,
-    93: ar17_1,
-}
-
-
-def s17(a, b, terminal):
-    move_action = SH17[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH18 = {
-    2: ar18_1,
-    3: ar18_1,
-    10: ar18_1,
-    12: ar18_1,
-    19: ar18_1,
-    20: ar18_1,
-    22: ar18_1,
-    31: ar18_1,
-    71: ar18_1,
-    72: ar18_1,
-    73: ar18_1,
-    74: ar18_1,
-    75: ar18_1,
-    76: ar18_1,
-    77: ar18_1,
-    78: ar18_1,
-    79: ar18_1,
-    80: ar18_1,
-    81: ar18_1,
-    82: ar18_1,
-    83: ar18_1,
-    84: ar18_1,
-    85: ar18_1,
-    86: ar18_1,
-    87: ar18_1,
-    88: ar18_1,
-    89: ar18_1,
-    90: ar18_1,
-    91: ar18_1,
-    92: ar18_1,
-    93: ar18_1,
-    101: ar18_1,
-}
-
-
-def s18(a, b, terminal):
-    move_action = SH18[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH19 = {
-    2: ar18_1,
-    3: ar18_1,
-    10: ar18_1,
-    12: ar18_1,
-    19: ar18_1,
-    20: ar18_1,
-    22: ar18_1,
-    31: ar18_1,
-    71: ar18_1,
-    72: ar18_1,
-    73: ar18_1,
-    74: ar18_1,
-    75: ar18_1,
-    76: ar18_1,
-    77: ar18_1,
-    78: ar18_1,
-    79: ar18_1,
-    80: ar18_1,
-    81: ar18_1,
-    82: ar18_1,
-    83: ar18_1,
-    84: ar18_1,
-    85: ar18_1,
-    86: ar18_1,
-    87: ar18_1,
-    88: ar18_1,
-    89: ar18_1,
-    90: ar18_1,
-    91: ar18_1,
-    92: ar18_1,
-    93: ar18_1,
-    101: ar18_1,
-}
-
-
-def s19(a, b, terminal):
-    move_action = SH19[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH20 = {
-    2: ar18_1,
-    3: ar18_1,
-    10: ar18_1,
-    12: ar18_1,
-    19: ar18_1,
-    20: ar18_1,
-    22: ar18_1,
-    31: ar18_1,
-    71: ar18_1,
-    72: ar18_1,
-    73: ar18_1,
-    74: ar18_1,
-    75: ar18_1,
-    76: ar18_1,
-    77: ar18_1,
-    78: ar18_1,
-    79: ar18_1,
-    80: ar18_1,
-    81: ar18_1,
-    82: ar18_1,
-    83: ar18_1,
-    84: ar18_1,
-    85: ar18_1,
-    86: ar18_1,
-    87: ar18_1,
-    88: ar18_1,
-    89: ar18_1,
-    90: ar18_1,
-    91: ar18_1,
-    92: ar18_1,
-    93: ar18_1,
-    101: ar18_1,
-}
-
-
-def s20(a, b, terminal):
-    move_action = SH20[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH21 = {
-    2: ar18_1,
-    3: ar18_1,
-    10: ar18_1,
-    12: ar18_1,
-    19: ar18_1,
-    20: ar18_1,
-    22: ar18_1,
-    31: ar18_1,
-    71: ar18_1,
-    72: ar18_1,
-    73: ar18_1,
-    74: ar18_1,
-    75: ar18_1,
-    76: ar18_1,
-    77: ar18_1,
-    78: ar18_1,
-    79: ar18_1,
-    80: ar18_1,
-    81: ar18_1,
-    82: ar18_1,
-    83: ar18_1,
-    84: ar18_1,
-    85: ar18_1,
-    86: ar18_1,
-    87: ar18_1,
-    88: ar18_1,
-    89: ar18_1,
-    90: ar18_1,
-    91: ar18_1,
-    92: ar18_1,
-    93: ar18_1,
-    101: ar18_1,
-}
-
-
-def s21(a, b, terminal):
-    move_action = SH21[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH22 = {
-    2: ar18_1,
-    3: ar18_1,
-    10: ar18_1,
-    12: ar18_1,
-    19: ar18_1,
-    20: ar18_1,
-    22: ar18_1,
-    31: ar18_1,
-    71: ar18_1,
-    72: ar18_1,
-    73: ar18_1,
-    74: ar18_1,
-    75: ar18_1,
-    76: ar18_1,
-    77: ar18_1,
-    78: ar18_1,
-    79: ar18_1,
-    80: ar18_1,
-    81: ar18_1,
-    82: ar18_1,
-    83: ar18_1,
-    84: ar18_1,
-    85: ar18_1,
-    86: ar18_1,
-    87: ar18_1,
-    88: ar18_1,
-    89: ar18_1,
-    90: ar18_1,
-    91: ar18_1,
-    92: ar18_1,
-    93: ar18_1,
-    101: ar18_1,
-}
-
-
-def s22(a, b, terminal):
-    move_action = SH22[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH23 = {
-    1: h123,
-    2: ar23_1,
-    3: ar23_1,
-    5: h71,
-    8: h49,
-    10: ar23_1,
-    11: h69,
-    12: ar23_1,
-    19: ar23_1,
-    20: ar23_1,
-    21: h44,
-    22: ar23_1,
-    27: h68,
-    29: h46,
-    31: ar23_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-    71: ar23_1,
-    72: ar23_1,
-    73: ar23_1,
-    74: ar23_1,
-    75: ar23_1,
-    76: ar23_1,
-    77: ar23_1,
-    78: ar23_1,
-    79: ar23_1,
-    80: ar23_1,
-    81: ar23_1,
-    82: ar23_1,
-    83: ar23_1,
-    84: ar23_1,
-    85: ar23_1,
-    86: ar23_1,
-    87: ar23_1,
-    88: ar23_1,
-    89: ar23_1,
-    90: ar23_1,
-    91: ar23_1,
-    92: ar23_1,
-    93: ar23_1,
-    101: ar23_1,
-}
-
-
-def s23(a, b, terminal):
-    move_action = SH23[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH24 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    63: ar0_1,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s24(a, b, terminal):
-    move_action = SH24[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH25 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    66: ar0_1,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s25(a, b, terminal):
-    move_action = SH25[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH26 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    13: ar0_1,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s26(a, b, terminal):
-    move_action = SH26[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH27 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s27(a, b, terminal):
-    move_action = SH27[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH28 = {
-    1: ar28_1,
-    2: ar28_1,
-    3: ar28_1,
-    5: ar28_1,
-    8: ar28_1,
-    10: ar28_1,
-    11: ar28_1,
-    12: ar28_1,
-    19: ar28_1,
-    20: ar28_1,
-    21: h129,
-    22: ar28_1,
-    24: h128,
-    27: ar28_1,
-    29: ar28_1,
-    31: ar28_1,
-    34: ar28_1,
-    35: ar28_1,
-    36: ar28_1,
-    37: ar28_1,
-    38: ar28_1,
-    39: ar28_1,
-    40: ar28_1,
-    41: ar28_1,
-    42: ar28_1,
-    43: ar28_1,
-    44: ar28_1,
-    45: ar28_1,
-    46: ar28_1,
-    47: ar28_1,
-    48: ar28_1,
-    49: ar28_1,
-    50: ar28_1,
-    51: ar28_1,
-    60: ar28_1,
-    61: ar28_1,
-    64: ar28_1,
-    69: ar28_1,
-    70: ar28_1,
-    71: ar28_1,
-    72: ar28_1,
-    73: ar28_1,
-    74: ar28_1,
-    75: ar28_1,
-    76: ar28_1,
-    77: ar28_1,
-    78: ar28_1,
-    79: ar28_1,
-    80: ar28_1,
-    81: ar28_1,
-    82: ar28_1,
-    83: ar28_1,
-    84: ar28_1,
-    85: ar28_1,
-    86: ar28_1,
-    87: ar28_1,
-    88: ar28_1,
-    89: ar28_1,
-    90: ar28_1,
-    91: ar28_1,
-    92: ar28_1,
-    93: ar28_1,
-    101: ar28_1,
-}
-
-
-def s28(a, b, terminal):
-    move_action = SH28[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH29 = {
-    1: ar29_1,
-    2: ar29_1,
-    3: ar29_1,
-    5: ar29_1,
-    6: ar29_1,
-    8: ar29_1,
-    10: ar29_1,
-    11: ar29_1,
-    12: ar29_1,
-    15: ar29_1,
-    18: ar29_1,
-    19: ar29_1,
-    20: ar29_1,
-    21: ar29_1,
-    22: ar29_1,
-    27: ar29_1,
-    29: ar29_1,
-    31: ar29_1,
-    32: ar29_1,
-    34: ar29_1,
-    35: ar29_1,
-    36: ar29_1,
-    37: ar29_1,
-    38: ar29_1,
-    39: ar29_1,
-    40: ar29_1,
-    41: ar29_1,
-    42: ar29_1,
-    43: ar29_1,
-    44: ar29_1,
-    45: ar29_1,
-    46: ar29_1,
-    47: ar29_1,
-    48: ar29_1,
-    49: ar29_1,
-    50: ar29_1,
-    51: ar29_1,
-    60: ar29_1,
-    61: ar29_1,
-    64: ar29_1,
-    69: ar29_1,
-    70: ar29_1,
-    71: ar29_1,
-    72: ar29_1,
-    73: ar29_1,
-    74: ar29_1,
-    75: ar29_1,
-    76: ar29_1,
-    77: ar29_1,
-    78: ar29_1,
-    79: ar29_1,
-    80: ar29_1,
-    81: ar29_1,
-    82: ar29_1,
-    83: ar29_1,
-    84: ar29_1,
-    85: ar29_1,
-    86: ar29_1,
-    87: ar29_1,
-    88: ar29_1,
-    89: ar29_1,
-    90: ar29_1,
-    91: ar29_1,
-    92: ar29_1,
-    93: ar29_1,
-    101: ar29_1,
-}
-
-
-def s29(a, b, terminal):
-    move_action = SH29[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH30 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s30(a, b, terminal):
-    move_action = SH30[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH31 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s31(a, b, terminal):
-    move_action = SH31[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH32 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s32(a, b, terminal):
-    move_action = SH32[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH33 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s33(a, b, terminal):
-    move_action = SH33[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH34 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s34(a, b, terminal):
-    move_action = SH34[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH35 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s35(a, b, terminal):
-    move_action = SH35[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH36 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s36(a, b, terminal):
-    move_action = SH36[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH37 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s37(a, b, terminal):
-    move_action = SH37[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH38 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s38(a, b, terminal):
-    move_action = SH38[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH39 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s39(a, b, terminal):
-    move_action = SH39[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH40 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s40(a, b, terminal):
-    move_action = SH40[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH41 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s41(a, b, terminal):
-    move_action = SH41[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH42 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s42(a, b, terminal):
-    move_action = SH42[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH43 = {
-    1: ar30_1,
-    2: ar30_1,
-    3: ar30_1,
-    5: ar30_1,
-    6: ar30_1,
-    8: ar30_1,
-    10: ar30_1,
-    11: ar30_1,
-    12: ar30_1,
-    15: ar30_1,
-    18: ar30_1,
-    19: ar30_1,
-    20: ar30_1,
-    21: ar30_1,
-    22: ar30_1,
-    27: ar30_1,
-    29: ar30_1,
-    31: ar30_1,
-    32: ar30_1,
-    34: ar30_1,
-    35: ar30_1,
-    36: ar30_1,
-    37: ar30_1,
-    38: ar30_1,
-    39: ar30_1,
-    40: ar30_1,
-    41: ar30_1,
-    42: ar30_1,
-    43: ar30_1,
-    44: ar30_1,
-    45: ar30_1,
-    46: ar30_1,
-    47: ar30_1,
-    48: ar30_1,
-    49: ar30_1,
-    50: ar30_1,
-    51: ar30_1,
-    60: ar30_1,
-    61: ar30_1,
-    64: ar30_1,
-    69: ar30_1,
-    70: ar30_1,
-    71: ar30_1,
-    72: ar30_1,
-    73: ar30_1,
-    74: ar30_1,
-    75: ar30_1,
-    76: ar30_1,
-    77: ar30_1,
-    78: ar30_1,
-    79: ar30_1,
-    80: ar30_1,
-    81: ar30_1,
-    82: ar30_1,
-    83: ar30_1,
-    84: ar30_1,
-    85: ar30_1,
-    86: ar30_1,
-    87: ar30_1,
-    88: ar30_1,
-    89: ar30_1,
-    90: ar30_1,
-    91: ar30_1,
-    92: ar30_1,
-    93: ar30_1,
-    101: ar30_1,
-}
-
-
-def s43(a, b, terminal):
-    move_action = SH43[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH44 = {
-    1: ar44_1,
-    2: ar44_1,
-    3: ar44_1,
-    5: ar44_1,
-    6: ar44_1,
-    8: ar44_1,
-    10: ar44_1,
-    11: ar44_1,
-    12: ar44_1,
-    15: ar44_1,
-    18: ar44_1,
-    19: ar44_1,
-    20: ar44_1,
-    21: ar44_1,
-    22: ar44_1,
-    27: ar44_1,
-    29: ar44_1,
-    31: ar44_1,
-    32: ar44_1,
-    34: ar44_1,
-    35: ar44_1,
-    36: ar44_1,
-    37: ar44_1,
-    38: ar44_1,
-    39: ar44_1,
-    40: ar44_1,
-    41: ar44_1,
-    42: ar44_1,
-    43: ar44_1,
-    44: ar44_1,
-    45: ar44_1,
-    46: ar44_1,
-    47: ar44_1,
-    48: ar44_1,
-    49: ar44_1,
-    50: ar44_1,
-    51: ar44_1,
-    60: ar44_1,
-    61: ar44_1,
-    64: ar44_1,
-    69: ar44_1,
-    70: ar44_1,
-    71: ar44_1,
-    72: ar44_1,
-    73: ar44_1,
-    74: ar44_1,
-    75: ar44_1,
-    76: ar44_1,
-    77: ar44_1,
-    78: ar44_1,
-    79: ar44_1,
-    80: ar44_1,
-    81: ar44_1,
-    82: ar44_1,
-    83: ar44_1,
-    84: ar44_1,
-    85: ar44_1,
-    86: ar44_1,
-    87: ar44_1,
-    88: ar44_1,
-    89: ar44_1,
-    90: ar44_1,
-    91: ar44_1,
-    92: ar44_1,
-    93: ar44_1,
-    101: ar44_1,
-}
-
-
-def s44(a, b, terminal):
-    move_action = SH44[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH45 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    63: ar0_1,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s45(a, b, terminal):
-    move_action = SH45[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH46 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s46(a, b, terminal):
-    move_action = SH46[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH47 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s47(a, b, terminal):
-    move_action = SH47[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH48 = {
-    1: ar48_1,
-    4: h135,
-    5: ar48_1,
-    8: ar48_1,
-    11: ar48_1,
-    21: ar48_1,
-    27: ar48_1,
-    29: ar48_1,
-    34: ar48_1,
-    35: ar48_1,
-    36: ar48_1,
-    37: ar48_1,
-    38: ar48_1,
-    39: ar48_1,
-    40: ar48_1,
-    41: ar48_1,
-    42: ar48_1,
-    43: ar48_1,
-    44: ar48_1,
-    45: ar48_1,
-    46: ar48_1,
-    47: ar48_1,
-    48: ar48_1,
-    49: ar48_1,
-    50: ar48_1,
-    51: ar48_1,
-    60: ar48_1,
-    61: ar48_1,
-    64: ar48_1,
-    69: ar48_1,
-    70: ar48_1,
-}
-
-
-def s48(a, b, terminal):
-    move_action = SH48[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH49 = {
-    1: h136,
-}
-
-
-def s49(a, b, terminal):
-    move_action = SH49[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH50 = {
-    1: ar50_1,
-    2: ar50_1,
-    3: ar50_1,
-    5: ar50_1,
-    6: ar50_1,
-    8: ar50_1,
-    10: ar50_1,
-    11: ar50_1,
-    12: ar50_1,
-    15: ar50_1,
-    18: ar50_1,
-    19: ar50_1,
-    20: ar50_1,
-    21: ar50_1,
-    22: ar50_1,
-    27: ar50_1,
-    29: ar50_1,
-    31: ar50_1,
-    32: ar50_1,
-    34: ar50_1,
-    35: ar50_1,
-    36: ar50_1,
-    37: ar50_1,
-    38: ar50_1,
-    39: ar50_1,
-    40: ar50_1,
-    41: ar50_1,
-    42: ar50_1,
-    43: ar50_1,
-    44: ar50_1,
-    45: ar50_1,
-    46: ar50_1,
-    47: ar50_1,
-    48: ar50_1,
-    49: ar50_1,
-    50: ar50_1,
-    51: ar50_1,
-    60: ar50_1,
-    61: ar50_1,
-    64: ar50_1,
-    69: ar50_1,
-    70: ar50_1,
-    71: ar50_1,
-    72: ar50_1,
-    73: ar50_1,
-    74: ar50_1,
-    75: ar50_1,
-    76: ar50_1,
-    77: ar50_1,
-    78: ar50_1,
-    79: ar50_1,
-    80: ar50_1,
-    81: ar50_1,
-    82: ar50_1,
-    83: ar50_1,
-    84: ar50_1,
-    85: ar50_1,
-    86: ar50_1,
-    87: ar50_1,
-    88: ar50_1,
-    89: ar50_1,
-    90: ar50_1,
-    91: ar50_1,
-    92: ar50_1,
-    93: ar50_1,
-    101: ar50_1,
-}
-
-
-def s50(a, b, terminal):
-    move_action = SH50[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH51 = {
-    1: ar51_1,
-    2: ar51_1,
-    3: ar51_1,
-    5: ar51_1,
-    6: ar51_1,
-    8: ar51_1,
-    10: ar51_1,
-    11: ar51_1,
-    12: ar51_1,
-    15: ar51_1,
-    18: ar51_1,
-    19: ar51_1,
-    20: ar51_1,
-    21: ar51_1,
-    22: ar51_1,
-    27: ar51_1,
-    29: ar51_1,
-    31: ar51_1,
-    32: ar51_1,
-    34: ar51_1,
-    35: ar51_1,
-    36: ar51_1,
-    37: ar51_1,
-    38: ar51_1,
-    39: ar51_1,
-    40: ar51_1,
-    41: ar51_1,
-    42: ar51_1,
-    43: ar51_1,
-    44: ar51_1,
-    45: ar51_1,
-    46: ar51_1,
-    47: ar51_1,
-    48: ar51_1,
-    49: ar51_1,
-    50: ar51_1,
-    51: ar51_1,
-    60: ar51_1,
-    61: ar51_1,
-    64: ar51_1,
-    69: ar51_1,
-    70: ar51_1,
-    71: ar51_1,
-    72: ar51_1,
-    73: ar51_1,
-    74: ar51_1,
-    75: ar51_1,
-    76: ar51_1,
-    77: ar51_1,
-    78: ar51_1,
-    79: ar51_1,
-    80: ar51_1,
-    81: ar51_1,
-    82: ar51_1,
-    83: ar51_1,
-    84: ar51_1,
-    85: ar51_1,
-    86: ar51_1,
-    87: ar51_1,
-    88: ar51_1,
-    89: ar51_1,
-    90: ar51_1,
-    91: ar51_1,
-    92: ar51_1,
-    93: ar51_1,
-    101: ar51_1,
-}
-
-
-def s51(a, b, terminal):
-    move_action = SH51[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH52 = {
-    1: ar52_1,
-    2: ar52_1,
-    3: ar52_1,
-    5: ar52_1,
-    6: ar52_1,
-    8: ar52_1,
-    10: ar52_1,
-    11: ar52_1,
-    12: ar52_1,
-    15: ar52_1,
-    18: ar52_1,
-    19: ar52_1,
-    20: ar52_1,
-    21: ar52_1,
-    22: ar52_1,
-    27: ar52_1,
-    29: ar52_1,
-    31: ar52_1,
-    32: ar52_1,
-    34: ar52_1,
-    35: ar52_1,
-    36: ar52_1,
-    37: ar52_1,
-    38: ar52_1,
-    39: ar52_1,
-    40: ar52_1,
-    41: ar52_1,
-    42: ar52_1,
-    43: ar52_1,
-    44: ar52_1,
-    45: ar52_1,
-    46: ar52_1,
-    47: ar52_1,
-    48: ar52_1,
-    49: ar52_1,
-    50: ar52_1,
-    51: ar52_1,
-    60: ar52_1,
-    61: ar52_1,
-    64: ar52_1,
-    69: ar52_1,
-    70: ar52_1,
-    71: ar52_1,
-    72: ar52_1,
-    73: ar52_1,
-    74: ar52_1,
-    75: ar52_1,
-    76: ar52_1,
-    77: ar52_1,
-    78: ar52_1,
-    79: ar52_1,
-    80: ar52_1,
-    81: ar52_1,
-    82: ar52_1,
-    83: ar52_1,
-    84: ar52_1,
-    85: ar52_1,
-    86: ar52_1,
-    87: ar52_1,
-    88: ar52_1,
-    89: ar52_1,
-    90: ar52_1,
-    91: ar52_1,
-    92: ar52_1,
-    93: ar52_1,
-    101: ar52_1,
-}
-
-
-def s52(a, b, terminal):
-    move_action = SH52[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH53 = {
-    1: ar53_1,
-    2: ar53_1,
-    3: ar53_1,
-    5: ar53_1,
-    6: ar53_1,
-    8: ar53_1,
-    10: ar53_1,
-    11: ar53_1,
-    12: ar53_1,
-    15: ar53_1,
-    18: ar53_1,
-    19: ar53_1,
-    20: ar53_1,
-    21: ar53_1,
-    22: ar53_1,
-    27: ar53_1,
-    29: ar53_1,
-    31: ar53_1,
-    32: ar53_1,
-    34: ar53_1,
-    35: ar53_1,
-    36: ar53_1,
-    37: ar53_1,
-    38: ar53_1,
-    39: ar53_1,
-    40: ar53_1,
-    41: ar53_1,
-    42: ar53_1,
-    43: ar53_1,
-    44: ar53_1,
-    45: ar53_1,
-    46: ar53_1,
-    47: ar53_1,
-    48: ar53_1,
-    49: ar53_1,
-    50: ar53_1,
-    51: ar53_1,
-    60: ar53_1,
-    61: ar53_1,
-    64: ar53_1,
-    69: ar53_1,
-    70: ar53_1,
-    71: ar53_1,
-    72: ar53_1,
-    73: ar53_1,
-    74: ar53_1,
-    75: ar53_1,
-    76: ar53_1,
-    77: ar53_1,
-    78: ar53_1,
-    79: ar53_1,
-    80: ar53_1,
-    81: ar53_1,
-    82: ar53_1,
-    83: ar53_1,
-    84: ar53_1,
-    85: ar53_1,
-    86: ar53_1,
-    87: ar53_1,
-    88: ar53_1,
-    89: ar53_1,
-    90: ar53_1,
-    91: ar53_1,
-    92: ar53_1,
-    93: ar53_1,
-    101: ar53_1,
-}
-
-
-def s53(a, b, terminal):
-    move_action = SH53[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH54 = {
-    1: ar54_1,
-    2: ar54_1,
-    3: ar54_1,
-    5: ar54_1,
-    6: ar54_1,
-    8: ar54_1,
-    10: ar54_1,
-    11: ar54_1,
-    12: ar54_1,
-    15: ar54_1,
-    18: ar54_1,
-    19: ar54_1,
-    20: ar54_1,
-    21: ar54_1,
-    22: ar54_1,
-    27: ar54_1,
-    29: ar54_1,
-    31: ar54_1,
-    32: ar54_1,
-    34: ar54_1,
-    35: ar54_1,
-    36: ar54_1,
-    37: ar54_1,
-    38: ar54_1,
-    39: ar54_1,
-    40: ar54_1,
-    41: ar54_1,
-    42: ar54_1,
-    43: ar54_1,
-    44: ar54_1,
-    45: ar54_1,
-    46: ar54_1,
-    47: ar54_1,
-    48: ar54_1,
-    49: ar54_1,
-    50: ar54_1,
-    51: ar54_1,
-    60: ar54_1,
-    61: ar54_1,
-    64: ar54_1,
-    69: ar54_1,
-    70: ar54_1,
-    71: ar54_1,
-    72: ar54_1,
-    73: ar54_1,
-    74: ar54_1,
-    75: ar54_1,
-    76: ar54_1,
-    77: ar54_1,
-    78: ar54_1,
-    79: ar54_1,
-    80: ar54_1,
-    81: ar54_1,
-    82: ar54_1,
-    83: ar54_1,
-    84: ar54_1,
-    85: ar54_1,
-    86: ar54_1,
-    87: ar54_1,
-    88: ar54_1,
-    89: ar54_1,
-    90: ar54_1,
-    91: ar54_1,
-    92: ar54_1,
-    93: ar54_1,
-    101: ar54_1,
-}
-
-
-def s54(a, b, terminal):
-    move_action = SH54[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH55 = {
-    1: ar55_1,
-    2: ar55_1,
-    3: ar55_1,
-    5: ar55_1,
-    6: ar55_1,
-    8: ar55_1,
-    10: ar55_1,
-    11: ar55_1,
-    12: ar55_1,
-    15: ar55_1,
-    18: ar55_1,
-    19: ar55_1,
-    20: ar55_1,
-    21: ar55_1,
-    22: ar55_1,
-    27: ar55_1,
-    29: ar55_1,
-    31: ar55_1,
-    32: ar55_1,
-    34: ar55_1,
-    35: ar55_1,
-    36: ar55_1,
-    37: ar55_1,
-    38: ar55_1,
-    39: ar55_1,
-    40: ar55_1,
-    41: ar55_1,
-    42: ar55_1,
-    43: ar55_1,
-    44: ar55_1,
-    45: ar55_1,
-    46: ar55_1,
-    47: ar55_1,
-    48: ar55_1,
-    49: ar55_1,
-    50: ar55_1,
-    51: ar55_1,
-    60: ar55_1,
-    61: ar55_1,
-    64: ar55_1,
-    69: ar55_1,
-    70: ar55_1,
-    71: ar55_1,
-    72: ar55_1,
-    73: ar55_1,
-    74: ar55_1,
-    75: ar55_1,
-    76: ar55_1,
-    77: ar55_1,
-    78: ar55_1,
-    79: ar55_1,
-    80: ar55_1,
-    81: ar55_1,
-    82: ar55_1,
-    83: ar55_1,
-    84: ar55_1,
-    85: ar55_1,
-    86: ar55_1,
-    87: ar55_1,
-    88: ar55_1,
-    89: ar55_1,
-    90: ar55_1,
-    91: ar55_1,
-    92: ar55_1,
-    93: ar55_1,
-    101: ar55_1,
-}
-
-
-def s55(a, b, terminal):
-    move_action = SH55[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH56 = {
-    1: ar56_1,
-    2: ar56_1,
-    3: ar56_1,
-    5: ar56_1,
-    6: ar56_1,
-    8: ar56_1,
-    10: ar56_1,
-    11: ar56_1,
-    12: ar56_1,
-    15: ar56_1,
-    18: ar56_1,
-    19: ar56_1,
-    20: ar56_1,
-    21: ar56_1,
-    22: ar56_1,
-    27: ar56_1,
-    29: ar56_1,
-    31: ar56_1,
-    32: ar56_1,
-    34: ar56_1,
-    35: ar56_1,
-    36: ar56_1,
-    37: ar56_1,
-    38: ar56_1,
-    39: ar56_1,
-    40: ar56_1,
-    41: ar56_1,
-    42: ar56_1,
-    43: ar56_1,
-    44: ar56_1,
-    45: ar56_1,
-    46: ar56_1,
-    47: ar56_1,
-    48: ar56_1,
-    49: ar56_1,
-    50: ar56_1,
-    51: ar56_1,
-    60: ar56_1,
-    61: ar56_1,
-    64: ar56_1,
-    69: ar56_1,
-    70: ar56_1,
-    71: ar56_1,
-    72: ar56_1,
-    73: ar56_1,
-    74: ar56_1,
-    75: ar56_1,
-    76: ar56_1,
-    77: ar56_1,
-    78: ar56_1,
-    79: ar56_1,
-    80: ar56_1,
-    81: ar56_1,
-    82: ar56_1,
-    83: ar56_1,
-    84: ar56_1,
-    85: ar56_1,
-    86: ar56_1,
-    87: ar56_1,
-    88: ar56_1,
-    89: ar56_1,
-    90: ar56_1,
-    91: ar56_1,
-    92: ar56_1,
-    93: ar56_1,
-    101: ar56_1,
-}
-
-
-def s56(a, b, terminal):
-    move_action = SH56[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH57 = {
-    1: ar57_1,
-    2: ar57_1,
-    3: ar57_1,
-    5: ar57_1,
-    6: ar57_1,
-    8: ar57_1,
-    10: ar57_1,
-    11: ar57_1,
-    12: ar57_1,
-    15: ar57_1,
-    18: ar57_1,
-    19: ar57_1,
-    20: ar57_1,
-    21: ar57_1,
-    22: ar57_1,
-    27: ar57_1,
-    29: ar57_1,
-    31: ar57_1,
-    32: ar57_1,
-    34: ar57_1,
-    35: ar57_1,
-    36: ar57_1,
-    37: ar57_1,
-    38: ar57_1,
-    39: ar57_1,
-    40: ar57_1,
-    41: ar57_1,
-    42: ar57_1,
-    43: ar57_1,
-    44: ar57_1,
-    45: ar57_1,
-    46: ar57_1,
-    47: ar57_1,
-    48: ar57_1,
-    49: ar57_1,
-    50: ar57_1,
-    51: ar57_1,
-    60: ar57_1,
-    61: ar57_1,
-    64: ar57_1,
-    69: ar57_1,
-    70: ar57_1,
-    71: ar57_1,
-    72: ar57_1,
-    73: ar57_1,
-    74: ar57_1,
-    75: ar57_1,
-    76: ar57_1,
-    77: ar57_1,
-    78: ar57_1,
-    79: ar57_1,
-    80: ar57_1,
-    81: ar57_1,
-    82: ar57_1,
-    83: ar57_1,
-    84: ar57_1,
-    85: ar57_1,
-    86: ar57_1,
-    87: ar57_1,
-    88: ar57_1,
-    89: ar57_1,
-    90: ar57_1,
-    91: ar57_1,
-    92: ar57_1,
-    93: ar57_1,
-    101: ar57_1,
-}
-
-
-def s57(a, b, terminal):
-    move_action = SH57[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH58 = {
-    1: ar58_1,
-    2: ar58_1,
-    3: ar58_1,
-    5: ar58_1,
-    6: ar58_1,
-    8: ar58_1,
-    10: ar58_1,
-    11: ar58_1,
-    12: ar58_1,
-    15: ar58_1,
-    18: ar58_1,
-    19: ar58_1,
-    20: ar58_1,
-    21: ar58_1,
-    22: ar58_1,
-    27: ar58_1,
-    29: ar58_1,
-    31: ar58_1,
-    32: ar58_1,
-    34: ar58_1,
-    35: ar58_1,
-    36: ar58_1,
-    37: ar58_1,
-    38: ar58_1,
-    39: ar58_1,
-    40: ar58_1,
-    41: ar58_1,
-    42: ar58_1,
-    43: ar58_1,
-    44: ar58_1,
-    45: ar58_1,
-    46: ar58_1,
-    47: ar58_1,
-    48: ar58_1,
-    49: ar58_1,
-    50: ar58_1,
-    51: ar58_1,
-    60: ar58_1,
-    61: ar58_1,
-    64: ar58_1,
-    69: ar58_1,
-    70: ar58_1,
-    71: ar58_1,
-    72: ar58_1,
-    73: ar58_1,
-    74: ar58_1,
-    75: ar58_1,
-    76: ar58_1,
-    77: ar58_1,
-    78: ar58_1,
-    79: ar58_1,
-    80: ar58_1,
-    81: ar58_1,
-    82: ar58_1,
-    83: ar58_1,
-    84: ar58_1,
-    85: ar58_1,
-    86: ar58_1,
-    87: ar58_1,
-    88: ar58_1,
-    89: ar58_1,
-    90: ar58_1,
-    91: ar58_1,
-    92: ar58_1,
-    93: ar58_1,
-    101: ar58_1,
-}
-
-
-def s58(a, b, terminal):
-    move_action = SH58[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH59 = {
-    1: ar59_1,
-    2: ar59_1,
-    3: ar59_1,
-    5: ar59_1,
-    6: ar59_1,
-    8: ar59_1,
-    10: ar59_1,
-    11: ar59_1,
-    12: ar59_1,
-    15: ar59_1,
-    18: ar59_1,
-    19: ar59_1,
-    20: ar59_1,
-    21: ar59_1,
-    22: ar59_1,
-    27: ar59_1,
-    29: ar59_1,
-    31: ar59_1,
-    32: ar59_1,
-    34: ar59_1,
-    35: ar59_1,
-    36: ar59_1,
-    37: ar59_1,
-    38: ar59_1,
-    39: ar59_1,
-    40: ar59_1,
-    41: ar59_1,
-    42: ar59_1,
-    43: ar59_1,
-    44: ar59_1,
-    45: ar59_1,
-    46: ar59_1,
-    47: ar59_1,
-    48: ar59_1,
-    49: ar59_1,
-    50: ar59_1,
-    51: ar59_1,
-    60: ar59_1,
-    61: ar59_1,
-    64: ar59_1,
-    69: ar59_1,
-    70: ar59_1,
-    71: ar59_1,
-    72: ar59_1,
-    73: ar59_1,
-    74: ar59_1,
-    75: ar59_1,
-    76: ar59_1,
-    77: ar59_1,
-    78: ar59_1,
-    79: ar59_1,
-    80: ar59_1,
-    81: ar59_1,
-    82: ar59_1,
-    83: ar59_1,
-    84: ar59_1,
-    85: ar59_1,
-    86: ar59_1,
-    87: ar59_1,
-    88: ar59_1,
-    89: ar59_1,
-    90: ar59_1,
-    91: ar59_1,
-    92: ar59_1,
-    93: ar59_1,
-    101: ar59_1,
-}
-
-
-def s59(a, b, terminal):
-    move_action = SH59[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH60 = {
-    1: ar60_1,
-    2: ar60_1,
-    3: ar60_1,
-    5: ar60_1,
-    6: ar60_1,
-    8: ar60_1,
-    10: ar60_1,
-    11: ar60_1,
-    12: ar60_1,
-    15: ar60_1,
-    18: ar60_1,
-    19: ar60_1,
-    20: ar60_1,
-    21: ar60_1,
-    22: ar60_1,
-    27: ar60_1,
-    29: ar60_1,
-    31: ar60_1,
-    32: ar60_1,
-    34: ar60_1,
-    35: ar60_1,
-    36: ar60_1,
-    37: ar60_1,
-    38: ar60_1,
-    39: ar60_1,
-    40: ar60_1,
-    41: ar60_1,
-    42: ar60_1,
-    43: ar60_1,
-    44: ar60_1,
-    45: ar60_1,
-    46: ar60_1,
-    47: ar60_1,
-    48: ar60_1,
-    49: ar60_1,
-    50: ar60_1,
-    51: ar60_1,
-    60: ar60_1,
-    61: ar60_1,
-    64: ar60_1,
-    69: ar60_1,
-    70: ar60_1,
-    71: ar60_1,
-    72: ar60_1,
-    73: ar60_1,
-    74: ar60_1,
-    75: ar60_1,
-    76: ar60_1,
-    77: ar60_1,
-    78: ar60_1,
-    79: ar60_1,
-    80: ar60_1,
-    81: ar60_1,
-    82: ar60_1,
-    83: ar60_1,
-    84: ar60_1,
-    85: ar60_1,
-    86: ar60_1,
-    87: ar60_1,
-    88: ar60_1,
-    89: ar60_1,
-    90: ar60_1,
-    91: ar60_1,
-    92: ar60_1,
-    93: ar60_1,
-    101: ar60_1,
-}
-
-
-def s60(a, b, terminal):
-    move_action = SH60[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH61 = {
-    1: ar61_1,
-    2: ar61_1,
-    3: ar61_1,
-    5: ar61_1,
-    6: ar61_1,
-    8: ar61_1,
-    10: ar61_1,
-    11: ar61_1,
-    12: ar61_1,
-    15: ar61_1,
-    18: ar61_1,
-    19: ar61_1,
-    20: ar61_1,
-    21: ar61_1,
-    22: ar61_1,
-    27: ar61_1,
-    29: ar61_1,
-    31: ar61_1,
-    32: ar61_1,
-    34: ar61_1,
-    35: ar61_1,
-    36: ar61_1,
-    37: ar61_1,
-    38: ar61_1,
-    39: ar61_1,
-    40: ar61_1,
-    41: ar61_1,
-    42: ar61_1,
-    43: ar61_1,
-    44: ar61_1,
-    45: ar61_1,
-    46: ar61_1,
-    47: ar61_1,
-    48: ar61_1,
-    49: ar61_1,
-    50: ar61_1,
-    51: ar61_1,
-    60: ar61_1,
-    61: ar61_1,
-    64: ar61_1,
-    69: ar61_1,
-    70: ar61_1,
-    71: ar61_1,
-    72: ar61_1,
-    73: ar61_1,
-    74: ar61_1,
-    75: ar61_1,
-    76: ar61_1,
-    77: ar61_1,
-    78: ar61_1,
-    79: ar61_1,
-    80: ar61_1,
-    81: ar61_1,
-    82: ar61_1,
-    83: ar61_1,
-    84: ar61_1,
-    85: ar61_1,
-    86: ar61_1,
-    87: ar61_1,
-    88: ar61_1,
-    89: ar61_1,
-    90: ar61_1,
-    91: ar61_1,
-    92: ar61_1,
-    93: ar61_1,
-    101: ar61_1,
-}
-
-
-def s61(a, b, terminal):
-    move_action = SH61[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH62 = {
-    1: ar62_1,
-    2: ar62_1,
-    3: ar62_1,
-    5: ar62_1,
-    6: ar62_1,
-    8: ar62_1,
-    10: ar62_1,
-    11: ar62_1,
-    12: ar62_1,
-    15: ar62_1,
-    18: ar62_1,
-    19: ar62_1,
-    20: ar62_1,
-    21: ar62_1,
-    22: ar62_1,
-    27: ar62_1,
-    29: ar62_1,
-    31: ar62_1,
-    32: ar62_1,
-    34: ar62_1,
-    35: ar62_1,
-    36: ar62_1,
-    37: ar62_1,
-    38: ar62_1,
-    39: ar62_1,
-    40: ar62_1,
-    41: ar62_1,
-    42: ar62_1,
-    43: ar62_1,
-    44: ar62_1,
-    45: ar62_1,
-    46: ar62_1,
-    47: ar62_1,
-    48: ar62_1,
-    49: ar62_1,
-    50: ar62_1,
-    51: ar62_1,
-    60: ar62_1,
-    61: ar62_1,
-    64: ar62_1,
-    69: ar62_1,
-    70: ar62_1,
-    71: ar62_1,
-    72: ar62_1,
-    73: ar62_1,
-    74: ar62_1,
-    75: ar62_1,
-    76: ar62_1,
-    77: ar62_1,
-    78: ar62_1,
-    79: ar62_1,
-    80: ar62_1,
-    81: ar62_1,
-    82: ar62_1,
-    83: ar62_1,
-    84: ar62_1,
-    85: ar62_1,
-    86: ar62_1,
-    87: ar62_1,
-    88: ar62_1,
-    89: ar62_1,
-    90: ar62_1,
-    91: ar62_1,
-    92: ar62_1,
-    93: ar62_1,
-    101: ar62_1,
-}
-
-
-def s62(a, b, terminal):
-    move_action = SH62[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH63 = {
-    1: ar63_1,
-    2: ar63_1,
-    3: ar63_1,
-    5: ar63_1,
-    6: ar63_1,
-    8: ar63_1,
-    10: ar63_1,
-    11: ar63_1,
-    12: ar63_1,
-    15: ar63_1,
-    18: ar63_1,
-    19: ar63_1,
-    20: ar63_1,
-    21: ar63_1,
-    22: ar63_1,
-    27: ar63_1,
-    29: ar63_1,
-    31: ar63_1,
-    32: ar63_1,
-    34: ar63_1,
-    35: ar63_1,
-    36: ar63_1,
-    37: ar63_1,
-    38: ar63_1,
-    39: ar63_1,
-    40: ar63_1,
-    41: ar63_1,
-    42: ar63_1,
-    43: ar63_1,
-    44: ar63_1,
-    45: ar63_1,
-    46: ar63_1,
-    47: ar63_1,
-    48: ar63_1,
-    49: ar63_1,
-    50: ar63_1,
-    51: ar63_1,
-    60: ar63_1,
-    61: ar63_1,
-    64: ar63_1,
-    69: ar63_1,
-    70: ar63_1,
-    71: ar63_1,
-    72: ar63_1,
-    73: ar63_1,
-    74: ar63_1,
-    75: ar63_1,
-    76: ar63_1,
-    77: ar63_1,
-    78: ar63_1,
-    79: ar63_1,
-    80: ar63_1,
-    81: ar63_1,
-    82: ar63_1,
-    83: ar63_1,
-    84: ar63_1,
-    85: ar63_1,
-    86: ar63_1,
-    87: ar63_1,
-    88: ar63_1,
-    89: ar63_1,
-    90: ar63_1,
-    91: ar63_1,
-    92: ar63_1,
-    93: ar63_1,
-    101: ar63_1,
-}
-
-
-def s63(a, b, terminal):
-    move_action = SH63[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH64 = {
-    1: ar64_1,
-    2: ar64_1,
-    3: ar64_1,
-    5: ar64_1,
-    6: ar64_1,
-    8: ar64_1,
-    10: ar64_1,
-    11: ar64_1,
-    12: ar64_1,
-    15: ar64_1,
-    18: ar64_1,
-    19: ar64_1,
-    20: ar64_1,
-    21: ar64_1,
-    22: ar64_1,
-    27: ar64_1,
-    29: ar64_1,
-    31: ar64_1,
-    32: ar64_1,
-    34: ar64_1,
-    35: ar64_1,
-    36: ar64_1,
-    37: ar64_1,
-    38: ar64_1,
-    39: ar64_1,
-    40: ar64_1,
-    41: ar64_1,
-    42: ar64_1,
-    43: ar64_1,
-    44: ar64_1,
-    45: ar64_1,
-    46: ar64_1,
-    47: ar64_1,
-    48: ar64_1,
-    49: ar64_1,
-    50: ar64_1,
-    51: ar64_1,
-    60: ar64_1,
-    61: ar64_1,
-    64: ar64_1,
-    69: ar64_1,
-    70: ar64_1,
-    71: ar64_1,
-    72: ar64_1,
-    73: ar64_1,
-    74: ar64_1,
-    75: ar64_1,
-    76: ar64_1,
-    77: ar64_1,
-    78: ar64_1,
-    79: ar64_1,
-    80: ar64_1,
-    81: ar64_1,
-    82: ar64_1,
-    83: ar64_1,
-    84: ar64_1,
-    85: ar64_1,
-    86: ar64_1,
-    87: ar64_1,
-    88: ar64_1,
-    89: ar64_1,
-    90: ar64_1,
-    91: ar64_1,
-    92: ar64_1,
-    93: ar64_1,
-    101: ar64_1,
-}
-
-
-def s64(a, b, terminal):
-    move_action = SH64[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH65 = {
-    1: ar65_1,
-    2: ar65_1,
-    3: ar65_1,
-    5: ar65_1,
-    6: ar65_1,
-    8: ar65_1,
-    10: ar65_1,
-    11: ar65_1,
-    12: ar65_1,
-    15: ar65_1,
-    18: ar65_1,
-    19: ar65_1,
-    20: ar65_1,
-    21: ar65_1,
-    22: ar65_1,
-    27: ar65_1,
-    29: ar65_1,
-    31: ar65_1,
-    32: ar65_1,
-    34: ar65_1,
-    35: ar65_1,
-    36: ar65_1,
-    37: ar65_1,
-    38: ar65_1,
-    39: ar65_1,
-    40: ar65_1,
-    41: ar65_1,
-    42: ar65_1,
-    43: ar65_1,
-    44: ar65_1,
-    45: ar65_1,
-    46: ar65_1,
-    47: ar65_1,
-    48: ar65_1,
-    49: ar65_1,
-    50: ar65_1,
-    51: ar65_1,
-    60: ar65_1,
-    61: ar65_1,
-    64: ar65_1,
-    69: ar65_1,
-    70: ar65_1,
-    71: ar65_1,
-    72: ar65_1,
-    73: ar65_1,
-    74: ar65_1,
-    75: ar65_1,
-    76: ar65_1,
-    77: ar65_1,
-    78: ar65_1,
-    79: ar65_1,
-    80: ar65_1,
-    81: ar65_1,
-    82: ar65_1,
-    83: ar65_1,
-    84: ar65_1,
-    85: ar65_1,
-    86: ar65_1,
-    87: ar65_1,
-    88: ar65_1,
-    89: ar65_1,
-    90: ar65_1,
-    91: ar65_1,
-    92: ar65_1,
-    93: ar65_1,
-    101: ar65_1,
-}
-
-
-def s65(a, b, terminal):
-    move_action = SH65[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH66 = {
-    1: ar66_1,
-    2: ar66_1,
-    3: ar66_1,
-    5: ar66_1,
-    6: ar66_1,
-    8: ar66_1,
-    10: ar66_1,
-    11: ar66_1,
-    12: ar66_1,
-    15: ar66_1,
-    18: ar66_1,
-    19: ar66_1,
-    20: ar66_1,
-    21: ar66_1,
-    22: ar66_1,
-    27: ar66_1,
-    29: ar66_1,
-    31: ar66_1,
-    32: ar66_1,
-    34: ar66_1,
-    35: ar66_1,
-    36: ar66_1,
-    37: ar66_1,
-    38: ar66_1,
-    39: ar66_1,
-    40: ar66_1,
-    41: ar66_1,
-    42: ar66_1,
-    43: ar66_1,
-    44: ar66_1,
-    45: ar66_1,
-    46: ar66_1,
-    47: ar66_1,
-    48: ar66_1,
-    49: ar66_1,
-    50: ar66_1,
-    51: ar66_1,
-    60: ar66_1,
-    61: ar66_1,
-    64: ar66_1,
-    69: ar66_1,
-    70: ar66_1,
-    71: ar66_1,
-    72: ar66_1,
-    73: ar66_1,
-    74: ar66_1,
-    75: ar66_1,
-    76: ar66_1,
-    77: ar66_1,
-    78: ar66_1,
-    79: ar66_1,
-    80: ar66_1,
-    81: ar66_1,
-    82: ar66_1,
-    83: ar66_1,
-    84: ar66_1,
-    85: ar66_1,
-    86: ar66_1,
-    87: ar66_1,
-    88: ar66_1,
-    89: ar66_1,
-    90: ar66_1,
-    91: ar66_1,
-    92: ar66_1,
-    93: ar66_1,
-    101: ar66_1,
-}
-
-
-def s66(a, b, terminal):
-    move_action = SH66[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH67 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    13: ar0_1,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s67(a, b, terminal):
-    move_action = SH67[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH68 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    28: ar0_1,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s68(a, b, terminal):
-    move_action = SH68[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH69 = {
-    1: h139,
-    11: h140,
-}
-
-
-def s69(a, b, terminal):
-    move_action = SH69[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH70 = {
-    1: h141,
-    11: h142,
-}
-
-
-def s70(a, b, terminal):
-    move_action = SH70[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH71 = {
-    1: h123,
-    5: h71,
-    6: h144,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s71(a, b, terminal):
-    move_action = SH71[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH72 = {
-    1: h123,
-    5: h71,
-    6: h146,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s72(a, b, terminal):
-    move_action = SH72[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH73 = {
-    0: ar73_1,
-    1: ar73_1,
-    5: ar73_1,
-    8: ar73_1,
-    11: ar73_1,
-    12: ar73_1,
-    13: ar73_1,
-    21: ar73_1,
-    25: ar73_1,
-    27: ar73_1,
-    28: ar73_1,
-    29: ar73_1,
-    30: ar73_1,
-    33: ar73_1,
-    34: ar73_1,
-    35: ar73_1,
-    36: ar73_1,
-    37: ar73_1,
-    38: ar73_1,
-    39: ar73_1,
-    40: ar73_1,
-    41: ar73_1,
-    42: ar73_1,
-    43: ar73_1,
-    44: ar73_1,
-    45: ar73_1,
-    46: ar73_1,
-    47: ar73_1,
-    48: ar73_1,
-    49: ar73_1,
-    50: ar73_1,
-    51: ar73_1,
-    60: ar73_1,
-    61: ar73_1,
-    62: ar73_1,
-    63: ar73_1,
-    64: ar73_1,
-    65: ar73_1,
-    66: ar73_1,
-    69: ar73_1,
-    70: ar73_1,
-    94: ar73_1,
-    95: ar73_1,
-    96: ar73_1,
-    97: ar73_1,
-    98: ar73_1,
-    100: ar73_1,
-    102: ar73_1,
-    103: ar73_1,
-    104: ar73_1,
-    105: ar73_1,
-    106: ar73_1,
-    107: ar73_1,
-    108: ar73_1,
-    109: ar73_1,
-    110: ar73_1,
-}
-
-
-def s73(a, b, terminal):
-    move_action = SH73[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH74 = {
-    2: h148,
-    10: h149,
-    19: h150,
-}
-
-
-def s74(a, b, terminal):
-    move_action = SH74[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH75 = {
-    2: ar75_1,
-    10: ar75_1,
-    19: ar75_1,
-    72: h78,
-    73: h79,
-}
-
-
-def s75(a, b, terminal):
-    move_action = SH75[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH76 = {
-    2: ar76_1,
-    10: ar76_1,
-    19: ar76_1,
-    72: ar76_1,
-    73: ar76_1,
-}
-
-
-def s76(a, b, terminal):
-    move_action = SH76[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH77 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s77(a, b, terminal):
-    move_action = SH77[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH78 = {
-    1: ar78_1,
-    5: ar78_1,
-    8: ar78_1,
-    11: ar78_1,
-    12: ar78_1,
-    21: ar78_1,
-    27: ar78_1,
-    29: ar78_1,
-    30: ar78_1,
-    34: ar78_1,
-    35: ar78_1,
-    36: ar78_1,
-    37: ar78_1,
-    38: ar78_1,
-    39: ar78_1,
-    40: ar78_1,
-    41: ar78_1,
-    42: ar78_1,
-    43: ar78_1,
-    44: ar78_1,
-    45: ar78_1,
-    46: ar78_1,
-    47: ar78_1,
-    48: ar78_1,
-    49: ar78_1,
-    50: ar78_1,
-    51: ar78_1,
-    60: ar78_1,
-    61: ar78_1,
-    62: ar78_1,
-    64: ar78_1,
-    65: ar78_1,
-    69: ar78_1,
-    70: ar78_1,
-    94: ar78_1,
-    100: ar78_1,
-    102: ar78_1,
-    103: ar78_1,
-    106: ar78_1,
-    108: ar78_1,
-    109: ar78_1,
-    110: ar78_1,
-}
-
-
-def s78(a, b, terminal):
-    move_action = SH78[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH79 = {
-    1: ar79_1,
-    5: ar79_1,
-    8: ar79_1,
-    11: ar79_1,
-    12: ar79_1,
-    21: ar79_1,
-    27: ar79_1,
-    29: ar79_1,
-    30: ar79_1,
-    34: ar79_1,
-    35: ar79_1,
-    36: ar79_1,
-    37: ar79_1,
-    38: ar79_1,
-    39: ar79_1,
-    40: ar79_1,
-    41: ar79_1,
-    42: ar79_1,
-    43: ar79_1,
-    44: ar79_1,
-    45: ar79_1,
-    46: ar79_1,
-    47: ar79_1,
-    48: ar79_1,
-    49: ar79_1,
-    50: ar79_1,
-    51: ar79_1,
-    60: ar79_1,
-    61: ar79_1,
-    62: ar79_1,
-    64: ar79_1,
-    65: ar79_1,
-    69: ar79_1,
-    70: ar79_1,
-    94: ar79_1,
-    100: ar79_1,
-    102: ar79_1,
-    103: ar79_1,
-    106: ar79_1,
-    108: ar79_1,
-    109: ar79_1,
-    110: ar79_1,
-}
-
-
-def s79(a, b, terminal):
-    move_action = SH79[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH80 = {
-    2: ar80_1,
-    10: ar80_1,
-    19: ar80_1,
-    72: ar80_1,
-    73: ar80_1,
-}
-
-
-def s80(a, b, terminal):
-    move_action = SH80[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH81 = {
-    2: ar81_1,
-    10: ar81_1,
-    19: ar81_1,
-    31: h84,
-    71: h85,
-    72: ar81_1,
-    73: ar81_1,
-}
-
-
-def s81(a, b, terminal):
-    move_action = SH81[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH82 = {
-    2: ar82_1,
-    10: ar82_1,
-    19: ar82_1,
-    31: ar82_1,
-    71: ar82_1,
-    72: ar82_1,
-    73: ar82_1,
-}
-
-
-def s82(a, b, terminal):
-    move_action = SH82[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH83 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s83(a, b, terminal):
-    move_action = SH83[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH84 = {
-    1: ar84_1,
-    5: ar84_1,
-    8: ar84_1,
-    11: ar84_1,
-    12: ar84_1,
-    21: ar84_1,
-    27: ar84_1,
-    29: ar84_1,
-    30: ar84_1,
-    34: ar84_1,
-    35: ar84_1,
-    36: ar84_1,
-    37: ar84_1,
-    38: ar84_1,
-    39: ar84_1,
-    40: ar84_1,
-    41: ar84_1,
-    42: ar84_1,
-    43: ar84_1,
-    44: ar84_1,
-    45: ar84_1,
-    46: ar84_1,
-    47: ar84_1,
-    48: ar84_1,
-    49: ar84_1,
-    50: ar84_1,
-    51: ar84_1,
-    60: ar84_1,
-    61: ar84_1,
-    62: ar84_1,
-    64: ar84_1,
-    65: ar84_1,
-    69: ar84_1,
-    70: ar84_1,
-    94: ar84_1,
-    100: ar84_1,
-    102: ar84_1,
-    103: ar84_1,
-    106: ar84_1,
-    108: ar84_1,
-    109: ar84_1,
-    110: ar84_1,
-}
-
-
-def s84(a, b, terminal):
-    move_action = SH84[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH85 = {
-    1: ar85_1,
-    5: ar85_1,
-    8: ar85_1,
-    11: ar85_1,
-    12: ar85_1,
-    21: ar85_1,
-    27: ar85_1,
-    29: ar85_1,
-    30: ar85_1,
-    34: ar85_1,
-    35: ar85_1,
-    36: ar85_1,
-    37: ar85_1,
-    38: ar85_1,
-    39: ar85_1,
-    40: ar85_1,
-    41: ar85_1,
-    42: ar85_1,
-    43: ar85_1,
-    44: ar85_1,
-    45: ar85_1,
-    46: ar85_1,
-    47: ar85_1,
-    48: ar85_1,
-    49: ar85_1,
-    50: ar85_1,
-    51: ar85_1,
-    60: ar85_1,
-    61: ar85_1,
-    62: ar85_1,
-    64: ar85_1,
-    65: ar85_1,
-    69: ar85_1,
-    70: ar85_1,
-    94: ar85_1,
-    100: ar85_1,
-    102: ar85_1,
-    103: ar85_1,
-    106: ar85_1,
-    108: ar85_1,
-    109: ar85_1,
-    110: ar85_1,
-}
-
-
-def s85(a, b, terminal):
-    move_action = SH85[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH86 = {
-    2: ar86_1,
-    10: ar86_1,
-    19: ar86_1,
-    31: ar86_1,
-    71: ar86_1,
-    72: ar86_1,
-    73: ar86_1,
-}
-
-
-def s86(a, b, terminal):
-    move_action = SH86[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH87 = {
-    2: ar87_1,
-    10: ar87_1,
-    19: ar87_1,
-    20: h99,
-    22: h100,
-    31: ar87_1,
-    71: ar87_1,
-    72: ar87_1,
-    73: ar87_1,
-    74: h89,
-    75: h90,
-    76: h91,
-    77: h92,
-    78: h93,
-    79: h94,
-    80: h95,
-    81: h96,
-    82: h97,
-    83: h98,
-    84: h101,
-    85: h102,
-    86: h103,
-    87: h104,
-    88: h105,
-    89: h106,
-    90: h107,
-    91: h108,
-    92: h109,
-    93: h110,
-}
-
-
-def s87(a, b, terminal):
-    move_action = SH87[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH88 = {
-    2: ar88_1,
-    10: ar88_1,
-    19: ar88_1,
-    20: ar88_1,
-    22: ar88_1,
-    31: ar88_1,
-    71: ar88_1,
-    72: ar88_1,
-    73: ar88_1,
-    74: ar88_1,
-    75: ar88_1,
-    76: ar88_1,
-    77: ar88_1,
-    78: ar88_1,
-    79: ar88_1,
-    80: ar88_1,
-    81: ar88_1,
-    82: ar88_1,
-    83: ar88_1,
-    84: ar88_1,
-    85: ar88_1,
-    86: ar88_1,
-    87: ar88_1,
-    88: ar88_1,
-    89: ar88_1,
-    90: ar88_1,
-    91: ar88_1,
-    92: ar88_1,
-    93: ar88_1,
-}
-
-
-def s88(a, b, terminal):
-    move_action = SH88[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH89 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s89(a, b, terminal):
-    move_action = SH89[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH90 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s90(a, b, terminal):
-    move_action = SH90[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH91 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s91(a, b, terminal):
-    move_action = SH91[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH92 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s92(a, b, terminal):
-    move_action = SH92[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH93 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s93(a, b, terminal):
-    move_action = SH93[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH94 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s94(a, b, terminal):
-    move_action = SH94[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH95 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s95(a, b, terminal):
-    move_action = SH95[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH96 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s96(a, b, terminal):
-    move_action = SH96[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH97 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s97(a, b, terminal):
-    move_action = SH97[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH98 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s98(a, b, terminal):
-    move_action = SH98[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH99 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s99(a, b, terminal):
-    move_action = SH99[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH100 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s100(a, b, terminal):
-    move_action = SH100[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH101 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s101(a, b, terminal):
-    move_action = SH101[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH102 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s102(a, b, terminal):
-    move_action = SH102[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH103 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s103(a, b, terminal):
-    move_action = SH103[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH104 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s104(a, b, terminal):
-    move_action = SH104[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH105 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s105(a, b, terminal):
-    move_action = SH105[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH106 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s106(a, b, terminal):
-    move_action = SH106[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH107 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s107(a, b, terminal):
-    move_action = SH107[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH108 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s108(a, b, terminal):
-    move_action = SH108[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH109 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s109(a, b, terminal):
-    move_action = SH109[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH110 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s110(a, b, terminal):
-    move_action = SH110[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH111 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s111(a, b, terminal):
-    move_action = SH111[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH112 = {
-    104: h179,
-}
-
-
-def s112(a, b, terminal):
-    move_action = SH112[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH113 = {
-    104: h180,
-}
-
-
-def s113(a, b, terminal):
-    move_action = SH113[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH114 = {
-    2: h148,
-    10: h149,
-    19: h150,
-    101: h182,
-}
-
-
-def s114(a, b, terminal):
-    move_action = SH114[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH115 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    63: ar0_1,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s115(a, b, terminal):
-    move_action = SH115[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH116 = {
-    95: h184,
-}
-
-
-def s116(a, b, terminal):
-    move_action = SH116[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH117 = {
-    101: h185,
-}
-
-
-def s117(a, b, terminal):
-    move_action = SH117[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH118 = {
-    19: h186,
-    101: h187,
-}
-
-
-def s118(a, b, terminal):
-    move_action = SH118[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH119 = {
-    3: h188,
-}
-
-
-def s119(a, b, terminal):
-    move_action = SH119[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH120 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s120(a, b, terminal):
-    move_action = SH120[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH121 = {
-    3: h190,
-    12: h191,
-}
-
-
-def s121(a, b, terminal):
-    move_action = SH121[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH122 = {
-    1: ar122_1,
-    2: ar122_1,
-    3: ar122_1,
-    5: ar122_1,
-    6: ar122_1,
-    8: ar122_1,
-    10: ar122_1,
-    11: ar122_1,
-    12: ar122_1,
-    15: ar122_1,
-    18: ar122_1,
-    19: ar122_1,
-    20: ar122_1,
-    21: ar122_1,
-    22: ar122_1,
-    27: ar122_1,
-    29: ar122_1,
-    31: ar122_1,
-    32: ar122_1,
-    34: ar122_1,
-    35: ar122_1,
-    36: ar122_1,
-    37: ar122_1,
-    38: ar122_1,
-    39: ar122_1,
-    40: ar122_1,
-    41: ar122_1,
-    42: ar122_1,
-    43: ar122_1,
-    44: ar122_1,
-    45: ar122_1,
-    46: ar122_1,
-    47: ar122_1,
-    48: ar122_1,
-    49: ar122_1,
-    50: ar122_1,
-    51: ar122_1,
-    60: ar122_1,
-    61: ar122_1,
-    64: ar122_1,
-    69: ar122_1,
-    70: ar122_1,
-    71: ar122_1,
-    72: ar122_1,
-    73: ar122_1,
-    74: ar122_1,
-    75: ar122_1,
-    76: ar122_1,
-    77: ar122_1,
-    78: ar122_1,
-    79: ar122_1,
-    80: ar122_1,
-    81: ar122_1,
-    82: ar122_1,
-    83: ar122_1,
-    84: ar122_1,
-    85: ar122_1,
-    86: ar122_1,
-    87: ar122_1,
-    88: ar122_1,
-    89: ar122_1,
-    90: ar122_1,
-    91: ar122_1,
-    92: ar122_1,
-    93: ar122_1,
-    101: ar122_1,
-}
-
-
-def s122(a, b, terminal):
-    move_action = SH122[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH123 = {
-    1: ar28_1,
-    2: ar28_1,
-    3: ar28_1,
-    5: ar28_1,
-    6: ar28_1,
-    8: ar28_1,
-    10: ar28_1,
-    11: ar28_1,
-    12: ar28_1,
-    15: ar28_1,
-    18: ar28_1,
-    19: ar28_1,
-    20: ar28_1,
-    21: ar28_1,
-    22: ar28_1,
-    24: h128,
-    27: ar28_1,
-    29: ar28_1,
-    31: ar28_1,
-    32: ar28_1,
-    34: ar28_1,
-    35: ar28_1,
-    36: ar28_1,
-    37: ar28_1,
-    38: ar28_1,
-    39: ar28_1,
-    40: ar28_1,
-    41: ar28_1,
-    42: ar28_1,
-    43: ar28_1,
-    44: ar28_1,
-    45: ar28_1,
-    46: ar28_1,
-    47: ar28_1,
-    48: ar28_1,
-    49: ar28_1,
-    50: ar28_1,
-    51: ar28_1,
-    60: ar28_1,
-    61: ar28_1,
-    64: ar28_1,
-    69: ar28_1,
-    70: ar28_1,
-    71: ar28_1,
-    72: ar28_1,
-    73: ar28_1,
-    74: ar28_1,
-    75: ar28_1,
-    76: ar28_1,
-    77: ar28_1,
-    78: ar28_1,
-    79: ar28_1,
-    80: ar28_1,
-    81: ar28_1,
-    82: ar28_1,
-    83: ar28_1,
-    84: ar28_1,
-    85: ar28_1,
-    86: ar28_1,
-    87: ar28_1,
-    88: ar28_1,
-    89: ar28_1,
-    90: ar28_1,
-    91: ar28_1,
-    92: ar28_1,
-    93: ar28_1,
-    101: ar28_1,
-}
-
-
-def s123(a, b, terminal):
-    move_action = SH123[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH124 = {
-    63: h192,
-}
-
-
-def s124(a, b, terminal):
-    move_action = SH124[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH125 = {
-    66: h193,
-}
-
-
-def s125(a, b, terminal):
-    move_action = SH125[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH126 = {
-    13: h194,
-}
-
-
-def s126(a, b, terminal):
-    move_action = SH126[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH127 = {
-    33: h195,
-}
-
-
-def s127(a, b, terminal):
-    move_action = SH127[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH128 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    14: h197,
-    21: h44,
-    23: h196,
-    25: ar0_1,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s128(a, b, terminal):
-    move_action = SH128[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH129 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h200,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s129(a, b, terminal):
-    move_action = SH129[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH130 = {
-    63: h201,
-}
-
-
-def s130(a, b, terminal):
-    move_action = SH130[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH131 = {
-    15: h202,
-    32: h203,
-}
-
-
-def s131(a, b, terminal):
-    move_action = SH131[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH132 = {
-    15: ar132_1,
-    32: ar132_1,
-}
-
-
-def s132(a, b, terminal):
-    move_action = SH132[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH133 = {
-    1: h123,
-    2: ar133_1,
-    3: ar133_1,
-    5: ar133_1,
-    6: ar133_1,
-    8: ar133_1,
-    10: ar133_1,
-    11: ar133_1,
-    12: ar133_1,
-    15: ar133_1,
-    18: ar133_1,
-    19: ar133_1,
-    20: ar133_1,
-    21: h44,
-    22: ar133_1,
-    27: ar133_1,
-    29: ar133_1,
-    31: ar133_1,
-    32: ar133_1,
-    34: ar133_1,
-    35: ar133_1,
-    36: ar133_1,
-    37: ar133_1,
-    38: ar133_1,
-    39: ar133_1,
-    40: ar133_1,
-    41: ar133_1,
-    42: ar133_1,
-    43: ar133_1,
-    44: ar133_1,
-    45: ar133_1,
-    46: ar133_1,
-    47: ar133_1,
-    48: ar133_1,
-    49: ar133_1,
-    50: ar133_1,
-    51: ar133_1,
-    60: ar133_1,
-    61: ar133_1,
-    64: ar133_1,
-    69: ar133_1,
-    70: ar133_1,
-    71: ar133_1,
-    72: ar133_1,
-    73: ar133_1,
-    74: ar133_1,
-    75: ar133_1,
-    76: ar133_1,
-    77: ar133_1,
-    78: ar133_1,
-    79: ar133_1,
-    80: ar133_1,
-    81: ar133_1,
-    82: ar133_1,
-    83: ar133_1,
-    84: ar133_1,
-    85: ar133_1,
-    86: ar133_1,
-    87: ar133_1,
-    88: ar133_1,
-    89: ar133_1,
-    90: ar133_1,
-    91: ar133_1,
-    92: ar133_1,
-    93: ar133_1,
-    101: ar133_1,
-}
-
-
-def s133(a, b, terminal):
-    move_action = SH133[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH134 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s134(a, b, terminal):
-    move_action = SH134[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH135 = {
-    1: ar135_1,
-    5: ar135_1,
-    8: ar135_1,
-    11: ar135_1,
-    21: ar135_1,
-    27: ar135_1,
-    29: ar135_1,
-    34: ar135_1,
-    35: ar135_1,
-    36: ar135_1,
-    37: ar135_1,
-    38: ar135_1,
-    39: ar135_1,
-    40: ar135_1,
-    41: ar135_1,
-    42: ar135_1,
-    43: ar135_1,
-    44: ar135_1,
-    45: ar135_1,
-    46: ar135_1,
-    47: ar135_1,
-    48: ar135_1,
-    49: ar135_1,
-    50: ar135_1,
-    51: ar135_1,
-    60: ar135_1,
-    61: ar135_1,
-    64: ar135_1,
-    69: ar135_1,
-    70: ar135_1,
-}
-
-
-def s135(a, b, terminal):
-    move_action = SH135[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH136 = {
-    1: ar136_1,
-    2: ar136_1,
-    3: ar136_1,
-    5: ar136_1,
-    6: ar136_1,
-    8: ar136_1,
-    10: ar136_1,
-    11: ar136_1,
-    12: ar136_1,
-    15: ar136_1,
-    18: ar136_1,
-    19: ar136_1,
-    20: ar136_1,
-    21: ar136_1,
-    22: ar136_1,
-    27: ar136_1,
-    29: ar136_1,
-    31: ar136_1,
-    32: ar136_1,
-    34: ar136_1,
-    35: ar136_1,
-    36: ar136_1,
-    37: ar136_1,
-    38: ar136_1,
-    39: ar136_1,
-    40: ar136_1,
-    41: ar136_1,
-    42: ar136_1,
-    43: ar136_1,
-    44: ar136_1,
-    45: ar136_1,
-    46: ar136_1,
-    47: ar136_1,
-    48: ar136_1,
-    49: ar136_1,
-    50: ar136_1,
-    51: ar136_1,
-    60: ar136_1,
-    61: ar136_1,
-    64: ar136_1,
-    69: ar136_1,
-    70: ar136_1,
-    71: ar136_1,
-    72: ar136_1,
-    73: ar136_1,
-    74: ar136_1,
-    75: ar136_1,
-    76: ar136_1,
-    77: ar136_1,
-    78: ar136_1,
-    79: ar136_1,
-    80: ar136_1,
-    81: ar136_1,
-    82: ar136_1,
-    83: ar136_1,
-    84: ar136_1,
-    85: ar136_1,
-    86: ar136_1,
-    87: ar136_1,
-    88: ar136_1,
-    89: ar136_1,
-    90: ar136_1,
-    91: ar136_1,
-    92: ar136_1,
-    93: ar136_1,
-    101: ar136_1,
-}
-
-
-def s136(a, b, terminal):
-    move_action = SH136[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH137 = {
-    13: h205,
-}
-
-
-def s137(a, b, terminal):
-    move_action = SH137[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH138 = {
-    28: h206,
-}
-
-
-def s138(a, b, terminal):
-    move_action = SH138[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH139 = {
-    11: h207,
-}
-
-
-def s139(a, b, terminal):
-    move_action = SH139[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH140 = {
-    1: ar140_1,
-    2: ar140_1,
-    3: ar140_1,
-    5: ar140_1,
-    6: ar140_1,
-    8: ar140_1,
-    10: ar140_1,
-    11: ar140_1,
-    12: ar140_1,
-    15: ar140_1,
-    18: ar140_1,
-    19: ar140_1,
-    20: ar140_1,
-    21: ar140_1,
-    22: ar140_1,
-    27: ar140_1,
-    29: ar140_1,
-    31: ar140_1,
-    32: ar140_1,
-    34: ar140_1,
-    35: ar140_1,
-    36: ar140_1,
-    37: ar140_1,
-    38: ar140_1,
-    39: ar140_1,
-    40: ar140_1,
-    41: ar140_1,
-    42: ar140_1,
-    43: ar140_1,
-    44: ar140_1,
-    45: ar140_1,
-    46: ar140_1,
-    47: ar140_1,
-    48: ar140_1,
-    49: ar140_1,
-    50: ar140_1,
-    51: ar140_1,
-    60: ar140_1,
-    61: ar140_1,
-    64: ar140_1,
-    69: ar140_1,
-    70: ar140_1,
-    71: ar140_1,
-    72: ar140_1,
-    73: ar140_1,
-    74: ar140_1,
-    75: ar140_1,
-    76: ar140_1,
-    77: ar140_1,
-    78: ar140_1,
-    79: ar140_1,
-    80: ar140_1,
-    81: ar140_1,
-    82: ar140_1,
-    83: ar140_1,
-    84: ar140_1,
-    85: ar140_1,
-    86: ar140_1,
-    87: ar140_1,
-    88: ar140_1,
-    89: ar140_1,
-    90: ar140_1,
-    91: ar140_1,
-    92: ar140_1,
-    93: ar140_1,
-    101: ar140_1,
-}
-
-
-def s140(a, b, terminal):
-    move_action = SH140[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH141 = {
-    11: h208,
-}
-
-
-def s141(a, b, terminal):
-    move_action = SH141[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH142 = {
-    1: ar142_1,
-    2: ar142_1,
-    3: ar142_1,
-    5: ar142_1,
-    6: ar142_1,
-    8: ar142_1,
-    10: ar142_1,
-    11: ar142_1,
-    12: ar142_1,
-    15: ar142_1,
-    18: ar142_1,
-    19: ar142_1,
-    20: ar142_1,
-    21: ar142_1,
-    22: ar142_1,
-    27: ar142_1,
-    29: ar142_1,
-    31: ar142_1,
-    32: ar142_1,
-    34: ar142_1,
-    35: ar142_1,
-    36: ar142_1,
-    37: ar142_1,
-    38: ar142_1,
-    39: ar142_1,
-    40: ar142_1,
-    41: ar142_1,
-    42: ar142_1,
-    43: ar142_1,
-    44: ar142_1,
-    45: ar142_1,
-    46: ar142_1,
-    47: ar142_1,
-    48: ar142_1,
-    49: ar142_1,
-    50: ar142_1,
-    51: ar142_1,
-    60: ar142_1,
-    61: ar142_1,
-    64: ar142_1,
-    69: ar142_1,
-    70: ar142_1,
-    71: ar142_1,
-    72: ar142_1,
-    73: ar142_1,
-    74: ar142_1,
-    75: ar142_1,
-    76: ar142_1,
-    77: ar142_1,
-    78: ar142_1,
-    79: ar142_1,
-    80: ar142_1,
-    81: ar142_1,
-    82: ar142_1,
-    83: ar142_1,
-    84: ar142_1,
-    85: ar142_1,
-    86: ar142_1,
-    87: ar142_1,
-    88: ar142_1,
-    89: ar142_1,
-    90: ar142_1,
-    91: ar142_1,
-    92: ar142_1,
-    93: ar142_1,
-    101: ar142_1,
-}
-
-
-def s142(a, b, terminal):
-    move_action = SH142[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH143 = {
-    1: h123,
-    5: h71,
-    6: h209,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s143(a, b, terminal):
-    move_action = SH143[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH144 = {
-    1: ar144_1,
-    2: ar144_1,
-    3: ar144_1,
-    5: ar144_1,
-    6: ar144_1,
-    8: ar144_1,
-    10: ar144_1,
-    11: ar144_1,
-    12: ar144_1,
-    15: ar144_1,
-    18: ar144_1,
-    19: ar144_1,
-    20: ar144_1,
-    21: ar144_1,
-    22: ar144_1,
-    27: ar144_1,
-    29: ar144_1,
-    31: ar144_1,
-    32: ar144_1,
-    34: ar144_1,
-    35: ar144_1,
-    36: ar144_1,
-    37: ar144_1,
-    38: ar144_1,
-    39: ar144_1,
-    40: ar144_1,
-    41: ar144_1,
-    42: ar144_1,
-    43: ar144_1,
-    44: ar144_1,
-    45: ar144_1,
-    46: ar144_1,
-    47: ar144_1,
-    48: ar144_1,
-    49: ar144_1,
-    50: ar144_1,
-    51: ar144_1,
-    60: ar144_1,
-    61: ar144_1,
-    64: ar144_1,
-    69: ar144_1,
-    70: ar144_1,
-    71: ar144_1,
-    72: ar144_1,
-    73: ar144_1,
-    74: ar144_1,
-    75: ar144_1,
-    76: ar144_1,
-    77: ar144_1,
-    78: ar144_1,
-    79: ar144_1,
-    80: ar144_1,
-    81: ar144_1,
-    82: ar144_1,
-    83: ar144_1,
-    84: ar144_1,
-    85: ar144_1,
-    86: ar144_1,
-    87: ar144_1,
-    88: ar144_1,
-    89: ar144_1,
-    90: ar144_1,
-    91: ar144_1,
-    92: ar144_1,
-    93: ar144_1,
-    101: ar144_1,
-}
-
-
-def s144(a, b, terminal):
-    move_action = SH144[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH145 = {
-    1: h123,
-    5: h71,
-    6: h210,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s145(a, b, terminal):
-    move_action = SH145[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH146 = {
-    1: ar146_1,
-    2: ar146_1,
-    3: ar146_1,
-    5: ar146_1,
-    6: ar146_1,
-    8: ar146_1,
-    10: ar146_1,
-    11: ar146_1,
-    12: ar146_1,
-    15: ar146_1,
-    18: ar146_1,
-    19: ar146_1,
-    20: ar146_1,
-    21: ar146_1,
-    22: ar146_1,
-    27: ar146_1,
-    29: ar146_1,
-    31: ar146_1,
-    32: ar146_1,
-    34: ar146_1,
-    35: ar146_1,
-    36: ar146_1,
-    37: ar146_1,
-    38: ar146_1,
-    39: ar146_1,
-    40: ar146_1,
-    41: ar146_1,
-    42: ar146_1,
-    43: ar146_1,
-    44: ar146_1,
-    45: ar146_1,
-    46: ar146_1,
-    47: ar146_1,
-    48: ar146_1,
-    49: ar146_1,
-    50: ar146_1,
-    51: ar146_1,
-    60: ar146_1,
-    61: ar146_1,
-    64: ar146_1,
-    69: ar146_1,
-    70: ar146_1,
-    71: ar146_1,
-    72: ar146_1,
-    73: ar146_1,
-    74: ar146_1,
-    75: ar146_1,
-    76: ar146_1,
-    77: ar146_1,
-    78: ar146_1,
-    79: ar146_1,
-    80: ar146_1,
-    81: ar146_1,
-    82: ar146_1,
-    83: ar146_1,
-    84: ar146_1,
-    85: ar146_1,
-    86: ar146_1,
-    87: ar146_1,
-    88: ar146_1,
-    89: ar146_1,
-    90: ar146_1,
-    91: ar146_1,
-    92: ar146_1,
-    93: ar146_1,
-    101: ar146_1,
-}
-
-
-def s146(a, b, terminal):
-    move_action = SH146[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH147 = {
-    0: ar147_1,
-    1: ar147_1,
-    5: ar147_1,
-    8: ar147_1,
-    11: ar147_1,
-    12: ar147_1,
-    13: ar147_1,
-    21: ar147_1,
-    25: ar147_1,
-    27: ar147_1,
-    28: ar147_1,
-    29: ar147_1,
-    30: ar147_1,
-    33: ar147_1,
-    34: ar147_1,
-    35: ar147_1,
-    36: ar147_1,
-    37: ar147_1,
-    38: ar147_1,
-    39: ar147_1,
-    40: ar147_1,
-    41: ar147_1,
-    42: ar147_1,
-    43: ar147_1,
-    44: ar147_1,
-    45: ar147_1,
-    46: ar147_1,
-    47: ar147_1,
-    48: ar147_1,
-    49: ar147_1,
-    50: ar147_1,
-    51: ar147_1,
-    60: ar147_1,
-    61: ar147_1,
-    62: ar147_1,
-    63: ar147_1,
-    64: ar147_1,
-    65: ar147_1,
-    66: ar147_1,
-    69: ar147_1,
-    70: ar147_1,
-    94: ar147_1,
-    95: ar147_1,
-    96: ar147_1,
-    97: ar147_1,
-    98: ar147_1,
-    100: ar147_1,
-    102: ar147_1,
-    103: ar147_1,
-    104: ar147_1,
-    105: ar147_1,
-    106: ar147_1,
-    107: ar147_1,
-    108: ar147_1,
-    109: ar147_1,
-    110: ar147_1,
-}
-
-
-def s147(a, b, terminal):
-    move_action = SH147[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH148 = {
-    0: ar148_1,
-    1: ar148_1,
-    5: ar148_1,
-    8: ar148_1,
-    11: ar148_1,
-    12: ar148_1,
-    13: ar148_1,
-    21: ar148_1,
-    25: ar148_1,
-    27: ar148_1,
-    28: ar148_1,
-    29: ar148_1,
-    30: ar148_1,
-    33: ar148_1,
-    34: ar148_1,
-    35: ar148_1,
-    36: ar148_1,
-    37: ar148_1,
-    38: ar148_1,
-    39: ar148_1,
-    40: ar148_1,
-    41: ar148_1,
-    42: ar148_1,
-    43: ar148_1,
-    44: ar148_1,
-    45: ar148_1,
-    46: ar148_1,
-    47: ar148_1,
-    48: ar148_1,
-    49: ar148_1,
-    50: ar148_1,
-    51: ar148_1,
-    60: ar148_1,
-    61: ar148_1,
-    62: ar148_1,
-    63: ar148_1,
-    64: ar148_1,
-    65: ar148_1,
-    66: ar148_1,
-    69: ar148_1,
-    70: ar148_1,
-    94: ar148_1,
-    95: ar148_1,
-    96: ar148_1,
-    97: ar148_1,
-    98: ar148_1,
-    100: ar148_1,
-    102: ar148_1,
-    103: ar148_1,
-    104: ar148_1,
-    105: ar148_1,
-    106: ar148_1,
-    107: ar148_1,
-    108: ar148_1,
-    109: ar148_1,
-    110: ar148_1,
-}
-
-
-def s148(a, b, terminal):
-    move_action = SH148[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH149 = {
-    0: ar149_1,
-    1: ar149_1,
-    5: ar149_1,
-    8: ar149_1,
-    11: ar149_1,
-    12: ar149_1,
-    13: ar149_1,
-    21: ar149_1,
-    25: ar149_1,
-    27: ar149_1,
-    28: ar149_1,
-    29: ar149_1,
-    30: ar149_1,
-    33: ar149_1,
-    34: ar149_1,
-    35: ar149_1,
-    36: ar149_1,
-    37: ar149_1,
-    38: ar149_1,
-    39: ar149_1,
-    40: ar149_1,
-    41: ar149_1,
-    42: ar149_1,
-    43: ar149_1,
-    44: ar149_1,
-    45: ar149_1,
-    46: ar149_1,
-    47: ar149_1,
-    48: ar149_1,
-    49: ar149_1,
-    50: ar149_1,
-    51: ar149_1,
-    60: ar149_1,
-    61: ar149_1,
-    62: ar149_1,
-    63: ar149_1,
-    64: ar149_1,
-    65: ar149_1,
-    66: ar149_1,
-    69: ar149_1,
-    70: ar149_1,
-    94: ar149_1,
-    95: ar149_1,
-    96: ar149_1,
-    97: ar149_1,
-    98: ar149_1,
-    100: ar149_1,
-    102: ar149_1,
-    103: ar149_1,
-    104: ar149_1,
-    105: ar149_1,
-    106: ar149_1,
-    107: ar149_1,
-    108: ar149_1,
-    109: ar149_1,
-    110: ar149_1,
-}
-
-
-def s149(a, b, terminal):
-    move_action = SH149[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH150 = {
-    0: ar150_1,
-    1: ar150_1,
-    5: ar150_1,
-    8: ar150_1,
-    11: ar150_1,
-    12: ar150_1,
-    13: ar150_1,
-    21: ar150_1,
-    25: ar150_1,
-    27: ar150_1,
-    28: ar150_1,
-    29: ar150_1,
-    30: ar150_1,
-    33: ar150_1,
-    34: ar150_1,
-    35: ar150_1,
-    36: ar150_1,
-    37: ar150_1,
-    38: ar150_1,
-    39: ar150_1,
-    40: ar150_1,
-    41: ar150_1,
-    42: ar150_1,
-    43: ar150_1,
-    44: ar150_1,
-    45: ar150_1,
-    46: ar150_1,
-    47: ar150_1,
-    48: ar150_1,
-    49: ar150_1,
-    50: ar150_1,
-    51: ar150_1,
-    60: ar150_1,
-    61: ar150_1,
-    62: ar150_1,
-    63: ar150_1,
-    64: ar150_1,
-    65: ar150_1,
-    66: ar150_1,
-    69: ar150_1,
-    70: ar150_1,
-    94: ar150_1,
-    95: ar150_1,
-    96: ar150_1,
-    97: ar150_1,
-    98: ar150_1,
-    100: ar150_1,
-    102: ar150_1,
-    103: ar150_1,
-    104: ar150_1,
-    105: ar150_1,
-    106: ar150_1,
-    107: ar150_1,
-    108: ar150_1,
-    109: ar150_1,
-    110: ar150_1,
-}
-
-
-def s150(a, b, terminal):
-    move_action = SH150[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH151 = {
-    2: ar151_1,
-    10: ar151_1,
-    19: ar151_1,
-    72: ar151_1,
-    73: ar151_1,
-}
-
-
-def s151(a, b, terminal):
-    move_action = SH151[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH152 = {
-    2: ar152_1,
-    10: ar152_1,
-    19: ar152_1,
-    72: ar152_1,
-    73: ar152_1,
-}
-
-
-def s152(a, b, terminal):
-    move_action = SH152[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH153 = {
-    2: ar153_1,
-    10: ar153_1,
-    19: ar153_1,
-    31: ar153_1,
-    71: ar153_1,
-    72: ar153_1,
-    73: ar153_1,
-}
-
-
-def s153(a, b, terminal):
-    move_action = SH153[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH154 = {
-    2: ar154_1,
-    10: ar154_1,
-    19: ar154_1,
-    31: ar154_1,
-    71: ar154_1,
-    72: ar154_1,
-    73: ar154_1,
-}
-
-
-def s154(a, b, terminal):
-    move_action = SH154[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH155 = {
-    2: ar155_1,
-    10: ar155_1,
-    19: ar155_1,
-    20: ar155_1,
-    22: ar155_1,
-    31: ar155_1,
-    71: ar155_1,
-    72: ar155_1,
-    73: ar155_1,
-    74: ar155_1,
-    75: ar155_1,
-    76: ar155_1,
-    77: ar155_1,
-    78: ar155_1,
-    79: ar155_1,
-    80: ar155_1,
-    81: ar155_1,
-    82: ar155_1,
-    83: ar155_1,
-    84: ar155_1,
-    85: ar155_1,
-    86: ar155_1,
-    87: ar155_1,
-    88: ar155_1,
-    89: ar155_1,
-    90: ar155_1,
-    91: ar155_1,
-    92: ar155_1,
-    93: ar155_1,
-}
-
-
-def s155(a, b, terminal):
-    move_action = SH155[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH156 = {
-    2: ar156_1,
-    3: h111,
-    10: ar156_1,
-    19: ar156_1,
-    20: ar156_1,
-    22: ar156_1,
-    31: ar156_1,
-    71: ar156_1,
-    72: ar156_1,
-    73: ar156_1,
-    74: ar156_1,
-    75: ar156_1,
-    76: ar156_1,
-    77: ar156_1,
-    78: ar156_1,
-    79: ar156_1,
-    80: ar156_1,
-    81: ar156_1,
-    82: ar156_1,
-    83: ar156_1,
-    84: ar156_1,
-    85: ar156_1,
-    86: ar156_1,
-    87: ar156_1,
-    88: ar156_1,
-    89: ar156_1,
-    90: ar156_1,
-    91: ar156_1,
-    92: ar156_1,
-    93: ar156_1,
-}
-
-
-def s156(a, b, terminal):
-    move_action = SH156[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH157 = {
-    2: ar157_1,
-    3: h111,
-    10: ar157_1,
-    19: ar157_1,
-    20: ar157_1,
-    22: ar157_1,
-    31: ar157_1,
-    71: ar157_1,
-    72: ar157_1,
-    73: ar157_1,
-    74: ar157_1,
-    75: ar157_1,
-    76: ar157_1,
-    77: ar157_1,
-    78: ar157_1,
-    79: ar157_1,
-    80: ar157_1,
-    81: ar157_1,
-    82: ar157_1,
-    83: ar157_1,
-    84: ar157_1,
-    85: ar157_1,
-    86: ar157_1,
-    87: ar157_1,
-    88: ar157_1,
-    89: ar157_1,
-    90: ar157_1,
-    91: ar157_1,
-    92: ar157_1,
-    93: ar157_1,
-}
-
-
-def s157(a, b, terminal):
-    move_action = SH157[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH158 = {
-    2: ar158_1,
-    3: h111,
-    10: ar158_1,
-    19: ar158_1,
-    20: ar158_1,
-    22: ar158_1,
-    31: ar158_1,
-    71: ar158_1,
-    72: ar158_1,
-    73: ar158_1,
-    74: ar158_1,
-    75: ar158_1,
-    76: ar158_1,
-    77: ar158_1,
-    78: ar158_1,
-    79: ar158_1,
-    80: ar158_1,
-    81: ar158_1,
-    82: ar158_1,
-    83: ar158_1,
-    84: ar158_1,
-    85: ar158_1,
-    86: ar158_1,
-    87: ar158_1,
-    88: ar158_1,
-    89: ar158_1,
-    90: ar158_1,
-    91: ar158_1,
-    92: ar158_1,
-    93: ar158_1,
-}
-
-
-def s158(a, b, terminal):
-    move_action = SH158[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH159 = {
-    2: ar159_1,
-    3: h111,
-    10: ar159_1,
-    19: ar159_1,
-    20: ar159_1,
-    22: ar159_1,
-    31: ar159_1,
-    71: ar159_1,
-    72: ar159_1,
-    73: ar159_1,
-    74: ar159_1,
-    75: ar159_1,
-    76: ar159_1,
-    77: ar159_1,
-    78: ar159_1,
-    79: ar159_1,
-    80: ar159_1,
-    81: ar159_1,
-    82: ar159_1,
-    83: ar159_1,
-    84: ar159_1,
-    85: ar159_1,
-    86: ar159_1,
-    87: ar159_1,
-    88: ar159_1,
-    89: ar159_1,
-    90: ar159_1,
-    91: ar159_1,
-    92: ar159_1,
-    93: ar159_1,
-}
-
-
-def s159(a, b, terminal):
-    move_action = SH159[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH160 = {
-    2: ar160_1,
-    3: h111,
-    10: ar160_1,
-    19: ar160_1,
-    20: ar160_1,
-    22: ar160_1,
-    31: ar160_1,
-    71: ar160_1,
-    72: ar160_1,
-    73: ar160_1,
-    74: ar160_1,
-    75: ar160_1,
-    76: ar160_1,
-    77: ar160_1,
-    78: ar160_1,
-    79: ar160_1,
-    80: ar160_1,
-    81: ar160_1,
-    82: ar160_1,
-    83: ar160_1,
-    84: ar160_1,
-    85: ar160_1,
-    86: ar160_1,
-    87: ar160_1,
-    88: ar160_1,
-    89: ar160_1,
-    90: ar160_1,
-    91: ar160_1,
-    92: ar160_1,
-    93: ar160_1,
-}
-
-
-def s160(a, b, terminal):
-    move_action = SH160[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH161 = {
-    2: ar161_1,
-    3: h111,
-    10: ar161_1,
-    19: ar161_1,
-    20: ar161_1,
-    22: ar161_1,
-    31: ar161_1,
-    71: ar161_1,
-    72: ar161_1,
-    73: ar161_1,
-    74: ar161_1,
-    75: ar161_1,
-    76: ar161_1,
-    77: ar161_1,
-    78: ar161_1,
-    79: ar161_1,
-    80: ar161_1,
-    81: ar161_1,
-    82: ar161_1,
-    83: ar161_1,
-    84: ar161_1,
-    85: ar161_1,
-    86: ar161_1,
-    87: ar161_1,
-    88: ar161_1,
-    89: ar161_1,
-    90: ar161_1,
-    91: ar161_1,
-    92: ar161_1,
-    93: ar161_1,
-}
-
-
-def s161(a, b, terminal):
-    move_action = SH161[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH162 = {
-    2: ar162_1,
-    3: h111,
-    10: ar162_1,
-    19: ar162_1,
-    20: ar162_1,
-    22: ar162_1,
-    31: ar162_1,
-    71: ar162_1,
-    72: ar162_1,
-    73: ar162_1,
-    74: ar162_1,
-    75: ar162_1,
-    76: ar162_1,
-    77: ar162_1,
-    78: ar162_1,
-    79: ar162_1,
-    80: ar162_1,
-    81: ar162_1,
-    82: ar162_1,
-    83: ar162_1,
-    84: ar162_1,
-    85: ar162_1,
-    86: ar162_1,
-    87: ar162_1,
-    88: ar162_1,
-    89: ar162_1,
-    90: ar162_1,
-    91: ar162_1,
-    92: ar162_1,
-    93: ar162_1,
-}
-
-
-def s162(a, b, terminal):
-    move_action = SH162[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH163 = {
-    2: ar163_1,
-    3: h111,
-    10: ar163_1,
-    19: ar163_1,
-    20: ar163_1,
-    22: ar163_1,
-    31: ar163_1,
-    71: ar163_1,
-    72: ar163_1,
-    73: ar163_1,
-    74: ar163_1,
-    75: ar163_1,
-    76: ar163_1,
-    77: ar163_1,
-    78: ar163_1,
-    79: ar163_1,
-    80: ar163_1,
-    81: ar163_1,
-    82: ar163_1,
-    83: ar163_1,
-    84: ar163_1,
-    85: ar163_1,
-    86: ar163_1,
-    87: ar163_1,
-    88: ar163_1,
-    89: ar163_1,
-    90: ar163_1,
-    91: ar163_1,
-    92: ar163_1,
-    93: ar163_1,
-}
-
-
-def s163(a, b, terminal):
-    move_action = SH163[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH164 = {
-    2: ar164_1,
-    3: h111,
-    10: ar164_1,
-    19: ar164_1,
-    20: ar164_1,
-    22: ar164_1,
-    31: ar164_1,
-    71: ar164_1,
-    72: ar164_1,
-    73: ar164_1,
-    74: ar164_1,
-    75: ar164_1,
-    76: ar164_1,
-    77: ar164_1,
-    78: ar164_1,
-    79: ar164_1,
-    80: ar164_1,
-    81: ar164_1,
-    82: ar164_1,
-    83: ar164_1,
-    84: ar164_1,
-    85: ar164_1,
-    86: ar164_1,
-    87: ar164_1,
-    88: ar164_1,
-    89: ar164_1,
-    90: ar164_1,
-    91: ar164_1,
-    92: ar164_1,
-    93: ar164_1,
-}
-
-
-def s164(a, b, terminal):
-    move_action = SH164[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH165 = {
-    2: ar165_1,
-    3: h111,
-    10: ar165_1,
-    19: ar165_1,
-    20: ar165_1,
-    22: ar165_1,
-    31: ar165_1,
-    71: ar165_1,
-    72: ar165_1,
-    73: ar165_1,
-    74: ar165_1,
-    75: ar165_1,
-    76: ar165_1,
-    77: ar165_1,
-    78: ar165_1,
-    79: ar165_1,
-    80: ar165_1,
-    81: ar165_1,
-    82: ar165_1,
-    83: ar165_1,
-    84: ar165_1,
-    85: ar165_1,
-    86: ar165_1,
-    87: ar165_1,
-    88: ar165_1,
-    89: ar165_1,
-    90: ar165_1,
-    91: ar165_1,
-    92: ar165_1,
-    93: ar165_1,
-}
-
-
-def s165(a, b, terminal):
-    move_action = SH165[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH166 = {
-    2: ar166_1,
-    3: h111,
-    10: ar166_1,
-    19: ar166_1,
-    20: ar166_1,
-    22: ar166_1,
-    31: ar166_1,
-    71: ar166_1,
-    72: ar166_1,
-    73: ar166_1,
-    74: ar166_1,
-    75: ar166_1,
-    76: ar166_1,
-    77: ar166_1,
-    78: ar166_1,
-    79: ar166_1,
-    80: ar166_1,
-    81: ar166_1,
-    82: ar166_1,
-    83: ar166_1,
-    84: ar166_1,
-    85: ar166_1,
-    86: ar166_1,
-    87: ar166_1,
-    88: ar166_1,
-    89: ar166_1,
-    90: ar166_1,
-    91: ar166_1,
-    92: ar166_1,
-    93: ar166_1,
-}
-
-
-def s166(a, b, terminal):
-    move_action = SH166[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH167 = {
-    2: ar167_1,
-    3: h111,
-    10: ar167_1,
-    19: ar167_1,
-    20: ar167_1,
-    22: ar167_1,
-    31: ar167_1,
-    71: ar167_1,
-    72: ar167_1,
-    73: ar167_1,
-    74: ar167_1,
-    75: ar167_1,
-    76: ar167_1,
-    77: ar167_1,
-    78: ar167_1,
-    79: ar167_1,
-    80: ar167_1,
-    81: ar167_1,
-    82: ar167_1,
-    83: ar167_1,
-    84: ar167_1,
-    85: ar167_1,
-    86: ar167_1,
-    87: ar167_1,
-    88: ar167_1,
-    89: ar167_1,
-    90: ar167_1,
-    91: ar167_1,
-    92: ar167_1,
-    93: ar167_1,
-}
-
-
-def s167(a, b, terminal):
-    move_action = SH167[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH168 = {
-    2: ar168_1,
-    3: h111,
-    10: ar168_1,
-    19: ar168_1,
-    20: ar168_1,
-    22: ar168_1,
-    31: ar168_1,
-    71: ar168_1,
-    72: ar168_1,
-    73: ar168_1,
-    74: ar168_1,
-    75: ar168_1,
-    76: ar168_1,
-    77: ar168_1,
-    78: ar168_1,
-    79: ar168_1,
-    80: ar168_1,
-    81: ar168_1,
-    82: ar168_1,
-    83: ar168_1,
-    84: ar168_1,
-    85: ar168_1,
-    86: ar168_1,
-    87: ar168_1,
-    88: ar168_1,
-    89: ar168_1,
-    90: ar168_1,
-    91: ar168_1,
-    92: ar168_1,
-    93: ar168_1,
-}
-
-
-def s168(a, b, terminal):
-    move_action = SH168[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH169 = {
-    2: ar169_1,
-    3: h111,
-    10: ar169_1,
-    19: ar169_1,
-    20: ar169_1,
-    22: ar169_1,
-    31: ar169_1,
-    71: ar169_1,
-    72: ar169_1,
-    73: ar169_1,
-    74: ar169_1,
-    75: ar169_1,
-    76: ar169_1,
-    77: ar169_1,
-    78: ar169_1,
-    79: ar169_1,
-    80: ar169_1,
-    81: ar169_1,
-    82: ar169_1,
-    83: ar169_1,
-    84: ar169_1,
-    85: ar169_1,
-    86: ar169_1,
-    87: ar169_1,
-    88: ar169_1,
-    89: ar169_1,
-    90: ar169_1,
-    91: ar169_1,
-    92: ar169_1,
-    93: ar169_1,
-}
-
-
-def s169(a, b, terminal):
-    move_action = SH169[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH170 = {
-    2: ar170_1,
-    3: h111,
-    10: ar170_1,
-    19: ar170_1,
-    20: ar170_1,
-    22: ar170_1,
-    31: ar170_1,
-    71: ar170_1,
-    72: ar170_1,
-    73: ar170_1,
-    74: ar170_1,
-    75: ar170_1,
-    76: ar170_1,
-    77: ar170_1,
-    78: ar170_1,
-    79: ar170_1,
-    80: ar170_1,
-    81: ar170_1,
-    82: ar170_1,
-    83: ar170_1,
-    84: ar170_1,
-    85: ar170_1,
-    86: ar170_1,
-    87: ar170_1,
-    88: ar170_1,
-    89: ar170_1,
-    90: ar170_1,
-    91: ar170_1,
-    92: ar170_1,
-    93: ar170_1,
-}
-
-
-def s170(a, b, terminal):
-    move_action = SH170[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH171 = {
-    2: ar171_1,
-    3: h111,
-    10: ar171_1,
-    19: ar171_1,
-    20: ar171_1,
-    22: ar171_1,
-    31: ar171_1,
-    71: ar171_1,
-    72: ar171_1,
-    73: ar171_1,
-    74: ar171_1,
-    75: ar171_1,
-    76: ar171_1,
-    77: ar171_1,
-    78: ar171_1,
-    79: ar171_1,
-    80: ar171_1,
-    81: ar171_1,
-    82: ar171_1,
-    83: ar171_1,
-    84: ar171_1,
-    85: ar171_1,
-    86: ar171_1,
-    87: ar171_1,
-    88: ar171_1,
-    89: ar171_1,
-    90: ar171_1,
-    91: ar171_1,
-    92: ar171_1,
-    93: ar171_1,
-}
-
-
-def s171(a, b, terminal):
-    move_action = SH171[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH172 = {
-    2: ar172_1,
-    3: h111,
-    10: ar172_1,
-    19: ar172_1,
-    20: ar172_1,
-    22: ar172_1,
-    31: ar172_1,
-    71: ar172_1,
-    72: ar172_1,
-    73: ar172_1,
-    74: ar172_1,
-    75: ar172_1,
-    76: ar172_1,
-    77: ar172_1,
-    78: ar172_1,
-    79: ar172_1,
-    80: ar172_1,
-    81: ar172_1,
-    82: ar172_1,
-    83: ar172_1,
-    84: ar172_1,
-    85: ar172_1,
-    86: ar172_1,
-    87: ar172_1,
-    88: ar172_1,
-    89: ar172_1,
-    90: ar172_1,
-    91: ar172_1,
-    92: ar172_1,
-    93: ar172_1,
-}
-
-
-def s172(a, b, terminal):
-    move_action = SH172[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH173 = {
-    2: ar173_1,
-    3: h111,
-    10: ar173_1,
-    19: ar173_1,
-    20: ar173_1,
-    22: ar173_1,
-    31: ar173_1,
-    71: ar173_1,
-    72: ar173_1,
-    73: ar173_1,
-    74: ar173_1,
-    75: ar173_1,
-    76: ar173_1,
-    77: ar173_1,
-    78: ar173_1,
-    79: ar173_1,
-    80: ar173_1,
-    81: ar173_1,
-    82: ar173_1,
-    83: ar173_1,
-    84: ar173_1,
-    85: ar173_1,
-    86: ar173_1,
-    87: ar173_1,
-    88: ar173_1,
-    89: ar173_1,
-    90: ar173_1,
-    91: ar173_1,
-    92: ar173_1,
-    93: ar173_1,
-}
-
-
-def s173(a, b, terminal):
-    move_action = SH173[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH174 = {
-    2: ar174_1,
-    3: h111,
-    10: ar174_1,
-    19: ar174_1,
-    20: ar174_1,
-    22: ar174_1,
-    31: ar174_1,
-    71: ar174_1,
-    72: ar174_1,
-    73: ar174_1,
-    74: ar174_1,
-    75: ar174_1,
-    76: ar174_1,
-    77: ar174_1,
-    78: ar174_1,
-    79: ar174_1,
-    80: ar174_1,
-    81: ar174_1,
-    82: ar174_1,
-    83: ar174_1,
-    84: ar174_1,
-    85: ar174_1,
-    86: ar174_1,
-    87: ar174_1,
-    88: ar174_1,
-    89: ar174_1,
-    90: ar174_1,
-    91: ar174_1,
-    92: ar174_1,
-    93: ar174_1,
-}
-
-
-def s174(a, b, terminal):
-    move_action = SH174[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH175 = {
-    2: ar175_1,
-    3: h111,
-    10: ar175_1,
-    19: ar175_1,
-    20: ar175_1,
-    22: ar175_1,
-    31: ar175_1,
-    71: ar175_1,
-    72: ar175_1,
-    73: ar175_1,
-    74: ar175_1,
-    75: ar175_1,
-    76: ar175_1,
-    77: ar175_1,
-    78: ar175_1,
-    79: ar175_1,
-    80: ar175_1,
-    81: ar175_1,
-    82: ar175_1,
-    83: ar175_1,
-    84: ar175_1,
-    85: ar175_1,
-    86: ar175_1,
-    87: ar175_1,
-    88: ar175_1,
-    89: ar175_1,
-    90: ar175_1,
-    91: ar175_1,
-    92: ar175_1,
-    93: ar175_1,
-}
-
-
-def s175(a, b, terminal):
-    move_action = SH175[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH176 = {
-    2: ar176_1,
-    3: h111,
-    10: ar176_1,
-    19: ar176_1,
-    20: ar176_1,
-    22: ar176_1,
-    31: ar176_1,
-    71: ar176_1,
-    72: ar176_1,
-    73: ar176_1,
-    74: ar176_1,
-    75: ar176_1,
-    76: ar176_1,
-    77: ar176_1,
-    78: ar176_1,
-    79: ar176_1,
-    80: ar176_1,
-    81: ar176_1,
-    82: ar176_1,
-    83: ar176_1,
-    84: ar176_1,
-    85: ar176_1,
-    86: ar176_1,
-    87: ar176_1,
-    88: ar176_1,
-    89: ar176_1,
-    90: ar176_1,
-    91: ar176_1,
-    92: ar176_1,
-    93: ar176_1,
-}
-
-
-def s176(a, b, terminal):
-    move_action = SH176[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH177 = {
-    2: ar177_1,
-    3: h111,
-    10: ar177_1,
-    19: ar177_1,
-    20: ar177_1,
-    22: ar177_1,
-    31: ar177_1,
-    71: ar177_1,
-    72: ar177_1,
-    73: ar177_1,
-    74: ar177_1,
-    75: ar177_1,
-    76: ar177_1,
-    77: ar177_1,
-    78: ar177_1,
-    79: ar177_1,
-    80: ar177_1,
-    81: ar177_1,
-    82: ar177_1,
-    83: ar177_1,
-    84: ar177_1,
-    85: ar177_1,
-    86: ar177_1,
-    87: ar177_1,
-    88: ar177_1,
-    89: ar177_1,
-    90: ar177_1,
-    91: ar177_1,
-    92: ar177_1,
-    93: ar177_1,
-}
-
-
-def s177(a, b, terminal):
-    move_action = SH177[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH178 = {
-    2: ar178_1,
-    3: ar178_1,
-    10: ar178_1,
-    19: ar178_1,
-    20: ar178_1,
-    22: ar178_1,
-    31: ar178_1,
-    71: ar178_1,
-    72: ar178_1,
-    73: ar178_1,
-    74: ar178_1,
-    75: ar178_1,
-    76: ar178_1,
-    77: ar178_1,
-    78: ar178_1,
-    79: ar178_1,
-    80: ar178_1,
-    81: ar178_1,
-    82: ar178_1,
-    83: ar178_1,
-    84: ar178_1,
-    85: ar178_1,
-    86: ar178_1,
-    87: ar178_1,
-    88: ar178_1,
-    89: ar178_1,
-    90: ar178_1,
-    91: ar178_1,
-    92: ar178_1,
-    93: ar178_1,
-}
-
-
-def s178(a, b, terminal):
-    move_action = SH178[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH179 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s179(a, b, terminal):
-    move_action = SH179[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH180 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s180(a, b, terminal):
-    move_action = SH180[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH181 = {
-    104: h213,
-}
-
-
-def s181(a, b, terminal):
-    move_action = SH181[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH182 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s182(a, b, terminal):
-    move_action = SH182[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH183 = {
-    63: h215,
-}
-
-
-def s183(a, b, terminal):
-    move_action = SH183[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH184 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    96: ar0_1,
-    97: ar0_1,
-    98: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s184(a, b, terminal):
-    move_action = SH184[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH185 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s185(a, b, terminal):
-    move_action = SH185[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH186 = {
-    104: h221,
-}
-
-
-def s186(a, b, terminal):
-    move_action = SH186[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH187 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s187(a, b, terminal):
-    move_action = SH187[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH188 = {
-    30: h223,
-}
-
-
-def s188(a, b, terminal):
-    move_action = SH188[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH189 = {
-    33: h224,
-}
-
-
-def s189(a, b, terminal):
-    move_action = SH189[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH190 = {
-    12: h225,
-}
-
-
-def s190(a, b, terminal):
-    move_action = SH190[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH191 = {
-    19: h226,
-}
-
-
-def s191(a, b, terminal):
-    move_action = SH191[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH192 = {
-    2: ar192_1,
-    3: ar192_1,
-    10: ar192_1,
-    12: ar192_1,
-    19: ar192_1,
-    20: ar192_1,
-    22: ar192_1,
-    31: ar192_1,
-    71: ar192_1,
-    72: ar192_1,
-    73: ar192_1,
-    74: ar192_1,
-    75: ar192_1,
-    76: ar192_1,
-    77: ar192_1,
-    78: ar192_1,
-    79: ar192_1,
-    80: ar192_1,
-    81: ar192_1,
-    82: ar192_1,
-    83: ar192_1,
-    84: ar192_1,
-    85: ar192_1,
-    86: ar192_1,
-    87: ar192_1,
-    88: ar192_1,
-    89: ar192_1,
-    90: ar192_1,
-    91: ar192_1,
-    92: ar192_1,
-    93: ar192_1,
-    101: ar192_1,
-}
-
-
-def s192(a, b, terminal):
-    move_action = SH192[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH193 = {
-    2: ar193_1,
-    3: ar193_1,
-    10: ar193_1,
-    12: ar193_1,
-    19: ar193_1,
-    20: ar193_1,
-    22: ar193_1,
-    31: ar193_1,
-    71: ar193_1,
-    72: ar193_1,
-    73: ar193_1,
-    74: ar193_1,
-    75: ar193_1,
-    76: ar193_1,
-    77: ar193_1,
-    78: ar193_1,
-    79: ar193_1,
-    80: ar193_1,
-    81: ar193_1,
-    82: ar193_1,
-    83: ar193_1,
-    84: ar193_1,
-    85: ar193_1,
-    86: ar193_1,
-    87: ar193_1,
-    88: ar193_1,
-    89: ar193_1,
-    90: ar193_1,
-    91: ar193_1,
-    92: ar193_1,
-    93: ar193_1,
-    101: ar193_1,
-}
-
-
-def s193(a, b, terminal):
-    move_action = SH193[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH194 = {
-    2: ar194_1,
-    3: ar194_1,
-    10: ar194_1,
-    12: ar194_1,
-    19: ar194_1,
-    20: ar194_1,
-    22: ar194_1,
-    31: ar194_1,
-    71: ar194_1,
-    72: ar194_1,
-    73: ar194_1,
-    74: ar194_1,
-    75: ar194_1,
-    76: ar194_1,
-    77: ar194_1,
-    78: ar194_1,
-    79: ar194_1,
-    80: ar194_1,
-    81: ar194_1,
-    82: ar194_1,
-    83: ar194_1,
-    84: ar194_1,
-    85: ar194_1,
-    86: ar194_1,
-    87: ar194_1,
-    88: ar194_1,
-    89: ar194_1,
-    90: ar194_1,
-    91: ar194_1,
-    92: ar194_1,
-    93: ar194_1,
-    101: ar194_1,
-}
-
-
-def s194(a, b, terminal):
-    move_action = SH194[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH195 = {
-    2: ar195_1,
-    3: ar195_1,
-    10: ar195_1,
-    12: ar195_1,
-    19: ar195_1,
-    20: ar195_1,
-    22: ar195_1,
-    31: ar195_1,
-    71: ar195_1,
-    72: ar195_1,
-    73: ar195_1,
-    74: ar195_1,
-    75: ar195_1,
-    76: ar195_1,
-    77: ar195_1,
-    78: ar195_1,
-    79: ar195_1,
-    80: ar195_1,
-    81: ar195_1,
-    82: ar195_1,
-    83: ar195_1,
-    84: ar195_1,
-    85: ar195_1,
-    86: ar195_1,
-    87: ar195_1,
-    88: ar195_1,
-    89: ar195_1,
-    90: ar195_1,
-    91: ar195_1,
-    92: ar195_1,
-    93: ar195_1,
-    101: ar195_1,
-}
-
-
-def s195(a, b, terminal):
-    move_action = SH195[terminal.symbol_id]
-    return move_action(a, b, terminal)
+Ef={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
+def s218(a,b,c):
+    assert c.i in Ef
+    return r2s(a,b,c)
 
 
-SH196 = {
-    19: h227,
-}
-
-
-def s196(a, b, terminal):
-    move_action = SH196[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH197 = {
-    19: h228,
-}
-
-
-def s197(a, b, terminal):
-    move_action = SH197[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH198 = {
-    25: h229,
-}
-
-
-def s198(a, b, terminal):
-    move_action = SH198[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH199 = {
-    1: h123,
-    2: ar199_1,
-    3: ar199_1,
-    5: h71,
-    8: h49,
-    10: ar199_1,
-    11: h69,
-    12: ar199_1,
-    19: ar199_1,
-    20: ar199_1,
-    21: h44,
-    22: ar199_1,
-    27: h68,
-    29: h46,
-    31: ar199_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-    71: ar199_1,
-    72: ar199_1,
-    73: ar199_1,
-    74: ar199_1,
-    75: ar199_1,
-    76: ar199_1,
-    77: ar199_1,
-    78: ar199_1,
-    79: ar199_1,
-    80: ar199_1,
-    81: ar199_1,
-    82: ar199_1,
-    83: ar199_1,
-    84: ar199_1,
-    85: ar199_1,
-    86: ar199_1,
-    87: ar199_1,
-    88: ar199_1,
-    89: ar199_1,
-    90: ar199_1,
-    91: ar199_1,
-    92: ar199_1,
-    93: ar199_1,
-    101: ar199_1,
-}
-
-
-def s199(a, b, terminal):
-    move_action = SH199[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH200 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s200(a, b, terminal):
-    move_action = SH200[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH201 = {
-    1: ar201_1,
-    2: ar201_1,
-    3: ar201_1,
-    5: ar201_1,
-    6: ar201_1,
-    8: ar201_1,
-    10: ar201_1,
-    11: ar201_1,
-    12: ar201_1,
-    15: ar201_1,
-    18: ar201_1,
-    19: ar201_1,
-    20: ar201_1,
-    21: ar201_1,
-    22: ar201_1,
-    27: ar201_1,
-    29: ar201_1,
-    31: ar201_1,
-    32: ar201_1,
-    34: ar201_1,
-    35: ar201_1,
-    36: ar201_1,
-    37: ar201_1,
-    38: ar201_1,
-    39: ar201_1,
-    40: ar201_1,
-    41: ar201_1,
-    42: ar201_1,
-    43: ar201_1,
-    44: ar201_1,
-    45: ar201_1,
-    46: ar201_1,
-    47: ar201_1,
-    48: ar201_1,
-    49: ar201_1,
-    50: ar201_1,
-    51: ar201_1,
-    60: ar201_1,
-    61: ar201_1,
-    64: ar201_1,
-    69: ar201_1,
-    70: ar201_1,
-    71: ar201_1,
-    72: ar201_1,
-    73: ar201_1,
-    74: ar201_1,
-    75: ar201_1,
-    76: ar201_1,
-    77: ar201_1,
-    78: ar201_1,
-    79: ar201_1,
-    80: ar201_1,
-    81: ar201_1,
-    82: ar201_1,
-    83: ar201_1,
-    84: ar201_1,
-    85: ar201_1,
-    86: ar201_1,
-    87: ar201_1,
-    88: ar201_1,
-    89: ar201_1,
-    90: ar201_1,
-    91: ar201_1,
-    92: ar201_1,
-    93: ar201_1,
-    101: ar201_1,
-}
-
-
-def s201(a, b, terminal):
-    move_action = SH201[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH202 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s202(a, b, terminal):
-    move_action = SH202[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH203 = {
-    1: ar203_1,
-    2: ar203_1,
-    3: ar203_1,
-    5: ar203_1,
-    6: ar203_1,
-    8: ar203_1,
-    10: ar203_1,
-    11: ar203_1,
-    12: ar203_1,
-    15: ar203_1,
-    18: ar203_1,
-    19: ar203_1,
-    20: ar203_1,
-    21: ar203_1,
-    22: ar203_1,
-    27: ar203_1,
-    29: ar203_1,
-    31: ar203_1,
-    32: ar203_1,
-    34: ar203_1,
-    35: ar203_1,
-    36: ar203_1,
-    37: ar203_1,
-    38: ar203_1,
-    39: ar203_1,
-    40: ar203_1,
-    41: ar203_1,
-    42: ar203_1,
-    43: ar203_1,
-    44: ar203_1,
-    45: ar203_1,
-    46: ar203_1,
-    47: ar203_1,
-    48: ar203_1,
-    49: ar203_1,
-    50: ar203_1,
-    51: ar203_1,
-    60: ar203_1,
-    61: ar203_1,
-    64: ar203_1,
-    69: ar203_1,
-    70: ar203_1,
-    71: ar203_1,
-    72: ar203_1,
-    73: ar203_1,
-    74: ar203_1,
-    75: ar203_1,
-    76: ar203_1,
-    77: ar203_1,
-    78: ar203_1,
-    79: ar203_1,
-    80: ar203_1,
-    81: ar203_1,
-    82: ar203_1,
-    83: ar203_1,
-    84: ar203_1,
-    85: ar203_1,
-    86: ar203_1,
-    87: ar203_1,
-    88: ar203_1,
-    89: ar203_1,
-    90: ar203_1,
-    91: ar203_1,
-    92: ar203_1,
-    93: ar203_1,
-    101: ar203_1,
-}
-
-
-def s203(a, b, terminal):
-    move_action = SH203[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH204 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    18: h233,
-    21: h44,
-    27: h68,
-    29: h46,
-    32: h232,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s204(a, b, terminal):
-    move_action = SH204[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH205 = {
-    1: ar205_1,
-    2: ar205_1,
-    3: ar205_1,
-    5: ar205_1,
-    6: ar205_1,
-    8: ar205_1,
-    10: ar205_1,
-    11: ar205_1,
-    12: ar205_1,
-    15: ar205_1,
-    18: ar205_1,
-    19: ar205_1,
-    20: ar205_1,
-    21: ar205_1,
-    22: ar205_1,
-    27: ar205_1,
-    29: ar205_1,
-    31: ar205_1,
-    32: ar205_1,
-    34: ar205_1,
-    35: ar205_1,
-    36: ar205_1,
-    37: ar205_1,
-    38: ar205_1,
-    39: ar205_1,
-    40: ar205_1,
-    41: ar205_1,
-    42: ar205_1,
-    43: ar205_1,
-    44: ar205_1,
-    45: ar205_1,
-    46: ar205_1,
-    47: ar205_1,
-    48: ar205_1,
-    49: ar205_1,
-    50: ar205_1,
-    51: ar205_1,
-    60: ar205_1,
-    61: ar205_1,
-    64: ar205_1,
-    69: ar205_1,
-    70: ar205_1,
-    71: ar205_1,
-    72: ar205_1,
-    73: ar205_1,
-    74: ar205_1,
-    75: ar205_1,
-    76: ar205_1,
-    77: ar205_1,
-    78: ar205_1,
-    79: ar205_1,
-    80: ar205_1,
-    81: ar205_1,
-    82: ar205_1,
-    83: ar205_1,
-    84: ar205_1,
-    85: ar205_1,
-    86: ar205_1,
-    87: ar205_1,
-    88: ar205_1,
-    89: ar205_1,
-    90: ar205_1,
-    91: ar205_1,
-    92: ar205_1,
-    93: ar205_1,
-    101: ar205_1,
-}
-
-
-def s205(a, b, terminal):
-    move_action = SH205[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH206 = {
-    1: ar206_1,
-    2: ar206_1,
-    3: ar206_1,
-    5: ar206_1,
-    6: ar206_1,
-    8: ar206_1,
-    10: ar206_1,
-    11: ar206_1,
-    12: ar206_1,
-    15: ar206_1,
-    18: ar206_1,
-    19: ar206_1,
-    20: ar206_1,
-    21: ar206_1,
-    22: ar206_1,
-    27: ar206_1,
-    29: ar206_1,
-    31: ar206_1,
-    32: ar206_1,
-    34: ar206_1,
-    35: ar206_1,
-    36: ar206_1,
-    37: ar206_1,
-    38: ar206_1,
-    39: ar206_1,
-    40: ar206_1,
-    41: ar206_1,
-    42: ar206_1,
-    43: ar206_1,
-    44: ar206_1,
-    45: ar206_1,
-    46: ar206_1,
-    47: ar206_1,
-    48: ar206_1,
-    49: ar206_1,
-    50: ar206_1,
-    51: ar206_1,
-    60: ar206_1,
-    61: ar206_1,
-    64: ar206_1,
-    69: ar206_1,
-    70: ar206_1,
-    71: ar206_1,
-    72: ar206_1,
-    73: ar206_1,
-    74: ar206_1,
-    75: ar206_1,
-    76: ar206_1,
-    77: ar206_1,
-    78: ar206_1,
-    79: ar206_1,
-    80: ar206_1,
-    81: ar206_1,
-    82: ar206_1,
-    83: ar206_1,
-    84: ar206_1,
-    85: ar206_1,
-    86: ar206_1,
-    87: ar206_1,
-    88: ar206_1,
-    89: ar206_1,
-    90: ar206_1,
-    91: ar206_1,
-    92: ar206_1,
-    93: ar206_1,
-    101: ar206_1,
-}
-
-
-def s206(a, b, terminal):
-    move_action = SH206[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH207 = {
-    1: ar207_1,
-    2: ar207_1,
-    3: ar207_1,
-    5: ar207_1,
-    6: ar207_1,
-    8: ar207_1,
-    10: ar207_1,
-    11: ar207_1,
-    12: ar207_1,
-    15: ar207_1,
-    18: ar207_1,
-    19: ar207_1,
-    20: ar207_1,
-    21: ar207_1,
-    22: ar207_1,
-    27: ar207_1,
-    29: ar207_1,
-    31: ar207_1,
-    32: ar207_1,
-    34: ar207_1,
-    35: ar207_1,
-    36: ar207_1,
-    37: ar207_1,
-    38: ar207_1,
-    39: ar207_1,
-    40: ar207_1,
-    41: ar207_1,
-    42: ar207_1,
-    43: ar207_1,
-    44: ar207_1,
-    45: ar207_1,
-    46: ar207_1,
-    47: ar207_1,
-    48: ar207_1,
-    49: ar207_1,
-    50: ar207_1,
-    51: ar207_1,
-    60: ar207_1,
-    61: ar207_1,
-    64: ar207_1,
-    69: ar207_1,
-    70: ar207_1,
-    71: ar207_1,
-    72: ar207_1,
-    73: ar207_1,
-    74: ar207_1,
-    75: ar207_1,
-    76: ar207_1,
-    77: ar207_1,
-    78: ar207_1,
-    79: ar207_1,
-    80: ar207_1,
-    81: ar207_1,
-    82: ar207_1,
-    83: ar207_1,
-    84: ar207_1,
-    85: ar207_1,
-    86: ar207_1,
-    87: ar207_1,
-    88: ar207_1,
-    89: ar207_1,
-    90: ar207_1,
-    91: ar207_1,
-    92: ar207_1,
-    93: ar207_1,
-    101: ar207_1,
-}
-
-
-def s207(a, b, terminal):
-    move_action = SH207[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH208 = {
-    1: ar208_1,
-    2: ar208_1,
-    3: ar208_1,
-    5: ar208_1,
-    6: ar208_1,
-    8: ar208_1,
-    10: ar208_1,
-    11: ar208_1,
-    12: ar208_1,
-    15: ar208_1,
-    18: ar208_1,
-    19: ar208_1,
-    20: ar208_1,
-    21: ar208_1,
-    22: ar208_1,
-    27: ar208_1,
-    29: ar208_1,
-    31: ar208_1,
-    32: ar208_1,
-    34: ar208_1,
-    35: ar208_1,
-    36: ar208_1,
-    37: ar208_1,
-    38: ar208_1,
-    39: ar208_1,
-    40: ar208_1,
-    41: ar208_1,
-    42: ar208_1,
-    43: ar208_1,
-    44: ar208_1,
-    45: ar208_1,
-    46: ar208_1,
-    47: ar208_1,
-    48: ar208_1,
-    49: ar208_1,
-    50: ar208_1,
-    51: ar208_1,
-    60: ar208_1,
-    61: ar208_1,
-    64: ar208_1,
-    69: ar208_1,
-    70: ar208_1,
-    71: ar208_1,
-    72: ar208_1,
-    73: ar208_1,
-    74: ar208_1,
-    75: ar208_1,
-    76: ar208_1,
-    77: ar208_1,
-    78: ar208_1,
-    79: ar208_1,
-    80: ar208_1,
-    81: ar208_1,
-    82: ar208_1,
-    83: ar208_1,
-    84: ar208_1,
-    85: ar208_1,
-    86: ar208_1,
-    87: ar208_1,
-    88: ar208_1,
-    89: ar208_1,
-    90: ar208_1,
-    91: ar208_1,
-    92: ar208_1,
-    93: ar208_1,
-    101: ar208_1,
-}
-
-
-def s208(a, b, terminal):
-    move_action = SH208[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH209 = {
-    1: ar209_1,
-    2: ar209_1,
-    3: ar209_1,
-    5: ar209_1,
-    6: ar209_1,
-    8: ar209_1,
-    10: ar209_1,
-    11: ar209_1,
-    12: ar209_1,
-    15: ar209_1,
-    18: ar209_1,
-    19: ar209_1,
-    20: ar209_1,
-    21: ar209_1,
-    22: ar209_1,
-    27: ar209_1,
-    29: ar209_1,
-    31: ar209_1,
-    32: ar209_1,
-    34: ar209_1,
-    35: ar209_1,
-    36: ar209_1,
-    37: ar209_1,
-    38: ar209_1,
-    39: ar209_1,
-    40: ar209_1,
-    41: ar209_1,
-    42: ar209_1,
-    43: ar209_1,
-    44: ar209_1,
-    45: ar209_1,
-    46: ar209_1,
-    47: ar209_1,
-    48: ar209_1,
-    49: ar209_1,
-    50: ar209_1,
-    51: ar209_1,
-    60: ar209_1,
-    61: ar209_1,
-    64: ar209_1,
-    69: ar209_1,
-    70: ar209_1,
-    71: ar209_1,
-    72: ar209_1,
-    73: ar209_1,
-    74: ar209_1,
-    75: ar209_1,
-    76: ar209_1,
-    77: ar209_1,
-    78: ar209_1,
-    79: ar209_1,
-    80: ar209_1,
-    81: ar209_1,
-    82: ar209_1,
-    83: ar209_1,
-    84: ar209_1,
-    85: ar209_1,
-    86: ar209_1,
-    87: ar209_1,
-    88: ar209_1,
-    89: ar209_1,
-    90: ar209_1,
-    91: ar209_1,
-    92: ar209_1,
-    93: ar209_1,
-    101: ar209_1,
-}
-
-
-def s209(a, b, terminal):
-    move_action = SH209[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH210 = {
-    1: ar210_1,
-    2: ar210_1,
-    3: ar210_1,
-    5: ar210_1,
-    6: ar210_1,
-    8: ar210_1,
-    10: ar210_1,
-    11: ar210_1,
-    12: ar210_1,
-    15: ar210_1,
-    18: ar210_1,
-    19: ar210_1,
-    20: ar210_1,
-    21: ar210_1,
-    22: ar210_1,
-    27: ar210_1,
-    29: ar210_1,
-    31: ar210_1,
-    32: ar210_1,
-    34: ar210_1,
-    35: ar210_1,
-    36: ar210_1,
-    37: ar210_1,
-    38: ar210_1,
-    39: ar210_1,
-    40: ar210_1,
-    41: ar210_1,
-    42: ar210_1,
-    43: ar210_1,
-    44: ar210_1,
-    45: ar210_1,
-    46: ar210_1,
-    47: ar210_1,
-    48: ar210_1,
-    49: ar210_1,
-    50: ar210_1,
-    51: ar210_1,
-    60: ar210_1,
-    61: ar210_1,
-    64: ar210_1,
-    69: ar210_1,
-    70: ar210_1,
-    71: ar210_1,
-    72: ar210_1,
-    73: ar210_1,
-    74: ar210_1,
-    75: ar210_1,
-    76: ar210_1,
-    77: ar210_1,
-    78: ar210_1,
-    79: ar210_1,
-    80: ar210_1,
-    81: ar210_1,
-    82: ar210_1,
-    83: ar210_1,
-    84: ar210_1,
-    85: ar210_1,
-    86: ar210_1,
-    87: ar210_1,
-    88: ar210_1,
-    89: ar210_1,
-    90: ar210_1,
-    91: ar210_1,
-    92: ar210_1,
-    93: ar210_1,
-    101: ar210_1,
-}
-
-
-def s210(a, b, terminal):
-    move_action = SH210[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH211 = {
-    105: h234,
-}
-
-
-def s211(a, b, terminal):
-    move_action = SH211[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH212 = {
-    105: h235,
-}
-
-
-def s212(a, b, terminal):
-    move_action = SH212[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH213 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s213(a, b, terminal):
-    move_action = SH213[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH214 = {
-    2: h148,
-    3: h111,
-    10: h149,
-    19: h150,
-}
-
-
-def s214(a, b, terminal):
-    move_action = SH214[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH215 = {
-    2: ar192_1,
-    10: ar192_1,
-    19: h238,
-    101: ar192_1,
-}
-
-
-def s215(a, b, terminal):
-    move_action = SH215[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH216 = {
-    96: h243,
-    97: h240,
-    98: h241,
-}
-
-
-def s216(a, b, terminal):
-    move_action = SH216[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH217 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    107: h245,
-}
-
-
-def s217(a, b, terminal):
-    move_action = SH217[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH218 = {
-    1: ar218_1,
-    5: ar218_1,
-    8: ar218_1,
-    11: ar218_1,
-    12: ar218_1,
-    21: ar218_1,
-    27: ar218_1,
-    29: ar218_1,
-    30: ar218_1,
-    34: ar218_1,
-    35: ar218_1,
-    36: ar218_1,
-    37: ar218_1,
-    38: ar218_1,
-    39: ar218_1,
-    40: ar218_1,
-    41: ar218_1,
-    42: ar218_1,
-    43: ar218_1,
-    44: ar218_1,
-    45: ar218_1,
-    46: ar218_1,
-    47: ar218_1,
-    48: ar218_1,
-    49: ar218_1,
-    50: ar218_1,
-    51: ar218_1,
-    60: ar218_1,
-    61: ar218_1,
-    62: ar218_1,
-    64: ar218_1,
-    65: ar218_1,
-    69: ar218_1,
-    70: ar218_1,
-    107: ar218_1,
-}
-
-
-def s218(a, b, terminal):
-    move_action = SH218[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH219 = {
-    3: h246,
-}
-
-
-def s219(a, b, terminal):
-    move_action = SH219[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH220 = {
-    3: ar220_1,
-    31: h249,
-}
-
-
-def s220(a, b, terminal):
-    move_action = SH220[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH221 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s221(a, b, terminal):
-    move_action = SH221[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH222 = {
-    3: h111,
-    19: h251,
-}
-
-
-def s222(a, b, terminal):
-    move_action = SH222[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH223 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s223(a, b, terminal):
-    move_action = SH223[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH224 = {
-    2: ar224_1,
-    3: ar195_1,
-    10: ar224_1,
-    19: ar224_1,
-    20: ar224_1,
-    22: ar224_1,
-    31: ar224_1,
-    71: ar224_1,
-    72: ar224_1,
-    73: ar224_1,
-    74: ar224_1,
-    75: ar224_1,
-    76: ar224_1,
-    77: ar224_1,
-    78: ar224_1,
-    79: ar224_1,
-    80: ar224_1,
-    81: ar224_1,
-    82: ar224_1,
-    83: ar224_1,
-    84: ar224_1,
-    85: ar224_1,
-    86: ar224_1,
-    87: ar224_1,
-    88: ar224_1,
-    89: ar224_1,
-    90: ar224_1,
-    91: ar224_1,
-    92: ar224_1,
-    93: ar224_1,
-}
-
-
-def s224(a, b, terminal):
-    move_action = SH224[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH225 = {
-    19: h253,
-}
-
-
-def s225(a, b, terminal):
-    move_action = SH225[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH226 = {
-    13: h254,
-}
-
-
-def s226(a, b, terminal):
-    move_action = SH226[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH227 = {
-    25: h255,
-}
-
-
-def s227(a, b, terminal):
-    move_action = SH227[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH228 = {
-    25: h256,
-}
-
-
-def s228(a, b, terminal):
-    move_action = SH228[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH229 = {
-    1: ar229_1,
-    2: ar229_1,
-    3: ar229_1,
-    5: ar229_1,
-    6: ar229_1,
-    8: ar229_1,
-    10: ar229_1,
-    11: ar229_1,
-    12: ar229_1,
-    15: ar229_1,
-    18: ar229_1,
-    19: ar229_1,
-    20: ar229_1,
-    21: ar229_1,
-    22: ar229_1,
-    27: ar229_1,
-    29: ar229_1,
-    31: ar229_1,
-    32: ar229_1,
-    34: ar229_1,
-    35: ar229_1,
-    36: ar229_1,
-    37: ar229_1,
-    38: ar229_1,
-    39: ar229_1,
-    40: ar229_1,
-    41: ar229_1,
-    42: ar229_1,
-    43: ar229_1,
-    44: ar229_1,
-    45: ar229_1,
-    46: ar229_1,
-    47: ar229_1,
-    48: ar229_1,
-    49: ar229_1,
-    50: ar229_1,
-    51: ar229_1,
-    60: ar229_1,
-    61: ar229_1,
-    64: ar229_1,
-    69: ar229_1,
-    70: ar229_1,
-    71: ar229_1,
-    72: ar229_1,
-    73: ar229_1,
-    74: ar229_1,
-    75: ar229_1,
-    76: ar229_1,
-    77: ar229_1,
-    78: ar229_1,
-    79: ar229_1,
-    80: ar229_1,
-    81: ar229_1,
-    82: ar229_1,
-    83: ar229_1,
-    84: ar229_1,
-    85: ar229_1,
-    86: ar229_1,
-    87: ar229_1,
-    88: ar229_1,
-    89: ar229_1,
-    90: ar229_1,
-    91: ar229_1,
-    92: ar229_1,
-    93: ar229_1,
-    101: ar229_1,
-}
+def s219(a,b,c):
+    assert c.i==3
+    return h3m(a,b,c)
 
 
-def s229(a, b, terminal):
-    move_action = SH229[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH230 = {
-    3: h111,
-    19: h257,
-}
-
-
-def s230(a, b, terminal):
-    move_action = SH230[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH231 = {
-    15: ar231_1,
-    32: ar231_1,
-}
-
-
-def s231(a, b, terminal):
-    move_action = SH231[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH232 = {
-    1: ar232_1,
-    2: ar232_1,
-    3: ar232_1,
-    5: ar232_1,
-    6: ar232_1,
-    8: ar232_1,
-    10: ar232_1,
-    11: ar232_1,
-    12: ar232_1,
-    15: ar232_1,
-    18: ar232_1,
-    19: ar232_1,
-    20: ar232_1,
-    21: ar232_1,
-    22: ar232_1,
-    27: ar232_1,
-    29: ar232_1,
-    31: ar232_1,
-    32: ar232_1,
-    34: ar232_1,
-    35: ar232_1,
-    36: ar232_1,
-    37: ar232_1,
-    38: ar232_1,
-    39: ar232_1,
-    40: ar232_1,
-    41: ar232_1,
-    42: ar232_1,
-    43: ar232_1,
-    44: ar232_1,
-    45: ar232_1,
-    46: ar232_1,
-    47: ar232_1,
-    48: ar232_1,
-    49: ar232_1,
-    50: ar232_1,
-    51: ar232_1,
-    60: ar232_1,
-    61: ar232_1,
-    64: ar232_1,
-    69: ar232_1,
-    70: ar232_1,
-    71: ar232_1,
-    72: ar232_1,
-    73: ar232_1,
-    74: ar232_1,
-    75: ar232_1,
-    76: ar232_1,
-    77: ar232_1,
-    78: ar232_1,
-    79: ar232_1,
-    80: ar232_1,
-    81: ar232_1,
-    82: ar232_1,
-    83: ar232_1,
-    84: ar232_1,
-    85: ar232_1,
-    86: ar232_1,
-    87: ar232_1,
-    88: ar232_1,
-    89: ar232_1,
-    90: ar232_1,
-    91: ar232_1,
-    92: ar232_1,
-    93: ar232_1,
-    101: ar232_1,
-}
-
-
-def s232(a, b, terminal):
-    move_action = SH232[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH233 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
-}
-
-
-def s233(a, b, terminal):
-    move_action = SH233[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH234 = {
-    2: ar234_1,
-    10: ar234_1,
-    19: ar234_1,
-    20: ar234_1,
-    22: ar234_1,
-    31: ar234_1,
-    71: ar234_1,
-    72: ar234_1,
-    73: ar234_1,
-    74: ar234_1,
-    75: ar234_1,
-    76: ar234_1,
-    77: ar234_1,
-    78: ar234_1,
-    79: ar234_1,
-    80: ar234_1,
-    81: ar234_1,
-    82: ar234_1,
-    83: ar234_1,
-    84: ar234_1,
-    85: ar234_1,
-    86: ar234_1,
-    87: ar234_1,
-    88: ar234_1,
-    89: ar234_1,
-    90: ar234_1,
-    91: ar234_1,
-    92: ar234_1,
-    93: ar234_1,
-}
-
-
-def s234(a, b, terminal):
-    move_action = SH234[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH235 = {
-    2: ar235_1,
-    10: ar235_1,
-    19: ar235_1,
-    20: ar235_1,
-    22: ar235_1,
-    31: ar235_1,
-    71: ar235_1,
-    72: ar235_1,
-    73: ar235_1,
-    74: ar235_1,
-    75: ar235_1,
-    76: ar235_1,
-    77: ar235_1,
-    78: ar235_1,
-    79: ar235_1,
-    80: ar235_1,
-    81: ar235_1,
-    82: ar235_1,
-    83: ar235_1,
-    84: ar235_1,
-    85: ar235_1,
-    86: ar235_1,
-    87: ar235_1,
-    88: ar235_1,
-    89: ar235_1,
-    90: ar235_1,
-    91: ar235_1,
-    92: ar235_1,
-    93: ar235_1,
-}
-
-
-def s235(a, b, terminal):
-    move_action = SH235[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH236 = {
-    105: h259,
-}
-
-
-def s236(a, b, terminal):
-    move_action = SH236[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH237 = {
-    104: h260,
-}
-
-
-def s237(a, b, terminal):
-    move_action = SH237[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH238 = {
-    104: h261,
-}
-
-
-def s238(a, b, terminal):
-    move_action = SH238[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH239 = {
-    96: h243,
-    97: h263,
-    98: h264,
-}
-
-
-def s239(a, b, terminal):
-    move_action = SH239[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH240 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    98: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s240(a, b, terminal):
-    move_action = SH240[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH241 = {
-    2: ar241_1,
-    10: ar241_1,
-    19: ar241_1,
-    20: ar241_1,
-    22: ar241_1,
-    31: ar241_1,
-    71: ar241_1,
-    72: ar241_1,
-    73: ar241_1,
-    74: ar241_1,
-    75: ar241_1,
-    76: ar241_1,
-    77: ar241_1,
-    78: ar241_1,
-    79: ar241_1,
-    80: ar241_1,
-    81: ar241_1,
-    82: ar241_1,
-    83: ar241_1,
-    84: ar241_1,
-    85: ar241_1,
-    86: ar241_1,
-    87: ar241_1,
-    88: ar241_1,
-    89: ar241_1,
-    90: ar241_1,
-    91: ar241_1,
-    92: ar241_1,
-    93: ar241_1,
-}
-
-
-def s241(a, b, terminal):
-    move_action = SH241[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH242 = {
-    96: ar242_1,
-    97: ar242_1,
-    98: ar242_1,
-}
-
-
-def s242(a, b, terminal):
-    move_action = SH242[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH243 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    95: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s243(a, b, terminal):
-    move_action = SH243[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH244 = {
-    1: ar244_1,
-    5: ar244_1,
-    8: ar244_1,
-    11: ar244_1,
-    12: ar244_1,
-    21: ar244_1,
-    27: ar244_1,
-    29: ar244_1,
-    30: ar244_1,
-    34: ar244_1,
-    35: ar244_1,
-    36: ar244_1,
-    37: ar244_1,
-    38: ar244_1,
-    39: ar244_1,
-    40: ar244_1,
-    41: ar244_1,
-    42: ar244_1,
-    43: ar244_1,
-    44: ar244_1,
-    45: ar244_1,
-    46: ar244_1,
-    47: ar244_1,
-    48: ar244_1,
-    49: ar244_1,
-    50: ar244_1,
-    51: ar244_1,
-    60: ar244_1,
-    61: ar244_1,
-    62: ar244_1,
-    64: ar244_1,
-    65: ar244_1,
-    69: ar244_1,
-    70: ar244_1,
-    107: ar244_1,
-}
-
-
-def s244(a, b, terminal):
-    move_action = SH244[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH245 = {
-    2: ar245_1,
-    10: ar245_1,
-    19: ar245_1,
-    20: ar245_1,
-    22: ar245_1,
-    31: ar245_1,
-    71: ar245_1,
-    72: ar245_1,
-    73: ar245_1,
-    74: ar245_1,
-    75: ar245_1,
-    76: ar245_1,
-    77: ar245_1,
-    78: ar245_1,
-    79: ar245_1,
-    80: ar245_1,
-    81: ar245_1,
-    82: ar245_1,
-    83: ar245_1,
-    84: ar245_1,
-    85: ar245_1,
-    86: ar245_1,
-    87: ar245_1,
-    88: ar245_1,
-    89: ar245_1,
-    90: ar245_1,
-    91: ar245_1,
-    92: ar245_1,
-    93: ar245_1,
-}
-
-
-def s245(a, b, terminal):
-    move_action = SH245[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH246 = {
-    1: h28,
-    5: ar0_1,
-    8: ar0_1,
-    11: ar0_1,
-    12: ar0_1,
-    21: h44,
-    27: ar0_1,
-    29: ar0_1,
-    30: ar0_1,
-    34: ar0_1,
-    35: ar0_1,
-    36: ar0_1,
-    37: ar0_1,
-    38: ar0_1,
-    39: ar0_1,
-    40: ar0_1,
-    41: ar0_1,
-    42: ar0_1,
-    43: ar0_1,
-    44: ar0_1,
-    45: ar0_1,
-    46: ar0_1,
-    47: ar0_1,
-    48: ar0_1,
-    49: ar0_1,
-    50: ar0_1,
-    51: ar0_1,
-    60: ar0_1,
-    61: ar0_1,
-    62: ar0_1,
-    64: ar0_1,
-    65: ar0_1,
-    69: ar0_1,
-    70: ar0_1,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    107: ar0_1,
-    108: h15,
-    109: h14,
-    110: h16,
-}
-
-
-def s246(a, b, terminal):
-    move_action = SH246[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH247 = {
-    3: ar247_1,
-    31: h249,
-}
-
-
-def s247(a, b, terminal):
-    move_action = SH247[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH248 = {
-    3: ar248_1,
-    31: ar248_1,
-}
-
-
-def s248(a, b, terminal):
-    move_action = SH248[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH249 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-}
-
-
-def s249(a, b, terminal):
-    move_action = SH249[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH250 = {
-    105: h270,
+SH220={
+    3:r2t,
+    31:h3n,
 }
 
 
-def s250(a, b, terminal):
-    move_action = SH250[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s220(a,b,c):
+    m=SH220[c.i]
+    return m(a,b,c)
 
 
-SH251 = {
-    104: h271,
+SH222={
+    3:h1w,
+    19:h3o,
 }
 
 
-def s251(a, b, terminal):
-    move_action = SH251[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s222(a,b,c):
+    m=SH222[c.i]
+    return m(a,b,c)
 
 
-SH252 = {
-    33: h272,
+SH224={
+    3:r2i,
 }
+SH224.update({v: r2u for v in E4})
 
 
-def s252(a, b, terminal):
-    move_action = SH252[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s224(a,b,c):
+    m=SH224[c.i]
+    return m(a,b,c)
 
 
-SH253 = {
-    13: h273,
-}
-
+def s225(a,b,c):
+    assert c.i==19
+    return h3p(a,b,c)
 
-def s253(a, b, terminal):
-    move_action = SH253[terminal.symbol_id]
-    return move_action(a, b, terminal)
 
+def s226(a,b,c):
+    assert c.i==13
+    return h3q(a,b,c)
 
-SH254 = {
-    3: h274,
-    30: h275,
-}
 
+def s227(a,b,c):
+    assert c.i==25
+    return h3r(a,b,c)
 
-def s254(a, b, terminal):
-    move_action = SH254[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH255 = {
-    1: ar255_1,
-    2: ar255_1,
-    3: ar255_1,
-    5: ar255_1,
-    6: ar255_1,
-    8: ar255_1,
-    10: ar255_1,
-    11: ar255_1,
-    12: ar255_1,
-    15: ar255_1,
-    18: ar255_1,
-    19: ar255_1,
-    20: ar255_1,
-    21: ar255_1,
-    22: ar255_1,
-    27: ar255_1,
-    29: ar255_1,
-    31: ar255_1,
-    32: ar255_1,
-    34: ar255_1,
-    35: ar255_1,
-    36: ar255_1,
-    37: ar255_1,
-    38: ar255_1,
-    39: ar255_1,
-    40: ar255_1,
-    41: ar255_1,
-    42: ar255_1,
-    43: ar255_1,
-    44: ar255_1,
-    45: ar255_1,
-    46: ar255_1,
-    47: ar255_1,
-    48: ar255_1,
-    49: ar255_1,
-    50: ar255_1,
-    51: ar255_1,
-    60: ar255_1,
-    61: ar255_1,
-    64: ar255_1,
-    69: ar255_1,
-    70: ar255_1,
-    71: ar255_1,
-    72: ar255_1,
-    73: ar255_1,
-    74: ar255_1,
-    75: ar255_1,
-    76: ar255_1,
-    77: ar255_1,
-    78: ar255_1,
-    79: ar255_1,
-    80: ar255_1,
-    81: ar255_1,
-    82: ar255_1,
-    83: ar255_1,
-    84: ar255_1,
-    85: ar255_1,
-    86: ar255_1,
-    87: ar255_1,
-    88: ar255_1,
-    89: ar255_1,
-    90: ar255_1,
-    91: ar255_1,
-    92: ar255_1,
-    93: ar255_1,
-    101: ar255_1,
-}
 
+def s228(a,b,c):
+    assert c.i==25
+    return h3s(a,b,c)
+
+
+def s229(a,b,c):
+    assert c.i in E8
+    return r2v(a,b,c)
+
+
+SH230={
+    3:h1w,
+    19:h3t,
+}
+
+
+def s230(a,b,c):
+    m=SH230[c.i]
+    return m(a,b,c)
+
 
-def s255(a, b, terminal):
-    move_action = SH255[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH256 = {
-    1: ar256_1,
-    2: ar256_1,
-    3: ar256_1,
-    5: ar256_1,
-    6: ar256_1,
-    8: ar256_1,
-    10: ar256_1,
-    11: ar256_1,
-    12: ar256_1,
-    15: ar256_1,
-    18: ar256_1,
-    19: ar256_1,
-    20: ar256_1,
-    21: ar256_1,
-    22: ar256_1,
-    27: ar256_1,
-    29: ar256_1,
-    31: ar256_1,
-    32: ar256_1,
-    34: ar256_1,
-    35: ar256_1,
-    36: ar256_1,
-    37: ar256_1,
-    38: ar256_1,
-    39: ar256_1,
-    40: ar256_1,
-    41: ar256_1,
-    42: ar256_1,
-    43: ar256_1,
-    44: ar256_1,
-    45: ar256_1,
-    46: ar256_1,
-    47: ar256_1,
-    48: ar256_1,
-    49: ar256_1,
-    50: ar256_1,
-    51: ar256_1,
-    60: ar256_1,
-    61: ar256_1,
-    64: ar256_1,
-    69: ar256_1,
-    70: ar256_1,
-    71: ar256_1,
-    72: ar256_1,
-    73: ar256_1,
-    74: ar256_1,
-    75: ar256_1,
-    76: ar256_1,
-    77: ar256_1,
-    78: ar256_1,
-    79: ar256_1,
-    80: ar256_1,
-    81: ar256_1,
-    82: ar256_1,
-    83: ar256_1,
-    84: ar256_1,
-    85: ar256_1,
-    86: ar256_1,
-    87: ar256_1,
-    88: ar256_1,
-    89: ar256_1,
-    90: ar256_1,
-    91: ar256_1,
-    92: ar256_1,
-    93: ar256_1,
-    101: ar256_1,
-}
+def s231(a,b,c):
+    assert c.i in Ec
+    return r2w(a,b,c)
 
 
-def s256(a, b, terminal):
-    move_action = SH256[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s232(a,b,c):
+    assert c.i in E8
+    return r2x(a,b,c)
 
 
-SH257 = {
-    13: h276,
-}
+def s234(a,b,c):
+    assert c.i in E4
+    return r2y(a,b,c)
 
 
-def s257(a, b, terminal):
-    move_action = SH257[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s235(a,b,c):
+    assert c.i in E4
+    return r2z(a,b,c)
 
 
-SH258 = {
-    18: h278,
-    32: h277,
-}
+def s236(a,b,c):
+    assert c.i==105
+    return h3u(a,b,c)
 
 
-def s258(a, b, terminal):
-    move_action = SH258[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH259 = {
-    2: ar259_1,
-    10: ar259_1,
-    19: ar259_1,
-    20: ar259_1,
-    22: ar259_1,
-    31: ar259_1,
-    71: ar259_1,
-    72: ar259_1,
-    73: ar259_1,
-    74: ar259_1,
-    75: ar259_1,
-    76: ar259_1,
-    77: ar259_1,
-    78: ar259_1,
-    79: ar259_1,
-    80: ar259_1,
-    81: ar259_1,
-    82: ar259_1,
-    83: ar259_1,
-    84: ar259_1,
-    85: ar259_1,
-    86: ar259_1,
-    87: ar259_1,
-    88: ar259_1,
-    89: ar259_1,
-    90: ar259_1,
-    91: ar259_1,
-    92: ar259_1,
-    93: ar259_1,
-}
+def s237(a,b,c):
+    assert c.i==104
+    return h3v(a,b,c)
 
 
-def s259(a, b, terminal):
-    move_action = SH259[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH260 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s238(a,b,c):
+    assert c.i==104
+    return h3w(a,b,c)
 
 
-def s260(a, b, terminal):
-    move_action = SH260[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH261 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
+SH239={
+    96:h3i,
+    97:h3x,
+    98:h3y,
 }
-
 
-def s261(a, b, terminal):
-    move_action = SH261[terminal.symbol_id]
-    return move_action(a, b, terminal)
 
-
-SH262 = {
-    96: ar262_1,
-    97: ar262_1,
-    98: ar262_1,
-}
+def s239(a,b,c):
+    m=SH239[c.i]
+    return m(a,b,c)
 
 
-def s262(a, b, terminal):
-    move_action = SH262[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH263 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    98: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
+SH240={
+    1:h0,
+    5:h1,
+    8:h2,
+    11:h3,
+    12:h4,
+    21:h5,
+    27:h6,
+    29:h7,
+    30:h8,
+    34:h9,
+    35:ha,
+    36:hb,
+    37:hc,
+    38:hd,
+    39:he,
+    40:hf,
+    41:hg,
+    42:hh,
+    43:hi,
+    44:hj,
+    45:hk,
+    46:hl,
+    47:hm,
+    48:hn,
+    49:ho,
+    50:hp,
+    51:hq,
+    60:hr,
+    61:hs,
+    62:ht,
+    64:hu,
+    65:hv,
+    69:hw,
+    70:hx,
+    94:hy,
+    98:r0,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
 }
 
 
-def s263(a, b, terminal):
-    move_action = SH263[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH264 = {
-    2: ar264_1,
-    10: ar264_1,
-    19: ar264_1,
-    20: ar264_1,
-    22: ar264_1,
-    31: ar264_1,
-    71: ar264_1,
-    72: ar264_1,
-    73: ar264_1,
-    74: ar264_1,
-    75: ar264_1,
-    76: ar264_1,
-    77: ar264_1,
-    78: ar264_1,
-    79: ar264_1,
-    80: ar264_1,
-    81: ar264_1,
-    82: ar264_1,
-    83: ar264_1,
-    84: ar264_1,
-    85: ar264_1,
-    86: ar264_1,
-    87: ar264_1,
-    88: ar264_1,
-    89: ar264_1,
-    90: ar264_1,
-    91: ar264_1,
-    92: ar264_1,
-    93: ar264_1,
-}
+def s240(a,b,c):
+    m=SH240[c.i]
+    return m(a,b,c)
 
 
-def s264(a, b, terminal):
-    move_action = SH264[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s241(a,b,c):
+    assert c.i in E4
+    return r30(a,b,c)
 
 
-SH265 = {
-    98: h282,
-}
+Eg={96,97,98}
+def s242(a,b,c):
+    assert c.i in Eg
+    return r31(a,b,c)
 
 
-def s265(a, b, terminal):
-    move_action = SH265[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s244(a,b,c):
+    assert c.i in Ef
+    return r32(a,b,c)
 
 
-SH266 = {
-    95: h283,
-}
+def s245(a,b,c):
+    assert c.i in E4
+    return r33(a,b,c)
 
 
-def s266(a, b, terminal):
-    move_action = SH266[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH267 = {
-    1: ar267_1,
-    5: ar267_1,
-    8: ar267_1,
-    11: ar267_1,
-    12: ar267_1,
-    21: ar267_1,
-    27: ar267_1,
-    29: ar267_1,
-    30: ar267_1,
-    34: ar267_1,
-    35: ar267_1,
-    36: ar267_1,
-    37: ar267_1,
-    38: ar267_1,
-    39: ar267_1,
-    40: ar267_1,
-    41: ar267_1,
-    42: ar267_1,
-    43: ar267_1,
-    44: ar267_1,
-    45: ar267_1,
-    46: ar267_1,
-    47: ar267_1,
-    48: ar267_1,
-    49: ar267_1,
-    50: ar267_1,
-    51: ar267_1,
-    60: ar267_1,
-    61: ar267_1,
-    62: ar267_1,
-    64: ar267_1,
-    65: ar267_1,
-    69: ar267_1,
-    70: ar267_1,
-    107: ar267_1,
+SH246={
+    1:h0,
+    21:h5,
+    94:hy,
+    100:hz,
+    102:h10,
+    103:h11,
+    106:h12,
+    108:h13,
+    109:h14,
+    110:h15,
 }
+Eh={5,8,11,12,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
+SH246.update({v: r0 for v in Eh})
 
 
-def s267(a, b, terminal):
-    move_action = SH267[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s246(a,b,c):
+    m=SH246[c.i]
+    return m(a,b,c)
 
 
-SH268 = {
-    3: ar268_1,
-    31: ar268_1,
+SH247={
+    3:r34,
+    31:h3n,
 }
 
 
-def s268(a, b, terminal):
-    move_action = SH268[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s247(a,b,c):
+    m=SH247[c.i]
+    return m(a,b,c)
 
 
-SH269 = {
-    3: ar269_1,
-    31: ar269_1,
-}
+Ei={3,31}
+def s248(a,b,c):
+    assert c.i in Ei
+    return r35(a,b,c)
 
 
-def s269(a, b, terminal):
-    move_action = SH269[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH270 = {
-    2: ar270_1,
-    10: ar270_1,
-    19: ar270_1,
-    20: ar270_1,
-    22: ar270_1,
-    31: ar270_1,
-    71: ar270_1,
-    72: ar270_1,
-    73: ar270_1,
-    74: ar270_1,
-    75: ar270_1,
-    76: ar270_1,
-    77: ar270_1,
-    78: ar270_1,
-    79: ar270_1,
-    80: ar270_1,
-    81: ar270_1,
-    82: ar270_1,
-    83: ar270_1,
-    84: ar270_1,
-    85: ar270_1,
-    86: ar270_1,
-    87: ar270_1,
-    88: ar270_1,
-    89: ar270_1,
-    90: ar270_1,
-    91: ar270_1,
-    92: ar270_1,
-    93: ar270_1,
-}
+def s250(a,b,c):
+    assert c.i==105
+    return h3z(a,b,c)
 
 
-def s270(a, b, terminal):
-    move_action = SH270[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH271 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    105: ar0_1,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s251(a,b,c):
+    assert c.i==104
+    return h40(a,b,c)
 
 
-def s271(a, b, terminal):
-    move_action = SH271[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH272 = {
-    2: ar272_1,
-    10: ar272_1,
-    19: ar272_1,
-    20: ar272_1,
-    22: ar272_1,
-    31: ar272_1,
-    71: ar272_1,
-    72: ar272_1,
-    73: ar272_1,
-    74: ar272_1,
-    75: ar272_1,
-    76: ar272_1,
-    77: ar272_1,
-    78: ar272_1,
-    79: ar272_1,
-    80: ar272_1,
-    81: ar272_1,
-    82: ar272_1,
-    83: ar272_1,
-    84: ar272_1,
-    85: ar272_1,
-    86: ar272_1,
-    87: ar272_1,
-    88: ar272_1,
-    89: ar272_1,
-    90: ar272_1,
-    91: ar272_1,
-    92: ar272_1,
-    93: ar272_1,
-}
+def s252(a,b,c):
+    assert c.i==33
+    return h41(a,b,c)
 
 
-def s272(a, b, terminal):
-    move_action = SH272[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s253(a,b,c):
+    assert c.i==13
+    return h42(a,b,c)
 
 
-SH273 = {
-    3: h285,
-    30: h286,
+SH254={
+    3:h43,
+    30:h44,
 }
-
 
-def s273(a, b, terminal):
-    move_action = SH273[terminal.symbol_id]
-    return move_action(a, b, terminal)
 
+def s254(a,b,c):
+    m=SH254[c.i]
+    return m(a,b,c)
 
-SH274 = {
-    30: h287,
-}
-
 
-def s274(a, b, terminal):
-    move_action = SH274[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH275 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s255(a,b,c):
+    assert c.i in E8
+    return r36(a,b,c)
 
 
-def s275(a, b, terminal):
-    move_action = SH275[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH276 = {
-    2: ar276_1,
-    3: ar276_1,
-    10: ar276_1,
-    12: ar276_1,
-    19: ar276_1,
-    20: ar276_1,
-    22: ar276_1,
-    31: ar276_1,
-    71: ar276_1,
-    72: ar276_1,
-    73: ar276_1,
-    74: ar276_1,
-    75: ar276_1,
-    76: ar276_1,
-    77: ar276_1,
-    78: ar276_1,
-    79: ar276_1,
-    80: ar276_1,
-    81: ar276_1,
-    82: ar276_1,
-    83: ar276_1,
-    84: ar276_1,
-    85: ar276_1,
-    86: ar276_1,
-    87: ar276_1,
-    88: ar276_1,
-    89: ar276_1,
-    90: ar276_1,
-    91: ar276_1,
-    92: ar276_1,
-    93: ar276_1,
-    101: ar276_1,
-}
+def s256(a,b,c):
+    assert c.i in E8
+    return r37(a,b,c)
 
 
-def s276(a, b, terminal):
-    move_action = SH276[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH277 = {
-    1: ar277_1,
-    2: ar277_1,
-    3: ar277_1,
-    5: ar277_1,
-    6: ar277_1,
-    8: ar277_1,
-    10: ar277_1,
-    11: ar277_1,
-    12: ar277_1,
-    15: ar277_1,
-    18: ar277_1,
-    19: ar277_1,
-    20: ar277_1,
-    21: ar277_1,
-    22: ar277_1,
-    27: ar277_1,
-    29: ar277_1,
-    31: ar277_1,
-    32: ar277_1,
-    34: ar277_1,
-    35: ar277_1,
-    36: ar277_1,
-    37: ar277_1,
-    38: ar277_1,
-    39: ar277_1,
-    40: ar277_1,
-    41: ar277_1,
-    42: ar277_1,
-    43: ar277_1,
-    44: ar277_1,
-    45: ar277_1,
-    46: ar277_1,
-    47: ar277_1,
-    48: ar277_1,
-    49: ar277_1,
-    50: ar277_1,
-    51: ar277_1,
-    60: ar277_1,
-    61: ar277_1,
-    64: ar277_1,
-    69: ar277_1,
-    70: ar277_1,
-    71: ar277_1,
-    72: ar277_1,
-    73: ar277_1,
-    74: ar277_1,
-    75: ar277_1,
-    76: ar277_1,
-    77: ar277_1,
-    78: ar277_1,
-    79: ar277_1,
-    80: ar277_1,
-    81: ar277_1,
-    82: ar277_1,
-    83: ar277_1,
-    84: ar277_1,
-    85: ar277_1,
-    86: ar277_1,
-    87: ar277_1,
-    88: ar277_1,
-    89: ar277_1,
-    90: ar277_1,
-    91: ar277_1,
-    92: ar277_1,
-    93: ar277_1,
-    101: ar277_1,
-}
+def s257(a,b,c):
+    assert c.i==13
+    return h45(a,b,c)
 
 
-def s277(a, b, terminal):
-    move_action = SH277[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH278 = {
-    1: h123,
-    5: h71,
-    8: h49,
-    11: h69,
-    21: h44,
-    27: h68,
-    29: h46,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    64: h45,
-    69: h70,
-    70: h72,
+SH258={
+    18:h46,
+    32:h47,
 }
 
 
-def s278(a, b, terminal):
-    move_action = SH278[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s258(a,b,c):
+    m=SH258[c.i]
+    return m(a,b,c)
 
 
-SH279 = {
-    105: h290,
-}
+def s259(a,b,c):
+    assert c.i in E4
+    return r38(a,b,c)
 
 
-def s279(a, b, terminal):
-    move_action = SH279[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s262(a,b,c):
+    assert c.i in Eg
+    return r39(a,b,c)
 
 
-SH280 = {
-    105: h291,
-}
+def s264(a,b,c):
+    assert c.i in E4
+    return r3a(a,b,c)
 
 
-def s280(a, b, terminal):
-    move_action = SH280[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s265(a,b,c):
+    assert c.i==98
+    return h48(a,b,c)
 
 
-SH281 = {
-    98: h292,
-}
+def s266(a,b,c):
+    assert c.i==95
+    return h49(a,b,c)
 
 
-def s281(a, b, terminal):
-    move_action = SH281[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH282 = {
-    2: ar282_1,
-    10: ar282_1,
-    19: ar282_1,
-    20: ar282_1,
-    22: ar282_1,
-    31: ar282_1,
-    71: ar282_1,
-    72: ar282_1,
-    73: ar282_1,
-    74: ar282_1,
-    75: ar282_1,
-    76: ar282_1,
-    77: ar282_1,
-    78: ar282_1,
-    79: ar282_1,
-    80: ar282_1,
-    81: ar282_1,
-    82: ar282_1,
-    83: ar282_1,
-    84: ar282_1,
-    85: ar282_1,
-    86: ar282_1,
-    87: ar282_1,
-    88: ar282_1,
-    89: ar282_1,
-    90: ar282_1,
-    91: ar282_1,
-    92: ar282_1,
-    93: ar282_1,
-}
+def s267(a,b,c):
+    assert c.i in Ef
+    return r3b(a,b,c)
 
 
-def s282(a, b, terminal):
-    move_action = SH282[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH283 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    96: ar0_1,
-    97: ar0_1,
-    98: ar0_1,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s268(a,b,c):
+    assert c.i in Ei
+    return r3c(a,b,c)
 
 
-def s283(a, b, terminal):
-    move_action = SH283[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s269(a,b,c):
+    assert c.i in Ei
+    return r3d(a,b,c)
 
 
-SH284 = {
-    105: h294,
-}
+def s270(a,b,c):
+    assert c.i in E4
+    return r3e(a,b,c)
 
 
-def s284(a, b, terminal):
-    move_action = SH284[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s272(a,b,c):
+    assert c.i in E4
+    return r3f(a,b,c)
 
 
-SH285 = {
-    30: h295,
+SH273={
+    3:h4a,
+    30:h4b,
 }
 
 
-def s285(a, b, terminal):
-    move_action = SH285[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH286 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s273(a,b,c):
+    m=SH273[c.i]
+    return m(a,b,c)
 
 
-def s286(a, b, terminal):
-    move_action = SH286[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH287 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s274(a,b,c):
+    assert c.i==30
+    return h4c(a,b,c)
 
 
-def s287(a, b, terminal):
-    move_action = SH287[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s276(a,b,c):
+    assert c.i in E6
+    return r3g(a,b,c)
 
 
-SH288 = {
-    33: h298,
-}
+def s277(a,b,c):
+    assert c.i in E8
+    return r3h(a,b,c)
 
 
-def s288(a, b, terminal):
-    move_action = SH288[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s279(a,b,c):
+    assert c.i==105
+    return h4d(a,b,c)
 
 
-SH289 = {
-    32: h299,
-}
+def s280(a,b,c):
+    assert c.i==105
+    return h4e(a,b,c)
 
 
-def s289(a, b, terminal):
-    move_action = SH289[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH290 = {
-    2: ar290_1,
-    10: ar290_1,
-    19: ar290_1,
-    20: ar290_1,
-    22: ar290_1,
-    31: ar290_1,
-    71: ar290_1,
-    72: ar290_1,
-    73: ar290_1,
-    74: ar290_1,
-    75: ar290_1,
-    76: ar290_1,
-    77: ar290_1,
-    78: ar290_1,
-    79: ar290_1,
-    80: ar290_1,
-    81: ar290_1,
-    82: ar290_1,
-    83: ar290_1,
-    84: ar290_1,
-    85: ar290_1,
-    86: ar290_1,
-    87: ar290_1,
-    88: ar290_1,
-    89: ar290_1,
-    90: ar290_1,
-    91: ar290_1,
-    92: ar290_1,
-    93: ar290_1,
-}
+def s281(a,b,c):
+    assert c.i==98
+    return h4f(a,b,c)
 
 
-def s290(a, b, terminal):
-    move_action = SH290[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH291 = {
-    2: ar291_1,
-    10: ar291_1,
-    19: ar291_1,
-    20: ar291_1,
-    22: ar291_1,
-    31: ar291_1,
-    71: ar291_1,
-    72: ar291_1,
-    73: ar291_1,
-    74: ar291_1,
-    75: ar291_1,
-    76: ar291_1,
-    77: ar291_1,
-    78: ar291_1,
-    79: ar291_1,
-    80: ar291_1,
-    81: ar291_1,
-    82: ar291_1,
-    83: ar291_1,
-    84: ar291_1,
-    85: ar291_1,
-    86: ar291_1,
-    87: ar291_1,
-    88: ar291_1,
-    89: ar291_1,
-    90: ar291_1,
-    91: ar291_1,
-    92: ar291_1,
-    93: ar291_1,
-}
+def s282(a,b,c):
+    assert c.i in E4
+    return r3i(a,b,c)
 
 
-def s291(a, b, terminal):
-    move_action = SH291[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH292 = {
-    2: ar292_1,
-    10: ar292_1,
-    19: ar292_1,
-    20: ar292_1,
-    22: ar292_1,
-    31: ar292_1,
-    71: ar292_1,
-    72: ar292_1,
-    73: ar292_1,
-    74: ar292_1,
-    75: ar292_1,
-    76: ar292_1,
-    77: ar292_1,
-    78: ar292_1,
-    79: ar292_1,
-    80: ar292_1,
-    81: ar292_1,
-    82: ar292_1,
-    83: ar292_1,
-    84: ar292_1,
-    85: ar292_1,
-    86: ar292_1,
-    87: ar292_1,
-    88: ar292_1,
-    89: ar292_1,
-    90: ar292_1,
-    91: ar292_1,
-    92: ar292_1,
-    93: ar292_1,
-}
+def s284(a,b,c):
+    assert c.i==105
+    return h4g(a,b,c)
 
 
-def s292(a, b, terminal):
-    move_action = SH292[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s285(a,b,c):
+    assert c.i==30
+    return h4h(a,b,c)
 
 
-SH293 = {
-    96: ar293_1,
-    97: ar293_1,
-    98: ar293_1,
-}
+def s288(a,b,c):
+    assert c.i==33
+    return h4i(a,b,c)
 
 
-def s293(a, b, terminal):
-    move_action = SH293[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH294 = {
-    2: ar294_1,
-    10: ar294_1,
-    19: ar294_1,
-    20: ar294_1,
-    22: ar294_1,
-    31: ar294_1,
-    71: ar294_1,
-    72: ar294_1,
-    73: ar294_1,
-    74: ar294_1,
-    75: ar294_1,
-    76: ar294_1,
-    77: ar294_1,
-    78: ar294_1,
-    79: ar294_1,
-    80: ar294_1,
-    81: ar294_1,
-    82: ar294_1,
-    83: ar294_1,
-    84: ar294_1,
-    85: ar294_1,
-    86: ar294_1,
-    87: ar294_1,
-    88: ar294_1,
-    89: ar294_1,
-    90: ar294_1,
-    91: ar294_1,
-    92: ar294_1,
-    93: ar294_1,
-}
+def s289(a,b,c):
+    assert c.i==32
+    return h4j(a,b,c)
 
 
-def s294(a, b, terminal):
-    move_action = SH294[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH295 = {
-    1: h28,
-    5: h71,
-    8: h49,
-    11: h69,
-    12: h26,
-    21: h44,
-    27: h68,
-    29: h46,
-    30: h27,
-    33: ar0_1,
-    34: h47,
-    35: h50,
-    36: h51,
-    37: h52,
-    38: h53,
-    39: h54,
-    40: h55,
-    41: h56,
-    42: h57,
-    43: h58,
-    44: h59,
-    45: h60,
-    46: h61,
-    47: h62,
-    48: h63,
-    49: h64,
-    50: h65,
-    51: h66,
-    60: h48,
-    61: h67,
-    62: h24,
-    64: h45,
-    65: h25,
-    69: h70,
-    70: h72,
-    94: h12,
-    100: h11,
-    102: h9,
-    103: h10,
-    106: h13,
-    108: h15,
-    109: h14,
-    110: h16,
-}
+def s290(a,b,c):
+    assert c.i in E4
+    return r3j(a,b,c)
 
 
-def s295(a, b, terminal):
-    move_action = SH295[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s291(a,b,c):
+    assert c.i in E4
+    return r3k(a,b,c)
 
 
-SH296 = {
-    33: h301,
-}
+def s292(a,b,c):
+    assert c.i in E4
+    return r3l(a,b,c)
 
 
-def s296(a, b, terminal):
-    move_action = SH296[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s293(a,b,c):
+    assert c.i in Eg
+    return r3m(a,b,c)
 
 
-SH297 = {
-    33: h302,
-}
+def s294(a,b,c):
+    assert c.i in E4
+    return r3n(a,b,c)
 
 
-def s297(a, b, terminal):
-    move_action = SH297[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH298 = {
-    2: ar298_1,
-    10: ar298_1,
-    19: ar298_1,
-    20: ar298_1,
-    22: ar298_1,
-    31: ar298_1,
-    71: ar298_1,
-    72: ar298_1,
-    73: ar298_1,
-    74: ar298_1,
-    75: ar298_1,
-    76: ar298_1,
-    77: ar298_1,
-    78: ar298_1,
-    79: ar298_1,
-    80: ar298_1,
-    81: ar298_1,
-    82: ar298_1,
-    83: ar298_1,
-    84: ar298_1,
-    85: ar298_1,
-    86: ar298_1,
-    87: ar298_1,
-    88: ar298_1,
-    89: ar298_1,
-    90: ar298_1,
-    91: ar298_1,
-    92: ar298_1,
-    93: ar298_1,
-}
+def s296(a,b,c):
+    assert c.i==33
+    return h4k(a,b,c)
 
 
-def s298(a, b, terminal):
-    move_action = SH298[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH299 = {
-    1: ar299_1,
-    2: ar299_1,
-    3: ar299_1,
-    5: ar299_1,
-    6: ar299_1,
-    8: ar299_1,
-    10: ar299_1,
-    11: ar299_1,
-    12: ar299_1,
-    15: ar299_1,
-    18: ar299_1,
-    19: ar299_1,
-    20: ar299_1,
-    21: ar299_1,
-    22: ar299_1,
-    27: ar299_1,
-    29: ar299_1,
-    31: ar299_1,
-    32: ar299_1,
-    34: ar299_1,
-    35: ar299_1,
-    36: ar299_1,
-    37: ar299_1,
-    38: ar299_1,
-    39: ar299_1,
-    40: ar299_1,
-    41: ar299_1,
-    42: ar299_1,
-    43: ar299_1,
-    44: ar299_1,
-    45: ar299_1,
-    46: ar299_1,
-    47: ar299_1,
-    48: ar299_1,
-    49: ar299_1,
-    50: ar299_1,
-    51: ar299_1,
-    60: ar299_1,
-    61: ar299_1,
-    64: ar299_1,
-    69: ar299_1,
-    70: ar299_1,
-    71: ar299_1,
-    72: ar299_1,
-    73: ar299_1,
-    74: ar299_1,
-    75: ar299_1,
-    76: ar299_1,
-    77: ar299_1,
-    78: ar299_1,
-    79: ar299_1,
-    80: ar299_1,
-    81: ar299_1,
-    82: ar299_1,
-    83: ar299_1,
-    84: ar299_1,
-    85: ar299_1,
-    86: ar299_1,
-    87: ar299_1,
-    88: ar299_1,
-    89: ar299_1,
-    90: ar299_1,
-    91: ar299_1,
-    92: ar299_1,
-    93: ar299_1,
-    101: ar299_1,
-}
+def s297(a,b,c):
+    assert c.i==33
+    return h4l(a,b,c)
 
 
-def s299(a, b, terminal):
-    move_action = SH299[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s298(a,b,c):
+    assert c.i in E4
+    return r3o(a,b,c)
 
 
-SH300 = {
-    33: h303,
-}
+def s299(a,b,c):
+    assert c.i in E8
+    return r3p(a,b,c)
 
 
-def s300(a, b, terminal):
-    move_action = SH300[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH301 = {
-    2: ar301_1,
-    10: ar301_1,
-    19: ar301_1,
-    20: ar301_1,
-    22: ar301_1,
-    31: ar301_1,
-    71: ar301_1,
-    72: ar301_1,
-    73: ar301_1,
-    74: ar301_1,
-    75: ar301_1,
-    76: ar301_1,
-    77: ar301_1,
-    78: ar301_1,
-    79: ar301_1,
-    80: ar301_1,
-    81: ar301_1,
-    82: ar301_1,
-    83: ar301_1,
-    84: ar301_1,
-    85: ar301_1,
-    86: ar301_1,
-    87: ar301_1,
-    88: ar301_1,
-    89: ar301_1,
-    90: ar301_1,
-    91: ar301_1,
-    92: ar301_1,
-    93: ar301_1,
-}
+def s300(a,b,c):
+    assert c.i==33
+    return h4m(a,b,c)
 
 
-def s301(a, b, terminal):
-    move_action = SH301[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH302 = {
-    2: ar302_1,
-    10: ar302_1,
-    19: ar302_1,
-    20: ar302_1,
-    22: ar302_1,
-    31: ar302_1,
-    71: ar302_1,
-    72: ar302_1,
-    73: ar302_1,
-    74: ar302_1,
-    75: ar302_1,
-    76: ar302_1,
-    77: ar302_1,
-    78: ar302_1,
-    79: ar302_1,
-    80: ar302_1,
-    81: ar302_1,
-    82: ar302_1,
-    83: ar302_1,
-    84: ar302_1,
-    85: ar302_1,
-    86: ar302_1,
-    87: ar302_1,
-    88: ar302_1,
-    89: ar302_1,
-    90: ar302_1,
-    91: ar302_1,
-    92: ar302_1,
-    93: ar302_1,
-}
+def s301(a,b,c):
+    assert c.i in E4
+    return r3q(a,b,c)
 
 
-def s302(a, b, terminal):
-    move_action = SH302[terminal.symbol_id]
-    return move_action(a, b, terminal)
-
-
-SH303 = {
-    2: ar303_1,
-    10: ar303_1,
-    19: ar303_1,
-    20: ar303_1,
-    22: ar303_1,
-    31: ar303_1,
-    71: ar303_1,
-    72: ar303_1,
-    73: ar303_1,
-    74: ar303_1,
-    75: ar303_1,
-    76: ar303_1,
-    77: ar303_1,
-    78: ar303_1,
-    79: ar303_1,
-    80: ar303_1,
-    81: ar303_1,
-    82: ar303_1,
-    83: ar303_1,
-    84: ar303_1,
-    85: ar303_1,
-    86: ar303_1,
-    87: ar303_1,
-    88: ar303_1,
-    89: ar303_1,
-    90: ar303_1,
-    91: ar303_1,
-    92: ar303_1,
-    93: ar303_1,
-}
+def s302(a,b,c):
+    assert c.i in E4
+    return r3r(a,b,c)
 
 
-def s303(a, b, terminal):
-    move_action = SH303[terminal.symbol_id]
-    return move_action(a, b, terminal)
+def s303(a,b,c):
+    assert c.i in E4
+    return r3s(a,b,c)
 
 
 S = {
-    (0, 111): 1, 
-    (0, 112): 29, 
-    (0, 113): 23, 
-    (0, 115): 30, 
-    (0, 116): 31, 
-    (0, 117): 32, 
-    (0, 118): 33, 
-    (0, 119): 34, 
-    (0, 120): 35, 
-    (0, 121): 36, 
-    (0, 123): 37, 
-    (0, 124): 39, 
-    (0, 125): 38, 
-    (0, 126): 40, 
-    (0, 127): 41, 
-    (0, 128): 42, 
-    (0, 129): 43, 
-    (0, 130): 17, 
-    (0, 131): 18, 
-    (0, 132): 19, 
-    (0, 133): 20, 
-    (0, 134): 21, 
-    (0, 135): 22, 
-    (0, 136): 8, 
-    (0, 144): 7, 
-    (0, 148): 6, 
-    (0, 153): 5, 
-    (0, 159): 4, 
-    (0, 160): 3, 
-    (0, 161): 2, 
-    (3, 112): 29, 
-    (3, 113): 23, 
-    (3, 115): 30, 
-    (3, 116): 31, 
-    (3, 117): 32, 
-    (3, 118): 33, 
-    (3, 119): 34, 
-    (3, 120): 35, 
-    (3, 121): 36, 
-    (3, 123): 37, 
-    (3, 124): 39, 
-    (3, 125): 38, 
-    (3, 126): 40, 
-    (3, 127): 41, 
-    (3, 128): 42, 
-    (3, 129): 43, 
-    (3, 130): 17, 
-    (3, 131): 18, 
-    (3, 132): 19, 
-    (3, 133): 20, 
-    (3, 134): 21, 
-    (3, 135): 22, 
-    (3, 136): 8, 
-    (3, 144): 7, 
-    (3, 148): 6, 
-    (3, 153): 5, 
-    (3, 159): 73, 
-    (5, 154): 77, 
-    (5, 155): 76, 
-    (5, 156): 75, 
-    (5, 157): 74, 
-    (6, 149): 83, 
-    (6, 150): 82, 
-    (6, 151): 81, 
-    (6, 152): 80, 
-    (7, 145): 88, 
-    (7, 146): 87, 
-    (7, 147): 86, 
-    (9, 112): 29, 
-    (9, 113): 23, 
-    (9, 115): 30, 
-    (9, 116): 31, 
-    (9, 117): 32, 
-    (9, 118): 33, 
-    (9, 119): 34, 
-    (9, 120): 35, 
-    (9, 121): 36, 
-    (9, 123): 37, 
-    (9, 124): 39, 
-    (9, 125): 38, 
-    (9, 126): 40, 
-    (9, 127): 41, 
-    (9, 128): 42, 
-    (9, 129): 43, 
-    (9, 130): 17, 
-    (9, 131): 18, 
-    (9, 132): 19, 
-    (9, 133): 20, 
-    (9, 134): 21, 
-    (9, 135): 22, 
-    (9, 136): 8, 
-    (9, 144): 7, 
-    (9, 148): 6, 
-    (9, 153): 5, 
-    (9, 159): 4, 
-    (9, 160): 3, 
-    (9, 161): 112, 
-    (10, 112): 29, 
-    (10, 113): 23, 
-    (10, 115): 30, 
-    (10, 116): 31, 
-    (10, 117): 32, 
-    (10, 118): 33, 
-    (10, 119): 34, 
-    (10, 120): 35, 
-    (10, 121): 36, 
-    (10, 123): 37, 
-    (10, 124): 39, 
-    (10, 125): 38, 
-    (10, 126): 40, 
-    (10, 127): 41, 
-    (10, 128): 42, 
-    (10, 129): 43, 
-    (10, 130): 17, 
-    (10, 131): 18, 
-    (10, 132): 19, 
-    (10, 133): 20, 
-    (10, 134): 21, 
-    (10, 135): 22, 
-    (10, 136): 8, 
-    (10, 144): 7, 
-    (10, 148): 6, 
-    (10, 153): 5, 
-    (10, 159): 4, 
-    (10, 160): 3, 
-    (10, 161): 113, 
-    (11, 112): 29, 
-    (11, 113): 23, 
-    (11, 115): 30, 
-    (11, 116): 31, 
-    (11, 117): 32, 
-    (11, 118): 33, 
-    (11, 119): 34, 
-    (11, 120): 35, 
-    (11, 121): 36, 
-    (11, 123): 37, 
-    (11, 124): 39, 
-    (11, 125): 38, 
-    (11, 126): 40, 
-    (11, 127): 41, 
-    (11, 128): 42, 
-    (11, 129): 43, 
-    (11, 130): 114, 
-    (11, 131): 18, 
-    (11, 132): 19, 
-    (11, 133): 20, 
-    (11, 134): 21, 
-    (11, 135): 22, 
-    (12, 112): 29, 
-    (12, 113): 23, 
-    (12, 115): 30, 
-    (12, 116): 31, 
-    (12, 117): 32, 
-    (12, 118): 33, 
-    (12, 119): 34, 
-    (12, 120): 35, 
-    (12, 121): 36, 
-    (12, 123): 37, 
-    (12, 124): 39, 
-    (12, 125): 38, 
-    (12, 126): 40, 
-    (12, 127): 41, 
-    (12, 128): 42, 
-    (12, 129): 43, 
-    (12, 130): 17, 
-    (12, 131): 18, 
-    (12, 132): 19, 
-    (12, 133): 20, 
-    (12, 134): 21, 
-    (12, 135): 22, 
-    (12, 136): 8, 
-    (12, 144): 7, 
-    (12, 148): 6, 
-    (12, 153): 5, 
-    (12, 159): 4, 
-    (12, 160): 3, 
-    (12, 161): 116, 
-    (13, 112): 29, 
-    (13, 113): 23, 
-    (13, 115): 30, 
-    (13, 116): 31, 
-    (13, 117): 32, 
-    (13, 118): 33, 
-    (13, 119): 34, 
-    (13, 120): 35, 
-    (13, 121): 36, 
-    (13, 123): 37, 
-    (13, 124): 39, 
-    (13, 125): 38, 
-    (13, 126): 40, 
-    (13, 127): 41, 
-    (13, 128): 42, 
-    (13, 129): 43, 
-    (13, 130): 117, 
-    (13, 131): 18, 
-    (13, 132): 19, 
-    (13, 133): 20, 
-    (13, 134): 21, 
-    (13, 135): 22, 
-    (14, 112): 29, 
-    (14, 113): 23, 
-    (14, 115): 30, 
-    (14, 116): 31, 
-    (14, 117): 32, 
-    (14, 118): 33, 
-    (14, 119): 34, 
-    (14, 120): 35, 
-    (14, 121): 36, 
-    (14, 123): 37, 
-    (14, 124): 39, 
-    (14, 125): 38, 
-    (14, 126): 40, 
-    (14, 127): 41, 
-    (14, 128): 42, 
-    (14, 129): 43, 
-    (14, 130): 118, 
-    (14, 131): 18, 
-    (14, 132): 19, 
-    (14, 133): 20, 
-    (14, 134): 21, 
-    (14, 135): 22, 
-    (15, 112): 29, 
-    (15, 113): 23, 
-    (15, 115): 30, 
-    (15, 116): 31, 
-    (15, 117): 32, 
-    (15, 118): 33, 
-    (15, 119): 34, 
-    (15, 120): 35, 
-    (15, 121): 36, 
-    (15, 123): 37, 
-    (15, 124): 39, 
-    (15, 125): 38, 
-    (15, 126): 40, 
-    (15, 127): 41, 
-    (15, 128): 42, 
-    (15, 129): 43, 
-    (15, 130): 119, 
-    (15, 131): 18, 
-    (15, 132): 19, 
-    (15, 133): 20, 
-    (15, 134): 21, 
-    (15, 135): 22, 
-    (16, 112): 29, 
-    (16, 113): 23, 
-    (16, 115): 30, 
-    (16, 116): 31, 
-    (16, 117): 32, 
-    (16, 118): 33, 
-    (16, 119): 34, 
-    (16, 120): 35, 
-    (16, 121): 36, 
-    (16, 123): 37, 
-    (16, 124): 39, 
-    (16, 125): 38, 
-    (16, 126): 40, 
-    (16, 127): 41, 
-    (16, 128): 42, 
-    (16, 129): 43, 
-    (16, 130): 121, 
-    (16, 131): 18, 
-    (16, 132): 19, 
-    (16, 133): 20, 
-    (16, 134): 21, 
-    (16, 135): 22, 
-    (23, 112): 122, 
-    (23, 115): 30, 
-    (23, 116): 31, 
-    (23, 117): 32, 
-    (23, 118): 33, 
-    (23, 119): 34, 
-    (23, 120): 35, 
-    (23, 121): 36, 
-    (23, 123): 37, 
-    (23, 124): 39, 
-    (23, 125): 38, 
-    (23, 126): 40, 
-    (23, 127): 41, 
-    (23, 128): 42, 
-    (23, 129): 43, 
-    (24, 112): 29, 
-    (24, 113): 23, 
-    (24, 115): 30, 
-    (24, 116): 31, 
-    (24, 117): 32, 
-    (24, 118): 33, 
-    (24, 119): 34, 
-    (24, 120): 35, 
-    (24, 121): 36, 
-    (24, 123): 37, 
-    (24, 124): 39, 
-    (24, 125): 38, 
-    (24, 126): 40, 
-    (24, 127): 41, 
-    (24, 128): 42, 
-    (24, 129): 43, 
-    (24, 130): 17, 
-    (24, 131): 18, 
-    (24, 132): 19, 
-    (24, 133): 20, 
-    (24, 134): 21, 
-    (24, 135): 22, 
-    (24, 136): 8, 
-    (24, 144): 7, 
-    (24, 148): 6, 
-    (24, 153): 5, 
-    (24, 159): 4, 
-    (24, 160): 3, 
-    (24, 161): 124, 
-    (25, 112): 29, 
-    (25, 113): 23, 
-    (25, 115): 30, 
-    (25, 116): 31, 
-    (25, 117): 32, 
-    (25, 118): 33, 
-    (25, 119): 34, 
-    (25, 120): 35, 
-    (25, 121): 36, 
-    (25, 123): 37, 
-    (25, 124): 39, 
-    (25, 125): 38, 
-    (25, 126): 40, 
-    (25, 127): 41, 
-    (25, 128): 42, 
-    (25, 129): 43, 
-    (25, 130): 17, 
-    (25, 131): 18, 
-    (25, 132): 19, 
-    (25, 133): 20, 
-    (25, 134): 21, 
-    (25, 135): 22, 
-    (25, 136): 8, 
-    (25, 144): 7, 
-    (25, 148): 6, 
-    (25, 153): 5, 
-    (25, 159): 4, 
-    (25, 160): 3, 
-    (25, 161): 125, 
-    (26, 112): 29, 
-    (26, 113): 23, 
-    (26, 115): 30, 
-    (26, 116): 31, 
-    (26, 117): 32, 
-    (26, 118): 33, 
-    (26, 119): 34, 
-    (26, 120): 35, 
-    (26, 121): 36, 
-    (26, 123): 37, 
-    (26, 124): 39, 
-    (26, 125): 38, 
-    (26, 126): 40, 
-    (26, 127): 41, 
-    (26, 128): 42, 
-    (26, 129): 43, 
-    (26, 130): 17, 
-    (26, 131): 18, 
-    (26, 132): 19, 
-    (26, 133): 20, 
-    (26, 134): 21, 
-    (26, 135): 22, 
-    (26, 136): 8, 
-    (26, 144): 7, 
-    (26, 148): 6, 
-    (26, 153): 5, 
-    (26, 159): 4, 
-    (26, 160): 3, 
-    (26, 161): 126, 
-    (27, 112): 29, 
-    (27, 113): 23, 
-    (27, 115): 30, 
-    (27, 116): 31, 
-    (27, 117): 32, 
-    (27, 118): 33, 
-    (27, 119): 34, 
-    (27, 120): 35, 
-    (27, 121): 36, 
-    (27, 123): 37, 
-    (27, 124): 39, 
-    (27, 125): 38, 
-    (27, 126): 40, 
-    (27, 127): 41, 
-    (27, 128): 42, 
-    (27, 129): 43, 
-    (27, 130): 17, 
-    (27, 131): 18, 
-    (27, 132): 19, 
-    (27, 133): 20, 
-    (27, 134): 21, 
-    (27, 135): 22, 
-    (27, 136): 8, 
-    (27, 144): 7, 
-    (27, 148): 6, 
-    (27, 153): 5, 
-    (27, 159): 4, 
-    (27, 160): 3, 
-    (27, 161): 127, 
-    (45, 112): 29, 
-    (45, 113): 23, 
-    (45, 115): 30, 
-    (45, 116): 31, 
-    (45, 117): 32, 
-    (45, 118): 33, 
-    (45, 119): 34, 
-    (45, 120): 35, 
-    (45, 121): 36, 
-    (45, 123): 37, 
-    (45, 124): 39, 
-    (45, 125): 38, 
-    (45, 126): 40, 
-    (45, 127): 41, 
-    (45, 128): 42, 
-    (45, 129): 43, 
-    (45, 130): 17, 
-    (45, 131): 18, 
-    (45, 132): 19, 
-    (45, 133): 20, 
-    (45, 134): 21, 
-    (45, 135): 22, 
-    (45, 136): 8, 
-    (45, 144): 7, 
-    (45, 148): 6, 
-    (45, 153): 5, 
-    (45, 159): 4, 
-    (45, 160): 3, 
-    (45, 161): 130, 
-    (46, 112): 132, 
-    (46, 114): 131, 
-    (46, 115): 30, 
-    (46, 116): 31, 
-    (46, 117): 32, 
-    (46, 118): 33, 
-    (46, 119): 34, 
-    (46, 120): 35, 
-    (46, 121): 36, 
-    (46, 123): 37, 
-    (46, 124): 39, 
-    (46, 125): 38, 
-    (46, 126): 40, 
-    (46, 127): 41, 
-    (46, 128): 42, 
-    (46, 129): 43, 
-    (47, 112): 29, 
-    (47, 113): 133, 
-    (47, 115): 30, 
-    (47, 116): 31, 
-    (47, 117): 32, 
-    (47, 118): 33, 
-    (47, 119): 34, 
-    (47, 120): 35, 
-    (47, 121): 36, 
-    (47, 123): 37, 
-    (47, 124): 39, 
-    (47, 125): 38, 
-    (47, 126): 40, 
-    (47, 127): 41, 
-    (47, 128): 42, 
-    (47, 129): 43, 
-    (48, 122): 134, 
-    (67, 112): 29, 
-    (67, 113): 23, 
-    (67, 115): 30, 
-    (67, 116): 31, 
-    (67, 117): 32, 
-    (67, 118): 33, 
-    (67, 119): 34, 
-    (67, 120): 35, 
-    (67, 121): 36, 
-    (67, 123): 37, 
-    (67, 124): 39, 
-    (67, 125): 38, 
-    (67, 126): 40, 
-    (67, 127): 41, 
-    (67, 128): 42, 
-    (67, 129): 43, 
-    (67, 130): 17, 
-    (67, 131): 18, 
-    (67, 132): 19, 
-    (67, 133): 20, 
-    (67, 134): 21, 
-    (67, 135): 22, 
-    (67, 136): 8, 
-    (67, 144): 7, 
-    (67, 148): 6, 
-    (67, 153): 5, 
-    (67, 159): 4, 
-    (67, 160): 3, 
-    (67, 161): 137, 
-    (68, 112): 29, 
-    (68, 113): 23, 
-    (68, 115): 30, 
-    (68, 116): 31, 
-    (68, 117): 32, 
-    (68, 118): 33, 
-    (68, 119): 34, 
-    (68, 120): 35, 
-    (68, 121): 36, 
-    (68, 123): 37, 
-    (68, 124): 39, 
-    (68, 125): 38, 
-    (68, 126): 40, 
-    (68, 127): 41, 
-    (68, 128): 42, 
-    (68, 129): 43, 
-    (68, 130): 17, 
-    (68, 131): 18, 
-    (68, 132): 19, 
-    (68, 133): 20, 
-    (68, 134): 21, 
-    (68, 135): 22, 
-    (68, 136): 8, 
-    (68, 144): 7, 
-    (68, 148): 6, 
-    (68, 153): 5, 
-    (68, 159): 4, 
-    (68, 160): 3, 
-    (68, 161): 138, 
-    (71, 112): 29, 
-    (71, 113): 143, 
-    (71, 115): 30, 
-    (71, 116): 31, 
-    (71, 117): 32, 
-    (71, 118): 33, 
-    (71, 119): 34, 
-    (71, 120): 35, 
-    (71, 121): 36, 
-    (71, 123): 37, 
-    (71, 124): 39, 
-    (71, 125): 38, 
-    (71, 126): 40, 
-    (71, 127): 41, 
-    (71, 128): 42, 
-    (71, 129): 43, 
-    (72, 112): 29, 
-    (72, 113): 145, 
-    (72, 115): 30, 
-    (72, 116): 31, 
-    (72, 117): 32, 
-    (72, 118): 33, 
-    (72, 119): 34, 
-    (72, 120): 35, 
-    (72, 121): 36, 
-    (72, 123): 37, 
-    (72, 124): 39, 
-    (72, 125): 38, 
-    (72, 126): 40, 
-    (72, 127): 41, 
-    (72, 128): 42, 
-    (72, 129): 43, 
-    (74, 158): 147, 
-    (75, 154): 77, 
-    (75, 155): 151, 
-    (77, 112): 29, 
-    (77, 113): 23, 
-    (77, 115): 30, 
-    (77, 116): 31, 
-    (77, 117): 32, 
-    (77, 118): 33, 
-    (77, 119): 34, 
-    (77, 120): 35, 
-    (77, 121): 36, 
-    (77, 123): 37, 
-    (77, 124): 39, 
-    (77, 125): 38, 
-    (77, 126): 40, 
-    (77, 127): 41, 
-    (77, 128): 42, 
-    (77, 129): 43, 
-    (77, 130): 17, 
-    (77, 131): 18, 
-    (77, 132): 19, 
-    (77, 133): 20, 
-    (77, 134): 21, 
-    (77, 135): 22, 
-    (77, 136): 8, 
-    (77, 144): 7, 
-    (77, 148): 6, 
-    (77, 153): 152, 
-    (81, 149): 83, 
-    (81, 150): 153, 
-    (83, 112): 29, 
-    (83, 113): 23, 
-    (83, 115): 30, 
-    (83, 116): 31, 
-    (83, 117): 32, 
-    (83, 118): 33, 
-    (83, 119): 34, 
-    (83, 120): 35, 
-    (83, 121): 36, 
-    (83, 123): 37, 
-    (83, 124): 39, 
-    (83, 125): 38, 
-    (83, 126): 40, 
-    (83, 127): 41, 
-    (83, 128): 42, 
-    (83, 129): 43, 
-    (83, 130): 17, 
-    (83, 131): 18, 
-    (83, 132): 19, 
-    (83, 133): 20, 
-    (83, 134): 21, 
-    (83, 135): 22, 
-    (83, 136): 8, 
-    (83, 144): 7, 
-    (83, 148): 154, 
-    (87, 145): 155, 
-    (89, 112): 29, 
-    (89, 113): 23, 
-    (89, 115): 30, 
-    (89, 116): 31, 
-    (89, 117): 32, 
-    (89, 118): 33, 
-    (89, 119): 34, 
-    (89, 120): 35, 
-    (89, 121): 36, 
-    (89, 123): 37, 
-    (89, 124): 39, 
-    (89, 125): 38, 
-    (89, 126): 40, 
-    (89, 127): 41, 
-    (89, 128): 42, 
-    (89, 129): 43, 
-    (89, 130): 17, 
-    (89, 131): 18, 
-    (89, 132): 19, 
-    (89, 133): 20, 
-    (89, 134): 21, 
-    (89, 135): 22, 
-    (89, 136): 156, 
-    (90, 112): 29, 
-    (90, 113): 23, 
-    (90, 115): 30, 
-    (90, 116): 31, 
-    (90, 117): 32, 
-    (90, 118): 33, 
-    (90, 119): 34, 
-    (90, 120): 35, 
-    (90, 121): 36, 
-    (90, 123): 37, 
-    (90, 124): 39, 
-    (90, 125): 38, 
-    (90, 126): 40, 
-    (90, 127): 41, 
-    (90, 128): 42, 
-    (90, 129): 43, 
-    (90, 130): 17, 
-    (90, 131): 18, 
-    (90, 132): 19, 
-    (90, 133): 20, 
-    (90, 134): 21, 
-    (90, 135): 22, 
-    (90, 136): 157, 
-    (91, 112): 29, 
-    (91, 113): 23, 
-    (91, 115): 30, 
-    (91, 116): 31, 
-    (91, 117): 32, 
-    (91, 118): 33, 
-    (91, 119): 34, 
-    (91, 120): 35, 
-    (91, 121): 36, 
-    (91, 123): 37, 
-    (91, 124): 39, 
-    (91, 125): 38, 
-    (91, 126): 40, 
-    (91, 127): 41, 
-    (91, 128): 42, 
-    (91, 129): 43, 
-    (91, 130): 17, 
-    (91, 131): 18, 
-    (91, 132): 19, 
-    (91, 133): 20, 
-    (91, 134): 21, 
-    (91, 135): 22, 
-    (91, 136): 158, 
-    (92, 112): 29, 
-    (92, 113): 23, 
-    (92, 115): 30, 
-    (92, 116): 31, 
-    (92, 117): 32, 
-    (92, 118): 33, 
-    (92, 119): 34, 
-    (92, 120): 35, 
-    (92, 121): 36, 
-    (92, 123): 37, 
-    (92, 124): 39, 
-    (92, 125): 38, 
-    (92, 126): 40, 
-    (92, 127): 41, 
-    (92, 128): 42, 
-    (92, 129): 43, 
-    (92, 130): 17, 
-    (92, 131): 18, 
-    (92, 132): 19, 
-    (92, 133): 20, 
-    (92, 134): 21, 
-    (92, 135): 22, 
-    (92, 136): 159, 
-    (93, 112): 29, 
-    (93, 113): 23, 
-    (93, 115): 30, 
-    (93, 116): 31, 
-    (93, 117): 32, 
-    (93, 118): 33, 
-    (93, 119): 34, 
-    (93, 120): 35, 
-    (93, 121): 36, 
-    (93, 123): 37, 
-    (93, 124): 39, 
-    (93, 125): 38, 
-    (93, 126): 40, 
-    (93, 127): 41, 
-    (93, 128): 42, 
-    (93, 129): 43, 
-    (93, 130): 17, 
-    (93, 131): 18, 
-    (93, 132): 19, 
-    (93, 133): 20, 
-    (93, 134): 21, 
-    (93, 135): 22, 
-    (93, 136): 160, 
-    (94, 112): 29, 
-    (94, 113): 23, 
-    (94, 115): 30, 
-    (94, 116): 31, 
-    (94, 117): 32, 
-    (94, 118): 33, 
-    (94, 119): 34, 
-    (94, 120): 35, 
-    (94, 121): 36, 
-    (94, 123): 37, 
-    (94, 124): 39, 
-    (94, 125): 38, 
-    (94, 126): 40, 
-    (94, 127): 41, 
-    (94, 128): 42, 
-    (94, 129): 43, 
-    (94, 130): 17, 
-    (94, 131): 18, 
-    (94, 132): 19, 
-    (94, 133): 20, 
-    (94, 134): 21, 
-    (94, 135): 22, 
-    (94, 136): 161, 
-    (95, 112): 29, 
-    (95, 113): 23, 
-    (95, 115): 30, 
-    (95, 116): 31, 
-    (95, 117): 32, 
-    (95, 118): 33, 
-    (95, 119): 34, 
-    (95, 120): 35, 
-    (95, 121): 36, 
-    (95, 123): 37, 
-    (95, 124): 39, 
-    (95, 125): 38, 
-    (95, 126): 40, 
-    (95, 127): 41, 
-    (95, 128): 42, 
-    (95, 129): 43, 
-    (95, 130): 17, 
-    (95, 131): 18, 
-    (95, 132): 19, 
-    (95, 133): 20, 
-    (95, 134): 21, 
-    (95, 135): 22, 
-    (95, 136): 162, 
-    (96, 112): 29, 
-    (96, 113): 23, 
-    (96, 115): 30, 
-    (96, 116): 31, 
-    (96, 117): 32, 
-    (96, 118): 33, 
-    (96, 119): 34, 
-    (96, 120): 35, 
-    (96, 121): 36, 
-    (96, 123): 37, 
-    (96, 124): 39, 
-    (96, 125): 38, 
-    (96, 126): 40, 
-    (96, 127): 41, 
-    (96, 128): 42, 
-    (96, 129): 43, 
-    (96, 130): 17, 
-    (96, 131): 18, 
-    (96, 132): 19, 
-    (96, 133): 20, 
-    (96, 134): 21, 
-    (96, 135): 22, 
-    (96, 136): 163, 
-    (97, 112): 29, 
-    (97, 113): 23, 
-    (97, 115): 30, 
-    (97, 116): 31, 
-    (97, 117): 32, 
-    (97, 118): 33, 
-    (97, 119): 34, 
-    (97, 120): 35, 
-    (97, 121): 36, 
-    (97, 123): 37, 
-    (97, 124): 39, 
-    (97, 125): 38, 
-    (97, 126): 40, 
-    (97, 127): 41, 
-    (97, 128): 42, 
-    (97, 129): 43, 
-    (97, 130): 17, 
-    (97, 131): 18, 
-    (97, 132): 19, 
-    (97, 133): 20, 
-    (97, 134): 21, 
-    (97, 135): 22, 
-    (97, 136): 164, 
-    (98, 112): 29, 
-    (98, 113): 23, 
-    (98, 115): 30, 
-    (98, 116): 31, 
-    (98, 117): 32, 
-    (98, 118): 33, 
-    (98, 119): 34, 
-    (98, 120): 35, 
-    (98, 121): 36, 
-    (98, 123): 37, 
-    (98, 124): 39, 
-    (98, 125): 38, 
-    (98, 126): 40, 
-    (98, 127): 41, 
-    (98, 128): 42, 
-    (98, 129): 43, 
-    (98, 130): 17, 
-    (98, 131): 18, 
-    (98, 132): 19, 
-    (98, 133): 20, 
-    (98, 134): 21, 
-    (98, 135): 22, 
-    (98, 136): 165, 
-    (99, 112): 29, 
-    (99, 113): 23, 
-    (99, 115): 30, 
-    (99, 116): 31, 
-    (99, 117): 32, 
-    (99, 118): 33, 
-    (99, 119): 34, 
-    (99, 120): 35, 
-    (99, 121): 36, 
-    (99, 123): 37, 
-    (99, 124): 39, 
-    (99, 125): 38, 
-    (99, 126): 40, 
-    (99, 127): 41, 
-    (99, 128): 42, 
-    (99, 129): 43, 
-    (99, 130): 17, 
-    (99, 131): 18, 
-    (99, 132): 19, 
-    (99, 133): 20, 
-    (99, 134): 21, 
-    (99, 135): 22, 
-    (99, 136): 166, 
-    (100, 112): 29, 
-    (100, 113): 23, 
-    (100, 115): 30, 
-    (100, 116): 31, 
-    (100, 117): 32, 
-    (100, 118): 33, 
-    (100, 119): 34, 
-    (100, 120): 35, 
-    (100, 121): 36, 
-    (100, 123): 37, 
-    (100, 124): 39, 
-    (100, 125): 38, 
-    (100, 126): 40, 
-    (100, 127): 41, 
-    (100, 128): 42, 
-    (100, 129): 43, 
-    (100, 130): 17, 
-    (100, 131): 18, 
-    (100, 132): 19, 
-    (100, 133): 20, 
-    (100, 134): 21, 
-    (100, 135): 22, 
-    (100, 136): 167, 
-    (101, 112): 29, 
-    (101, 113): 23, 
-    (101, 115): 30, 
-    (101, 116): 31, 
-    (101, 117): 32, 
-    (101, 118): 33, 
-    (101, 119): 34, 
-    (101, 120): 35, 
-    (101, 121): 36, 
-    (101, 123): 37, 
-    (101, 124): 39, 
-    (101, 125): 38, 
-    (101, 126): 40, 
-    (101, 127): 41, 
-    (101, 128): 42, 
-    (101, 129): 43, 
-    (101, 130): 17, 
-    (101, 131): 18, 
-    (101, 132): 19, 
-    (101, 133): 20, 
-    (101, 134): 21, 
-    (101, 135): 22, 
-    (101, 136): 168, 
-    (102, 112): 29, 
-    (102, 113): 23, 
-    (102, 115): 30, 
-    (102, 116): 31, 
-    (102, 117): 32, 
-    (102, 118): 33, 
-    (102, 119): 34, 
-    (102, 120): 35, 
-    (102, 121): 36, 
-    (102, 123): 37, 
-    (102, 124): 39, 
-    (102, 125): 38, 
-    (102, 126): 40, 
-    (102, 127): 41, 
-    (102, 128): 42, 
-    (102, 129): 43, 
-    (102, 130): 17, 
-    (102, 131): 18, 
-    (102, 132): 19, 
-    (102, 133): 20, 
-    (102, 134): 21, 
-    (102, 135): 22, 
-    (102, 136): 169, 
-    (103, 112): 29, 
-    (103, 113): 23, 
-    (103, 115): 30, 
-    (103, 116): 31, 
-    (103, 117): 32, 
-    (103, 118): 33, 
-    (103, 119): 34, 
-    (103, 120): 35, 
-    (103, 121): 36, 
-    (103, 123): 37, 
-    (103, 124): 39, 
-    (103, 125): 38, 
-    (103, 126): 40, 
-    (103, 127): 41, 
-    (103, 128): 42, 
-    (103, 129): 43, 
-    (103, 130): 17, 
-    (103, 131): 18, 
-    (103, 132): 19, 
-    (103, 133): 20, 
-    (103, 134): 21, 
-    (103, 135): 22, 
-    (103, 136): 170, 
-    (104, 112): 29, 
-    (104, 113): 23, 
-    (104, 115): 30, 
-    (104, 116): 31, 
-    (104, 117): 32, 
-    (104, 118): 33, 
-    (104, 119): 34, 
-    (104, 120): 35, 
-    (104, 121): 36, 
-    (104, 123): 37, 
-    (104, 124): 39, 
-    (104, 125): 38, 
-    (104, 126): 40, 
-    (104, 127): 41, 
-    (104, 128): 42, 
-    (104, 129): 43, 
-    (104, 130): 17, 
-    (104, 131): 18, 
-    (104, 132): 19, 
-    (104, 133): 20, 
-    (104, 134): 21, 
-    (104, 135): 22, 
-    (104, 136): 171, 
-    (105, 112): 29, 
-    (105, 113): 23, 
-    (105, 115): 30, 
-    (105, 116): 31, 
-    (105, 117): 32, 
-    (105, 118): 33, 
-    (105, 119): 34, 
-    (105, 120): 35, 
-    (105, 121): 36, 
-    (105, 123): 37, 
-    (105, 124): 39, 
-    (105, 125): 38, 
-    (105, 126): 40, 
-    (105, 127): 41, 
-    (105, 128): 42, 
-    (105, 129): 43, 
-    (105, 130): 17, 
-    (105, 131): 18, 
-    (105, 132): 19, 
-    (105, 133): 20, 
-    (105, 134): 21, 
-    (105, 135): 22, 
-    (105, 136): 172, 
-    (106, 112): 29, 
-    (106, 113): 23, 
-    (106, 115): 30, 
-    (106, 116): 31, 
-    (106, 117): 32, 
-    (106, 118): 33, 
-    (106, 119): 34, 
-    (106, 120): 35, 
-    (106, 121): 36, 
-    (106, 123): 37, 
-    (106, 124): 39, 
-    (106, 125): 38, 
-    (106, 126): 40, 
-    (106, 127): 41, 
-    (106, 128): 42, 
-    (106, 129): 43, 
-    (106, 130): 17, 
-    (106, 131): 18, 
-    (106, 132): 19, 
-    (106, 133): 20, 
-    (106, 134): 21, 
-    (106, 135): 22, 
-    (106, 136): 173, 
-    (107, 112): 29, 
-    (107, 113): 23, 
-    (107, 115): 30, 
-    (107, 116): 31, 
-    (107, 117): 32, 
-    (107, 118): 33, 
-    (107, 119): 34, 
-    (107, 120): 35, 
-    (107, 121): 36, 
-    (107, 123): 37, 
-    (107, 124): 39, 
-    (107, 125): 38, 
-    (107, 126): 40, 
-    (107, 127): 41, 
-    (107, 128): 42, 
-    (107, 129): 43, 
-    (107, 130): 17, 
-    (107, 131): 18, 
-    (107, 132): 19, 
-    (107, 133): 20, 
-    (107, 134): 21, 
-    (107, 135): 22, 
-    (107, 136): 174, 
-    (108, 112): 29, 
-    (108, 113): 23, 
-    (108, 115): 30, 
-    (108, 116): 31, 
-    (108, 117): 32, 
-    (108, 118): 33, 
-    (108, 119): 34, 
-    (108, 120): 35, 
-    (108, 121): 36, 
-    (108, 123): 37, 
-    (108, 124): 39, 
-    (108, 125): 38, 
-    (108, 126): 40, 
-    (108, 127): 41, 
-    (108, 128): 42, 
-    (108, 129): 43, 
-    (108, 130): 17, 
-    (108, 131): 18, 
-    (108, 132): 19, 
-    (108, 133): 20, 
-    (108, 134): 21, 
-    (108, 135): 22, 
-    (108, 136): 175, 
-    (109, 112): 29, 
-    (109, 113): 23, 
-    (109, 115): 30, 
-    (109, 116): 31, 
-    (109, 117): 32, 
-    (109, 118): 33, 
-    (109, 119): 34, 
-    (109, 120): 35, 
-    (109, 121): 36, 
-    (109, 123): 37, 
-    (109, 124): 39, 
-    (109, 125): 38, 
-    (109, 126): 40, 
-    (109, 127): 41, 
-    (109, 128): 42, 
-    (109, 129): 43, 
-    (109, 130): 17, 
-    (109, 131): 18, 
-    (109, 132): 19, 
-    (109, 133): 20, 
-    (109, 134): 21, 
-    (109, 135): 22, 
-    (109, 136): 176, 
-    (110, 112): 29, 
-    (110, 113): 23, 
-    (110, 115): 30, 
-    (110, 116): 31, 
-    (110, 117): 32, 
-    (110, 118): 33, 
-    (110, 119): 34, 
-    (110, 120): 35, 
-    (110, 121): 36, 
-    (110, 123): 37, 
-    (110, 124): 39, 
-    (110, 125): 38, 
-    (110, 126): 40, 
-    (110, 127): 41, 
-    (110, 128): 42, 
-    (110, 129): 43, 
-    (110, 130): 17, 
-    (110, 131): 18, 
-    (110, 132): 19, 
-    (110, 133): 20, 
-    (110, 134): 21, 
-    (110, 135): 22, 
-    (110, 136): 177, 
-    (111, 112): 29, 
-    (111, 113): 23, 
-    (111, 115): 30, 
-    (111, 116): 31, 
-    (111, 117): 32, 
-    (111, 118): 33, 
-    (111, 119): 34, 
-    (111, 120): 35, 
-    (111, 121): 36, 
-    (111, 123): 37, 
-    (111, 124): 39, 
-    (111, 125): 38, 
-    (111, 126): 40, 
-    (111, 127): 41, 
-    (111, 128): 42, 
-    (111, 129): 43, 
-    (111, 130): 178, 
-    (111, 131): 18, 
-    (111, 132): 19, 
-    (111, 133): 20, 
-    (111, 134): 21, 
-    (111, 135): 22, 
-    (114, 158): 181, 
-    (115, 112): 29, 
-    (115, 113): 23, 
-    (115, 115): 30, 
-    (115, 116): 31, 
-    (115, 117): 32, 
-    (115, 118): 33, 
-    (115, 119): 34, 
-    (115, 120): 35, 
-    (115, 121): 36, 
-    (115, 123): 37, 
-    (115, 124): 39, 
-    (115, 125): 38, 
-    (115, 126): 40, 
-    (115, 127): 41, 
-    (115, 128): 42, 
-    (115, 129): 43, 
-    (115, 130): 17, 
-    (115, 131): 18, 
-    (115, 132): 19, 
-    (115, 133): 20, 
-    (115, 134): 21, 
-    (115, 135): 22, 
-    (115, 136): 8, 
-    (115, 144): 7, 
-    (115, 148): 6, 
-    (115, 153): 5, 
-    (115, 159): 4, 
-    (115, 160): 3, 
-    (115, 161): 183, 
-    (120, 112): 29, 
-    (120, 113): 23, 
-    (120, 115): 30, 
-    (120, 116): 31, 
-    (120, 117): 32, 
-    (120, 118): 33, 
-    (120, 119): 34, 
-    (120, 120): 35, 
-    (120, 121): 36, 
-    (120, 123): 37, 
-    (120, 124): 39, 
-    (120, 125): 38, 
-    (120, 126): 40, 
-    (120, 127): 41, 
-    (120, 128): 42, 
-    (120, 129): 43, 
-    (120, 130): 17, 
-    (120, 131): 18, 
-    (120, 132): 19, 
-    (120, 133): 20, 
-    (120, 134): 21, 
-    (120, 135): 22, 
-    (120, 136): 8, 
-    (120, 144): 7, 
-    (120, 148): 6, 
-    (120, 153): 5, 
-    (120, 159): 4, 
-    (120, 160): 3, 
-    (120, 161): 189, 
-    (128, 112): 29, 
-    (128, 113): 23, 
-    (128, 115): 30, 
-    (128, 116): 31, 
-    (128, 117): 32, 
-    (128, 118): 33, 
-    (128, 119): 34, 
-    (128, 120): 35, 
-    (128, 121): 36, 
-    (128, 123): 37, 
-    (128, 124): 39, 
-    (128, 125): 38, 
-    (128, 126): 40, 
-    (128, 127): 41, 
-    (128, 128): 42, 
-    (128, 129): 43, 
-    (128, 130): 17, 
-    (128, 131): 18, 
-    (128, 132): 19, 
-    (128, 133): 20, 
-    (128, 134): 21, 
-    (128, 135): 22, 
-    (128, 136): 8, 
-    (128, 144): 7, 
-    (128, 148): 6, 
-    (128, 153): 5, 
-    (128, 159): 4, 
-    (128, 160): 3, 
-    (128, 161): 198, 
-    (129, 112): 29, 
-    (129, 113): 199, 
-    (129, 115): 30, 
-    (129, 116): 31, 
-    (129, 117): 32, 
-    (129, 118): 33, 
-    (129, 119): 34, 
-    (129, 120): 35, 
-    (129, 121): 36, 
-    (129, 123): 37, 
-    (129, 124): 39, 
-    (129, 125): 38, 
-    (129, 126): 40, 
-    (129, 127): 41, 
-    (129, 128): 42, 
-    (129, 129): 43, 
-    (133, 112): 122, 
-    (133, 115): 30, 
-    (133, 116): 31, 
-    (133, 117): 32, 
-    (133, 118): 33, 
-    (133, 119): 34, 
-    (133, 120): 35, 
-    (133, 121): 36, 
-    (133, 123): 37, 
-    (133, 124): 39, 
-    (133, 125): 38, 
-    (133, 126): 40, 
-    (133, 127): 41, 
-    (133, 128): 42, 
-    (133, 129): 43, 
-    (134, 112): 29, 
-    (134, 113): 204, 
-    (134, 115): 30, 
-    (134, 116): 31, 
-    (134, 117): 32, 
-    (134, 118): 33, 
-    (134, 119): 34, 
-    (134, 120): 35, 
-    (134, 121): 36, 
-    (134, 123): 37, 
-    (134, 124): 39, 
-    (134, 125): 38, 
-    (134, 126): 40, 
-    (134, 127): 41, 
-    (134, 128): 42, 
-    (134, 129): 43, 
-    (143, 112): 122, 
-    (143, 115): 30, 
-    (143, 116): 31, 
-    (143, 117): 32, 
-    (143, 118): 33, 
-    (143, 119): 34, 
-    (143, 120): 35, 
-    (143, 121): 36, 
-    (143, 123): 37, 
-    (143, 124): 39, 
-    (143, 125): 38, 
-    (143, 126): 40, 
-    (143, 127): 41, 
-    (143, 128): 42, 
-    (143, 129): 43, 
-    (145, 112): 122, 
-    (145, 115): 30, 
-    (145, 116): 31, 
-    (145, 117): 32, 
-    (145, 118): 33, 
-    (145, 119): 34, 
-    (145, 120): 35, 
-    (145, 121): 36, 
-    (145, 123): 37, 
-    (145, 124): 39, 
-    (145, 125): 38, 
-    (145, 126): 40, 
-    (145, 127): 41, 
-    (145, 128): 42, 
-    (145, 129): 43, 
-    (179, 112): 29, 
-    (179, 113): 23, 
-    (179, 115): 30, 
-    (179, 116): 31, 
-    (179, 117): 32, 
-    (179, 118): 33, 
-    (179, 119): 34, 
-    (179, 120): 35, 
-    (179, 121): 36, 
-    (179, 123): 37, 
-    (179, 124): 39, 
-    (179, 125): 38, 
-    (179, 126): 40, 
-    (179, 127): 41, 
-    (179, 128): 42, 
-    (179, 129): 43, 
-    (179, 130): 17, 
-    (179, 131): 18, 
-    (179, 132): 19, 
-    (179, 133): 20, 
-    (179, 134): 21, 
-    (179, 135): 22, 
-    (179, 136): 8, 
-    (179, 144): 7, 
-    (179, 148): 6, 
-    (179, 153): 5, 
-    (179, 159): 4, 
-    (179, 160): 3, 
-    (179, 161): 211, 
-    (180, 112): 29, 
-    (180, 113): 23, 
-    (180, 115): 30, 
-    (180, 116): 31, 
-    (180, 117): 32, 
-    (180, 118): 33, 
-    (180, 119): 34, 
-    (180, 120): 35, 
-    (180, 121): 36, 
-    (180, 123): 37, 
-    (180, 124): 39, 
-    (180, 125): 38, 
-    (180, 126): 40, 
-    (180, 127): 41, 
-    (180, 128): 42, 
-    (180, 129): 43, 
-    (180, 130): 17, 
-    (180, 131): 18, 
-    (180, 132): 19, 
-    (180, 133): 20, 
-    (180, 134): 21, 
-    (180, 135): 22, 
-    (180, 136): 8, 
-    (180, 144): 7, 
-    (180, 148): 6, 
-    (180, 153): 5, 
-    (180, 159): 4, 
-    (180, 160): 3, 
-    (180, 161): 212, 
-    (182, 112): 29, 
-    (182, 113): 23, 
-    (182, 115): 30, 
-    (182, 116): 31, 
-    (182, 117): 32, 
-    (182, 118): 33, 
-    (182, 119): 34, 
-    (182, 120): 35, 
-    (182, 121): 36, 
-    (182, 123): 37, 
-    (182, 124): 39, 
-    (182, 125): 38, 
-    (182, 126): 40, 
-    (182, 127): 41, 
-    (182, 128): 42, 
-    (182, 129): 43, 
-    (182, 130): 17, 
-    (182, 131): 18, 
-    (182, 132): 19, 
-    (182, 133): 20, 
-    (182, 134): 21, 
-    (182, 135): 22, 
-    (182, 136): 214, 
-    (184, 112): 29, 
-    (184, 113): 23, 
-    (184, 115): 30, 
-    (184, 116): 31, 
-    (184, 117): 32, 
-    (184, 118): 33, 
-    (184, 119): 34, 
-    (184, 120): 35, 
-    (184, 121): 36, 
-    (184, 123): 37, 
-    (184, 124): 39, 
-    (184, 125): 38, 
-    (184, 126): 40, 
-    (184, 127): 41, 
-    (184, 128): 42, 
-    (184, 129): 43, 
-    (184, 130): 17, 
-    (184, 131): 18, 
-    (184, 132): 19, 
-    (184, 133): 20, 
-    (184, 134): 21, 
-    (184, 135): 22, 
-    (184, 136): 8, 
-    (184, 144): 7, 
-    (184, 148): 6, 
-    (184, 153): 5, 
-    (184, 159): 4, 
-    (184, 160): 3, 
-    (184, 161): 216, 
-    (185, 112): 29, 
-    (185, 113): 23, 
-    (185, 115): 30, 
-    (185, 116): 31, 
-    (185, 117): 32, 
-    (185, 118): 33, 
-    (185, 119): 34, 
-    (185, 120): 35, 
-    (185, 121): 36, 
-    (185, 123): 37, 
-    (185, 124): 39, 
-    (185, 125): 38, 
-    (185, 126): 40, 
-    (185, 127): 41, 
-    (185, 128): 42, 
-    (185, 129): 43, 
-    (185, 130): 220, 
-    (185, 131): 18, 
-    (185, 132): 19, 
-    (185, 133): 20, 
-    (185, 134): 21, 
-    (185, 135): 22, 
-    (185, 141): 219, 
-    (185, 142): 218, 
-    (185, 143): 217, 
-    (187, 112): 29, 
-    (187, 113): 23, 
-    (187, 115): 30, 
-    (187, 116): 31, 
-    (187, 117): 32, 
-    (187, 118): 33, 
-    (187, 119): 34, 
-    (187, 120): 35, 
-    (187, 121): 36, 
-    (187, 123): 37, 
-    (187, 124): 39, 
-    (187, 125): 38, 
-    (187, 126): 40, 
-    (187, 127): 41, 
-    (187, 128): 42, 
-    (187, 129): 43, 
-    (187, 130): 17, 
-    (187, 131): 18, 
-    (187, 132): 19, 
-    (187, 133): 20, 
-    (187, 134): 21, 
-    (187, 135): 22, 
-    (187, 136): 222, 
-    (199, 112): 122, 
-    (199, 115): 30, 
-    (199, 116): 31, 
-    (199, 117): 32, 
-    (199, 118): 33, 
-    (199, 119): 34, 
-    (199, 120): 35, 
-    (199, 121): 36, 
-    (199, 123): 37, 
-    (199, 124): 39, 
-    (199, 125): 38, 
-    (199, 126): 40, 
-    (199, 127): 41, 
-    (199, 128): 42, 
-    (199, 129): 43, 
-    (200, 112): 29, 
-    (200, 113): 23, 
-    (200, 115): 30, 
-    (200, 116): 31, 
-    (200, 117): 32, 
-    (200, 118): 33, 
-    (200, 119): 34, 
-    (200, 120): 35, 
-    (200, 121): 36, 
-    (200, 123): 37, 
-    (200, 124): 39, 
-    (200, 125): 38, 
-    (200, 126): 40, 
-    (200, 127): 41, 
-    (200, 128): 42, 
-    (200, 129): 43, 
-    (200, 130): 17, 
-    (200, 131): 18, 
-    (200, 132): 19, 
-    (200, 133): 20, 
-    (200, 134): 21, 
-    (200, 135): 22, 
-    (200, 136): 230, 
-    (202, 112): 231, 
-    (202, 115): 30, 
-    (202, 116): 31, 
-    (202, 117): 32, 
-    (202, 118): 33, 
-    (202, 119): 34, 
-    (202, 120): 35, 
-    (202, 121): 36, 
-    (202, 123): 37, 
-    (202, 124): 39, 
-    (202, 125): 38, 
-    (202, 126): 40, 
-    (202, 127): 41, 
-    (202, 128): 42, 
-    (202, 129): 43, 
-    (204, 112): 122, 
-    (204, 115): 30, 
-    (204, 116): 31, 
-    (204, 117): 32, 
-    (204, 118): 33, 
-    (204, 119): 34, 
-    (204, 120): 35, 
-    (204, 121): 36, 
-    (204, 123): 37, 
-    (204, 124): 39, 
-    (204, 125): 38, 
-    (204, 126): 40, 
-    (204, 127): 41, 
-    (204, 128): 42, 
-    (204, 129): 43, 
-    (213, 112): 29, 
-    (213, 113): 23, 
-    (213, 115): 30, 
-    (213, 116): 31, 
-    (213, 117): 32, 
-    (213, 118): 33, 
-    (213, 119): 34, 
-    (213, 120): 35, 
-    (213, 121): 36, 
-    (213, 123): 37, 
-    (213, 124): 39, 
-    (213, 125): 38, 
-    (213, 126): 40, 
-    (213, 127): 41, 
-    (213, 128): 42, 
-    (213, 129): 43, 
-    (213, 130): 17, 
-    (213, 131): 18, 
-    (213, 132): 19, 
-    (213, 133): 20, 
-    (213, 134): 21, 
-    (213, 135): 22, 
-    (213, 136): 8, 
-    (213, 144): 7, 
-    (213, 148): 6, 
-    (213, 153): 5, 
-    (213, 159): 4, 
-    (213, 160): 3, 
-    (213, 161): 236, 
-    (214, 158): 237, 
-    (216, 137): 242, 
-    (216, 138): 239, 
-    (217, 112): 29, 
-    (217, 113): 23, 
-    (217, 115): 30, 
-    (217, 116): 31, 
-    (217, 117): 32, 
-    (217, 118): 33, 
-    (217, 119): 34, 
-    (217, 120): 35, 
-    (217, 121): 36, 
-    (217, 123): 37, 
-    (217, 124): 39, 
-    (217, 125): 38, 
-    (217, 126): 40, 
-    (217, 127): 41, 
-    (217, 128): 42, 
-    (217, 129): 43, 
-    (217, 130): 220, 
-    (217, 131): 18, 
-    (217, 132): 19, 
-    (217, 133): 20, 
-    (217, 134): 21, 
-    (217, 135): 22, 
-    (217, 141): 219, 
-    (217, 142): 244, 
-    (220, 139): 248, 
-    (220, 140): 247, 
-    (221, 112): 29, 
-    (221, 113): 23, 
-    (221, 115): 30, 
-    (221, 116): 31, 
-    (221, 117): 32, 
-    (221, 118): 33, 
-    (221, 119): 34, 
-    (221, 120): 35, 
-    (221, 121): 36, 
-    (221, 123): 37, 
-    (221, 124): 39, 
-    (221, 125): 38, 
-    (221, 126): 40, 
-    (221, 127): 41, 
-    (221, 128): 42, 
-    (221, 129): 43, 
-    (221, 130): 17, 
-    (221, 131): 18, 
-    (221, 132): 19, 
-    (221, 133): 20, 
-    (221, 134): 21, 
-    (221, 135): 22, 
-    (221, 136): 8, 
-    (221, 144): 7, 
-    (221, 148): 6, 
-    (221, 153): 5, 
-    (221, 159): 4, 
-    (221, 160): 3, 
-    (221, 161): 250, 
-    (223, 112): 29, 
-    (223, 113): 23, 
-    (223, 115): 30, 
-    (223, 116): 31, 
-    (223, 117): 32, 
-    (223, 118): 33, 
-    (223, 119): 34, 
-    (223, 120): 35, 
-    (223, 121): 36, 
-    (223, 123): 37, 
-    (223, 124): 39, 
-    (223, 125): 38, 
-    (223, 126): 40, 
-    (223, 127): 41, 
-    (223, 128): 42, 
-    (223, 129): 43, 
-    (223, 130): 17, 
-    (223, 131): 18, 
-    (223, 132): 19, 
-    (223, 133): 20, 
-    (223, 134): 21, 
-    (223, 135): 22, 
-    (223, 136): 8, 
-    (223, 144): 7, 
-    (223, 148): 6, 
-    (223, 153): 5, 
-    (223, 159): 4, 
-    (223, 160): 3, 
-    (223, 161): 252, 
-    (233, 112): 258, 
-    (233, 115): 30, 
-    (233, 116): 31, 
-    (233, 117): 32, 
-    (233, 118): 33, 
-    (233, 119): 34, 
-    (233, 120): 35, 
-    (233, 121): 36, 
-    (233, 123): 37, 
-    (233, 124): 39, 
-    (233, 125): 38, 
-    (233, 126): 40, 
-    (233, 127): 41, 
-    (233, 128): 42, 
-    (233, 129): 43, 
-    (239, 137): 262, 
-    (240, 112): 29, 
-    (240, 113): 23, 
-    (240, 115): 30, 
-    (240, 116): 31, 
-    (240, 117): 32, 
-    (240, 118): 33, 
-    (240, 119): 34, 
-    (240, 120): 35, 
-    (240, 121): 36, 
-    (240, 123): 37, 
-    (240, 124): 39, 
-    (240, 125): 38, 
-    (240, 126): 40, 
-    (240, 127): 41, 
-    (240, 128): 42, 
-    (240, 129): 43, 
-    (240, 130): 17, 
-    (240, 131): 18, 
-    (240, 132): 19, 
-    (240, 133): 20, 
-    (240, 134): 21, 
-    (240, 135): 22, 
-    (240, 136): 8, 
-    (240, 144): 7, 
-    (240, 148): 6, 
-    (240, 153): 5, 
-    (240, 159): 4, 
-    (240, 160): 3, 
-    (240, 161): 265, 
-    (243, 112): 29, 
-    (243, 113): 23, 
-    (243, 115): 30, 
-    (243, 116): 31, 
-    (243, 117): 32, 
-    (243, 118): 33, 
-    (243, 119): 34, 
-    (243, 120): 35, 
-    (243, 121): 36, 
-    (243, 123): 37, 
-    (243, 124): 39, 
-    (243, 125): 38, 
-    (243, 126): 40, 
-    (243, 127): 41, 
-    (243, 128): 42, 
-    (243, 129): 43, 
-    (243, 130): 17, 
-    (243, 131): 18, 
-    (243, 132): 19, 
-    (243, 133): 20, 
-    (243, 134): 21, 
-    (243, 135): 22, 
-    (243, 136): 8, 
-    (243, 144): 7, 
-    (243, 148): 6, 
-    (243, 153): 5, 
-    (243, 159): 4, 
-    (243, 160): 3, 
-    (243, 161): 266, 
-    (246, 112): 29, 
-    (246, 113): 23, 
-    (246, 115): 30, 
-    (246, 116): 31, 
-    (246, 117): 32, 
-    (246, 118): 33, 
-    (246, 119): 34, 
-    (246, 120): 35, 
-    (246, 121): 36, 
-    (246, 123): 37, 
-    (246, 124): 39, 
-    (246, 125): 38, 
-    (246, 126): 40, 
-    (246, 127): 41, 
-    (246, 128): 42, 
-    (246, 129): 43, 
-    (246, 130): 17, 
-    (246, 131): 18, 
-    (246, 132): 19, 
-    (246, 133): 20, 
-    (246, 134): 21, 
-    (246, 135): 22, 
-    (246, 136): 8, 
-    (246, 144): 7, 
-    (246, 148): 6, 
-    (246, 153): 5, 
-    (246, 159): 4, 
-    (246, 160): 3, 
-    (246, 161): 267, 
-    (247, 139): 268, 
-    (249, 112): 29, 
-    (249, 113): 23, 
-    (249, 115): 30, 
-    (249, 116): 31, 
-    (249, 117): 32, 
-    (249, 118): 33, 
-    (249, 119): 34, 
-    (249, 120): 35, 
-    (249, 121): 36, 
-    (249, 123): 37, 
-    (249, 124): 39, 
-    (249, 125): 38, 
-    (249, 126): 40, 
-    (249, 127): 41, 
-    (249, 128): 42, 
-    (249, 129): 43, 
-    (249, 130): 269, 
-    (249, 131): 18, 
-    (249, 132): 19, 
-    (249, 133): 20, 
-    (249, 134): 21, 
-    (249, 135): 22, 
-    (260, 112): 29, 
-    (260, 113): 23, 
-    (260, 115): 30, 
-    (260, 116): 31, 
-    (260, 117): 32, 
-    (260, 118): 33, 
-    (260, 119): 34, 
-    (260, 120): 35, 
-    (260, 121): 36, 
-    (260, 123): 37, 
-    (260, 124): 39, 
-    (260, 125): 38, 
-    (260, 126): 40, 
-    (260, 127): 41, 
-    (260, 128): 42, 
-    (260, 129): 43, 
-    (260, 130): 17, 
-    (260, 131): 18, 
-    (260, 132): 19, 
-    (260, 133): 20, 
-    (260, 134): 21, 
-    (260, 135): 22, 
-    (260, 136): 8, 
-    (260, 144): 7, 
-    (260, 148): 6, 
-    (260, 153): 5, 
-    (260, 159): 4, 
-    (260, 160): 3, 
-    (260, 161): 279, 
-    (261, 112): 29, 
-    (261, 113): 23, 
-    (261, 115): 30, 
-    (261, 116): 31, 
-    (261, 117): 32, 
-    (261, 118): 33, 
-    (261, 119): 34, 
-    (261, 120): 35, 
-    (261, 121): 36, 
-    (261, 123): 37, 
-    (261, 124): 39, 
-    (261, 125): 38, 
-    (261, 126): 40, 
-    (261, 127): 41, 
-    (261, 128): 42, 
-    (261, 129): 43, 
-    (261, 130): 17, 
-    (261, 131): 18, 
-    (261, 132): 19, 
-    (261, 133): 20, 
-    (261, 134): 21, 
-    (261, 135): 22, 
-    (261, 136): 8, 
-    (261, 144): 7, 
-    (261, 148): 6, 
-    (261, 153): 5, 
-    (261, 159): 4, 
-    (261, 160): 3, 
-    (261, 161): 280, 
-    (263, 112): 29, 
-    (263, 113): 23, 
-    (263, 115): 30, 
-    (263, 116): 31, 
-    (263, 117): 32, 
-    (263, 118): 33, 
-    (263, 119): 34, 
-    (263, 120): 35, 
-    (263, 121): 36, 
-    (263, 123): 37, 
-    (263, 124): 39, 
-    (263, 125): 38, 
-    (263, 126): 40, 
-    (263, 127): 41, 
-    (263, 128): 42, 
-    (263, 129): 43, 
-    (263, 130): 17, 
-    (263, 131): 18, 
-    (263, 132): 19, 
-    (263, 133): 20, 
-    (263, 134): 21, 
-    (263, 135): 22, 
-    (263, 136): 8, 
-    (263, 144): 7, 
-    (263, 148): 6, 
-    (263, 153): 5, 
-    (263, 159): 4, 
-    (263, 160): 3, 
-    (263, 161): 281, 
-    (271, 112): 29, 
-    (271, 113): 23, 
-    (271, 115): 30, 
-    (271, 116): 31, 
-    (271, 117): 32, 
-    (271, 118): 33, 
-    (271, 119): 34, 
-    (271, 120): 35, 
-    (271, 121): 36, 
-    (271, 123): 37, 
-    (271, 124): 39, 
-    (271, 125): 38, 
-    (271, 126): 40, 
-    (271, 127): 41, 
-    (271, 128): 42, 
-    (271, 129): 43, 
-    (271, 130): 17, 
-    (271, 131): 18, 
-    (271, 132): 19, 
-    (271, 133): 20, 
-    (271, 134): 21, 
-    (271, 135): 22, 
-    (271, 136): 8, 
-    (271, 144): 7, 
-    (271, 148): 6, 
-    (271, 153): 5, 
-    (271, 159): 4, 
-    (271, 160): 3, 
-    (271, 161): 284, 
-    (275, 112): 29, 
-    (275, 113): 23, 
-    (275, 115): 30, 
-    (275, 116): 31, 
-    (275, 117): 32, 
-    (275, 118): 33, 
-    (275, 119): 34, 
-    (275, 120): 35, 
-    (275, 121): 36, 
-    (275, 123): 37, 
-    (275, 124): 39, 
-    (275, 125): 38, 
-    (275, 126): 40, 
-    (275, 127): 41, 
-    (275, 128): 42, 
-    (275, 129): 43, 
-    (275, 130): 17, 
-    (275, 131): 18, 
-    (275, 132): 19, 
-    (275, 133): 20, 
-    (275, 134): 21, 
-    (275, 135): 22, 
-    (275, 136): 8, 
-    (275, 144): 7, 
-    (275, 148): 6, 
-    (275, 153): 5, 
-    (275, 159): 4, 
-    (275, 160): 3, 
-    (275, 161): 288, 
-    (278, 112): 289, 
-    (278, 115): 30, 
-    (278, 116): 31, 
-    (278, 117): 32, 
-    (278, 118): 33, 
-    (278, 119): 34, 
-    (278, 120): 35, 
-    (278, 121): 36, 
-    (278, 123): 37, 
-    (278, 124): 39, 
-    (278, 125): 38, 
-    (278, 126): 40, 
-    (278, 127): 41, 
-    (278, 128): 42, 
-    (278, 129): 43, 
-    (283, 112): 29, 
-    (283, 113): 23, 
-    (283, 115): 30, 
-    (283, 116): 31, 
-    (283, 117): 32, 
-    (283, 118): 33, 
-    (283, 119): 34, 
-    (283, 120): 35, 
-    (283, 121): 36, 
-    (283, 123): 37, 
-    (283, 124): 39, 
-    (283, 125): 38, 
-    (283, 126): 40, 
-    (283, 127): 41, 
-    (283, 128): 42, 
-    (283, 129): 43, 
-    (283, 130): 17, 
-    (283, 131): 18, 
-    (283, 132): 19, 
-    (283, 133): 20, 
-    (283, 134): 21, 
-    (283, 135): 22, 
-    (283, 136): 8, 
-    (283, 144): 7, 
-    (283, 148): 6, 
-    (283, 153): 5, 
-    (283, 159): 4, 
-    (283, 160): 3, 
-    (283, 161): 293, 
-    (286, 112): 29, 
-    (286, 113): 23, 
-    (286, 115): 30, 
-    (286, 116): 31, 
-    (286, 117): 32, 
-    (286, 118): 33, 
-    (286, 119): 34, 
-    (286, 120): 35, 
-    (286, 121): 36, 
-    (286, 123): 37, 
-    (286, 124): 39, 
-    (286, 125): 38, 
-    (286, 126): 40, 
-    (286, 127): 41, 
-    (286, 128): 42, 
-    (286, 129): 43, 
-    (286, 130): 17, 
-    (286, 131): 18, 
-    (286, 132): 19, 
-    (286, 133): 20, 
-    (286, 134): 21, 
-    (286, 135): 22, 
-    (286, 136): 8, 
-    (286, 144): 7, 
-    (286, 148): 6, 
-    (286, 153): 5, 
-    (286, 159): 4, 
-    (286, 160): 3, 
-    (286, 161): 296, 
-    (287, 112): 29, 
-    (287, 113): 23, 
-    (287, 115): 30, 
-    (287, 116): 31, 
-    (287, 117): 32, 
-    (287, 118): 33, 
-    (287, 119): 34, 
-    (287, 120): 35, 
-    (287, 121): 36, 
-    (287, 123): 37, 
-    (287, 124): 39, 
-    (287, 125): 38, 
-    (287, 126): 40, 
-    (287, 127): 41, 
-    (287, 128): 42, 
-    (287, 129): 43, 
-    (287, 130): 17, 
-    (287, 131): 18, 
-    (287, 132): 19, 
-    (287, 133): 20, 
-    (287, 134): 21, 
-    (287, 135): 22, 
-    (287, 136): 8, 
-    (287, 144): 7, 
-    (287, 148): 6, 
-    (287, 153): 5, 
-    (287, 159): 4, 
-    (287, 160): 3, 
-    (287, 161): 297, 
-    (295, 112): 29, 
-    (295, 113): 23, 
-    (295, 115): 30, 
-    (295, 116): 31, 
-    (295, 117): 32, 
-    (295, 118): 33, 
-    (295, 119): 34, 
-    (295, 120): 35, 
-    (295, 121): 36, 
-    (295, 123): 37, 
-    (295, 124): 39, 
-    (295, 125): 38, 
-    (295, 126): 40, 
-    (295, 127): 41, 
-    (295, 128): 42, 
-    (295, 129): 43, 
-    (295, 130): 17, 
-    (295, 131): 18, 
-    (295, 132): 19, 
-    (295, 133): 20, 
-    (295, 134): 21, 
-    (295, 135): 22, 
-    (295, 136): 8, 
-    (295, 144): 7, 
-    (295, 148): 6, 
-    (295, 153): 5, 
-    (295, 159): 4, 
-    (295, 160): 3, 
-    (295, 161): 300, 
+    (0,111):1,
+    (0,112):29,
+    (0,113):23,
+    (0,115):30,
+    (0,116):31,
+    (0,117):32,
+    (0,118):33,
+    (0,119):34,
+    (0,120):35,
+    (0,121):36,
+    (0,123):37,
+    (0,124):39,
+    (0,125):38,
+    (0,126):40,
+    (0,127):41,
+    (0,128):42,
+    (0,129):43,
+    (0,130):17,
+    (0,131):18,
+    (0,132):19,
+    (0,133):20,
+    (0,134):21,
+    (0,135):22,
+    (0,136):8,
+    (0,144):7,
+    (0,148):6,
+    (0,153):5,
+    (0,159):4,
+    (0,160):3,
+    (0,161):2,
+    (3,112):29,
+    (3,113):23,
+    (3,115):30,
+    (3,116):31,
+    (3,117):32,
+    (3,118):33,
+    (3,119):34,
+    (3,120):35,
+    (3,121):36,
+    (3,123):37,
+    (3,124):39,
+    (3,125):38,
+    (3,126):40,
+    (3,127):41,
+    (3,128):42,
+    (3,129):43,
+    (3,130):17,
+    (3,131):18,
+    (3,132):19,
+    (3,133):20,
+    (3,134):21,
+    (3,135):22,
+    (3,136):8,
+    (3,144):7,
+    (3,148):6,
+    (3,153):5,
+    (3,159):73,
+    (5,154):77,
+    (5,155):76,
+    (5,156):75,
+    (5,157):74,
+    (6,149):83,
+    (6,150):82,
+    (6,151):81,
+    (6,152):80,
+    (7,145):88,
+    (7,146):87,
+    (7,147):86,
+    (9,112):29,
+    (9,113):23,
+    (9,115):30,
+    (9,116):31,
+    (9,117):32,
+    (9,118):33,
+    (9,119):34,
+    (9,120):35,
+    (9,121):36,
+    (9,123):37,
+    (9,124):39,
+    (9,125):38,
+    (9,126):40,
+    (9,127):41,
+    (9,128):42,
+    (9,129):43,
+    (9,130):17,
+    (9,131):18,
+    (9,132):19,
+    (9,133):20,
+    (9,134):21,
+    (9,135):22,
+    (9,136):8,
+    (9,144):7,
+    (9,148):6,
+    (9,153):5,
+    (9,159):4,
+    (9,160):3,
+    (9,161):112,
+    (10,112):29,
+    (10,113):23,
+    (10,115):30,
+    (10,116):31,
+    (10,117):32,
+    (10,118):33,
+    (10,119):34,
+    (10,120):35,
+    (10,121):36,
+    (10,123):37,
+    (10,124):39,
+    (10,125):38,
+    (10,126):40,
+    (10,127):41,
+    (10,128):42,
+    (10,129):43,
+    (10,130):17,
+    (10,131):18,
+    (10,132):19,
+    (10,133):20,
+    (10,134):21,
+    (10,135):22,
+    (10,136):8,
+    (10,144):7,
+    (10,148):6,
+    (10,153):5,
+    (10,159):4,
+    (10,160):3,
+    (10,161):113,
+    (11,112):29,
+    (11,113):23,
+    (11,115):30,
+    (11,116):31,
+    (11,117):32,
+    (11,118):33,
+    (11,119):34,
+    (11,120):35,
+    (11,121):36,
+    (11,123):37,
+    (11,124):39,
+    (11,125):38,
+    (11,126):40,
+    (11,127):41,
+    (11,128):42,
+    (11,129):43,
+    (11,130):114,
+    (11,131):18,
+    (11,132):19,
+    (11,133):20,
+    (11,134):21,
+    (11,135):22,
+    (12,112):29,
+    (12,113):23,
+    (12,115):30,
+    (12,116):31,
+    (12,117):32,
+    (12,118):33,
+    (12,119):34,
+    (12,120):35,
+    (12,121):36,
+    (12,123):37,
+    (12,124):39,
+    (12,125):38,
+    (12,126):40,
+    (12,127):41,
+    (12,128):42,
+    (12,129):43,
+    (12,130):17,
+    (12,131):18,
+    (12,132):19,
+    (12,133):20,
+    (12,134):21,
+    (12,135):22,
+    (12,136):8,
+    (12,144):7,
+    (12,148):6,
+    (12,153):5,
+    (12,159):4,
+    (12,160):3,
+    (12,161):116,
+    (13,112):29,
+    (13,113):23,
+    (13,115):30,
+    (13,116):31,
+    (13,117):32,
+    (13,118):33,
+    (13,119):34,
+    (13,120):35,
+    (13,121):36,
+    (13,123):37,
+    (13,124):39,
+    (13,125):38,
+    (13,126):40,
+    (13,127):41,
+    (13,128):42,
+    (13,129):43,
+    (13,130):117,
+    (13,131):18,
+    (13,132):19,
+    (13,133):20,
+    (13,134):21,
+    (13,135):22,
+    (14,112):29,
+    (14,113):23,
+    (14,115):30,
+    (14,116):31,
+    (14,117):32,
+    (14,118):33,
+    (14,119):34,
+    (14,120):35,
+    (14,121):36,
+    (14,123):37,
+    (14,124):39,
+    (14,125):38,
+    (14,126):40,
+    (14,127):41,
+    (14,128):42,
+    (14,129):43,
+    (14,130):118,
+    (14,131):18,
+    (14,132):19,
+    (14,133):20,
+    (14,134):21,
+    (14,135):22,
+    (15,112):29,
+    (15,113):23,
+    (15,115):30,
+    (15,116):31,
+    (15,117):32,
+    (15,118):33,
+    (15,119):34,
+    (15,120):35,
+    (15,121):36,
+    (15,123):37,
+    (15,124):39,
+    (15,125):38,
+    (15,126):40,
+    (15,127):41,
+    (15,128):42,
+    (15,129):43,
+    (15,130):119,
+    (15,131):18,
+    (15,132):19,
+    (15,133):20,
+    (15,134):21,
+    (15,135):22,
+    (16,112):29,
+    (16,113):23,
+    (16,115):30,
+    (16,116):31,
+    (16,117):32,
+    (16,118):33,
+    (16,119):34,
+    (16,120):35,
+    (16,121):36,
+    (16,123):37,
+    (16,124):39,
+    (16,125):38,
+    (16,126):40,
+    (16,127):41,
+    (16,128):42,
+    (16,129):43,
+    (16,130):121,
+    (16,131):18,
+    (16,132):19,
+    (16,133):20,
+    (16,134):21,
+    (16,135):22,
+    (23,112):122,
+    (23,115):30,
+    (23,116):31,
+    (23,117):32,
+    (23,118):33,
+    (23,119):34,
+    (23,120):35,
+    (23,121):36,
+    (23,123):37,
+    (23,124):39,
+    (23,125):38,
+    (23,126):40,
+    (23,127):41,
+    (23,128):42,
+    (23,129):43,
+    (24,112):29,
+    (24,113):23,
+    (24,115):30,
+    (24,116):31,
+    (24,117):32,
+    (24,118):33,
+    (24,119):34,
+    (24,120):35,
+    (24,121):36,
+    (24,123):37,
+    (24,124):39,
+    (24,125):38,
+    (24,126):40,
+    (24,127):41,
+    (24,128):42,
+    (24,129):43,
+    (24,130):17,
+    (24,131):18,
+    (24,132):19,
+    (24,133):20,
+    (24,134):21,
+    (24,135):22,
+    (24,136):8,
+    (24,144):7,
+    (24,148):6,
+    (24,153):5,
+    (24,159):4,
+    (24,160):3,
+    (24,161):124,
+    (25,112):29,
+    (25,113):23,
+    (25,115):30,
+    (25,116):31,
+    (25,117):32,
+    (25,118):33,
+    (25,119):34,
+    (25,120):35,
+    (25,121):36,
+    (25,123):37,
+    (25,124):39,
+    (25,125):38,
+    (25,126):40,
+    (25,127):41,
+    (25,128):42,
+    (25,129):43,
+    (25,130):17,
+    (25,131):18,
+    (25,132):19,
+    (25,133):20,
+    (25,134):21,
+    (25,135):22,
+    (25,136):8,
+    (25,144):7,
+    (25,148):6,
+    (25,153):5,
+    (25,159):4,
+    (25,160):3,
+    (25,161):125,
+    (26,112):29,
+    (26,113):23,
+    (26,115):30,
+    (26,116):31,
+    (26,117):32,
+    (26,118):33,
+    (26,119):34,
+    (26,120):35,
+    (26,121):36,
+    (26,123):37,
+    (26,124):39,
+    (26,125):38,
+    (26,126):40,
+    (26,127):41,
+    (26,128):42,
+    (26,129):43,
+    (26,130):17,
+    (26,131):18,
+    (26,132):19,
+    (26,133):20,
+    (26,134):21,
+    (26,135):22,
+    (26,136):8,
+    (26,144):7,
+    (26,148):6,
+    (26,153):5,
+    (26,159):4,
+    (26,160):3,
+    (26,161):126,
+    (27,112):29,
+    (27,113):23,
+    (27,115):30,
+    (27,116):31,
+    (27,117):32,
+    (27,118):33,
+    (27,119):34,
+    (27,120):35,
+    (27,121):36,
+    (27,123):37,
+    (27,124):39,
+    (27,125):38,
+    (27,126):40,
+    (27,127):41,
+    (27,128):42,
+    (27,129):43,
+    (27,130):17,
+    (27,131):18,
+    (27,132):19,
+    (27,133):20,
+    (27,134):21,
+    (27,135):22,
+    (27,136):8,
+    (27,144):7,
+    (27,148):6,
+    (27,153):5,
+    (27,159):4,
+    (27,160):3,
+    (27,161):127,
+    (45,112):29,
+    (45,113):23,
+    (45,115):30,
+    (45,116):31,
+    (45,117):32,
+    (45,118):33,
+    (45,119):34,
+    (45,120):35,
+    (45,121):36,
+    (45,123):37,
+    (45,124):39,
+    (45,125):38,
+    (45,126):40,
+    (45,127):41,
+    (45,128):42,
+    (45,129):43,
+    (45,130):17,
+    (45,131):18,
+    (45,132):19,
+    (45,133):20,
+    (45,134):21,
+    (45,135):22,
+    (45,136):8,
+    (45,144):7,
+    (45,148):6,
+    (45,153):5,
+    (45,159):4,
+    (45,160):3,
+    (45,161):130,
+    (46,112):132,
+    (46,114):131,
+    (46,115):30,
+    (46,116):31,
+    (46,117):32,
+    (46,118):33,
+    (46,119):34,
+    (46,120):35,
+    (46,121):36,
+    (46,123):37,
+    (46,124):39,
+    (46,125):38,
+    (46,126):40,
+    (46,127):41,
+    (46,128):42,
+    (46,129):43,
+    (47,112):29,
+    (47,113):133,
+    (47,115):30,
+    (47,116):31,
+    (47,117):32,
+    (47,118):33,
+    (47,119):34,
+    (47,120):35,
+    (47,121):36,
+    (47,123):37,
+    (47,124):39,
+    (47,125):38,
+    (47,126):40,
+    (47,127):41,
+    (47,128):42,
+    (47,129):43,
+    (48,122):134,
+    (67,112):29,
+    (67,113):23,
+    (67,115):30,
+    (67,116):31,
+    (67,117):32,
+    (67,118):33,
+    (67,119):34,
+    (67,120):35,
+    (67,121):36,
+    (67,123):37,
+    (67,124):39,
+    (67,125):38,
+    (67,126):40,
+    (67,127):41,
+    (67,128):42,
+    (67,129):43,
+    (67,130):17,
+    (67,131):18,
+    (67,132):19,
+    (67,133):20,
+    (67,134):21,
+    (67,135):22,
+    (67,136):8,
+    (67,144):7,
+    (67,148):6,
+    (67,153):5,
+    (67,159):4,
+    (67,160):3,
+    (67,161):137,
+    (68,112):29,
+    (68,113):23,
+    (68,115):30,
+    (68,116):31,
+    (68,117):32,
+    (68,118):33,
+    (68,119):34,
+    (68,120):35,
+    (68,121):36,
+    (68,123):37,
+    (68,124):39,
+    (68,125):38,
+    (68,126):40,
+    (68,127):41,
+    (68,128):42,
+    (68,129):43,
+    (68,130):17,
+    (68,131):18,
+    (68,132):19,
+    (68,133):20,
+    (68,134):21,
+    (68,135):22,
+    (68,136):8,
+    (68,144):7,
+    (68,148):6,
+    (68,153):5,
+    (68,159):4,
+    (68,160):3,
+    (68,161):138,
+    (71,112):29,
+    (71,113):143,
+    (71,115):30,
+    (71,116):31,
+    (71,117):32,
+    (71,118):33,
+    (71,119):34,
+    (71,120):35,
+    (71,121):36,
+    (71,123):37,
+    (71,124):39,
+    (71,125):38,
+    (71,126):40,
+    (71,127):41,
+    (71,128):42,
+    (71,129):43,
+    (72,112):29,
+    (72,113):145,
+    (72,115):30,
+    (72,116):31,
+    (72,117):32,
+    (72,118):33,
+    (72,119):34,
+    (72,120):35,
+    (72,121):36,
+    (72,123):37,
+    (72,124):39,
+    (72,125):38,
+    (72,126):40,
+    (72,127):41,
+    (72,128):42,
+    (72,129):43,
+    (74,158):147,
+    (75,154):77,
+    (75,155):151,
+    (77,112):29,
+    (77,113):23,
+    (77,115):30,
+    (77,116):31,
+    (77,117):32,
+    (77,118):33,
+    (77,119):34,
+    (77,120):35,
+    (77,121):36,
+    (77,123):37,
+    (77,124):39,
+    (77,125):38,
+    (77,126):40,
+    (77,127):41,
+    (77,128):42,
+    (77,129):43,
+    (77,130):17,
+    (77,131):18,
+    (77,132):19,
+    (77,133):20,
+    (77,134):21,
+    (77,135):22,
+    (77,136):8,
+    (77,144):7,
+    (77,148):6,
+    (77,153):152,
+    (81,149):83,
+    (81,150):153,
+    (83,112):29,
+    (83,113):23,
+    (83,115):30,
+    (83,116):31,
+    (83,117):32,
+    (83,118):33,
+    (83,119):34,
+    (83,120):35,
+    (83,121):36,
+    (83,123):37,
+    (83,124):39,
+    (83,125):38,
+    (83,126):40,
+    (83,127):41,
+    (83,128):42,
+    (83,129):43,
+    (83,130):17,
+    (83,131):18,
+    (83,132):19,
+    (83,133):20,
+    (83,134):21,
+    (83,135):22,
+    (83,136):8,
+    (83,144):7,
+    (83,148):154,
+    (87,145):155,
+    (89,112):29,
+    (89,113):23,
+    (89,115):30,
+    (89,116):31,
+    (89,117):32,
+    (89,118):33,
+    (89,119):34,
+    (89,120):35,
+    (89,121):36,
+    (89,123):37,
+    (89,124):39,
+    (89,125):38,
+    (89,126):40,
+    (89,127):41,
+    (89,128):42,
+    (89,129):43,
+    (89,130):17,
+    (89,131):18,
+    (89,132):19,
+    (89,133):20,
+    (89,134):21,
+    (89,135):22,
+    (89,136):156,
+    (90,112):29,
+    (90,113):23,
+    (90,115):30,
+    (90,116):31,
+    (90,117):32,
+    (90,118):33,
+    (90,119):34,
+    (90,120):35,
+    (90,121):36,
+    (90,123):37,
+    (90,124):39,
+    (90,125):38,
+    (90,126):40,
+    (90,127):41,
+    (90,128):42,
+    (90,129):43,
+    (90,130):17,
+    (90,131):18,
+    (90,132):19,
+    (90,133):20,
+    (90,134):21,
+    (90,135):22,
+    (90,136):157,
+    (91,112):29,
+    (91,113):23,
+    (91,115):30,
+    (91,116):31,
+    (91,117):32,
+    (91,118):33,
+    (91,119):34,
+    (91,120):35,
+    (91,121):36,
+    (91,123):37,
+    (91,124):39,
+    (91,125):38,
+    (91,126):40,
+    (91,127):41,
+    (91,128):42,
+    (91,129):43,
+    (91,130):17,
+    (91,131):18,
+    (91,132):19,
+    (91,133):20,
+    (91,134):21,
+    (91,135):22,
+    (91,136):158,
+    (92,112):29,
+    (92,113):23,
+    (92,115):30,
+    (92,116):31,
+    (92,117):32,
+    (92,118):33,
+    (92,119):34,
+    (92,120):35,
+    (92,121):36,
+    (92,123):37,
+    (92,124):39,
+    (92,125):38,
+    (92,126):40,
+    (92,127):41,
+    (92,128):42,
+    (92,129):43,
+    (92,130):17,
+    (92,131):18,
+    (92,132):19,
+    (92,133):20,
+    (92,134):21,
+    (92,135):22,
+    (92,136):159,
+    (93,112):29,
+    (93,113):23,
+    (93,115):30,
+    (93,116):31,
+    (93,117):32,
+    (93,118):33,
+    (93,119):34,
+    (93,120):35,
+    (93,121):36,
+    (93,123):37,
+    (93,124):39,
+    (93,125):38,
+    (93,126):40,
+    (93,127):41,
+    (93,128):42,
+    (93,129):43,
+    (93,130):17,
+    (93,131):18,
+    (93,132):19,
+    (93,133):20,
+    (93,134):21,
+    (93,135):22,
+    (93,136):160,
+    (94,112):29,
+    (94,113):23,
+    (94,115):30,
+    (94,116):31,
+    (94,117):32,
+    (94,118):33,
+    (94,119):34,
+    (94,120):35,
+    (94,121):36,
+    (94,123):37,
+    (94,124):39,
+    (94,125):38,
+    (94,126):40,
+    (94,127):41,
+    (94,128):42,
+    (94,129):43,
+    (94,130):17,
+    (94,131):18,
+    (94,132):19,
+    (94,133):20,
+    (94,134):21,
+    (94,135):22,
+    (94,136):161,
+    (95,112):29,
+    (95,113):23,
+    (95,115):30,
+    (95,116):31,
+    (95,117):32,
+    (95,118):33,
+    (95,119):34,
+    (95,120):35,
+    (95,121):36,
+    (95,123):37,
+    (95,124):39,
+    (95,125):38,
+    (95,126):40,
+    (95,127):41,
+    (95,128):42,
+    (95,129):43,
+    (95,130):17,
+    (95,131):18,
+    (95,132):19,
+    (95,133):20,
+    (95,134):21,
+    (95,135):22,
+    (95,136):162,
+    (96,112):29,
+    (96,113):23,
+    (96,115):30,
+    (96,116):31,
+    (96,117):32,
+    (96,118):33,
+    (96,119):34,
+    (96,120):35,
+    (96,121):36,
+    (96,123):37,
+    (96,124):39,
+    (96,125):38,
+    (96,126):40,
+    (96,127):41,
+    (96,128):42,
+    (96,129):43,
+    (96,130):17,
+    (96,131):18,
+    (96,132):19,
+    (96,133):20,
+    (96,134):21,
+    (96,135):22,
+    (96,136):163,
+    (97,112):29,
+    (97,113):23,
+    (97,115):30,
+    (97,116):31,
+    (97,117):32,
+    (97,118):33,
+    (97,119):34,
+    (97,120):35,
+    (97,121):36,
+    (97,123):37,
+    (97,124):39,
+    (97,125):38,
+    (97,126):40,
+    (97,127):41,
+    (97,128):42,
+    (97,129):43,
+    (97,130):17,
+    (97,131):18,
+    (97,132):19,
+    (97,133):20,
+    (97,134):21,
+    (97,135):22,
+    (97,136):164,
+    (98,112):29,
+    (98,113):23,
+    (98,115):30,
+    (98,116):31,
+    (98,117):32,
+    (98,118):33,
+    (98,119):34,
+    (98,120):35,
+    (98,121):36,
+    (98,123):37,
+    (98,124):39,
+    (98,125):38,
+    (98,126):40,
+    (98,127):41,
+    (98,128):42,
+    (98,129):43,
+    (98,130):17,
+    (98,131):18,
+    (98,132):19,
+    (98,133):20,
+    (98,134):21,
+    (98,135):22,
+    (98,136):165,
+    (99,112):29,
+    (99,113):23,
+    (99,115):30,
+    (99,116):31,
+    (99,117):32,
+    (99,118):33,
+    (99,119):34,
+    (99,120):35,
+    (99,121):36,
+    (99,123):37,
+    (99,124):39,
+    (99,125):38,
+    (99,126):40,
+    (99,127):41,
+    (99,128):42,
+    (99,129):43,
+    (99,130):17,
+    (99,131):18,
+    (99,132):19,
+    (99,133):20,
+    (99,134):21,
+    (99,135):22,
+    (99,136):166,
+    (100,112):29,
+    (100,113):23,
+    (100,115):30,
+    (100,116):31,
+    (100,117):32,
+    (100,118):33,
+    (100,119):34,
+    (100,120):35,
+    (100,121):36,
+    (100,123):37,
+    (100,124):39,
+    (100,125):38,
+    (100,126):40,
+    (100,127):41,
+    (100,128):42,
+    (100,129):43,
+    (100,130):17,
+    (100,131):18,
+    (100,132):19,
+    (100,133):20,
+    (100,134):21,
+    (100,135):22,
+    (100,136):167,
+    (101,112):29,
+    (101,113):23,
+    (101,115):30,
+    (101,116):31,
+    (101,117):32,
+    (101,118):33,
+    (101,119):34,
+    (101,120):35,
+    (101,121):36,
+    (101,123):37,
+    (101,124):39,
+    (101,125):38,
+    (101,126):40,
+    (101,127):41,
+    (101,128):42,
+    (101,129):43,
+    (101,130):17,
+    (101,131):18,
+    (101,132):19,
+    (101,133):20,
+    (101,134):21,
+    (101,135):22,
+    (101,136):168,
+    (102,112):29,
+    (102,113):23,
+    (102,115):30,
+    (102,116):31,
+    (102,117):32,
+    (102,118):33,
+    (102,119):34,
+    (102,120):35,
+    (102,121):36,
+    (102,123):37,
+    (102,124):39,
+    (102,125):38,
+    (102,126):40,
+    (102,127):41,
+    (102,128):42,
+    (102,129):43,
+    (102,130):17,
+    (102,131):18,
+    (102,132):19,
+    (102,133):20,
+    (102,134):21,
+    (102,135):22,
+    (102,136):169,
+    (103,112):29,
+    (103,113):23,
+    (103,115):30,
+    (103,116):31,
+    (103,117):32,
+    (103,118):33,
+    (103,119):34,
+    (103,120):35,
+    (103,121):36,
+    (103,123):37,
+    (103,124):39,
+    (103,125):38,
+    (103,126):40,
+    (103,127):41,
+    (103,128):42,
+    (103,129):43,
+    (103,130):17,
+    (103,131):18,
+    (103,132):19,
+    (103,133):20,
+    (103,134):21,
+    (103,135):22,
+    (103,136):170,
+    (104,112):29,
+    (104,113):23,
+    (104,115):30,
+    (104,116):31,
+    (104,117):32,
+    (104,118):33,
+    (104,119):34,
+    (104,120):35,
+    (104,121):36,
+    (104,123):37,
+    (104,124):39,
+    (104,125):38,
+    (104,126):40,
+    (104,127):41,
+    (104,128):42,
+    (104,129):43,
+    (104,130):17,
+    (104,131):18,
+    (104,132):19,
+    (104,133):20,
+    (104,134):21,
+    (104,135):22,
+    (104,136):171,
+    (105,112):29,
+    (105,113):23,
+    (105,115):30,
+    (105,116):31,
+    (105,117):32,
+    (105,118):33,
+    (105,119):34,
+    (105,120):35,
+    (105,121):36,
+    (105,123):37,
+    (105,124):39,
+    (105,125):38,
+    (105,126):40,
+    (105,127):41,
+    (105,128):42,
+    (105,129):43,
+    (105,130):17,
+    (105,131):18,
+    (105,132):19,
+    (105,133):20,
+    (105,134):21,
+    (105,135):22,
+    (105,136):172,
+    (106,112):29,
+    (106,113):23,
+    (106,115):30,
+    (106,116):31,
+    (106,117):32,
+    (106,118):33,
+    (106,119):34,
+    (106,120):35,
+    (106,121):36,
+    (106,123):37,
+    (106,124):39,
+    (106,125):38,
+    (106,126):40,
+    (106,127):41,
+    (106,128):42,
+    (106,129):43,
+    (106,130):17,
+    (106,131):18,
+    (106,132):19,
+    (106,133):20,
+    (106,134):21,
+    (106,135):22,
+    (106,136):173,
+    (107,112):29,
+    (107,113):23,
+    (107,115):30,
+    (107,116):31,
+    (107,117):32,
+    (107,118):33,
+    (107,119):34,
+    (107,120):35,
+    (107,121):36,
+    (107,123):37,
+    (107,124):39,
+    (107,125):38,
+    (107,126):40,
+    (107,127):41,
+    (107,128):42,
+    (107,129):43,
+    (107,130):17,
+    (107,131):18,
+    (107,132):19,
+    (107,133):20,
+    (107,134):21,
+    (107,135):22,
+    (107,136):174,
+    (108,112):29,
+    (108,113):23,
+    (108,115):30,
+    (108,116):31,
+    (108,117):32,
+    (108,118):33,
+    (108,119):34,
+    (108,120):35,
+    (108,121):36,
+    (108,123):37,
+    (108,124):39,
+    (108,125):38,
+    (108,126):40,
+    (108,127):41,
+    (108,128):42,
+    (108,129):43,
+    (108,130):17,
+    (108,131):18,
+    (108,132):19,
+    (108,133):20,
+    (108,134):21,
+    (108,135):22,
+    (108,136):175,
+    (109,112):29,
+    (109,113):23,
+    (109,115):30,
+    (109,116):31,
+    (109,117):32,
+    (109,118):33,
+    (109,119):34,
+    (109,120):35,
+    (109,121):36,
+    (109,123):37,
+    (109,124):39,
+    (109,125):38,
+    (109,126):40,
+    (109,127):41,
+    (109,128):42,
+    (109,129):43,
+    (109,130):17,
+    (109,131):18,
+    (109,132):19,
+    (109,133):20,
+    (109,134):21,
+    (109,135):22,
+    (109,136):176,
+    (110,112):29,
+    (110,113):23,
+    (110,115):30,
+    (110,116):31,
+    (110,117):32,
+    (110,118):33,
+    (110,119):34,
+    (110,120):35,
+    (110,121):36,
+    (110,123):37,
+    (110,124):39,
+    (110,125):38,
+    (110,126):40,
+    (110,127):41,
+    (110,128):42,
+    (110,129):43,
+    (110,130):17,
+    (110,131):18,
+    (110,132):19,
+    (110,133):20,
+    (110,134):21,
+    (110,135):22,
+    (110,136):177,
+    (111,112):29,
+    (111,113):23,
+    (111,115):30,
+    (111,116):31,
+    (111,117):32,
+    (111,118):33,
+    (111,119):34,
+    (111,120):35,
+    (111,121):36,
+    (111,123):37,
+    (111,124):39,
+    (111,125):38,
+    (111,126):40,
+    (111,127):41,
+    (111,128):42,
+    (111,129):43,
+    (111,130):178,
+    (111,131):18,
+    (111,132):19,
+    (111,133):20,
+    (111,134):21,
+    (111,135):22,
+    (114,158):181,
+    (115,112):29,
+    (115,113):23,
+    (115,115):30,
+    (115,116):31,
+    (115,117):32,
+    (115,118):33,
+    (115,119):34,
+    (115,120):35,
+    (115,121):36,
+    (115,123):37,
+    (115,124):39,
+    (115,125):38,
+    (115,126):40,
+    (115,127):41,
+    (115,128):42,
+    (115,129):43,
+    (115,130):17,
+    (115,131):18,
+    (115,132):19,
+    (115,133):20,
+    (115,134):21,
+    (115,135):22,
+    (115,136):8,
+    (115,144):7,
+    (115,148):6,
+    (115,153):5,
+    (115,159):4,
+    (115,160):3,
+    (115,161):183,
+    (120,112):29,
+    (120,113):23,
+    (120,115):30,
+    (120,116):31,
+    (120,117):32,
+    (120,118):33,
+    (120,119):34,
+    (120,120):35,
+    (120,121):36,
+    (120,123):37,
+    (120,124):39,
+    (120,125):38,
+    (120,126):40,
+    (120,127):41,
+    (120,128):42,
+    (120,129):43,
+    (120,130):17,
+    (120,131):18,
+    (120,132):19,
+    (120,133):20,
+    (120,134):21,
+    (120,135):22,
+    (120,136):8,
+    (120,144):7,
+    (120,148):6,
+    (120,153):5,
+    (120,159):4,
+    (120,160):3,
+    (120,161):189,
+    (128,112):29,
+    (128,113):23,
+    (128,115):30,
+    (128,116):31,
+    (128,117):32,
+    (128,118):33,
+    (128,119):34,
+    (128,120):35,
+    (128,121):36,
+    (128,123):37,
+    (128,124):39,
+    (128,125):38,
+    (128,126):40,
+    (128,127):41,
+    (128,128):42,
+    (128,129):43,
+    (128,130):17,
+    (128,131):18,
+    (128,132):19,
+    (128,133):20,
+    (128,134):21,
+    (128,135):22,
+    (128,136):8,
+    (128,144):7,
+    (128,148):6,
+    (128,153):5,
+    (128,159):4,
+    (128,160):3,
+    (128,161):198,
+    (129,112):29,
+    (129,113):199,
+    (129,115):30,
+    (129,116):31,
+    (129,117):32,
+    (129,118):33,
+    (129,119):34,
+    (129,120):35,
+    (129,121):36,
+    (129,123):37,
+    (129,124):39,
+    (129,125):38,
+    (129,126):40,
+    (129,127):41,
+    (129,128):42,
+    (129,129):43,
+    (133,112):122,
+    (133,115):30,
+    (133,116):31,
+    (133,117):32,
+    (133,118):33,
+    (133,119):34,
+    (133,120):35,
+    (133,121):36,
+    (133,123):37,
+    (133,124):39,
+    (133,125):38,
+    (133,126):40,
+    (133,127):41,
+    (133,128):42,
+    (133,129):43,
+    (134,112):29,
+    (134,113):204,
+    (134,115):30,
+    (134,116):31,
+    (134,117):32,
+    (134,118):33,
+    (134,119):34,
+    (134,120):35,
+    (134,121):36,
+    (134,123):37,
+    (134,124):39,
+    (134,125):38,
+    (134,126):40,
+    (134,127):41,
+    (134,128):42,
+    (134,129):43,
+    (143,112):122,
+    (143,115):30,
+    (143,116):31,
+    (143,117):32,
+    (143,118):33,
+    (143,119):34,
+    (143,120):35,
+    (143,121):36,
+    (143,123):37,
+    (143,124):39,
+    (143,125):38,
+    (143,126):40,
+    (143,127):41,
+    (143,128):42,
+    (143,129):43,
+    (145,112):122,
+    (145,115):30,
+    (145,116):31,
+    (145,117):32,
+    (145,118):33,
+    (145,119):34,
+    (145,120):35,
+    (145,121):36,
+    (145,123):37,
+    (145,124):39,
+    (145,125):38,
+    (145,126):40,
+    (145,127):41,
+    (145,128):42,
+    (145,129):43,
+    (179,112):29,
+    (179,113):23,
+    (179,115):30,
+    (179,116):31,
+    (179,117):32,
+    (179,118):33,
+    (179,119):34,
+    (179,120):35,
+    (179,121):36,
+    (179,123):37,
+    (179,124):39,
+    (179,125):38,
+    (179,126):40,
+    (179,127):41,
+    (179,128):42,
+    (179,129):43,
+    (179,130):17,
+    (179,131):18,
+    (179,132):19,
+    (179,133):20,
+    (179,134):21,
+    (179,135):22,
+    (179,136):8,
+    (179,144):7,
+    (179,148):6,
+    (179,153):5,
+    (179,159):4,
+    (179,160):3,
+    (179,161):211,
+    (180,112):29,
+    (180,113):23,
+    (180,115):30,
+    (180,116):31,
+    (180,117):32,
+    (180,118):33,
+    (180,119):34,
+    (180,120):35,
+    (180,121):36,
+    (180,123):37,
+    (180,124):39,
+    (180,125):38,
+    (180,126):40,
+    (180,127):41,
+    (180,128):42,
+    (180,129):43,
+    (180,130):17,
+    (180,131):18,
+    (180,132):19,
+    (180,133):20,
+    (180,134):21,
+    (180,135):22,
+    (180,136):8,
+    (180,144):7,
+    (180,148):6,
+    (180,153):5,
+    (180,159):4,
+    (180,160):3,
+    (180,161):212,
+    (182,112):29,
+    (182,113):23,
+    (182,115):30,
+    (182,116):31,
+    (182,117):32,
+    (182,118):33,
+    (182,119):34,
+    (182,120):35,
+    (182,121):36,
+    (182,123):37,
+    (182,124):39,
+    (182,125):38,
+    (182,126):40,
+    (182,127):41,
+    (182,128):42,
+    (182,129):43,
+    (182,130):17,
+    (182,131):18,
+    (182,132):19,
+    (182,133):20,
+    (182,134):21,
+    (182,135):22,
+    (182,136):214,
+    (184,112):29,
+    (184,113):23,
+    (184,115):30,
+    (184,116):31,
+    (184,117):32,
+    (184,118):33,
+    (184,119):34,
+    (184,120):35,
+    (184,121):36,
+    (184,123):37,
+    (184,124):39,
+    (184,125):38,
+    (184,126):40,
+    (184,127):41,
+    (184,128):42,
+    (184,129):43,
+    (184,130):17,
+    (184,131):18,
+    (184,132):19,
+    (184,133):20,
+    (184,134):21,
+    (184,135):22,
+    (184,136):8,
+    (184,144):7,
+    (184,148):6,
+    (184,153):5,
+    (184,159):4,
+    (184,160):3,
+    (184,161):216,
+    (185,112):29,
+    (185,113):23,
+    (185,115):30,
+    (185,116):31,
+    (185,117):32,
+    (185,118):33,
+    (185,119):34,
+    (185,120):35,
+    (185,121):36,
+    (185,123):37,
+    (185,124):39,
+    (185,125):38,
+    (185,126):40,
+    (185,127):41,
+    (185,128):42,
+    (185,129):43,
+    (185,130):220,
+    (185,131):18,
+    (185,132):19,
+    (185,133):20,
+    (185,134):21,
+    (185,135):22,
+    (185,141):219,
+    (185,142):218,
+    (185,143):217,
+    (187,112):29,
+    (187,113):23,
+    (187,115):30,
+    (187,116):31,
+    (187,117):32,
+    (187,118):33,
+    (187,119):34,
+    (187,120):35,
+    (187,121):36,
+    (187,123):37,
+    (187,124):39,
+    (187,125):38,
+    (187,126):40,
+    (187,127):41,
+    (187,128):42,
+    (187,129):43,
+    (187,130):17,
+    (187,131):18,
+    (187,132):19,
+    (187,133):20,
+    (187,134):21,
+    (187,135):22,
+    (187,136):222,
+    (199,112):122,
+    (199,115):30,
+    (199,116):31,
+    (199,117):32,
+    (199,118):33,
+    (199,119):34,
+    (199,120):35,
+    (199,121):36,
+    (199,123):37,
+    (199,124):39,
+    (199,125):38,
+    (199,126):40,
+    (199,127):41,
+    (199,128):42,
+    (199,129):43,
+    (200,112):29,
+    (200,113):23,
+    (200,115):30,
+    (200,116):31,
+    (200,117):32,
+    (200,118):33,
+    (200,119):34,
+    (200,120):35,
+    (200,121):36,
+    (200,123):37,
+    (200,124):39,
+    (200,125):38,
+    (200,126):40,
+    (200,127):41,
+    (200,128):42,
+    (200,129):43,
+    (200,130):17,
+    (200,131):18,
+    (200,132):19,
+    (200,133):20,
+    (200,134):21,
+    (200,135):22,
+    (200,136):230,
+    (202,112):231,
+    (202,115):30,
+    (202,116):31,
+    (202,117):32,
+    (202,118):33,
+    (202,119):34,
+    (202,120):35,
+    (202,121):36,
+    (202,123):37,
+    (202,124):39,
+    (202,125):38,
+    (202,126):40,
+    (202,127):41,
+    (202,128):42,
+    (202,129):43,
+    (204,112):122,
+    (204,115):30,
+    (204,116):31,
+    (204,117):32,
+    (204,118):33,
+    (204,119):34,
+    (204,120):35,
+    (204,121):36,
+    (204,123):37,
+    (204,124):39,
+    (204,125):38,
+    (204,126):40,
+    (204,127):41,
+    (204,128):42,
+    (204,129):43,
+    (213,112):29,
+    (213,113):23,
+    (213,115):30,
+    (213,116):31,
+    (213,117):32,
+    (213,118):33,
+    (213,119):34,
+    (213,120):35,
+    (213,121):36,
+    (213,123):37,
+    (213,124):39,
+    (213,125):38,
+    (213,126):40,
+    (213,127):41,
+    (213,128):42,
+    (213,129):43,
+    (213,130):17,
+    (213,131):18,
+    (213,132):19,
+    (213,133):20,
+    (213,134):21,
+    (213,135):22,
+    (213,136):8,
+    (213,144):7,
+    (213,148):6,
+    (213,153):5,
+    (213,159):4,
+    (213,160):3,
+    (213,161):236,
+    (214,158):237,
+    (216,137):242,
+    (216,138):239,
+    (217,112):29,
+    (217,113):23,
+    (217,115):30,
+    (217,116):31,
+    (217,117):32,
+    (217,118):33,
+    (217,119):34,
+    (217,120):35,
+    (217,121):36,
+    (217,123):37,
+    (217,124):39,
+    (217,125):38,
+    (217,126):40,
+    (217,127):41,
+    (217,128):42,
+    (217,129):43,
+    (217,130):220,
+    (217,131):18,
+    (217,132):19,
+    (217,133):20,
+    (217,134):21,
+    (217,135):22,
+    (217,141):219,
+    (217,142):244,
+    (220,139):248,
+    (220,140):247,
+    (221,112):29,
+    (221,113):23,
+    (221,115):30,
+    (221,116):31,
+    (221,117):32,
+    (221,118):33,
+    (221,119):34,
+    (221,120):35,
+    (221,121):36,
+    (221,123):37,
+    (221,124):39,
+    (221,125):38,
+    (221,126):40,
+    (221,127):41,
+    (221,128):42,
+    (221,129):43,
+    (221,130):17,
+    (221,131):18,
+    (221,132):19,
+    (221,133):20,
+    (221,134):21,
+    (221,135):22,
+    (221,136):8,
+    (221,144):7,
+    (221,148):6,
+    (221,153):5,
+    (221,159):4,
+    (221,160):3,
+    (221,161):250,
+    (223,112):29,
+    (223,113):23,
+    (223,115):30,
+    (223,116):31,
+    (223,117):32,
+    (223,118):33,
+    (223,119):34,
+    (223,120):35,
+    (223,121):36,
+    (223,123):37,
+    (223,124):39,
+    (223,125):38,
+    (223,126):40,
+    (223,127):41,
+    (223,128):42,
+    (223,129):43,
+    (223,130):17,
+    (223,131):18,
+    (223,132):19,
+    (223,133):20,
+    (223,134):21,
+    (223,135):22,
+    (223,136):8,
+    (223,144):7,
+    (223,148):6,
+    (223,153):5,
+    (223,159):4,
+    (223,160):3,
+    (223,161):252,
+    (233,112):258,
+    (233,115):30,
+    (233,116):31,
+    (233,117):32,
+    (233,118):33,
+    (233,119):34,
+    (233,120):35,
+    (233,121):36,
+    (233,123):37,
+    (233,124):39,
+    (233,125):38,
+    (233,126):40,
+    (233,127):41,
+    (233,128):42,
+    (233,129):43,
+    (239,137):262,
+    (240,112):29,
+    (240,113):23,
+    (240,115):30,
+    (240,116):31,
+    (240,117):32,
+    (240,118):33,
+    (240,119):34,
+    (240,120):35,
+    (240,121):36,
+    (240,123):37,
+    (240,124):39,
+    (240,125):38,
+    (240,126):40,
+    (240,127):41,
+    (240,128):42,
+    (240,129):43,
+    (240,130):17,
+    (240,131):18,
+    (240,132):19,
+    (240,133):20,
+    (240,134):21,
+    (240,135):22,
+    (240,136):8,
+    (240,144):7,
+    (240,148):6,
+    (240,153):5,
+    (240,159):4,
+    (240,160):3,
+    (240,161):265,
+    (243,112):29,
+    (243,113):23,
+    (243,115):30,
+    (243,116):31,
+    (243,117):32,
+    (243,118):33,
+    (243,119):34,
+    (243,120):35,
+    (243,121):36,
+    (243,123):37,
+    (243,124):39,
+    (243,125):38,
+    (243,126):40,
+    (243,127):41,
+    (243,128):42,
+    (243,129):43,
+    (243,130):17,
+    (243,131):18,
+    (243,132):19,
+    (243,133):20,
+    (243,134):21,
+    (243,135):22,
+    (243,136):8,
+    (243,144):7,
+    (243,148):6,
+    (243,153):5,
+    (243,159):4,
+    (243,160):3,
+    (243,161):266,
+    (246,112):29,
+    (246,113):23,
+    (246,115):30,
+    (246,116):31,
+    (246,117):32,
+    (246,118):33,
+    (246,119):34,
+    (246,120):35,
+    (246,121):36,
+    (246,123):37,
+    (246,124):39,
+    (246,125):38,
+    (246,126):40,
+    (246,127):41,
+    (246,128):42,
+    (246,129):43,
+    (246,130):17,
+    (246,131):18,
+    (246,132):19,
+    (246,133):20,
+    (246,134):21,
+    (246,135):22,
+    (246,136):8,
+    (246,144):7,
+    (246,148):6,
+    (246,153):5,
+    (246,159):4,
+    (246,160):3,
+    (246,161):267,
+    (247,139):268,
+    (249,112):29,
+    (249,113):23,
+    (249,115):30,
+    (249,116):31,
+    (249,117):32,
+    (249,118):33,
+    (249,119):34,
+    (249,120):35,
+    (249,121):36,
+    (249,123):37,
+    (249,124):39,
+    (249,125):38,
+    (249,126):40,
+    (249,127):41,
+    (249,128):42,
+    (249,129):43,
+    (249,130):269,
+    (249,131):18,
+    (249,132):19,
+    (249,133):20,
+    (249,134):21,
+    (249,135):22,
+    (260,112):29,
+    (260,113):23,
+    (260,115):30,
+    (260,116):31,
+    (260,117):32,
+    (260,118):33,
+    (260,119):34,
+    (260,120):35,
+    (260,121):36,
+    (260,123):37,
+    (260,124):39,
+    (260,125):38,
+    (260,126):40,
+    (260,127):41,
+    (260,128):42,
+    (260,129):43,
+    (260,130):17,
+    (260,131):18,
+    (260,132):19,
+    (260,133):20,
+    (260,134):21,
+    (260,135):22,
+    (260,136):8,
+    (260,144):7,
+    (260,148):6,
+    (260,153):5,
+    (260,159):4,
+    (260,160):3,
+    (260,161):279,
+    (261,112):29,
+    (261,113):23,
+    (261,115):30,
+    (261,116):31,
+    (261,117):32,
+    (261,118):33,
+    (261,119):34,
+    (261,120):35,
+    (261,121):36,
+    (261,123):37,
+    (261,124):39,
+    (261,125):38,
+    (261,126):40,
+    (261,127):41,
+    (261,128):42,
+    (261,129):43,
+    (261,130):17,
+    (261,131):18,
+    (261,132):19,
+    (261,133):20,
+    (261,134):21,
+    (261,135):22,
+    (261,136):8,
+    (261,144):7,
+    (261,148):6,
+    (261,153):5,
+    (261,159):4,
+    (261,160):3,
+    (261,161):280,
+    (263,112):29,
+    (263,113):23,
+    (263,115):30,
+    (263,116):31,
+    (263,117):32,
+    (263,118):33,
+    (263,119):34,
+    (263,120):35,
+    (263,121):36,
+    (263,123):37,
+    (263,124):39,
+    (263,125):38,
+    (263,126):40,
+    (263,127):41,
+    (263,128):42,
+    (263,129):43,
+    (263,130):17,
+    (263,131):18,
+    (263,132):19,
+    (263,133):20,
+    (263,134):21,
+    (263,135):22,
+    (263,136):8,
+    (263,144):7,
+    (263,148):6,
+    (263,153):5,
+    (263,159):4,
+    (263,160):3,
+    (263,161):281,
+    (271,112):29,
+    (271,113):23,
+    (271,115):30,
+    (271,116):31,
+    (271,117):32,
+    (271,118):33,
+    (271,119):34,
+    (271,120):35,
+    (271,121):36,
+    (271,123):37,
+    (271,124):39,
+    (271,125):38,
+    (271,126):40,
+    (271,127):41,
+    (271,128):42,
+    (271,129):43,
+    (271,130):17,
+    (271,131):18,
+    (271,132):19,
+    (271,133):20,
+    (271,134):21,
+    (271,135):22,
+    (271,136):8,
+    (271,144):7,
+    (271,148):6,
+    (271,153):5,
+    (271,159):4,
+    (271,160):3,
+    (271,161):284,
+    (275,112):29,
+    (275,113):23,
+    (275,115):30,
+    (275,116):31,
+    (275,117):32,
+    (275,118):33,
+    (275,119):34,
+    (275,120):35,
+    (275,121):36,
+    (275,123):37,
+    (275,124):39,
+    (275,125):38,
+    (275,126):40,
+    (275,127):41,
+    (275,128):42,
+    (275,129):43,
+    (275,130):17,
+    (275,131):18,
+    (275,132):19,
+    (275,133):20,
+    (275,134):21,
+    (275,135):22,
+    (275,136):8,
+    (275,144):7,
+    (275,148):6,
+    (275,153):5,
+    (275,159):4,
+    (275,160):3,
+    (275,161):288,
+    (278,112):289,
+    (278,115):30,
+    (278,116):31,
+    (278,117):32,
+    (278,118):33,
+    (278,119):34,
+    (278,120):35,
+    (278,121):36,
+    (278,123):37,
+    (278,124):39,
+    (278,125):38,
+    (278,126):40,
+    (278,127):41,
+    (278,128):42,
+    (278,129):43,
+    (283,112):29,
+    (283,113):23,
+    (283,115):30,
+    (283,116):31,
+    (283,117):32,
+    (283,118):33,
+    (283,119):34,
+    (283,120):35,
+    (283,121):36,
+    (283,123):37,
+    (283,124):39,
+    (283,125):38,
+    (283,126):40,
+    (283,127):41,
+    (283,128):42,
+    (283,129):43,
+    (283,130):17,
+    (283,131):18,
+    (283,132):19,
+    (283,133):20,
+    (283,134):21,
+    (283,135):22,
+    (283,136):8,
+    (283,144):7,
+    (283,148):6,
+    (283,153):5,
+    (283,159):4,
+    (283,160):3,
+    (283,161):293,
+    (286,112):29,
+    (286,113):23,
+    (286,115):30,
+    (286,116):31,
+    (286,117):32,
+    (286,118):33,
+    (286,119):34,
+    (286,120):35,
+    (286,121):36,
+    (286,123):37,
+    (286,124):39,
+    (286,125):38,
+    (286,126):40,
+    (286,127):41,
+    (286,128):42,
+    (286,129):43,
+    (286,130):17,
+    (286,131):18,
+    (286,132):19,
+    (286,133):20,
+    (286,134):21,
+    (286,135):22,
+    (286,136):8,
+    (286,144):7,
+    (286,148):6,
+    (286,153):5,
+    (286,159):4,
+    (286,160):3,
+    (286,161):296,
+    (287,112):29,
+    (287,113):23,
+    (287,115):30,
+    (287,116):31,
+    (287,117):32,
+    (287,118):33,
+    (287,119):34,
+    (287,120):35,
+    (287,121):36,
+    (287,123):37,
+    (287,124):39,
+    (287,125):38,
+    (287,126):40,
+    (287,127):41,
+    (287,128):42,
+    (287,129):43,
+    (287,130):17,
+    (287,131):18,
+    (287,132):19,
+    (287,133):20,
+    (287,134):21,
+    (287,135):22,
+    (287,136):8,
+    (287,144):7,
+    (287,148):6,
+    (287,153):5,
+    (287,159):4,
+    (287,160):3,
+    (287,161):297,
+    (295,112):29,
+    (295,113):23,
+    (295,115):30,
+    (295,116):31,
+    (295,117):32,
+    (295,118):33,
+    (295,119):34,
+    (295,120):35,
+    (295,121):36,
+    (295,123):37,
+    (295,124):39,
+    (295,125):38,
+    (295,126):40,
+    (295,127):41,
+    (295,128):42,
+    (295,129):43,
+    (295,130):17,
+    (295,131):18,
+    (295,132):19,
+    (295,133):20,
+    (295,134):21,
+    (295,135):22,
+    (295,136):8,
+    (295,144):7,
+    (295,148):6,
+    (295,153):5,
+    (295,159):4,
+    (295,160):3,
+    (295,161):300,
 }
 
 
@@ -16336,19 +6836,19 @@ H = {
     7: s7,
     8: s8,
     9: s9,
-    10: s10,
+    10: s9,
     11: s11,
     12: s12,
     13: s13,
-    14: s14,
+    14: s13,
     15: s15,
-    16: s16,
+    16: s13,
     17: s17,
     18: s18,
-    19: s19,
-    20: s20,
-    21: s21,
-    22: s22,
+    19: s18,
+    20: s18,
+    21: s18,
+    22: s18,
     23: s23,
     24: s24,
     25: s25,
@@ -16357,23 +6857,23 @@ H = {
     28: s28,
     29: s29,
     30: s30,
-    31: s31,
-    32: s32,
-    33: s33,
-    34: s34,
-    35: s35,
-    36: s36,
-    37: s37,
-    38: s38,
-    39: s39,
-    40: s40,
-    41: s41,
-    42: s42,
-    43: s43,
+    31: s30,
+    32: s30,
+    33: s30,
+    34: s30,
+    35: s30,
+    36: s30,
+    37: s30,
+    38: s30,
+    39: s30,
+    40: s30,
+    41: s30,
+    42: s30,
+    43: s30,
     44: s44,
-    45: s45,
+    45: s24,
     46: s46,
-    47: s47,
+    47: s46,
     48: s48,
     49: s49,
     50: s50,
@@ -16393,7 +6893,7 @@ H = {
     64: s64,
     65: s65,
     66: s66,
-    67: s67,
+    67: s26,
     68: s68,
     69: s69,
     70: s70,
@@ -16409,44 +6909,44 @@ H = {
     80: s80,
     81: s81,
     82: s82,
-    83: s83,
+    83: s77,
     84: s84,
     85: s85,
     86: s86,
     87: s87,
     88: s88,
-    89: s89,
-    90: s90,
-    91: s91,
-    92: s92,
-    93: s93,
-    94: s94,
-    95: s95,
-    96: s96,
-    97: s97,
-    98: s98,
-    99: s99,
-    100: s100,
-    101: s101,
-    102: s102,
-    103: s103,
-    104: s104,
-    105: s105,
-    106: s106,
-    107: s107,
-    108: s108,
-    109: s109,
-    110: s110,
-    111: s111,
+    89: s13,
+    90: s13,
+    91: s13,
+    92: s13,
+    93: s13,
+    94: s13,
+    95: s13,
+    96: s13,
+    97: s13,
+    98: s13,
+    99: s13,
+    100: s13,
+    101: s13,
+    102: s13,
+    103: s13,
+    104: s13,
+    105: s13,
+    106: s13,
+    107: s13,
+    108: s13,
+    109: s13,
+    110: s13,
+    111: s13,
     112: s112,
     113: s113,
     114: s114,
-    115: s115,
+    115: s24,
     116: s116,
     117: s117,
     118: s118,
     119: s119,
-    120: s120,
+    120: s27,
     121: s121,
     122: s122,
     123: s123,
@@ -16460,7 +6960,7 @@ H = {
     131: s131,
     132: s132,
     133: s133,
-    134: s134,
+    134: s46,
     135: s135,
     136: s136,
     137: s137,
@@ -16506,14 +7006,14 @@ H = {
     177: s177,
     178: s178,
     179: s179,
-    180: s180,
+    180: s179,
     181: s181,
-    182: s182,
+    182: s13,
     183: s183,
     184: s184,
-    185: s185,
+    185: s13,
     186: s186,
-    187: s187,
+    187: s13,
     188: s188,
     189: s189,
     190: s190,
@@ -16526,9 +7026,9 @@ H = {
     197: s197,
     198: s198,
     199: s199,
-    200: s200,
+    200: s13,
     201: s201,
-    202: s202,
+    202: s46,
     203: s203,
     204: s204,
     205: s205,
@@ -16539,7 +7039,7 @@ H = {
     210: s210,
     211: s211,
     212: s212,
-    213: s213,
+    213: s179,
     214: s214,
     215: s215,
     216: s216,
@@ -16547,9 +7047,9 @@ H = {
     218: s218,
     219: s219,
     220: s220,
-    221: s221,
+    221: s179,
     222: s222,
-    223: s223,
+    223: s27,
     224: s224,
     225: s225,
     226: s226,
@@ -16559,7 +7059,7 @@ H = {
     230: s230,
     231: s231,
     232: s232,
-    233: s233,
+    233: s46,
     234: s234,
     235: s235,
     236: s236,
@@ -16569,13 +7069,13 @@ H = {
     240: s240,
     241: s241,
     242: s242,
-    243: s243,
+    243: s12,
     244: s244,
     245: s245,
     246: s246,
     247: s247,
     248: s248,
-    249: s249,
+    249: s13,
     250: s250,
     251: s251,
     252: s252,
@@ -16586,10 +7086,10 @@ H = {
     257: s257,
     258: s258,
     259: s259,
-    260: s260,
-    261: s261,
+    260: s179,
+    261: s179,
     262: s262,
-    263: s263,
+    263: s240,
     264: s264,
     265: s265,
     266: s266,
@@ -16597,23 +7097,23 @@ H = {
     268: s268,
     269: s269,
     270: s270,
-    271: s271,
+    271: s179,
     272: s272,
     273: s273,
     274: s274,
-    275: s275,
+    275: s27,
     276: s276,
     277: s277,
-    278: s278,
+    278: s46,
     279: s279,
     280: s280,
     281: s281,
     282: s282,
-    283: s283,
+    283: s184,
     284: s284,
     285: s285,
-    286: s286,
-    287: s287,
+    286: s27,
+    287: s27,
     288: s288,
     289: s289,
     290: s290,
@@ -16621,7 +7121,7 @@ H = {
     292: s292,
     293: s293,
     294: s294,
-    295: s295,
+    295: s27,
     296: s296,
     297: s297,
     298: s298,
@@ -16633,27 +7133,27 @@ H = {
 }
 
 
+
 def parse(lexical_iterator: ms_parser.lexical.LexicalBase):
     a = [0]
     b = []
 
     action = s0
-    terminal = lexical_iterator.lex()
+    c = lexical_iterator.lex()
     next_terminal = False
     try:
         while action:
             if next_terminal is True:
-                terminal = lexical_iterator.lex()
-            action, next_terminal = action(a, b, terminal)
+                c = lexical_iterator.lex()
+            action, next_terminal = action(a, b, c)
     except KeyError as e:
         next_terminal_list = []
         for _ in range(10):
-            if terminal.is_end:
+            if c.is_end:
                 break
-            next_terminal_list.append(terminal.v)
-            terminal = lexical_iterator.lex()
+            next_terminal_list.append(c.v)
+            c = lexical_iterator.lex()
         next_terminal_text = "".join(next_terminal_list)
         raise KeyError("解析失败:", next_terminal_text) from e
 
     return b[0]
-

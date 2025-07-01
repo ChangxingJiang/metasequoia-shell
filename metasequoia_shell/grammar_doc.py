@@ -847,14 +847,14 @@ if __name__ == "__main__":
     import time
 
     start_time = time.time()
-
     parser = ms_parser.parser.ParserLALR1(build_grammar())
-    source_code = ms_parser.compiler.compress_compile_lalr1(parser, import_list=[
-        "from metasequoia_shell import ast"
-    ])
-    with open("parser.py", "w+", encoding="UTF-8") as file:
-        for row in source_code:
-            file.write(f"{row}\n")
-
     end_time = time.time()
     print(f"编译完成，耗时 {end_time - start_time:.3f} 秒")
+
+    start_time = time.time()
+    with open("parser.py", "w+", encoding="UTF-8") as file:
+        ms_parser.compiler.compress_compile_lalr1(file, parser, import_list=[
+            "from metasequoia_shell import ast"
+        ])
+    end_time = time.time()
+    print(f"写出完成，耗时 {end_time - start_time:.3f} 秒")
