@@ -7,1008 +7,841 @@ import metasequoia_parser as ms_parser
 from metasequoia_shell import ast
 
 
+
 def h0(a,b,c):
     a.append(28)
     b.append(c.v)
     return s28,True
-
 
 def h1(a,b,c):
     a.append(71)
     b.append(c.v)
     return s71,True
 
-
 def h2(a,b,c):
     a.append(49)
     b.append(c.v)
     return s49,True
-
 
 def h3(a,b,c):
     a.append(69)
     b.append(c.v)
     return s69,True
 
-
 def h4(a,b,c):
     a.append(26)
     b.append(c.v)
     return s26,True
-
 
 def h5(a,b,c):
     a.append(44)
     b.append(c.v)
     return s44,True
 
-
 def h6(a,b,c):
     a.append(68)
     b.append(c.v)
     return s68,True
-
 
 def h7(a,b,c):
     a.append(46)
     b.append(c.v)
     return s46,True
 
-
 def h8(a,b,c):
     a.append(27)
     b.append(c.v)
     return s27,True
-
 
 def h9(a,b,c):
     a.append(47)
     b.append(c.v)
     return s46,True
 
-
 def ha(a,b,c):
     a.append(50)
     b.append(c.v)
     return s50,True
-
 
 def hb(a,b,c):
     a.append(51)
     b.append(c.v)
     return s51,True
 
-
 def hc(a,b,c):
     a.append(52)
     b.append(c.v)
     return s52,True
-
 
 def hd(a,b,c):
     a.append(53)
     b.append(c.v)
     return s53,True
 
-
 def he(a,b,c):
     a.append(54)
     b.append(c.v)
     return s54,True
-
 
 def hf(a,b,c):
     a.append(55)
     b.append(c.v)
     return s55,True
 
-
 def hg(a,b,c):
     a.append(56)
     b.append(c.v)
     return s56,True
-
 
 def hh(a,b,c):
     a.append(57)
     b.append(c.v)
     return s57,True
 
-
 def hi(a,b,c):
     a.append(58)
     b.append(c.v)
     return s58,True
-
 
 def hj(a,b,c):
     a.append(59)
     b.append(c.v)
     return s59,True
 
-
 def hk(a,b,c):
     a.append(60)
     b.append(c.v)
     return s60,True
-
 
 def hl(a,b,c):
     a.append(61)
     b.append(c.v)
     return s61,True
 
-
 def hm(a,b,c):
     a.append(62)
     b.append(c.v)
     return s62,True
-
 
 def hn(a,b,c):
     a.append(63)
     b.append(c.v)
     return s63,True
 
-
 def ho(a,b,c):
     a.append(64)
     b.append(c.v)
     return s64,True
-
 
 def hp(a,b,c):
     a.append(65)
     b.append(c.v)
     return s65,True
 
-
 def hq(a,b,c):
     a.append(66)
     b.append(c.v)
     return s66,True
-
 
 def hr(a,b,c):
     a.append(48)
     b.append(c.v)
     return s48,True
 
-
 def hs(a,b,c):
     a.append(67)
     b.append(c.v)
     return s26,True
-
 
 def ht(a,b,c):
     a.append(24)
     b.append(c.v)
     return s24,True
 
-
 def hu(a,b,c):
     a.append(45)
     b.append(c.v)
     return s24,True
-
 
 def hv(a,b,c):
     a.append(25)
     b.append(c.v)
     return s25,True
 
-
 def hw(a,b,c):
     a.append(70)
     b.append(c.v)
     return s70,True
-
 
 def hx(a,b,c):
     a.append(72)
     b.append(c.v)
     return s72,True
 
-
 def hy(a,b,c):
     a.append(12)
     b.append(c.v)
     return s12,True
-
 
 def hz(a,b,c):
     a.append(11)
     b.append(c.v)
     return s11,True
 
-
 def h10(a,b,c):
     a.append(9)
     b.append(c.v)
     return s9,True
-
 
 def h11(a,b,c):
     a.append(10)
     b.append(c.v)
     return s9,True
 
-
 def h12(a,b,c):
     a.append(13)
     b.append(c.v)
     return s13,True
-
 
 def h13(a,b,c):
     a.append(15)
     b.append(c.v)
     return s15,True
 
-
 def h14(a,b,c):
     a.append(14)
     b.append(c.v)
     return s13,True
-
 
 def h15(a,b,c):
     a.append(16)
     b.append(c.v)
     return s13,True
 
-
 def h16(a,b,c):
     a.append(78)
     b.append(c.v)
     return s78,True
-
 
 def h17(a,b,c):
     a.append(79)
     b.append(c.v)
     return s79,True
 
-
 def h18(a,b,c):
     a.append(84)
     b.append(c.v)
     return s84,True
-
 
 def h19(a,b,c):
     a.append(85)
     b.append(c.v)
     return s85,True
 
-
 def h1a(a,b,c):
     a.append(99)
     b.append(c.v)
     return s13,True
-
 
 def h1b(a,b,c):
     a.append(100)
     b.append(c.v)
     return s13,True
 
-
 def h1c(a,b,c):
     a.append(89)
     b.append(c.v)
     return s13,True
-
 
 def h1d(a,b,c):
     a.append(90)
     b.append(c.v)
     return s13,True
 
-
 def h1e(a,b,c):
     a.append(91)
     b.append(c.v)
     return s13,True
-
 
 def h1f(a,b,c):
     a.append(92)
     b.append(c.v)
     return s13,True
 
-
 def h1g(a,b,c):
     a.append(93)
     b.append(c.v)
     return s13,True
-
 
 def h1h(a,b,c):
     a.append(94)
     b.append(c.v)
     return s13,True
 
-
 def h1i(a,b,c):
     a.append(95)
     b.append(c.v)
     return s13,True
-
 
 def h1j(a,b,c):
     a.append(96)
     b.append(c.v)
     return s13,True
 
-
 def h1k(a,b,c):
     a.append(97)
     b.append(c.v)
     return s13,True
-
 
 def h1l(a,b,c):
     a.append(98)
     b.append(c.v)
     return s13,True
 
-
 def h1m(a,b,c):
     a.append(101)
     b.append(c.v)
     return s13,True
-
 
 def h1n(a,b,c):
     a.append(102)
     b.append(c.v)
     return s13,True
 
-
 def h1o(a,b,c):
     a.append(103)
     b.append(c.v)
     return s13,True
-
 
 def h1p(a,b,c):
     a.append(104)
     b.append(c.v)
     return s13,True
 
-
 def h1q(a,b,c):
     a.append(105)
     b.append(c.v)
     return s13,True
-
 
 def h1r(a,b,c):
     a.append(106)
     b.append(c.v)
     return s13,True
 
-
 def h1s(a,b,c):
     a.append(107)
     b.append(c.v)
     return s13,True
-
 
 def h1t(a,b,c):
     a.append(108)
     b.append(c.v)
     return s13,True
 
-
 def h1u(a,b,c):
     a.append(109)
     b.append(c.v)
     return s13,True
-
 
 def h1v(a,b,c):
     a.append(110)
     b.append(c.v)
     return s13,True
 
-
 def h1w(a,b,c):
     a.append(111)
     b.append(c.v)
     return s13,True
-
 
 def h1x(a,b,c):
     a.append(115)
     b.append(c.v)
     return s24,True
 
-
 def h1y(a,b,c):
     a.append(120)
     b.append(c.v)
     return s27,True
-
 
 def h1z(a,b,c):
     a.append(123)
     b.append(c.v)
     return s123,True
 
-
 def h20(a,b,c):
     a.append(129)
     b.append(c.v)
     return s129,True
-
 
 def h21(a,b,c):
     a.append(128)
     b.append(c.v)
     return s128,True
 
-
 def h22(a,b,c):
     a.append(135)
     b.append(c.v)
     return s135,True
-
 
 def h23(a,b,c):
     a.append(136)
     b.append(c.v)
     return s136,True
 
-
 def h24(a,b,c):
     a.append(139)
     b.append(c.v)
     return s139,True
-
 
 def h25(a,b,c):
     a.append(140)
     b.append(c.v)
     return s140,True
 
-
 def h26(a,b,c):
     a.append(141)
     b.append(c.v)
     return s141,True
-
 
 def h27(a,b,c):
     a.append(142)
     b.append(c.v)
     return s142,True
 
-
 def h28(a,b,c):
     a.append(144)
     b.append(c.v)
     return s144,True
-
 
 def h29(a,b,c):
     a.append(146)
     b.append(c.v)
     return s146,True
 
-
 def h2a(a,b,c):
     a.append(148)
     b.append(c.v)
     return s148,True
-
 
 def h2b(a,b,c):
     a.append(149)
     b.append(c.v)
     return s149,True
 
-
 def h2c(a,b,c):
     a.append(150)
     b.append(c.v)
     return s150,True
-
 
 def h2d(a,b,c):
     a.append(179)
     b.append(c.v)
     return s179,True
 
-
 def h2e(a,b,c):
     a.append(180)
     b.append(c.v)
     return s179,True
-
 
 def h2f(a,b,c):
     a.append(182)
     b.append(c.v)
     return s13,True
 
-
 def h2g(a,b,c):
     a.append(184)
     b.append(c.v)
     return s184,True
-
 
 def h2h(a,b,c):
     a.append(185)
     b.append(c.v)
     return s13,True
 
-
 def h2i(a,b,c):
     a.append(186)
     b.append(c.v)
     return s186,True
-
 
 def h2j(a,b,c):
     a.append(187)
     b.append(c.v)
     return s13,True
 
-
 def h2k(a,b,c):
     a.append(188)
     b.append(c.v)
     return s188,True
-
 
 def h2l(a,b,c):
     a.append(190)
     b.append(c.v)
     return s190,True
 
-
 def h2m(a,b,c):
     a.append(191)
     b.append(c.v)
     return s191,True
-
 
 def h2n(a,b,c):
     a.append(192)
     b.append(c.v)
     return s192,True
 
-
 def h2o(a,b,c):
     a.append(193)
     b.append(c.v)
     return s193,True
-
 
 def h2p(a,b,c):
     a.append(194)
     b.append(c.v)
     return s194,True
 
-
 def h2q(a,b,c):
     a.append(195)
     b.append(c.v)
     return s195,True
-
 
 def h2r(a,b,c):
     a.append(197)
     b.append(c.v)
     return s197,True
 
-
 def h2s(a,b,c):
     a.append(196)
     b.append(c.v)
     return s196,True
-
 
 def h2t(a,b,c):
     a.append(200)
     b.append(c.v)
     return s13,True
 
-
 def h2u(a,b,c):
     a.append(201)
     b.append(c.v)
     return s201,True
-
 
 def h2v(a,b,c):
     a.append(202)
     b.append(c.v)
     return s46,True
 
-
 def h2w(a,b,c):
     a.append(203)
     b.append(c.v)
     return s203,True
-
 
 def h2x(a,b,c):
     a.append(205)
     b.append(c.v)
     return s205,True
 
-
 def h2y(a,b,c):
     a.append(206)
     b.append(c.v)
     return s206,True
-
 
 def h2z(a,b,c):
     a.append(207)
     b.append(c.v)
     return s207,True
 
-
 def h30(a,b,c):
     a.append(208)
     b.append(c.v)
     return s208,True
-
 
 def h31(a,b,c):
     a.append(209)
     b.append(c.v)
     return s209,True
 
-
 def h32(a,b,c):
     a.append(210)
     b.append(c.v)
     return s210,True
-
 
 def h33(a,b,c):
     a.append(213)
     b.append(c.v)
     return s179,True
 
-
 def h34(a,b,c):
     a.append(215)
     b.append(c.v)
     return s215,True
-
 
 def h35(a,b,c):
     a.append(221)
     b.append(c.v)
     return s179,True
 
-
 def h36(a,b,c):
     a.append(223)
     b.append(c.v)
     return s27,True
-
 
 def h37(a,b,c):
     a.append(224)
     b.append(c.v)
     return s224,True
 
-
 def h38(a,b,c):
     a.append(225)
     b.append(c.v)
     return s225,True
-
 
 def h39(a,b,c):
     a.append(226)
     b.append(c.v)
     return s226,True
 
-
 def h3a(a,b,c):
     a.append(227)
     b.append(c.v)
     return s227,True
-
 
 def h3b(a,b,c):
     a.append(228)
     b.append(c.v)
     return s228,True
 
-
 def h3c(a,b,c):
     a.append(229)
     b.append(c.v)
     return s229,True
-
 
 def h3d(a,b,c):
     a.append(233)
     b.append(c.v)
     return s46,True
 
-
 def h3e(a,b,c):
     a.append(232)
     b.append(c.v)
     return s232,True
-
 
 def h3f(a,b,c):
     a.append(234)
     b.append(c.v)
     return s234,True
 
-
 def h3g(a,b,c):
     a.append(235)
     b.append(c.v)
     return s235,True
-
 
 def h3h(a,b,c):
     a.append(238)
     b.append(c.v)
     return s238,True
 
-
 def h3i(a,b,c):
     a.append(243)
     b.append(c.v)
     return s12,True
-
 
 def h3j(a,b,c):
     a.append(240)
     b.append(c.v)
     return s240,True
 
-
 def h3k(a,b,c):
     a.append(241)
     b.append(c.v)
     return s241,True
-
 
 def h3l(a,b,c):
     a.append(245)
     b.append(c.v)
     return s245,True
 
-
 def h3m(a,b,c):
     a.append(246)
     b.append(c.v)
     return s246,True
-
 
 def h3n(a,b,c):
     a.append(249)
     b.append(c.v)
     return s13,True
 
-
 def h3o(a,b,c):
     a.append(251)
     b.append(c.v)
     return s251,True
-
 
 def h3p(a,b,c):
     a.append(253)
     b.append(c.v)
     return s253,True
 
-
 def h3q(a,b,c):
     a.append(254)
     b.append(c.v)
     return s254,True
-
 
 def h3r(a,b,c):
     a.append(255)
     b.append(c.v)
     return s255,True
 
-
 def h3s(a,b,c):
     a.append(256)
     b.append(c.v)
     return s256,True
-
 
 def h3t(a,b,c):
     a.append(257)
     b.append(c.v)
     return s257,True
 
-
 def h3u(a,b,c):
     a.append(259)
     b.append(c.v)
     return s259,True
-
 
 def h3v(a,b,c):
     a.append(260)
     b.append(c.v)
     return s179,True
 
-
 def h3w(a,b,c):
     a.append(261)
     b.append(c.v)
     return s179,True
-
 
 def h3x(a,b,c):
     a.append(263)
     b.append(c.v)
     return s240,True
 
-
 def h3y(a,b,c):
     a.append(264)
     b.append(c.v)
     return s264,True
-
 
 def h3z(a,b,c):
     a.append(270)
     b.append(c.v)
     return s270,True
 
-
 def h40(a,b,c):
     a.append(271)
     b.append(c.v)
     return s179,True
-
 
 def h41(a,b,c):
     a.append(272)
     b.append(c.v)
     return s272,True
 
-
 def h42(a,b,c):
     a.append(273)
     b.append(c.v)
     return s273,True
-
 
 def h43(a,b,c):
     a.append(274)
     b.append(c.v)
     return s274,True
 
-
 def h44(a,b,c):
     a.append(275)
     b.append(c.v)
     return s27,True
-
 
 def h45(a,b,c):
     a.append(276)
     b.append(c.v)
     return s276,True
 
-
 def h46(a,b,c):
     a.append(278)
     b.append(c.v)
     return s46,True
-
 
 def h47(a,b,c):
     a.append(277)
     b.append(c.v)
     return s277,True
 
-
 def h48(a,b,c):
     a.append(282)
     b.append(c.v)
     return s282,True
-
 
 def h49(a,b,c):
     a.append(283)
     b.append(c.v)
     return s184,True
 
-
 def h4a(a,b,c):
     a.append(285)
     b.append(c.v)
     return s285,True
-
 
 def h4b(a,b,c):
     a.append(286)
     b.append(c.v)
     return s27,True
 
-
 def h4c(a,b,c):
     a.append(287)
     b.append(c.v)
     return s27,True
-
 
 def h4d(a,b,c):
     a.append(290)
     b.append(c.v)
     return s290,True
 
-
 def h4e(a,b,c):
     a.append(291)
     b.append(c.v)
     return s291,True
-
 
 def h4f(a,b,c):
     a.append(292)
     b.append(c.v)
     return s292,True
 
-
 def h4g(a,b,c):
     a.append(294)
     b.append(c.v)
     return s294,True
-
 
 def h4h(a,b,c):
     a.append(295)
     b.append(c.v)
     return s27,True
 
-
 def h4i(a,b,c):
     a.append(298)
     b.append(c.v)
     return s298,True
-
 
 def h4j(a,b,c):
     a.append(299)
     b.append(c.v)
     return s299,True
 
-
 def h4k(a,b,c):
     a.append(301)
     b.append(c.v)
     return s301,True
-
 
 def h4l(a,b,c):
     a.append(302)
     b.append(c.v)
     return s302,True
 
-
 def h4m(a,b,c):
     a.append(303)
     b.append(c.v)
     return s303,True
-
-
 def r0(a,b,_):
     v = None
     n=S[(a[-1],161)]
@@ -1019,10 +852,9 @@ def r0(a,b,_):
 
 def r1(a,b,_):
     v = b[-1]
-    n=S[(a[-2],111)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[1]
+    return s1,False
 
 
 def r2(a,b,_):
@@ -1043,26 +875,23 @@ def r3(a,b,_):
 
 def r4(a,b,_):
     v = None
-    n=S[(a[-1],157)]
     b.append(v)
-    a.append(n)
-    return H[n],False
+    a.append(74)
+    return s74,False
 
 
 def r5(a,b,_):
     v = None
-    n=S[(a[-1],152)]
     b.append(v)
-    a.append(n)
-    return H[n],False
+    a.append(80)
+    return s80,False
 
 
 def r6(a,b,_):
     v = None
-    n=S[(a[-1],147)]
     b.append(v)
-    a.append(n)
-    return H[n],False
+    a.append(86)
+    return s86,False
 
 
 def r7(a,b,_):
@@ -1131,10 +960,9 @@ def re(a,b,_):
 
 def rf(a,b,_):
     v = False
-    n=S[(a[-1],122)]
     b.append(v)
-    a.append(n)
-    return H[n],False
+    a.append(134)
+    return s46,False
 
 
 def rg(a,b,_):
@@ -1283,18 +1111,16 @@ def rx(a,b,_):
 
 def ry(a,b,_):
     v = b[-1]
-    n=S[(a[-2],157)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[74]
+    return s74,False
 
 
 def rz(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],156)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[75]
+    return s75,False
 
 
 def r10(a,b,_):
@@ -1323,18 +1149,16 @@ def r12(a,b,_):
 
 def r13(a,b,_):
     v = b[-1]
-    n=S[(a[-2],152)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[80]
+    return s80,False
 
 
 def r14(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],151)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[81]
+    return s81,False
 
 
 def r15(a,b,_):
@@ -1363,18 +1187,16 @@ def r17(a,b,_):
 
 def r18(a,b,_):
     v = b[-1]
-    n=S[(a[-2],147)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[86]
+    return s86,False
 
 
 def r19(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],146)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[87]
+    return s87,False
 
 
 def r1a(a,b,_):
@@ -1387,10 +1209,9 @@ def r1a(a,b,_):
 
 def r1b(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],114)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[131]
+    return s131,False
 
 
 def r1c(a,b,_):
@@ -1403,10 +1224,9 @@ def r1c(a,b,_):
 
 def r1d(a,b,_):
     v = True
-    n=S[(a[-2],122)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[134]
+    return s46,False
 
 
 def r1e(a,b,_):
@@ -1483,10 +1303,9 @@ def r1m(a,b,_):
 
 def r1n(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],156)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[75]
+    return s75,False
 
 
 def r1o(a,b,_):
@@ -1499,10 +1318,9 @@ def r1o(a,b,_):
 
 def r1p(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],151)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[81]
+    return s81,False
 
 
 def r1q(a,b,_):
@@ -1515,10 +1333,9 @@ def r1q(a,b,_):
 
 def r1r(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],146)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[87]
+    return s87,False
 
 
 def r1s(a,b,_):
@@ -1811,10 +1628,9 @@ def r2r(a,b,_):
 
 def r2s(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],143)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[217]
+    return s217,False
 
 
 def r2t(a,b,_):
@@ -1843,10 +1659,9 @@ def r2v(a,b,_):
 
 def r2w(a,b,_):
     v = b[-3] + [b[-1]]
-    n=S[(a[-4],114)]
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
+    a[-3:]=[131]
+    return s131,False
 
 
 def r2x(a,b,_):
@@ -1883,18 +1698,16 @@ def r30(a,b,_):
 
 def r31(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],138)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[239]
+    return s239,False
 
 
 def r32(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],143)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[217]
+    return s217,False
 
 
 def r33(a,b,_):
@@ -1915,10 +1728,9 @@ def r34(a,b,_):
 
 def r35(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],140)]
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[247]
+    return s247,False
 
 
 def r36(a,b,_):
@@ -1947,10 +1759,9 @@ def r38(a,b,_):
 
 def r39(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],138)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[239]
+    return s239,False
 
 
 def r3a(a,b,_):
@@ -1971,10 +1782,9 @@ def r3b(a,b,_):
 
 def r3c(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],140)]
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[247]
+    return s247,False
 
 
 def r3d(a,b,_):
@@ -4780,7 +4590,6 @@ def s303(a,b,c):
 
 
 S = {
-    (0,111):1,
     (0,112):29,
     (0,113):23,
     (0,115):30,
@@ -4839,15 +4648,9 @@ S = {
     (3,159):73,
     (5,154):77,
     (5,155):76,
-    (5,156):75,
-    (5,157):74,
     (6,149):83,
     (6,150):82,
-    (6,151):81,
-    (6,152):80,
     (7,145):88,
-    (7,146):87,
-    (7,147):86,
     (9,112):29,
     (9,113):23,
     (9,115):30,
@@ -5206,7 +5009,6 @@ S = {
     (45,160):3,
     (45,161):130,
     (46,112):132,
-    (46,114):131,
     (46,115):30,
     (46,116):31,
     (46,117):32,
@@ -5237,7 +5039,6 @@ S = {
     (47,127):41,
     (47,128):42,
     (47,129):43,
-    (48,122):134,
     (67,112):29,
     (67,113):23,
     (67,115):30,
@@ -6212,7 +6013,6 @@ S = {
     (185,135):22,
     (185,141):219,
     (185,142):218,
-    (185,143):217,
     (187,112):29,
     (187,113):23,
     (187,115):30,
@@ -6335,7 +6135,6 @@ S = {
     (213,161):236,
     (214,158):237,
     (216,137):242,
-    (216,138):239,
     (217,112):29,
     (217,113):23,
     (217,115):30,
@@ -6361,7 +6160,6 @@ S = {
     (217,141):219,
     (217,142):244,
     (220,139):248,
-    (220,140):247,
     (221,112):29,
     (221,113):23,
     (221,115):30,
