@@ -844,1158 +844,1041 @@ def h4m(a,b,c):
     return s303,True
 def r0(a,b,_):
     v = None
-    n=S[(a[-1],161)]
+    n,k=R0[a[-1]]
     b.append(v)
     a.append(n)
-    return H[n],False
+    return k,False
+
 
 
 E0={0}
+
 def r1(a,b,_):
     v = b[-1]
     assert a[-2] in E0
     b[-1:]=[v]
     a[-1:]=[1]
     return s1,False
-
-
 def r2(a,b,_):
     v = ast.Script(command_list=b[-1])
-    n=S[(a[-2],161)]
+    n,k=R0[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
+
+
+E1={0,9,10,12,24,25,26,27,45,67,68,115,120,128,179,180,184,213,221,223,240,243,246,260,261,263,271,275,283,286,287,295}
 
 def r3(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],160)]
+    assert a[-2] in E1
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[3]
+    return s3,False
 
+E2={5}
 
-E1={5}
 def r4(a,b,_):
     v = None
-    assert a[-1] in E1
+    assert a[-1] in E2
     b.append(v)
     a.append(74)
     return s74,False
 
+E3={6}
 
-E2={6}
 def r5(a,b,_):
     v = None
-    assert a[-1] in E2
+    assert a[-1] in E3
     b.append(v)
     a.append(80)
     return s80,False
 
+E4={7}
 
-E3={7}
 def r6(a,b,_):
     v = None
-    assert a[-1] in E3
+    assert a[-1] in E4
     b.append(v)
     a.append(86)
     return s86,False
 
+E5={0,3,9,10,12,24,25,26,27,45,67,68,77,83,115,120,128,179,180,184,213,221,223,240,243,246,260,261,263,271,275,283,286,287,295}
 
 def r7(a,b,_):
     v = ast.SimpleCommand(word_list=b[-1])
-    n=S[(a[-2],144)]
+    assert a[-2] in E5
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
-
+    a[-1:]=[7]
+    return s7,False
 def r8(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],136)]
+    n,k=R1[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r9(a,b,_):
     v = b[-1]
-    n=S[(a[-2],130)]
+    n,k=R2[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
+
+
+E6={0,3,9,10,11,12,13,14,15,16,24,25,26,27,45,67,68,77,83,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,115,120,128,179,180,182,184,185,187,200,213,217,221,223,240,243,246,249,260,261,263,271,275,283,286,287,295}
 
 def ra(a,b,_):
     v = ast.NormalWord(element_list=b[-1])
-    n=S[(a[-2],131)]
+    assert a[-2] in E6
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[18]
+    return s18,False
 
+E7={0,3,9,10,11,12,13,14,15,16,23,24,25,26,27,45,46,47,67,68,71,72,77,83,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,115,120,128,129,133,134,143,145,179,180,182,184,185,187,199,200,202,204,213,217,221,223,233,240,243,246,249,260,261,263,271,275,278,283,286,287,295}
 
 def rb(a,b,_):
     v = ast.Ident(string=b[-1])
-    n=S[(a[-2],115)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
-
+    a[-1:]=[30]
+    return s30,False
 def rc(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],113)]
+    n,k=R3[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
 
 def rd(a,b,_):
     v = b[-1]
-    n=S[(a[-2],112)]
+    n,k=R4[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def re(a,b,_):
     v = ast.Ident(string='=')
-    n=S[(a[-2],115)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
+    a[-1:]=[30]
+    return s30,False
 
+E8={48}
 
-E4={48}
 def rf(a,b,_):
     v = False
-    assert a[-1] in E4
+    assert a[-1] in E8
     b.append(v)
     a.append(134)
     return s46,False
 
-
 def rg(a,b,_):
     v = ast.Param0()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rh(a,b,_):
     v = ast.Param1()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def ri(a,b,_):
     v = ast.Param2()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rj(a,b,_):
     v = ast.Param3()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rk(a,b,_):
     v = ast.Param4()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rl(a,b,_):
     v = ast.Param5()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rm(a,b,_):
     v = ast.Param6()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rn(a,b,_):
     v = ast.Param7()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def ro(a,b,_):
     v = ast.Param8()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rp(a,b,_):
     v = ast.Param9()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rq(a,b,_):
     v = ast.ParamExclamation()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rr(a,b,_):
     v = ast.ParamPound()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rs(a,b,_):
     v = ast.ParamStar()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rt(a,b,_):
     v = ast.ParamHyphen()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def ru(a,b,_):
     v = ast.ParamQuestion()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rv(a,b,_):
     v = ast.ParamAt()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rw(a,b,_):
     v = ast.ParamDollar()
-    n=S[(a[-2],125)]
+    assert a[-2] in E7
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[38]
+    return s30,False
 
 def rx(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],160)]
+    assert a[-3] in E1
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[3]
+    return s3,False
 
 def ry(a,b,_):
     v = b[-1]
-    assert a[-2] in E1
+    assert a[-2] in E2
     b[-1:]=[v]
     a[-1:]=[74]
     return s74,False
 
-
 def rz(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E1
+    assert a[-2] in E2
     b[-1:]=[v]
     a[-1:]=[75]
     return s75,False
 
+E9={5,75}
 
 def r10(a,b,_):
     v = ast.CommandRelationType.ASCII_0x26_0x26
-    n=S[(a[-2],154)]
+    assert a[-2] in E9
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[77]
+    return s77,False
 
 def r11(a,b,_):
     v = ast.CommandRelationType.ASCII_0x7C_0x7C
-    n=S[(a[-2],154)]
+    assert a[-2] in E9
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
-
+    a[-1:]=[77]
+    return s77,False
 def r12(a,b,_):
     v = ast.CommandWithPipe.create(command=b[-2], pipe_list=b[-1])
-    n=S[(a[-3],153)]
+    n,k=R5[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r13(a,b,_):
     v = b[-1]
-    assert a[-2] in E2
+    assert a[-2] in E3
     b[-1:]=[v]
     a[-1:]=[80]
     return s80,False
 
-
 def r14(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E2
+    assert a[-2] in E3
     b[-1:]=[v]
     a[-1:]=[81]
     return s81,False
 
+Ea={6,81}
 
 def r15(a,b,_):
     v = ast.PipeType.ASCII_0x7C
-    n=S[(a[-2],149)]
+    assert a[-2] in Ea
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[83]
+    return s77,False
 
 def r16(a,b,_):
     v = ast.PipeType.ASCII_0x7C_0x26
-    n=S[(a[-2],149)]
+    assert a[-2] in Ea
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
-
+    a[-1:]=[83]
+    return s77,False
 def r17(a,b,_):
     v = ast.CommandWithRedirection.create(bare_command=b[-2], redirection_list=b[-1])
-    n=S[(a[-3],148)]
+    n,k=R6[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r18(a,b,_):
     v = b[-1]
-    assert a[-2] in E3
+    assert a[-2] in E4
     b[-1:]=[v]
     a[-1:]=[86]
     return s86,False
 
-
 def r19(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E3
+    assert a[-2] in E4
     b[-1:]=[v]
     a[-1:]=[87]
     return s87,False
-
-
 def r1a(a,b,_):
     v = b[-2] + [b[-1]]
-    n=S[(a[-3],113)]
+    n,k=R3[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
-E5={46}
+
+Eb={46}
+
 def r1b(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E5
+    assert a[-2] in Eb
     b[-1:]=[v]
     a[-1:]=[131]
     return s131,False
 
-
 def r1c(a,b,_):
     v = ast.TildeExpansion(element_list=b[-1])
-    n=S[(a[-3],121)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[36]
+    return s30,False
 
 def r1d(a,b,_):
     v = True
-    assert a[-2] in E4
+    assert a[-2] in E8
     b[-1:]=[v]
     a[-1:]=[134]
     return s46,False
 
-
 def r1e(a,b,_):
     v = ast.ParamExpansion(name=b[-1])
-    n=S[(a[-3],123)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[37]
+    return s30,False
 
 def r1f(a,b,_):
     v = ast.SingleQuoteString(string=None)
-    n=S[(a[-3],126)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[40]
+    return s30,False
 
 def r1g(a,b,_):
     v = ast.DollarSingleQuoteString.create(string=None)
-    n=S[(a[-3],127)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[41]
+    return s30,False
 
 def r1h(a,b,_):
     v = ast.DoubleQuoteString(element_list=None)
-    n=S[(a[-3],128)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
+    a[-2:]=[42]
+    return s30,False
 
 def r1i(a,b,_):
     v = ast.DollarDoubleQuoteString(element_list=None)
-    n=S[(a[-3],129)]
+    assert a[-3] in E7
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
-
-
+    a[-2:]=[43]
+    return s30,False
 def r1j(a,b,_):
     v = ast.CommandWithList.create(first_command=b[-3], other_command_list=b[-2], end_type=b[-1])
-    n=S[(a[-4],159)]
+    n,k=R7[a[-4]]
     b[-3:]=[v]
     a[-3:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1k(a,b,_):
     v = ast.CommandEndType.ASCII_0x0A
-    n=S[(a[-2],158)]
+    n,k=R8[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1l(a,b,_):
     v = ast.CommandEndType.ASCII_0x26
-    n=S[(a[-2],158)]
+    n,k=R8[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1m(a,b,_):
     v = ast.CommandEndType.ASCII_0x3B
-    n=S[(a[-2],158)]
+    n,k=R8[a[-2]]
     b[-1:]=[v]
     a[-1:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r1n(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E1
+    assert a[-3] in E2
     b[-2:]=[v]
     a[-2:]=[75]
     return s75,False
-
-
 def r1o(a,b,_):
     v = ast.CommandWithRelation(relation=b[-2], command=b[-1])
-    n=S[(a[-3],155)]
+    n,k=R9[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r1p(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E2
+    assert a[-3] in E3
     b[-2:]=[v]
     a[-2:]=[81]
     return s81,False
-
-
 def r1q(a,b,_):
     v = ast.Pipe(type=b[-2], command=b[-1])
-    n=S[(a[-3],150)]
+    n,k=Ra[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r1r(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E3
+    assert a[-3] in E4
     b[-2:]=[v]
     a[-2:]=[87]
     return s87,False
-
-
 def r1s(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1t(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x26, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1u(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1v(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1w(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x2D, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1x(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3C_0x3C_0x3C, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1y(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r1z(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x7C, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r20(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x3E, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r21(a,b,_):
     v = ast.Redirection.create_number_redirection(rtype=ast.RedirectionType.NUMBER_0x3E_0x26, number=int(b[-2][0]), word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r22(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r23(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r24(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x7C, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r25(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x3E, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r26(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r27(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3E_0x26, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r28(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x26_0x3E_0x3E, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r29(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r2a(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x2D, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r2b(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3C_0x3C, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r2c(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x26, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r2d(a,b,_):
     v = ast.Redirection.create_redirection(rtype=ast.RedirectionType.ASCII_0x3C_0x3E, word_list=b[-1])
-    n=S[(a[-3],145)]
+    n,k=Rb[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
 
 
 def r2e(a,b,_):
     v = b[-3] + [b[-1]]
-    n=S[(a[-4],136)]
+    n,k=R1[a[-4]]
     b[-3:]=[v]
     a[-3:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r2f(a,b,_):
     v = ast.ArithmeticExpression(script=b[-2])
-    n=S[(a[-4],132)]
+    assert a[-4] in E6
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[19]
+    return s18,False
 
 def r2g(a,b,_):
     v = ast.ConditionalExpression(script=b[-2])
-    n=S[(a[-4],133)]
+    assert a[-4] in E6
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[20]
+    return s18,False
 
 def r2h(a,b,_):
     v = ast.GroupingCommand.create_sub_process(script=b[-2])
-    n=S[(a[-4],134)]
+    assert a[-4] in E6
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[21]
+    return s18,False
 
 def r2i(a,b,_):
     v = ast.GroupingCommand.create_context(script=b[-2])
-    n=S[(a[-4],134)]
+    assert a[-4] in E6
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[21]
+    return s18,False
 
 def r2j(a,b,_):
     v = ast.Assignment(name=b[-3], value_element_list=b[-1])
-    n=S[(a[-4],135)]
+    assert a[-4] in E6
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[22]
+    return s18,False
 
 def r2k(a,b,_):
     v = ast.ArithmeticExpansion(script=b[-2])
-    n=S[(a[-4],119)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[34]
+    return s30,False
 
 def r2l(a,b,_):
     v = ast.BraceExpansion(element_list=b[-2])
-    n=S[(a[-4],120)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[35]
+    return s30,False
 
 def r2m(a,b,_):
     v = ast.CommandSubstitution.create_curve(b[-2])
-    n=S[(a[-4],124)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[39]
+    return s30,False
 
 def r2n(a,b,_):
     v = ast.CommandSubstitution.create_back_quote(b[-2])
-    n=S[(a[-4],124)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[39]
+    return s30,False
 
 def r2o(a,b,_):
     v = ast.SingleQuoteString(string=b[-2])
-    n=S[(a[-4],126)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[40]
+    return s30,False
 
 def r2p(a,b,_):
     v = ast.DollarSingleQuoteString.create(string=b[-2])
-    n=S[(a[-4],127)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[41]
+    return s30,False
 
 def r2q(a,b,_):
     v = ast.DoubleQuoteString(element_list=b[-2])
-    n=S[(a[-4],128)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
-
+    a[-3:]=[42]
+    return s30,False
 
 def r2r(a,b,_):
     v = ast.DollarDoubleQuoteString(element_list=b[-2])
-    n=S[(a[-4],129)]
+    assert a[-4] in E7
     b[-3:]=[v]
-    a[-3:]=[n]
-    return H[n],False
+    a[-3:]=[43]
+    return s30,False
 
+Ec={185}
 
-E6={185}
 def r2s(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E6
+    assert a[-2] in Ec
     b[-1:]=[v]
     a[-1:]=[217]
     return s217,False
 
+Ed={185,217}
 
 def r2t(a,b,_):
     v = [b[-1]]
-    n=S[(a[-2],141)]
+    assert a[-2] in Ed
     b[-1:]=[v]
-    a[-1:]=[n]
-    return H[n],False
-
+    a[-1:]=[219]
+    return s219,False
 
 def r2u(a,b,_):
     v = ast.Coprocess(name=None, script=b[-2])
-    n=S[(a[-5],144)]
+    assert a[-5] in E5
     b[-4:]=[v]
-    a[-4:]=[n]
-    return H[n],False
-
+    a[-4:]=[7]
+    return s7,False
 
 def r2v(a,b,_):
     v = ast.ArrayGetter(array=b[-4], script=b[-2])
-    n=S[(a[-5],118)]
+    assert a[-5] in E7
     b[-4:]=[v]
-    a[-4:]=[n]
-    return H[n],False
-
+    a[-4:]=[33]
+    return s30,False
 
 def r2w(a,b,_):
     v = b[-3] + [b[-1]]
-    assert a[-4] in E5
+    assert a[-4] in Eb
     b[-3:]=[v]
     a[-3:]=[131]
     return s131,False
 
-
 def r2x(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-2], indirect=b[-3])
-    n=S[(a[-5],123)]
+    assert a[-5] in E7
     b[-4:]=[v]
-    a[-4:]=[n]
-    return H[n],False
-
+    a[-4:]=[37]
+    return s30,False
 
 def r2y(a,b,_):
     v = ast.UntilCommand(test_script=b[-4], consequent_script=b[-2])
-    n=S[(a[-6],144)]
+    assert a[-6] in E5
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
-
+    a[-5:]=[7]
+    return s7,False
 
 def r2z(a,b,_):
     v = ast.WhileCommand(test_script=b[-4], consequent_script=b[-2])
-    n=S[(a[-6],144)]
+    assert a[-6] in E5
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
-
+    a[-5:]=[7]
+    return s7,False
 
 def r30(a,b,_):
     v = ast.IfCommand(test_script=b[-4], consequent_script=b[-2], else_if_list=[], alternate_script=None)
-    n=S[(a[-6],144)]
+    assert a[-6] in E5
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
+    a[-5:]=[7]
+    return s7,False
 
+Ee={216}
 
-E7={216}
 def r31(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E7
+    assert a[-2] in Ee
     b[-1:]=[v]
     a[-1:]=[239]
     return s239,False
 
-
 def r32(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E6
+    assert a[-3] in Ec
     b[-2:]=[v]
     a[-2:]=[217]
     return s217,False
 
-
 def r33(a,b,_):
     v = ast.CaseCommand(word=b[-4], item_list=b[-2])
-    n=S[(a[-6],144)]
+    assert a[-6] in E5
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
-
+    a[-5:]=[7]
+    return s7,False
 
 def r34(a,b,_):
     v = [b[-2]] + b[-1]
-    n=S[(a[-3],141)]
+    assert a[-3] in Ed
     b[-2:]=[v]
-    a[-2:]=[n]
-    return H[n],False
+    a[-2:]=[219]
+    return s219,False
 
+Ef={220}
 
-E8={220}
 def r35(a,b,_):
     v = [b[-1]]
-    assert a[-2] in E8
+    assert a[-2] in Ef
     b[-1:]=[v]
     a[-1:]=[247]
     return s247,False
 
-
 def r36(a,b,_):
     v = ast.ArrayAt(array=b[-5])
-    n=S[(a[-6],116)]
+    assert a[-6] in E7
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
-
+    a[-5:]=[31]
+    return s30,False
 
 def r37(a,b,_):
     v = ast.ArrayStar(array=b[-5])
-    n=S[(a[-6],117)]
+    assert a[-6] in E7
     b[-5:]=[v]
-    a[-5:]=[n]
-    return H[n],False
-
+    a[-5:]=[32]
+    return s30,False
 
 def r38(a,b,_):
     v = ast.EnhanceForCommand(name=b[-5], script=b[-2])
-    n=S[(a[-7],144)]
+    assert a[-7] in E5
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
+    a[-6:]=[7]
+    return s7,False
 
 def r39(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E7
+    assert a[-3] in Ee
     b[-2:]=[v]
     a[-2:]=[239]
     return s239,False
 
-
 def r3a(a,b,_):
     v = ast.IfCommand(test_script=b[-5], consequent_script=b[-3], else_if_list=b[-2], alternate_script=None)
-    n=S[(a[-7],144)]
+    assert a[-7] in E5
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
-
+    a[-6:]=[7]
+    return s7,False
 def r3b(a,b,_):
     v = ast.CaseItem(pattern_list=b[-3], script=b[-1])
-    n=S[(a[-4],142)]
+    n,k=Rc[a[-4]]
     b[-3:]=[v]
     a[-3:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r3c(a,b,_):
     v = b[-2] + [b[-1]]
-    assert a[-3] in E8
+    assert a[-3] in Ef
     b[-2:]=[v]
     a[-2:]=[247]
     return s247,False
-
-
 def r3d(a,b,_):
     v = b[-1]
-    n=S[(a[-3],139)]
+    n,k=Rd[a[-3]]
     b[-2:]=[v]
     a[-2:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r3e(a,b,_):
     v = ast.SelectCommand(name=b[-5], word_list=None, script=b[-2])
-    n=S[(a[-7],144)]
+    assert a[-7] in E5
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
+    a[-6:]=[7]
+    return s7,False
 
 def r3f(a,b,_):
     v = ast.Coprocess(name=b[-5], script=b[-2])
-    n=S[(a[-7],144)]
+    assert a[-7] in E5
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
+    a[-6:]=[7]
+    return s7,False
 
 def r3g(a,b,_):
     v = ast.AssignmentArray(name=b[-6], value_element_list=b[-3])
-    n=S[(a[-7],135)]
+    assert a[-7] in E6
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
+    a[-6:]=[22]
+    return s18,False
 
 def r3h(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-4], indirect=b[-5], offset=b[-2])
-    n=S[(a[-7],123)]
+    assert a[-7] in E7
     b[-6:]=[v]
-    a[-6:]=[n]
-    return H[n],False
-
+    a[-6:]=[37]
+    return s30,False
 
 def r3i(a,b,_):
     v = ast.IfCommand(test_script=b[-6], consequent_script=b[-4], else_if_list=[], alternate_script=b[-2])
-    n=S[(a[-8],144)]
+    assert a[-8] in E5
     b[-7:]=[v]
-    a[-7:]=[n]
-    return H[n],False
-
+    a[-7:]=[7]
+    return s7,False
 
 def r3j(a,b,_):
     v = ast.EnhanceForCommand(name=b[-7], word_list=b[-5], script=b[-2])
-    n=S[(a[-9],144)]
+    assert a[-9] in E5
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
+    a[-8:]=[7]
+    return s7,False
 
 def r3k(a,b,_):
     v = ast.ForCommand(test_script=b[-6], consequent_script=b[-2])
-    n=S[(a[-9],144)]
+    assert a[-9] in E5
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
+    a[-8:]=[7]
+    return s7,False
 
 def r3l(a,b,_):
     v = ast.IfCommand(test_script=b[-7], consequent_script=b[-5], else_if_list=b[-4], alternate_script=b[-2])
-    n=S[(a[-9],144)]
+    assert a[-9] in E5
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
-
+    a[-8:]=[7]
+    return s7,False
 def r3m(a,b,_):
     v = ast.ElifItem(test_script=b[-3], consequent_script=b[-1])
-    n=S[(a[-5],137)]
+    n,k=Re[a[-5]]
     b[-4:]=[v]
     a[-4:]=[n]
-    return H[n],False
+    return k,False
+
 
 
 def r3n(a,b,_):
     v = ast.SelectCommand(name=b[-7], word_list=b[-5], script=b[-2])
-    n=S[(a[-9],144)]
+    assert a[-9] in E5
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
+    a[-8:]=[7]
+    return s7,False
 
 def r3o(a,b,_):
     v = ast.Function(name=b[-7], script=b[-2])
-    n=S[(a[-9],144)]
+    assert a[-9] in E5
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
+    a[-8:]=[7]
+    return s7,False
 
 def r3p(a,b,_):
     v = ast.BraceParamExpansion(element_list=b[-6], indirect=b[-7], offset=b[-4], length=b[-2])
-    n=S[(a[-9],123)]
+    assert a[-9] in E7
     b[-8:]=[v]
-    a[-8:]=[n]
-    return H[n],False
-
+    a[-8:]=[37]
+    return s30,False
 
 def r3q(a,b,_):
     v = ast.Function(name=b[-8], script=b[-2])
-    n=S[(a[-10],144)]
+    assert a[-10] in E5
     b[-9:]=[v]
-    a[-9:]=[n]
-    return H[n],False
-
+    a[-9:]=[7]
+    return s7,False
 
 def r3r(a,b,_):
     v = ast.Function(name=b[-8], script=b[-2])
-    n=S[(a[-10],144)]
+    assert a[-10] in E5
     b[-9:]=[v]
-    a[-9:]=[n]
-    return H[n],False
-
+    a[-9:]=[7]
+    return s7,False
 
 def r3s(a,b,_):
     v = ast.Function(name=b[-9], script=b[-2])
-    n=S[(a[-11],144)]
+    assert a[-11] in E5
     b[-10:]=[v]
-    a[-10:]=[n]
-    return H[n],False
-
-
+    a[-10:]=[7]
+    return s7,False
 def p(a,b,c):
     return None,True
 
 
-SH0={
-    0:r0,
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH0={0:r0,1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s0(a,b,c):
@@ -2013,20 +1896,10 @@ def s2(a,b,c):
     return r1(a,b,c)
 
 
-SH3={
-    1:h0,
-    21:h5,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
-E9={0,5,8,11,12,13,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,95,96,97,98,104,105,107}
-SH3.update({v: r2 for v in E9})
+SH3={1:h0,21:h5,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
+
+Eg={0,5,8,11,12,13,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,95,96,97,98,104,105,107}
+SH3.update({v:r2 for v in Eg})
 
 
 def s3(a,b,c):
@@ -2034,18 +1907,17 @@ def s3(a,b,c):
     return m(a,b,c)
 
 
-Ea={0,1,5,8,11,12,13,21,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,94,95,96,97,98,100,102,103,104,105,106,107,108,109,110}
+
+Eh={0,1,5,8,11,12,13,21,25,27,28,29,30,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,63,64,65,66,69,70,94,95,96,97,98,100,102,103,104,105,106,107,108,109,110}
 def s4(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return r3(a,b,c)
 
 
-SH5={
-    72:h16,
-    73:h17,
-}
-Eb={2,10,19}
-SH5.update({v: r4 for v in Eb})
+SH5={72:h16,73:h17,}
+
+Ei={2,10,19}
+SH5.update({v:r4 for v in Ei})
 
 
 def s5(a,b,c):
@@ -2053,12 +1925,10 @@ def s5(a,b,c):
     return m(a,b,c)
 
 
-SH6={
-    31:h18,
-    71:h19,
-}
-Ec={2,10,19,72,73}
-SH6.update({v: r5 for v in Ec})
+SH6={31:h18,71:h19,}
+
+Ej={2,10,19,72,73}
+SH6.update({v:r5 for v in Ej})
 
 
 def s6(a,b,c):
@@ -2066,37 +1936,7 @@ def s6(a,b,c):
     return m(a,b,c)
 
 
-SH7={
-    2:r6,
-    10:r6,
-    19:r6,
-    20:h1a,
-    22:h1b,
-    31:r6,
-    71:r6,
-    72:r6,
-    73:r6,
-    74:h1c,
-    75:h1d,
-    76:h1e,
-    77:h1f,
-    78:h1g,
-    79:h1h,
-    80:h1i,
-    81:h1j,
-    82:h1k,
-    83:h1l,
-    84:h1m,
-    85:h1n,
-    86:h1o,
-    87:h1p,
-    88:h1q,
-    89:h1r,
-    90:h1s,
-    91:h1t,
-    92:h1u,
-    93:h1v,
-}
+SH7={2:r6,10:r6,19:r6,20:h1a,22:h1b,31:r6,71:r6,72:r6,73:r6,74:h1c,75:h1d,76:h1e,77:h1f,78:h1g,79:h1h,80:h1i,81:h1j,82:h1k,83:h1l,84:h1m,85:h1n,86:h1o,87:h1p,88:h1q,89:h1r,90:h1s,91:h1t,92:h1u,93:h1v,}
 
 
 def s7(a,b,c):
@@ -2104,11 +1944,10 @@ def s7(a,b,c):
     return m(a,b,c)
 
 
-SH8={
-    3:h1w,
-}
-Ed={2,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
-SH8.update({v: r7 for v in Ed})
+SH8={3:h1w,}
+
+Ek={2,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
+SH8.update({v:r7 for v in Ek})
 
 
 def s8(a,b,c):
@@ -2116,51 +1955,7 @@ def s8(a,b,c):
     return m(a,b,c)
 
 
-SH9={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    104:r0,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH9={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,104:r0,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s9(a,b,c):
@@ -2168,42 +1963,7 @@ def s9(a,b,c):
     return m(a,b,c)
 
 
-SH11={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:h1x,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-}
+SH11={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:h1x,64:hu,65:hv,69:hw,70:hx,}
 
 
 def s11(a,b,c):
@@ -2211,51 +1971,7 @@ def s11(a,b,c):
     return m(a,b,c)
 
 
-SH12={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    95:r0,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH12={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,95:r0,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s12(a,b,c):
@@ -2263,42 +1979,7 @@ def s12(a,b,c):
     return m(a,b,c)
 
 
-SH13={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-}
+SH13={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,}
 
 
 def s13(a,b,c):
@@ -2306,42 +1987,7 @@ def s13(a,b,c):
     return m(a,b,c)
 
 
-SH15={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h1y,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-}
+SH15={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h1y,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,}
 
 
 def s15(a,b,c):
@@ -2349,51 +1995,22 @@ def s15(a,b,c):
     return m(a,b,c)
 
 
-Ee={2,3,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
+
+El={2,3,10,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93}
 def s17(a,b,c):
-    assert c.i in Ee
+    assert c.i in El
     return r8(a,b,c)
 
 
-Ef={2,3,10,12,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+
+Em={2,3,10,12,19,20,22,31,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
 def s18(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r9(a,b,c)
 
 
-SH23={
-    1:h1z,
-    5:h1,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
-SH23.update({v: ra for v in Ef})
+SH23={1:h1z,5:h1,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
+SH23.update({v:ra for v in Em})
 
 
 def s23(a,b,c):
@@ -2401,51 +2018,7 @@ def s23(a,b,c):
     return m(a,b,c)
 
 
-SH24={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    63:r0,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH24={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,63:r0,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s24(a,b,c):
@@ -2453,51 +2026,7 @@ def s24(a,b,c):
     return m(a,b,c)
 
 
-SH25={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    66:r0,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH25={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,66:r0,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s25(a,b,c):
@@ -2505,51 +2034,7 @@ def s25(a,b,c):
     return m(a,b,c)
 
 
-SH26={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    13:r0,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH26={1:h0,5:h1,8:h2,11:h3,12:h4,13:r0,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s26(a,b,c):
@@ -2557,51 +2042,7 @@ def s26(a,b,c):
     return m(a,b,c)
 
 
-SH27={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    33:r0,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH27={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,33:r0,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s27(a,b,c):
@@ -2609,12 +2050,10 @@ def s27(a,b,c):
     return m(a,b,c)
 
 
-SH28={
-    21:h20,
-    24:h21,
-}
-Eg={1,2,3,5,8,10,11,12,19,20,22,27,29,31,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
-SH28.update({v: rb for v in Eg})
+SH28={21:h20,24:h21,}
+
+En={1,2,3,5,8,10,11,12,19,20,22,27,29,31,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+SH28.update({v:rb for v in En})
 
 
 def s28(a,b,c):
@@ -2622,54 +2061,24 @@ def s28(a,b,c):
     return m(a,b,c)
 
 
-Eh={1,2,3,5,6,8,10,11,12,15,18,19,20,21,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+
+Eo={1,2,3,5,6,8,10,11,12,15,18,19,20,21,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
 def s29(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rc(a,b,c)
 
 
 def s30(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rd(a,b,c)
 
 
 def s44(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return re(a,b,c)
 
 
-SH46={
-    1:h1z,
-    5:h1,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH46={1:h1z,5:h1,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s46(a,b,c):
@@ -2677,11 +2086,10 @@ def s46(a,b,c):
     return m(a,b,c)
 
 
-SH48={
-    4:h22,
-}
-Ei={1,5,8,11,21,27,29,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70}
-SH48.update({v: rf for v in Ei})
+SH48={4:h22,}
+
+Ep={1,5,8,11,21,27,29,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70}
+SH48.update({v:rf for v in Ep})
 
 
 def s48(a,b,c):
@@ -2695,135 +2103,91 @@ def s49(a,b,c):
 
 
 def s50(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rg(a,b,c)
 
 
 def s51(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rh(a,b,c)
 
 
 def s52(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return ri(a,b,c)
 
 
 def s53(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rj(a,b,c)
 
 
 def s54(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rk(a,b,c)
 
 
 def s55(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rl(a,b,c)
 
 
 def s56(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rm(a,b,c)
 
 
 def s57(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rn(a,b,c)
 
 
 def s58(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return ro(a,b,c)
 
 
 def s59(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rp(a,b,c)
 
 
 def s60(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rq(a,b,c)
 
 
 def s61(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rr(a,b,c)
 
 
 def s62(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rs(a,b,c)
 
 
 def s63(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rt(a,b,c)
 
 
 def s64(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return ru(a,b,c)
 
 
 def s65(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rv(a,b,c)
 
 
 def s66(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return rw(a,b,c)
 
 
-SH68={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    28:r0,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH68={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,28:r0,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s68(a,b,c):
@@ -2831,10 +2195,7 @@ def s68(a,b,c):
     return m(a,b,c)
 
 
-SH69={
-    1:h24,
-    11:h25,
-}
+SH69={1:h24,11:h25,}
 
 
 def s69(a,b,c):
@@ -2842,10 +2203,7 @@ def s69(a,b,c):
     return m(a,b,c)
 
 
-SH70={
-    1:h26,
-    11:h27,
-}
+SH70={1:h26,11:h27,}
 
 
 def s70(a,b,c):
@@ -2853,39 +2211,7 @@ def s70(a,b,c):
     return m(a,b,c)
 
 
-SH71={
-    1:h1z,
-    5:h1,
-    6:h28,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH71={1:h1z,5:h1,6:h28,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s71(a,b,c):
@@ -2893,39 +2219,7 @@ def s71(a,b,c):
     return m(a,b,c)
 
 
-SH72={
-    1:h1z,
-    5:h1,
-    6:h29,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH72={1:h1z,5:h1,6:h29,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s72(a,b,c):
@@ -2934,15 +2228,11 @@ def s72(a,b,c):
 
 
 def s73(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return rx(a,b,c)
 
 
-SH74={
-    2:h2a,
-    10:h2b,
-    19:h2c,
-}
+SH74={2:h2a,10:h2b,19:h2c,}
 
 
 def s74(a,b,c):
@@ -2950,11 +2240,8 @@ def s74(a,b,c):
     return m(a,b,c)
 
 
-SH75={
-    72:h16,
-    73:h17,
-}
-SH75.update({v: ry for v in Eb})
+SH75={72:h16,73:h17,}
+SH75.update({v:ry for v in Ei})
 
 
 def s75(a,b,c):
@@ -2963,54 +2250,11 @@ def s75(a,b,c):
 
 
 def s76(a,b,c):
-    assert c.i in Ec
+    assert c.i in Ej
     return rz(a,b,c)
 
 
-SH77={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH77={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s77(a,b,c):
@@ -3018,27 +2262,25 @@ def s77(a,b,c):
     return m(a,b,c)
 
 
-Ej={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,94,100,102,103,106,108,109,110}
+
+Eq={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,94,100,102,103,106,108,109,110}
 def s78(a,b,c):
-    assert c.i in Ej
+    assert c.i in Eq
     return r10(a,b,c)
 
 
 def s79(a,b,c):
-    assert c.i in Ej
+    assert c.i in Eq
     return r11(a,b,c)
 
 
 def s80(a,b,c):
-    assert c.i in Ec
+    assert c.i in Ej
     return r12(a,b,c)
 
 
-SH81={
-    31:h18,
-    71:h19,
-}
-SH81.update({v: r13 for v in Ec})
+SH81={31:h18,71:h19,}
+SH81.update({v:r13 for v in Ej})
 
 
 def s81(a,b,c):
@@ -3046,58 +2288,29 @@ def s81(a,b,c):
     return m(a,b,c)
 
 
-Ek={2,10,19,31,71,72,73}
+
+Er={2,10,19,31,71,72,73}
 def s82(a,b,c):
-    assert c.i in Ek
+    assert c.i in Er
     return r14(a,b,c)
 
 
 def s84(a,b,c):
-    assert c.i in Ej
+    assert c.i in Eq
     return r15(a,b,c)
 
 
 def s85(a,b,c):
-    assert c.i in Ej
+    assert c.i in Eq
     return r16(a,b,c)
 
 
 def s86(a,b,c):
-    assert c.i in Ek
+    assert c.i in Er
     return r17(a,b,c)
 
 
-SH87={
-    2:r18,
-    10:r18,
-    19:r18,
-    20:h1a,
-    22:h1b,
-    31:r18,
-    71:r18,
-    72:r18,
-    73:r18,
-    74:h1c,
-    75:h1d,
-    76:h1e,
-    77:h1f,
-    78:h1g,
-    79:h1h,
-    80:h1i,
-    81:h1j,
-    82:h1k,
-    83:h1l,
-    84:h1m,
-    85:h1n,
-    86:h1o,
-    87:h1p,
-    88:h1q,
-    89:h1r,
-    90:h1s,
-    91:h1t,
-    92:h1u,
-    93:h1v,
-}
+SH87={2:r18,10:r18,19:r18,20:h1a,22:h1b,31:r18,71:r18,72:r18,73:r18,74:h1c,75:h1d,76:h1e,77:h1f,78:h1g,79:h1h,80:h1i,81:h1j,82:h1k,83:h1l,84:h1m,85:h1n,86:h1o,87:h1p,88:h1q,89:h1r,90:h1s,91:h1t,92:h1u,93:h1v,}
 
 
 def s87(a,b,c):
@@ -3106,7 +2319,7 @@ def s87(a,b,c):
 
 
 def s88(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r19(a,b,c)
 
 
@@ -3120,12 +2333,7 @@ def s113(a,b,c):
     return h2e(a,b,c)
 
 
-SH114={
-    2:h2a,
-    10:h2b,
-    19:h2c,
-    101:h2f,
-}
+SH114={2:h2a,10:h2b,19:h2c,101:h2f,}
 
 
 def s114(a,b,c):
@@ -3143,10 +2351,7 @@ def s117(a,b,c):
     return h2h(a,b,c)
 
 
-SH118={
-    19:h2i,
-    101:h2j,
-}
+SH118={19:h2i,101:h2j,}
 
 
 def s118(a,b,c):
@@ -3159,10 +2364,7 @@ def s119(a,b,c):
     return h2k(a,b,c)
 
 
-SH121={
-    3:h2l,
-    12:h2m,
-}
+SH121={3:h2l,12:h2m,}
 
 
 def s121(a,b,c):
@@ -3171,14 +2373,12 @@ def s121(a,b,c):
 
 
 def s122(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1a(a,b,c)
 
 
-SH123={
-    24:h21,
-}
-SH123.update({v: rb for v in Eh})
+SH123={24:h21,}
+SH123.update({v:rb for v in Eo})
 
 
 def s123(a,b,c):
@@ -3206,53 +2406,7 @@ def s127(a,b,c):
     return h2q(a,b,c)
 
 
-SH128={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    14:h2r,
-    21:h5,
-    23:h2s,
-    25:r0,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH128={1:h0,5:h1,8:h2,11:h3,12:h4,14:h2r,21:h5,23:h2s,25:r0,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s128(a,b,c):
@@ -3260,39 +2414,7 @@ def s128(a,b,c):
     return m(a,b,c)
 
 
-SH129={
-    1:h1z,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h2t,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH129={1:h1z,5:h1,8:h2,11:h3,12:h2t,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s129(a,b,c):
@@ -3305,10 +2427,7 @@ def s130(a,b,c):
     return h2u(a,b,c)
 
 
-SH131={
-    15:h2v,
-    32:h2w,
-}
+SH131={15:h2v,32:h2w,}
 
 
 def s131(a,b,c):
@@ -3316,18 +2435,17 @@ def s131(a,b,c):
     return m(a,b,c)
 
 
-El={15,32}
+
+Es={15,32}
 def s132(a,b,c):
-    assert c.i in El
+    assert c.i in Es
     return r1b(a,b,c)
 
 
-SH133={
-    1:h1z,
-    21:h5,
-}
-Em={2,3,5,6,8,10,11,12,15,18,19,20,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
-SH133.update({v: r1c for v in Em})
+SH133={1:h1z,21:h5,}
+
+Et={2,3,5,6,8,10,11,12,15,18,19,20,22,27,29,31,32,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,64,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,101}
+SH133.update({v:r1c for v in Et})
 
 
 def s133(a,b,c):
@@ -3336,12 +2454,12 @@ def s133(a,b,c):
 
 
 def s135(a,b,c):
-    assert c.i in Ei
+    assert c.i in Ep
     return r1d(a,b,c)
 
 
 def s136(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1e(a,b,c)
 
 
@@ -3361,7 +2479,7 @@ def s139(a,b,c):
 
 
 def s140(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1f(a,b,c)
 
 
@@ -3371,43 +2489,11 @@ def s141(a,b,c):
 
 
 def s142(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1g(a,b,c)
 
 
-SH143={
-    1:h1z,
-    5:h1,
-    6:h31,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH143={1:h1z,5:h1,6:h31,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s143(a,b,c):
@@ -3416,43 +2502,11 @@ def s143(a,b,c):
 
 
 def s144(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1h(a,b,c)
 
 
-SH145={
-    1:h1z,
-    5:h1,
-    6:h32,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH145={1:h1z,5:h1,6:h32,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s145(a,b,c):
@@ -3461,59 +2515,57 @@ def s145(a,b,c):
 
 
 def s146(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r1i(a,b,c)
 
 
 def s147(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return r1j(a,b,c)
 
 
 def s148(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return r1k(a,b,c)
 
 
 def s149(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return r1l(a,b,c)
 
 
 def s150(a,b,c):
-    assert c.i in Ea
+    assert c.i in Eh
     return r1m(a,b,c)
 
 
 def s151(a,b,c):
-    assert c.i in Ec
+    assert c.i in Ej
     return r1n(a,b,c)
 
 
 def s152(a,b,c):
-    assert c.i in Ec
+    assert c.i in Ej
     return r1o(a,b,c)
 
 
 def s153(a,b,c):
-    assert c.i in Ek
+    assert c.i in Er
     return r1p(a,b,c)
 
 
 def s154(a,b,c):
-    assert c.i in Ek
+    assert c.i in Er
     return r1q(a,b,c)
 
 
 def s155(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r1r(a,b,c)
 
 
-SH156={
-    3:h1w,
-}
-SH156.update({v: r1s for v in Ed})
+SH156={3:h1w,}
+SH156.update({v:r1s for v in Ek})
 
 
 def s156(a,b,c):
@@ -3521,10 +2573,8 @@ def s156(a,b,c):
     return m(a,b,c)
 
 
-SH157={
-    3:h1w,
-}
-SH157.update({v: r1t for v in Ed})
+SH157={3:h1w,}
+SH157.update({v:r1t for v in Ek})
 
 
 def s157(a,b,c):
@@ -3532,10 +2582,8 @@ def s157(a,b,c):
     return m(a,b,c)
 
 
-SH158={
-    3:h1w,
-}
-SH158.update({v: r1u for v in Ed})
+SH158={3:h1w,}
+SH158.update({v:r1u for v in Ek})
 
 
 def s158(a,b,c):
@@ -3543,10 +2591,8 @@ def s158(a,b,c):
     return m(a,b,c)
 
 
-SH159={
-    3:h1w,
-}
-SH159.update({v: r1v for v in Ed})
+SH159={3:h1w,}
+SH159.update({v:r1v for v in Ek})
 
 
 def s159(a,b,c):
@@ -3554,10 +2600,8 @@ def s159(a,b,c):
     return m(a,b,c)
 
 
-SH160={
-    3:h1w,
-}
-SH160.update({v: r1w for v in Ed})
+SH160={3:h1w,}
+SH160.update({v:r1w for v in Ek})
 
 
 def s160(a,b,c):
@@ -3565,10 +2609,8 @@ def s160(a,b,c):
     return m(a,b,c)
 
 
-SH161={
-    3:h1w,
-}
-SH161.update({v: r1x for v in Ed})
+SH161={3:h1w,}
+SH161.update({v:r1x for v in Ek})
 
 
 def s161(a,b,c):
@@ -3576,10 +2618,8 @@ def s161(a,b,c):
     return m(a,b,c)
 
 
-SH162={
-    3:h1w,
-}
-SH162.update({v: r1y for v in Ed})
+SH162={3:h1w,}
+SH162.update({v:r1y for v in Ek})
 
 
 def s162(a,b,c):
@@ -3587,10 +2627,8 @@ def s162(a,b,c):
     return m(a,b,c)
 
 
-SH163={
-    3:h1w,
-}
-SH163.update({v: r1z for v in Ed})
+SH163={3:h1w,}
+SH163.update({v:r1z for v in Ek})
 
 
 def s163(a,b,c):
@@ -3598,10 +2636,8 @@ def s163(a,b,c):
     return m(a,b,c)
 
 
-SH164={
-    3:h1w,
-}
-SH164.update({v: r20 for v in Ed})
+SH164={3:h1w,}
+SH164.update({v:r20 for v in Ek})
 
 
 def s164(a,b,c):
@@ -3609,10 +2645,8 @@ def s164(a,b,c):
     return m(a,b,c)
 
 
-SH165={
-    3:h1w,
-}
-SH165.update({v: r21 for v in Ed})
+SH165={3:h1w,}
+SH165.update({v:r21 for v in Ek})
 
 
 def s165(a,b,c):
@@ -3620,10 +2654,8 @@ def s165(a,b,c):
     return m(a,b,c)
 
 
-SH166={
-    3:h1w,
-}
-SH166.update({v: r22 for v in Ed})
+SH166={3:h1w,}
+SH166.update({v:r22 for v in Ek})
 
 
 def s166(a,b,c):
@@ -3631,10 +2663,8 @@ def s166(a,b,c):
     return m(a,b,c)
 
 
-SH167={
-    3:h1w,
-}
-SH167.update({v: r23 for v in Ed})
+SH167={3:h1w,}
+SH167.update({v:r23 for v in Ek})
 
 
 def s167(a,b,c):
@@ -3642,10 +2672,8 @@ def s167(a,b,c):
     return m(a,b,c)
 
 
-SH168={
-    3:h1w,
-}
-SH168.update({v: r24 for v in Ed})
+SH168={3:h1w,}
+SH168.update({v:r24 for v in Ek})
 
 
 def s168(a,b,c):
@@ -3653,10 +2681,8 @@ def s168(a,b,c):
     return m(a,b,c)
 
 
-SH169={
-    3:h1w,
-}
-SH169.update({v: r25 for v in Ed})
+SH169={3:h1w,}
+SH169.update({v:r25 for v in Ek})
 
 
 def s169(a,b,c):
@@ -3664,10 +2690,8 @@ def s169(a,b,c):
     return m(a,b,c)
 
 
-SH170={
-    3:h1w,
-}
-SH170.update({v: r26 for v in Ed})
+SH170={3:h1w,}
+SH170.update({v:r26 for v in Ek})
 
 
 def s170(a,b,c):
@@ -3675,10 +2699,8 @@ def s170(a,b,c):
     return m(a,b,c)
 
 
-SH171={
-    3:h1w,
-}
-SH171.update({v: r27 for v in Ed})
+SH171={3:h1w,}
+SH171.update({v:r27 for v in Ek})
 
 
 def s171(a,b,c):
@@ -3686,10 +2708,8 @@ def s171(a,b,c):
     return m(a,b,c)
 
 
-SH172={
-    3:h1w,
-}
-SH172.update({v: r28 for v in Ed})
+SH172={3:h1w,}
+SH172.update({v:r28 for v in Ek})
 
 
 def s172(a,b,c):
@@ -3697,10 +2717,8 @@ def s172(a,b,c):
     return m(a,b,c)
 
 
-SH173={
-    3:h1w,
-}
-SH173.update({v: r29 for v in Ed})
+SH173={3:h1w,}
+SH173.update({v:r29 for v in Ek})
 
 
 def s173(a,b,c):
@@ -3708,10 +2726,8 @@ def s173(a,b,c):
     return m(a,b,c)
 
 
-SH174={
-    3:h1w,
-}
-SH174.update({v: r2a for v in Ed})
+SH174={3:h1w,}
+SH174.update({v:r2a for v in Ek})
 
 
 def s174(a,b,c):
@@ -3719,10 +2735,8 @@ def s174(a,b,c):
     return m(a,b,c)
 
 
-SH175={
-    3:h1w,
-}
-SH175.update({v: r2b for v in Ed})
+SH175={3:h1w,}
+SH175.update({v:r2b for v in Ek})
 
 
 def s175(a,b,c):
@@ -3730,10 +2744,8 @@ def s175(a,b,c):
     return m(a,b,c)
 
 
-SH176={
-    3:h1w,
-}
-SH176.update({v: r2c for v in Ed})
+SH176={3:h1w,}
+SH176.update({v:r2c for v in Ek})
 
 
 def s176(a,b,c):
@@ -3741,10 +2753,8 @@ def s176(a,b,c):
     return m(a,b,c)
 
 
-SH177={
-    3:h1w,
-}
-SH177.update({v: r2d for v in Ed})
+SH177={3:h1w,}
+SH177.update({v:r2d for v in Ek})
 
 
 def s177(a,b,c):
@@ -3753,55 +2763,11 @@ def s177(a,b,c):
 
 
 def s178(a,b,c):
-    assert c.i in Ee
+    assert c.i in El
     return r2e(a,b,c)
 
 
-SH179={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    105:r0,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH179={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,100:hz,102:h10,103:h11,105:r0,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s179(a,b,c):
@@ -3819,53 +2785,7 @@ def s183(a,b,c):
     return h34(a,b,c)
 
 
-SH184={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    96:r0,
-    97:r0,
-    98:r0,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH184={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,96:r0,97:r0,98:r0,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s184(a,b,c):
@@ -3899,22 +2819,22 @@ def s191(a,b,c):
 
 
 def s192(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r2f(a,b,c)
 
 
 def s193(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r2g(a,b,c)
 
 
 def s194(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r2h(a,b,c)
 
 
 def s195(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r2i(a,b,c)
 
 
@@ -3933,39 +2853,8 @@ def s198(a,b,c):
     return h3c(a,b,c)
 
 
-SH199={
-    1:h1z,
-    5:h1,
-    8:h2,
-    11:h3,
-    21:h5,
-    27:h6,
-    29:h7,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
-SH199.update({v: r2j for v in Ef})
+SH199={1:h1z,5:h1,8:h2,11:h3,21:h5,27:h6,29:h7,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
+SH199.update({v:r2j for v in Em})
 
 
 def s199(a,b,c):
@@ -3974,49 +2863,16 @@ def s199(a,b,c):
 
 
 def s201(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2k(a,b,c)
 
 
 def s203(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2l(a,b,c)
 
 
-SH204={
-    1:h1z,
-    5:h1,
-    8:h2,
-    11:h3,
-    18:h3d,
-    21:h5,
-    27:h6,
-    29:h7,
-    32:h3e,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    64:hu,
-    69:hw,
-    70:hx,
-}
+SH204={1:h1z,5:h1,8:h2,11:h3,18:h3d,21:h5,27:h6,29:h7,32:h3e,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,64:hu,69:hw,70:hx,}
 
 
 def s204(a,b,c):
@@ -4025,32 +2881,32 @@ def s204(a,b,c):
 
 
 def s205(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2m(a,b,c)
 
 
 def s206(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2n(a,b,c)
 
 
 def s207(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2o(a,b,c)
 
 
 def s208(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2p(a,b,c)
 
 
 def s209(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2q(a,b,c)
 
 
 def s210(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2r(a,b,c)
 
 
@@ -4064,12 +2920,7 @@ def s212(a,b,c):
     return h3g(a,b,c)
 
 
-SH214={
-    2:h2a,
-    3:h1w,
-    10:h2b,
-    19:h2c,
-}
+SH214={2:h2a,3:h1w,10:h2b,19:h2c,}
 
 
 def s214(a,b,c):
@@ -4077,11 +2928,10 @@ def s214(a,b,c):
     return m(a,b,c)
 
 
-SH215={
-    19:h3h,
-}
-En={2,10,101}
-SH215.update({v: r2f for v in En})
+SH215={19:h3h,}
+
+Eu={2,10,101}
+SH215.update({v:r2f for v in Eu})
 
 
 def s215(a,b,c):
@@ -4089,11 +2939,7 @@ def s215(a,b,c):
     return m(a,b,c)
 
 
-SH216={
-    96:h3i,
-    97:h3j,
-    98:h3k,
-}
+SH216={96:h3i,97:h3j,98:h3k,}
 
 
 def s216(a,b,c):
@@ -4101,43 +2947,7 @@ def s216(a,b,c):
     return m(a,b,c)
 
 
-SH217={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    107:h3l,
-}
+SH217={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,107:h3l,}
 
 
 def s217(a,b,c):
@@ -4145,9 +2955,10 @@ def s217(a,b,c):
     return m(a,b,c)
 
 
-Eo={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
+
+Ev={1,5,8,11,12,21,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
 def s218(a,b,c):
-    assert c.i in Eo
+    assert c.i in Ev
     return r2s(a,b,c)
 
 
@@ -4156,10 +2967,7 @@ def s219(a,b,c):
     return h3m(a,b,c)
 
 
-SH220={
-    3:r2t,
-    31:h3n,
-}
+SH220={3:r2t,31:h3n,}
 
 
 def s220(a,b,c):
@@ -4167,10 +2975,7 @@ def s220(a,b,c):
     return m(a,b,c)
 
 
-SH222={
-    3:h1w,
-    19:h3o,
-}
+SH222={3:h1w,19:h3o,}
 
 
 def s222(a,b,c):
@@ -4178,10 +2983,8 @@ def s222(a,b,c):
     return m(a,b,c)
 
 
-SH224={
-    3:r2i,
-}
-SH224.update({v: r2u for v in Ed})
+SH224={3:r2i,}
+SH224.update({v:r2u for v in Ek})
 
 
 def s224(a,b,c):
@@ -4210,14 +3013,11 @@ def s228(a,b,c):
 
 
 def s229(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2v(a,b,c)
 
 
-SH230={
-    3:h1w,
-    19:h3t,
-}
+SH230={3:h1w,19:h3t,}
 
 
 def s230(a,b,c):
@@ -4226,22 +3026,22 @@ def s230(a,b,c):
 
 
 def s231(a,b,c):
-    assert c.i in El
+    assert c.i in Es
     return r2w(a,b,c)
 
 
 def s232(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r2x(a,b,c)
 
 
 def s234(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r2y(a,b,c)
 
 
 def s235(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r2z(a,b,c)
 
 
@@ -4260,11 +3060,7 @@ def s238(a,b,c):
     return h3w(a,b,c)
 
 
-SH239={
-    96:h3i,
-    97:h3x,
-    98:h3y,
-}
+SH239={96:h3i,97:h3x,98:h3y,}
 
 
 def s239(a,b,c):
@@ -4272,51 +3068,7 @@ def s239(a,b,c):
     return m(a,b,c)
 
 
-SH240={
-    1:h0,
-    5:h1,
-    8:h2,
-    11:h3,
-    12:h4,
-    21:h5,
-    27:h6,
-    29:h7,
-    30:h8,
-    34:h9,
-    35:ha,
-    36:hb,
-    37:hc,
-    38:hd,
-    39:he,
-    40:hf,
-    41:hg,
-    42:hh,
-    43:hi,
-    44:hj,
-    45:hk,
-    46:hl,
-    47:hm,
-    48:hn,
-    49:ho,
-    50:hp,
-    51:hq,
-    60:hr,
-    61:hs,
-    62:ht,
-    64:hu,
-    65:hv,
-    69:hw,
-    70:hx,
-    94:hy,
-    98:r0,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
+SH240={1:h0,5:h1,8:h2,11:h3,12:h4,21:h5,27:h6,29:h7,30:h8,34:h9,35:ha,36:hb,37:hc,38:hd,39:he,40:hf,41:hg,42:hh,43:hi,44:hj,45:hk,46:hl,47:hm,48:hn,49:ho,50:hp,51:hq,60:hr,61:hs,62:ht,64:hu,65:hv,69:hw,70:hx,94:hy,98:r0,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
 
 
 def s240(a,b,c):
@@ -4325,40 +3077,31 @@ def s240(a,b,c):
 
 
 def s241(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r30(a,b,c)
 
 
-Ep={96,97,98}
+
+Ew={96,97,98}
 def s242(a,b,c):
-    assert c.i in Ep
+    assert c.i in Ew
     return r31(a,b,c)
 
 
 def s244(a,b,c):
-    assert c.i in Eo
+    assert c.i in Ev
     return r32(a,b,c)
 
 
 def s245(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r33(a,b,c)
 
 
-SH246={
-    1:h0,
-    21:h5,
-    94:hy,
-    100:hz,
-    102:h10,
-    103:h11,
-    106:h12,
-    108:h13,
-    109:h14,
-    110:h15,
-}
-Eq={5,8,11,12,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
-SH246.update({v: r0 for v in Eq})
+SH246={1:h0,21:h5,94:hy,100:hz,102:h10,103:h11,106:h12,108:h13,109:h14,110:h15,}
+
+Ex={5,8,11,12,27,29,30,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,61,62,64,65,69,70,107}
+SH246.update({v:r0 for v in Ex})
 
 
 def s246(a,b,c):
@@ -4366,10 +3109,7 @@ def s246(a,b,c):
     return m(a,b,c)
 
 
-SH247={
-    3:r34,
-    31:h3n,
-}
+SH247={3:r34,31:h3n,}
 
 
 def s247(a,b,c):
@@ -4377,9 +3117,10 @@ def s247(a,b,c):
     return m(a,b,c)
 
 
-Er={3,31}
+
+Ey={3,31}
 def s248(a,b,c):
-    assert c.i in Er
+    assert c.i in Ey
     return r35(a,b,c)
 
 
@@ -4403,10 +3144,7 @@ def s253(a,b,c):
     return h42(a,b,c)
 
 
-SH254={
-    3:h43,
-    30:h44,
-}
+SH254={3:h43,30:h44,}
 
 
 def s254(a,b,c):
@@ -4415,12 +3153,12 @@ def s254(a,b,c):
 
 
 def s255(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r36(a,b,c)
 
 
 def s256(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r37(a,b,c)
 
 
@@ -4429,10 +3167,7 @@ def s257(a,b,c):
     return h45(a,b,c)
 
 
-SH258={
-    18:h46,
-    32:h47,
-}
+SH258={18:h46,32:h47,}
 
 
 def s258(a,b,c):
@@ -4441,17 +3176,17 @@ def s258(a,b,c):
 
 
 def s259(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r38(a,b,c)
 
 
 def s262(a,b,c):
-    assert c.i in Ep
+    assert c.i in Ew
     return r39(a,b,c)
 
 
 def s264(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3a(a,b,c)
 
 
@@ -4466,34 +3201,31 @@ def s266(a,b,c):
 
 
 def s267(a,b,c):
-    assert c.i in Eo
+    assert c.i in Ev
     return r3b(a,b,c)
 
 
 def s268(a,b,c):
-    assert c.i in Er
+    assert c.i in Ey
     return r3c(a,b,c)
 
 
 def s269(a,b,c):
-    assert c.i in Er
+    assert c.i in Ey
     return r3d(a,b,c)
 
 
 def s270(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3e(a,b,c)
 
 
 def s272(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3f(a,b,c)
 
 
-SH273={
-    3:h4a,
-    30:h4b,
-}
+SH273={3:h4a,30:h4b,}
 
 
 def s273(a,b,c):
@@ -4507,12 +3239,12 @@ def s274(a,b,c):
 
 
 def s276(a,b,c):
-    assert c.i in Ef
+    assert c.i in Em
     return r3g(a,b,c)
 
 
 def s277(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r3h(a,b,c)
 
 
@@ -4532,7 +3264,7 @@ def s281(a,b,c):
 
 
 def s282(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3i(a,b,c)
 
 
@@ -4557,27 +3289,27 @@ def s289(a,b,c):
 
 
 def s290(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3j(a,b,c)
 
 
 def s291(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3k(a,b,c)
 
 
 def s292(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3l(a,b,c)
 
 
 def s293(a,b,c):
-    assert c.i in Ep
+    assert c.i in Ew
     return r3m(a,b,c)
 
 
 def s294(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3n(a,b,c)
 
 
@@ -4592,12 +3324,12 @@ def s297(a,b,c):
 
 
 def s298(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3o(a,b,c)
 
 
 def s299(a,b,c):
-    assert c.i in Eh
+    assert c.i in Eo
     return r3p(a,b,c)
 
 
@@ -4607,2362 +3339,50 @@ def s300(a,b,c):
 
 
 def s301(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3q(a,b,c)
 
 
 def s302(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3r(a,b,c)
 
 
 def s303(a,b,c):
-    assert c.i in Ed
+    assert c.i in Ek
     return r3s(a,b,c)
 
 
-S = {
-    (0,112):29,
-    (0,113):23,
-    (0,115):30,
-    (0,116):31,
-    (0,117):32,
-    (0,118):33,
-    (0,119):34,
-    (0,120):35,
-    (0,121):36,
-    (0,123):37,
-    (0,124):39,
-    (0,125):38,
-    (0,126):40,
-    (0,127):41,
-    (0,128):42,
-    (0,129):43,
-    (0,130):17,
-    (0,131):18,
-    (0,132):19,
-    (0,133):20,
-    (0,134):21,
-    (0,135):22,
-    (0,136):8,
-    (0,144):7,
-    (0,148):6,
-    (0,153):5,
-    (0,159):4,
-    (0,160):3,
-    (0,161):2,
-    (3,112):29,
-    (3,113):23,
-    (3,115):30,
-    (3,116):31,
-    (3,117):32,
-    (3,118):33,
-    (3,119):34,
-    (3,120):35,
-    (3,121):36,
-    (3,123):37,
-    (3,124):39,
-    (3,125):38,
-    (3,126):40,
-    (3,127):41,
-    (3,128):42,
-    (3,129):43,
-    (3,130):17,
-    (3,131):18,
-    (3,132):19,
-    (3,133):20,
-    (3,134):21,
-    (3,135):22,
-    (3,136):8,
-    (3,144):7,
-    (3,148):6,
-    (3,153):5,
-    (3,159):73,
-    (5,154):77,
-    (5,155):76,
-    (6,149):83,
-    (6,150):82,
-    (7,145):88,
-    (9,112):29,
-    (9,113):23,
-    (9,115):30,
-    (9,116):31,
-    (9,117):32,
-    (9,118):33,
-    (9,119):34,
-    (9,120):35,
-    (9,121):36,
-    (9,123):37,
-    (9,124):39,
-    (9,125):38,
-    (9,126):40,
-    (9,127):41,
-    (9,128):42,
-    (9,129):43,
-    (9,130):17,
-    (9,131):18,
-    (9,132):19,
-    (9,133):20,
-    (9,134):21,
-    (9,135):22,
-    (9,136):8,
-    (9,144):7,
-    (9,148):6,
-    (9,153):5,
-    (9,159):4,
-    (9,160):3,
-    (9,161):112,
-    (10,112):29,
-    (10,113):23,
-    (10,115):30,
-    (10,116):31,
-    (10,117):32,
-    (10,118):33,
-    (10,119):34,
-    (10,120):35,
-    (10,121):36,
-    (10,123):37,
-    (10,124):39,
-    (10,125):38,
-    (10,126):40,
-    (10,127):41,
-    (10,128):42,
-    (10,129):43,
-    (10,130):17,
-    (10,131):18,
-    (10,132):19,
-    (10,133):20,
-    (10,134):21,
-    (10,135):22,
-    (10,136):8,
-    (10,144):7,
-    (10,148):6,
-    (10,153):5,
-    (10,159):4,
-    (10,160):3,
-    (10,161):113,
-    (11,112):29,
-    (11,113):23,
-    (11,115):30,
-    (11,116):31,
-    (11,117):32,
-    (11,118):33,
-    (11,119):34,
-    (11,120):35,
-    (11,121):36,
-    (11,123):37,
-    (11,124):39,
-    (11,125):38,
-    (11,126):40,
-    (11,127):41,
-    (11,128):42,
-    (11,129):43,
-    (11,130):114,
-    (11,131):18,
-    (11,132):19,
-    (11,133):20,
-    (11,134):21,
-    (11,135):22,
-    (12,112):29,
-    (12,113):23,
-    (12,115):30,
-    (12,116):31,
-    (12,117):32,
-    (12,118):33,
-    (12,119):34,
-    (12,120):35,
-    (12,121):36,
-    (12,123):37,
-    (12,124):39,
-    (12,125):38,
-    (12,126):40,
-    (12,127):41,
-    (12,128):42,
-    (12,129):43,
-    (12,130):17,
-    (12,131):18,
-    (12,132):19,
-    (12,133):20,
-    (12,134):21,
-    (12,135):22,
-    (12,136):8,
-    (12,144):7,
-    (12,148):6,
-    (12,153):5,
-    (12,159):4,
-    (12,160):3,
-    (12,161):116,
-    (13,112):29,
-    (13,113):23,
-    (13,115):30,
-    (13,116):31,
-    (13,117):32,
-    (13,118):33,
-    (13,119):34,
-    (13,120):35,
-    (13,121):36,
-    (13,123):37,
-    (13,124):39,
-    (13,125):38,
-    (13,126):40,
-    (13,127):41,
-    (13,128):42,
-    (13,129):43,
-    (13,130):117,
-    (13,131):18,
-    (13,132):19,
-    (13,133):20,
-    (13,134):21,
-    (13,135):22,
-    (14,112):29,
-    (14,113):23,
-    (14,115):30,
-    (14,116):31,
-    (14,117):32,
-    (14,118):33,
-    (14,119):34,
-    (14,120):35,
-    (14,121):36,
-    (14,123):37,
-    (14,124):39,
-    (14,125):38,
-    (14,126):40,
-    (14,127):41,
-    (14,128):42,
-    (14,129):43,
-    (14,130):118,
-    (14,131):18,
-    (14,132):19,
-    (14,133):20,
-    (14,134):21,
-    (14,135):22,
-    (15,112):29,
-    (15,113):23,
-    (15,115):30,
-    (15,116):31,
-    (15,117):32,
-    (15,118):33,
-    (15,119):34,
-    (15,120):35,
-    (15,121):36,
-    (15,123):37,
-    (15,124):39,
-    (15,125):38,
-    (15,126):40,
-    (15,127):41,
-    (15,128):42,
-    (15,129):43,
-    (15,130):119,
-    (15,131):18,
-    (15,132):19,
-    (15,133):20,
-    (15,134):21,
-    (15,135):22,
-    (16,112):29,
-    (16,113):23,
-    (16,115):30,
-    (16,116):31,
-    (16,117):32,
-    (16,118):33,
-    (16,119):34,
-    (16,120):35,
-    (16,121):36,
-    (16,123):37,
-    (16,124):39,
-    (16,125):38,
-    (16,126):40,
-    (16,127):41,
-    (16,128):42,
-    (16,129):43,
-    (16,130):121,
-    (16,131):18,
-    (16,132):19,
-    (16,133):20,
-    (16,134):21,
-    (16,135):22,
-    (23,112):122,
-    (23,115):30,
-    (23,116):31,
-    (23,117):32,
-    (23,118):33,
-    (23,119):34,
-    (23,120):35,
-    (23,121):36,
-    (23,123):37,
-    (23,124):39,
-    (23,125):38,
-    (23,126):40,
-    (23,127):41,
-    (23,128):42,
-    (23,129):43,
-    (24,112):29,
-    (24,113):23,
-    (24,115):30,
-    (24,116):31,
-    (24,117):32,
-    (24,118):33,
-    (24,119):34,
-    (24,120):35,
-    (24,121):36,
-    (24,123):37,
-    (24,124):39,
-    (24,125):38,
-    (24,126):40,
-    (24,127):41,
-    (24,128):42,
-    (24,129):43,
-    (24,130):17,
-    (24,131):18,
-    (24,132):19,
-    (24,133):20,
-    (24,134):21,
-    (24,135):22,
-    (24,136):8,
-    (24,144):7,
-    (24,148):6,
-    (24,153):5,
-    (24,159):4,
-    (24,160):3,
-    (24,161):124,
-    (25,112):29,
-    (25,113):23,
-    (25,115):30,
-    (25,116):31,
-    (25,117):32,
-    (25,118):33,
-    (25,119):34,
-    (25,120):35,
-    (25,121):36,
-    (25,123):37,
-    (25,124):39,
-    (25,125):38,
-    (25,126):40,
-    (25,127):41,
-    (25,128):42,
-    (25,129):43,
-    (25,130):17,
-    (25,131):18,
-    (25,132):19,
-    (25,133):20,
-    (25,134):21,
-    (25,135):22,
-    (25,136):8,
-    (25,144):7,
-    (25,148):6,
-    (25,153):5,
-    (25,159):4,
-    (25,160):3,
-    (25,161):125,
-    (26,112):29,
-    (26,113):23,
-    (26,115):30,
-    (26,116):31,
-    (26,117):32,
-    (26,118):33,
-    (26,119):34,
-    (26,120):35,
-    (26,121):36,
-    (26,123):37,
-    (26,124):39,
-    (26,125):38,
-    (26,126):40,
-    (26,127):41,
-    (26,128):42,
-    (26,129):43,
-    (26,130):17,
-    (26,131):18,
-    (26,132):19,
-    (26,133):20,
-    (26,134):21,
-    (26,135):22,
-    (26,136):8,
-    (26,144):7,
-    (26,148):6,
-    (26,153):5,
-    (26,159):4,
-    (26,160):3,
-    (26,161):126,
-    (27,112):29,
-    (27,113):23,
-    (27,115):30,
-    (27,116):31,
-    (27,117):32,
-    (27,118):33,
-    (27,119):34,
-    (27,120):35,
-    (27,121):36,
-    (27,123):37,
-    (27,124):39,
-    (27,125):38,
-    (27,126):40,
-    (27,127):41,
-    (27,128):42,
-    (27,129):43,
-    (27,130):17,
-    (27,131):18,
-    (27,132):19,
-    (27,133):20,
-    (27,134):21,
-    (27,135):22,
-    (27,136):8,
-    (27,144):7,
-    (27,148):6,
-    (27,153):5,
-    (27,159):4,
-    (27,160):3,
-    (27,161):127,
-    (45,112):29,
-    (45,113):23,
-    (45,115):30,
-    (45,116):31,
-    (45,117):32,
-    (45,118):33,
-    (45,119):34,
-    (45,120):35,
-    (45,121):36,
-    (45,123):37,
-    (45,124):39,
-    (45,125):38,
-    (45,126):40,
-    (45,127):41,
-    (45,128):42,
-    (45,129):43,
-    (45,130):17,
-    (45,131):18,
-    (45,132):19,
-    (45,133):20,
-    (45,134):21,
-    (45,135):22,
-    (45,136):8,
-    (45,144):7,
-    (45,148):6,
-    (45,153):5,
-    (45,159):4,
-    (45,160):3,
-    (45,161):130,
-    (46,112):132,
-    (46,115):30,
-    (46,116):31,
-    (46,117):32,
-    (46,118):33,
-    (46,119):34,
-    (46,120):35,
-    (46,121):36,
-    (46,123):37,
-    (46,124):39,
-    (46,125):38,
-    (46,126):40,
-    (46,127):41,
-    (46,128):42,
-    (46,129):43,
-    (47,112):29,
-    (47,113):133,
-    (47,115):30,
-    (47,116):31,
-    (47,117):32,
-    (47,118):33,
-    (47,119):34,
-    (47,120):35,
-    (47,121):36,
-    (47,123):37,
-    (47,124):39,
-    (47,125):38,
-    (47,126):40,
-    (47,127):41,
-    (47,128):42,
-    (47,129):43,
-    (67,112):29,
-    (67,113):23,
-    (67,115):30,
-    (67,116):31,
-    (67,117):32,
-    (67,118):33,
-    (67,119):34,
-    (67,120):35,
-    (67,121):36,
-    (67,123):37,
-    (67,124):39,
-    (67,125):38,
-    (67,126):40,
-    (67,127):41,
-    (67,128):42,
-    (67,129):43,
-    (67,130):17,
-    (67,131):18,
-    (67,132):19,
-    (67,133):20,
-    (67,134):21,
-    (67,135):22,
-    (67,136):8,
-    (67,144):7,
-    (67,148):6,
-    (67,153):5,
-    (67,159):4,
-    (67,160):3,
-    (67,161):137,
-    (68,112):29,
-    (68,113):23,
-    (68,115):30,
-    (68,116):31,
-    (68,117):32,
-    (68,118):33,
-    (68,119):34,
-    (68,120):35,
-    (68,121):36,
-    (68,123):37,
-    (68,124):39,
-    (68,125):38,
-    (68,126):40,
-    (68,127):41,
-    (68,128):42,
-    (68,129):43,
-    (68,130):17,
-    (68,131):18,
-    (68,132):19,
-    (68,133):20,
-    (68,134):21,
-    (68,135):22,
-    (68,136):8,
-    (68,144):7,
-    (68,148):6,
-    (68,153):5,
-    (68,159):4,
-    (68,160):3,
-    (68,161):138,
-    (71,112):29,
-    (71,113):143,
-    (71,115):30,
-    (71,116):31,
-    (71,117):32,
-    (71,118):33,
-    (71,119):34,
-    (71,120):35,
-    (71,121):36,
-    (71,123):37,
-    (71,124):39,
-    (71,125):38,
-    (71,126):40,
-    (71,127):41,
-    (71,128):42,
-    (71,129):43,
-    (72,112):29,
-    (72,113):145,
-    (72,115):30,
-    (72,116):31,
-    (72,117):32,
-    (72,118):33,
-    (72,119):34,
-    (72,120):35,
-    (72,121):36,
-    (72,123):37,
-    (72,124):39,
-    (72,125):38,
-    (72,126):40,
-    (72,127):41,
-    (72,128):42,
-    (72,129):43,
-    (74,158):147,
-    (75,154):77,
-    (75,155):151,
-    (77,112):29,
-    (77,113):23,
-    (77,115):30,
-    (77,116):31,
-    (77,117):32,
-    (77,118):33,
-    (77,119):34,
-    (77,120):35,
-    (77,121):36,
-    (77,123):37,
-    (77,124):39,
-    (77,125):38,
-    (77,126):40,
-    (77,127):41,
-    (77,128):42,
-    (77,129):43,
-    (77,130):17,
-    (77,131):18,
-    (77,132):19,
-    (77,133):20,
-    (77,134):21,
-    (77,135):22,
-    (77,136):8,
-    (77,144):7,
-    (77,148):6,
-    (77,153):152,
-    (81,149):83,
-    (81,150):153,
-    (83,112):29,
-    (83,113):23,
-    (83,115):30,
-    (83,116):31,
-    (83,117):32,
-    (83,118):33,
-    (83,119):34,
-    (83,120):35,
-    (83,121):36,
-    (83,123):37,
-    (83,124):39,
-    (83,125):38,
-    (83,126):40,
-    (83,127):41,
-    (83,128):42,
-    (83,129):43,
-    (83,130):17,
-    (83,131):18,
-    (83,132):19,
-    (83,133):20,
-    (83,134):21,
-    (83,135):22,
-    (83,136):8,
-    (83,144):7,
-    (83,148):154,
-    (87,145):155,
-    (89,112):29,
-    (89,113):23,
-    (89,115):30,
-    (89,116):31,
-    (89,117):32,
-    (89,118):33,
-    (89,119):34,
-    (89,120):35,
-    (89,121):36,
-    (89,123):37,
-    (89,124):39,
-    (89,125):38,
-    (89,126):40,
-    (89,127):41,
-    (89,128):42,
-    (89,129):43,
-    (89,130):17,
-    (89,131):18,
-    (89,132):19,
-    (89,133):20,
-    (89,134):21,
-    (89,135):22,
-    (89,136):156,
-    (90,112):29,
-    (90,113):23,
-    (90,115):30,
-    (90,116):31,
-    (90,117):32,
-    (90,118):33,
-    (90,119):34,
-    (90,120):35,
-    (90,121):36,
-    (90,123):37,
-    (90,124):39,
-    (90,125):38,
-    (90,126):40,
-    (90,127):41,
-    (90,128):42,
-    (90,129):43,
-    (90,130):17,
-    (90,131):18,
-    (90,132):19,
-    (90,133):20,
-    (90,134):21,
-    (90,135):22,
-    (90,136):157,
-    (91,112):29,
-    (91,113):23,
-    (91,115):30,
-    (91,116):31,
-    (91,117):32,
-    (91,118):33,
-    (91,119):34,
-    (91,120):35,
-    (91,121):36,
-    (91,123):37,
-    (91,124):39,
-    (91,125):38,
-    (91,126):40,
-    (91,127):41,
-    (91,128):42,
-    (91,129):43,
-    (91,130):17,
-    (91,131):18,
-    (91,132):19,
-    (91,133):20,
-    (91,134):21,
-    (91,135):22,
-    (91,136):158,
-    (92,112):29,
-    (92,113):23,
-    (92,115):30,
-    (92,116):31,
-    (92,117):32,
-    (92,118):33,
-    (92,119):34,
-    (92,120):35,
-    (92,121):36,
-    (92,123):37,
-    (92,124):39,
-    (92,125):38,
-    (92,126):40,
-    (92,127):41,
-    (92,128):42,
-    (92,129):43,
-    (92,130):17,
-    (92,131):18,
-    (92,132):19,
-    (92,133):20,
-    (92,134):21,
-    (92,135):22,
-    (92,136):159,
-    (93,112):29,
-    (93,113):23,
-    (93,115):30,
-    (93,116):31,
-    (93,117):32,
-    (93,118):33,
-    (93,119):34,
-    (93,120):35,
-    (93,121):36,
-    (93,123):37,
-    (93,124):39,
-    (93,125):38,
-    (93,126):40,
-    (93,127):41,
-    (93,128):42,
-    (93,129):43,
-    (93,130):17,
-    (93,131):18,
-    (93,132):19,
-    (93,133):20,
-    (93,134):21,
-    (93,135):22,
-    (93,136):160,
-    (94,112):29,
-    (94,113):23,
-    (94,115):30,
-    (94,116):31,
-    (94,117):32,
-    (94,118):33,
-    (94,119):34,
-    (94,120):35,
-    (94,121):36,
-    (94,123):37,
-    (94,124):39,
-    (94,125):38,
-    (94,126):40,
-    (94,127):41,
-    (94,128):42,
-    (94,129):43,
-    (94,130):17,
-    (94,131):18,
-    (94,132):19,
-    (94,133):20,
-    (94,134):21,
-    (94,135):22,
-    (94,136):161,
-    (95,112):29,
-    (95,113):23,
-    (95,115):30,
-    (95,116):31,
-    (95,117):32,
-    (95,118):33,
-    (95,119):34,
-    (95,120):35,
-    (95,121):36,
-    (95,123):37,
-    (95,124):39,
-    (95,125):38,
-    (95,126):40,
-    (95,127):41,
-    (95,128):42,
-    (95,129):43,
-    (95,130):17,
-    (95,131):18,
-    (95,132):19,
-    (95,133):20,
-    (95,134):21,
-    (95,135):22,
-    (95,136):162,
-    (96,112):29,
-    (96,113):23,
-    (96,115):30,
-    (96,116):31,
-    (96,117):32,
-    (96,118):33,
-    (96,119):34,
-    (96,120):35,
-    (96,121):36,
-    (96,123):37,
-    (96,124):39,
-    (96,125):38,
-    (96,126):40,
-    (96,127):41,
-    (96,128):42,
-    (96,129):43,
-    (96,130):17,
-    (96,131):18,
-    (96,132):19,
-    (96,133):20,
-    (96,134):21,
-    (96,135):22,
-    (96,136):163,
-    (97,112):29,
-    (97,113):23,
-    (97,115):30,
-    (97,116):31,
-    (97,117):32,
-    (97,118):33,
-    (97,119):34,
-    (97,120):35,
-    (97,121):36,
-    (97,123):37,
-    (97,124):39,
-    (97,125):38,
-    (97,126):40,
-    (97,127):41,
-    (97,128):42,
-    (97,129):43,
-    (97,130):17,
-    (97,131):18,
-    (97,132):19,
-    (97,133):20,
-    (97,134):21,
-    (97,135):22,
-    (97,136):164,
-    (98,112):29,
-    (98,113):23,
-    (98,115):30,
-    (98,116):31,
-    (98,117):32,
-    (98,118):33,
-    (98,119):34,
-    (98,120):35,
-    (98,121):36,
-    (98,123):37,
-    (98,124):39,
-    (98,125):38,
-    (98,126):40,
-    (98,127):41,
-    (98,128):42,
-    (98,129):43,
-    (98,130):17,
-    (98,131):18,
-    (98,132):19,
-    (98,133):20,
-    (98,134):21,
-    (98,135):22,
-    (98,136):165,
-    (99,112):29,
-    (99,113):23,
-    (99,115):30,
-    (99,116):31,
-    (99,117):32,
-    (99,118):33,
-    (99,119):34,
-    (99,120):35,
-    (99,121):36,
-    (99,123):37,
-    (99,124):39,
-    (99,125):38,
-    (99,126):40,
-    (99,127):41,
-    (99,128):42,
-    (99,129):43,
-    (99,130):17,
-    (99,131):18,
-    (99,132):19,
-    (99,133):20,
-    (99,134):21,
-    (99,135):22,
-    (99,136):166,
-    (100,112):29,
-    (100,113):23,
-    (100,115):30,
-    (100,116):31,
-    (100,117):32,
-    (100,118):33,
-    (100,119):34,
-    (100,120):35,
-    (100,121):36,
-    (100,123):37,
-    (100,124):39,
-    (100,125):38,
-    (100,126):40,
-    (100,127):41,
-    (100,128):42,
-    (100,129):43,
-    (100,130):17,
-    (100,131):18,
-    (100,132):19,
-    (100,133):20,
-    (100,134):21,
-    (100,135):22,
-    (100,136):167,
-    (101,112):29,
-    (101,113):23,
-    (101,115):30,
-    (101,116):31,
-    (101,117):32,
-    (101,118):33,
-    (101,119):34,
-    (101,120):35,
-    (101,121):36,
-    (101,123):37,
-    (101,124):39,
-    (101,125):38,
-    (101,126):40,
-    (101,127):41,
-    (101,128):42,
-    (101,129):43,
-    (101,130):17,
-    (101,131):18,
-    (101,132):19,
-    (101,133):20,
-    (101,134):21,
-    (101,135):22,
-    (101,136):168,
-    (102,112):29,
-    (102,113):23,
-    (102,115):30,
-    (102,116):31,
-    (102,117):32,
-    (102,118):33,
-    (102,119):34,
-    (102,120):35,
-    (102,121):36,
-    (102,123):37,
-    (102,124):39,
-    (102,125):38,
-    (102,126):40,
-    (102,127):41,
-    (102,128):42,
-    (102,129):43,
-    (102,130):17,
-    (102,131):18,
-    (102,132):19,
-    (102,133):20,
-    (102,134):21,
-    (102,135):22,
-    (102,136):169,
-    (103,112):29,
-    (103,113):23,
-    (103,115):30,
-    (103,116):31,
-    (103,117):32,
-    (103,118):33,
-    (103,119):34,
-    (103,120):35,
-    (103,121):36,
-    (103,123):37,
-    (103,124):39,
-    (103,125):38,
-    (103,126):40,
-    (103,127):41,
-    (103,128):42,
-    (103,129):43,
-    (103,130):17,
-    (103,131):18,
-    (103,132):19,
-    (103,133):20,
-    (103,134):21,
-    (103,135):22,
-    (103,136):170,
-    (104,112):29,
-    (104,113):23,
-    (104,115):30,
-    (104,116):31,
-    (104,117):32,
-    (104,118):33,
-    (104,119):34,
-    (104,120):35,
-    (104,121):36,
-    (104,123):37,
-    (104,124):39,
-    (104,125):38,
-    (104,126):40,
-    (104,127):41,
-    (104,128):42,
-    (104,129):43,
-    (104,130):17,
-    (104,131):18,
-    (104,132):19,
-    (104,133):20,
-    (104,134):21,
-    (104,135):22,
-    (104,136):171,
-    (105,112):29,
-    (105,113):23,
-    (105,115):30,
-    (105,116):31,
-    (105,117):32,
-    (105,118):33,
-    (105,119):34,
-    (105,120):35,
-    (105,121):36,
-    (105,123):37,
-    (105,124):39,
-    (105,125):38,
-    (105,126):40,
-    (105,127):41,
-    (105,128):42,
-    (105,129):43,
-    (105,130):17,
-    (105,131):18,
-    (105,132):19,
-    (105,133):20,
-    (105,134):21,
-    (105,135):22,
-    (105,136):172,
-    (106,112):29,
-    (106,113):23,
-    (106,115):30,
-    (106,116):31,
-    (106,117):32,
-    (106,118):33,
-    (106,119):34,
-    (106,120):35,
-    (106,121):36,
-    (106,123):37,
-    (106,124):39,
-    (106,125):38,
-    (106,126):40,
-    (106,127):41,
-    (106,128):42,
-    (106,129):43,
-    (106,130):17,
-    (106,131):18,
-    (106,132):19,
-    (106,133):20,
-    (106,134):21,
-    (106,135):22,
-    (106,136):173,
-    (107,112):29,
-    (107,113):23,
-    (107,115):30,
-    (107,116):31,
-    (107,117):32,
-    (107,118):33,
-    (107,119):34,
-    (107,120):35,
-    (107,121):36,
-    (107,123):37,
-    (107,124):39,
-    (107,125):38,
-    (107,126):40,
-    (107,127):41,
-    (107,128):42,
-    (107,129):43,
-    (107,130):17,
-    (107,131):18,
-    (107,132):19,
-    (107,133):20,
-    (107,134):21,
-    (107,135):22,
-    (107,136):174,
-    (108,112):29,
-    (108,113):23,
-    (108,115):30,
-    (108,116):31,
-    (108,117):32,
-    (108,118):33,
-    (108,119):34,
-    (108,120):35,
-    (108,121):36,
-    (108,123):37,
-    (108,124):39,
-    (108,125):38,
-    (108,126):40,
-    (108,127):41,
-    (108,128):42,
-    (108,129):43,
-    (108,130):17,
-    (108,131):18,
-    (108,132):19,
-    (108,133):20,
-    (108,134):21,
-    (108,135):22,
-    (108,136):175,
-    (109,112):29,
-    (109,113):23,
-    (109,115):30,
-    (109,116):31,
-    (109,117):32,
-    (109,118):33,
-    (109,119):34,
-    (109,120):35,
-    (109,121):36,
-    (109,123):37,
-    (109,124):39,
-    (109,125):38,
-    (109,126):40,
-    (109,127):41,
-    (109,128):42,
-    (109,129):43,
-    (109,130):17,
-    (109,131):18,
-    (109,132):19,
-    (109,133):20,
-    (109,134):21,
-    (109,135):22,
-    (109,136):176,
-    (110,112):29,
-    (110,113):23,
-    (110,115):30,
-    (110,116):31,
-    (110,117):32,
-    (110,118):33,
-    (110,119):34,
-    (110,120):35,
-    (110,121):36,
-    (110,123):37,
-    (110,124):39,
-    (110,125):38,
-    (110,126):40,
-    (110,127):41,
-    (110,128):42,
-    (110,129):43,
-    (110,130):17,
-    (110,131):18,
-    (110,132):19,
-    (110,133):20,
-    (110,134):21,
-    (110,135):22,
-    (110,136):177,
-    (111,112):29,
-    (111,113):23,
-    (111,115):30,
-    (111,116):31,
-    (111,117):32,
-    (111,118):33,
-    (111,119):34,
-    (111,120):35,
-    (111,121):36,
-    (111,123):37,
-    (111,124):39,
-    (111,125):38,
-    (111,126):40,
-    (111,127):41,
-    (111,128):42,
-    (111,129):43,
-    (111,130):178,
-    (111,131):18,
-    (111,132):19,
-    (111,133):20,
-    (111,134):21,
-    (111,135):22,
-    (114,158):181,
-    (115,112):29,
-    (115,113):23,
-    (115,115):30,
-    (115,116):31,
-    (115,117):32,
-    (115,118):33,
-    (115,119):34,
-    (115,120):35,
-    (115,121):36,
-    (115,123):37,
-    (115,124):39,
-    (115,125):38,
-    (115,126):40,
-    (115,127):41,
-    (115,128):42,
-    (115,129):43,
-    (115,130):17,
-    (115,131):18,
-    (115,132):19,
-    (115,133):20,
-    (115,134):21,
-    (115,135):22,
-    (115,136):8,
-    (115,144):7,
-    (115,148):6,
-    (115,153):5,
-    (115,159):4,
-    (115,160):3,
-    (115,161):183,
-    (120,112):29,
-    (120,113):23,
-    (120,115):30,
-    (120,116):31,
-    (120,117):32,
-    (120,118):33,
-    (120,119):34,
-    (120,120):35,
-    (120,121):36,
-    (120,123):37,
-    (120,124):39,
-    (120,125):38,
-    (120,126):40,
-    (120,127):41,
-    (120,128):42,
-    (120,129):43,
-    (120,130):17,
-    (120,131):18,
-    (120,132):19,
-    (120,133):20,
-    (120,134):21,
-    (120,135):22,
-    (120,136):8,
-    (120,144):7,
-    (120,148):6,
-    (120,153):5,
-    (120,159):4,
-    (120,160):3,
-    (120,161):189,
-    (128,112):29,
-    (128,113):23,
-    (128,115):30,
-    (128,116):31,
-    (128,117):32,
-    (128,118):33,
-    (128,119):34,
-    (128,120):35,
-    (128,121):36,
-    (128,123):37,
-    (128,124):39,
-    (128,125):38,
-    (128,126):40,
-    (128,127):41,
-    (128,128):42,
-    (128,129):43,
-    (128,130):17,
-    (128,131):18,
-    (128,132):19,
-    (128,133):20,
-    (128,134):21,
-    (128,135):22,
-    (128,136):8,
-    (128,144):7,
-    (128,148):6,
-    (128,153):5,
-    (128,159):4,
-    (128,160):3,
-    (128,161):198,
-    (129,112):29,
-    (129,113):199,
-    (129,115):30,
-    (129,116):31,
-    (129,117):32,
-    (129,118):33,
-    (129,119):34,
-    (129,120):35,
-    (129,121):36,
-    (129,123):37,
-    (129,124):39,
-    (129,125):38,
-    (129,126):40,
-    (129,127):41,
-    (129,128):42,
-    (129,129):43,
-    (133,112):122,
-    (133,115):30,
-    (133,116):31,
-    (133,117):32,
-    (133,118):33,
-    (133,119):34,
-    (133,120):35,
-    (133,121):36,
-    (133,123):37,
-    (133,124):39,
-    (133,125):38,
-    (133,126):40,
-    (133,127):41,
-    (133,128):42,
-    (133,129):43,
-    (134,112):29,
-    (134,113):204,
-    (134,115):30,
-    (134,116):31,
-    (134,117):32,
-    (134,118):33,
-    (134,119):34,
-    (134,120):35,
-    (134,121):36,
-    (134,123):37,
-    (134,124):39,
-    (134,125):38,
-    (134,126):40,
-    (134,127):41,
-    (134,128):42,
-    (134,129):43,
-    (143,112):122,
-    (143,115):30,
-    (143,116):31,
-    (143,117):32,
-    (143,118):33,
-    (143,119):34,
-    (143,120):35,
-    (143,121):36,
-    (143,123):37,
-    (143,124):39,
-    (143,125):38,
-    (143,126):40,
-    (143,127):41,
-    (143,128):42,
-    (143,129):43,
-    (145,112):122,
-    (145,115):30,
-    (145,116):31,
-    (145,117):32,
-    (145,118):33,
-    (145,119):34,
-    (145,120):35,
-    (145,121):36,
-    (145,123):37,
-    (145,124):39,
-    (145,125):38,
-    (145,126):40,
-    (145,127):41,
-    (145,128):42,
-    (145,129):43,
-    (179,112):29,
-    (179,113):23,
-    (179,115):30,
-    (179,116):31,
-    (179,117):32,
-    (179,118):33,
-    (179,119):34,
-    (179,120):35,
-    (179,121):36,
-    (179,123):37,
-    (179,124):39,
-    (179,125):38,
-    (179,126):40,
-    (179,127):41,
-    (179,128):42,
-    (179,129):43,
-    (179,130):17,
-    (179,131):18,
-    (179,132):19,
-    (179,133):20,
-    (179,134):21,
-    (179,135):22,
-    (179,136):8,
-    (179,144):7,
-    (179,148):6,
-    (179,153):5,
-    (179,159):4,
-    (179,160):3,
-    (179,161):211,
-    (180,112):29,
-    (180,113):23,
-    (180,115):30,
-    (180,116):31,
-    (180,117):32,
-    (180,118):33,
-    (180,119):34,
-    (180,120):35,
-    (180,121):36,
-    (180,123):37,
-    (180,124):39,
-    (180,125):38,
-    (180,126):40,
-    (180,127):41,
-    (180,128):42,
-    (180,129):43,
-    (180,130):17,
-    (180,131):18,
-    (180,132):19,
-    (180,133):20,
-    (180,134):21,
-    (180,135):22,
-    (180,136):8,
-    (180,144):7,
-    (180,148):6,
-    (180,153):5,
-    (180,159):4,
-    (180,160):3,
-    (180,161):212,
-    (182,112):29,
-    (182,113):23,
-    (182,115):30,
-    (182,116):31,
-    (182,117):32,
-    (182,118):33,
-    (182,119):34,
-    (182,120):35,
-    (182,121):36,
-    (182,123):37,
-    (182,124):39,
-    (182,125):38,
-    (182,126):40,
-    (182,127):41,
-    (182,128):42,
-    (182,129):43,
-    (182,130):17,
-    (182,131):18,
-    (182,132):19,
-    (182,133):20,
-    (182,134):21,
-    (182,135):22,
-    (182,136):214,
-    (184,112):29,
-    (184,113):23,
-    (184,115):30,
-    (184,116):31,
-    (184,117):32,
-    (184,118):33,
-    (184,119):34,
-    (184,120):35,
-    (184,121):36,
-    (184,123):37,
-    (184,124):39,
-    (184,125):38,
-    (184,126):40,
-    (184,127):41,
-    (184,128):42,
-    (184,129):43,
-    (184,130):17,
-    (184,131):18,
-    (184,132):19,
-    (184,133):20,
-    (184,134):21,
-    (184,135):22,
-    (184,136):8,
-    (184,144):7,
-    (184,148):6,
-    (184,153):5,
-    (184,159):4,
-    (184,160):3,
-    (184,161):216,
-    (185,112):29,
-    (185,113):23,
-    (185,115):30,
-    (185,116):31,
-    (185,117):32,
-    (185,118):33,
-    (185,119):34,
-    (185,120):35,
-    (185,121):36,
-    (185,123):37,
-    (185,124):39,
-    (185,125):38,
-    (185,126):40,
-    (185,127):41,
-    (185,128):42,
-    (185,129):43,
-    (185,130):220,
-    (185,131):18,
-    (185,132):19,
-    (185,133):20,
-    (185,134):21,
-    (185,135):22,
-    (185,141):219,
-    (185,142):218,
-    (187,112):29,
-    (187,113):23,
-    (187,115):30,
-    (187,116):31,
-    (187,117):32,
-    (187,118):33,
-    (187,119):34,
-    (187,120):35,
-    (187,121):36,
-    (187,123):37,
-    (187,124):39,
-    (187,125):38,
-    (187,126):40,
-    (187,127):41,
-    (187,128):42,
-    (187,129):43,
-    (187,130):17,
-    (187,131):18,
-    (187,132):19,
-    (187,133):20,
-    (187,134):21,
-    (187,135):22,
-    (187,136):222,
-    (199,112):122,
-    (199,115):30,
-    (199,116):31,
-    (199,117):32,
-    (199,118):33,
-    (199,119):34,
-    (199,120):35,
-    (199,121):36,
-    (199,123):37,
-    (199,124):39,
-    (199,125):38,
-    (199,126):40,
-    (199,127):41,
-    (199,128):42,
-    (199,129):43,
-    (200,112):29,
-    (200,113):23,
-    (200,115):30,
-    (200,116):31,
-    (200,117):32,
-    (200,118):33,
-    (200,119):34,
-    (200,120):35,
-    (200,121):36,
-    (200,123):37,
-    (200,124):39,
-    (200,125):38,
-    (200,126):40,
-    (200,127):41,
-    (200,128):42,
-    (200,129):43,
-    (200,130):17,
-    (200,131):18,
-    (200,132):19,
-    (200,133):20,
-    (200,134):21,
-    (200,135):22,
-    (200,136):230,
-    (202,112):231,
-    (202,115):30,
-    (202,116):31,
-    (202,117):32,
-    (202,118):33,
-    (202,119):34,
-    (202,120):35,
-    (202,121):36,
-    (202,123):37,
-    (202,124):39,
-    (202,125):38,
-    (202,126):40,
-    (202,127):41,
-    (202,128):42,
-    (202,129):43,
-    (204,112):122,
-    (204,115):30,
-    (204,116):31,
-    (204,117):32,
-    (204,118):33,
-    (204,119):34,
-    (204,120):35,
-    (204,121):36,
-    (204,123):37,
-    (204,124):39,
-    (204,125):38,
-    (204,126):40,
-    (204,127):41,
-    (204,128):42,
-    (204,129):43,
-    (213,112):29,
-    (213,113):23,
-    (213,115):30,
-    (213,116):31,
-    (213,117):32,
-    (213,118):33,
-    (213,119):34,
-    (213,120):35,
-    (213,121):36,
-    (213,123):37,
-    (213,124):39,
-    (213,125):38,
-    (213,126):40,
-    (213,127):41,
-    (213,128):42,
-    (213,129):43,
-    (213,130):17,
-    (213,131):18,
-    (213,132):19,
-    (213,133):20,
-    (213,134):21,
-    (213,135):22,
-    (213,136):8,
-    (213,144):7,
-    (213,148):6,
-    (213,153):5,
-    (213,159):4,
-    (213,160):3,
-    (213,161):236,
-    (214,158):237,
-    (216,137):242,
-    (217,112):29,
-    (217,113):23,
-    (217,115):30,
-    (217,116):31,
-    (217,117):32,
-    (217,118):33,
-    (217,119):34,
-    (217,120):35,
-    (217,121):36,
-    (217,123):37,
-    (217,124):39,
-    (217,125):38,
-    (217,126):40,
-    (217,127):41,
-    (217,128):42,
-    (217,129):43,
-    (217,130):220,
-    (217,131):18,
-    (217,132):19,
-    (217,133):20,
-    (217,134):21,
-    (217,135):22,
-    (217,141):219,
-    (217,142):244,
-    (220,139):248,
-    (221,112):29,
-    (221,113):23,
-    (221,115):30,
-    (221,116):31,
-    (221,117):32,
-    (221,118):33,
-    (221,119):34,
-    (221,120):35,
-    (221,121):36,
-    (221,123):37,
-    (221,124):39,
-    (221,125):38,
-    (221,126):40,
-    (221,127):41,
-    (221,128):42,
-    (221,129):43,
-    (221,130):17,
-    (221,131):18,
-    (221,132):19,
-    (221,133):20,
-    (221,134):21,
-    (221,135):22,
-    (221,136):8,
-    (221,144):7,
-    (221,148):6,
-    (221,153):5,
-    (221,159):4,
-    (221,160):3,
-    (221,161):250,
-    (223,112):29,
-    (223,113):23,
-    (223,115):30,
-    (223,116):31,
-    (223,117):32,
-    (223,118):33,
-    (223,119):34,
-    (223,120):35,
-    (223,121):36,
-    (223,123):37,
-    (223,124):39,
-    (223,125):38,
-    (223,126):40,
-    (223,127):41,
-    (223,128):42,
-    (223,129):43,
-    (223,130):17,
-    (223,131):18,
-    (223,132):19,
-    (223,133):20,
-    (223,134):21,
-    (223,135):22,
-    (223,136):8,
-    (223,144):7,
-    (223,148):6,
-    (223,153):5,
-    (223,159):4,
-    (223,160):3,
-    (223,161):252,
-    (233,112):258,
-    (233,115):30,
-    (233,116):31,
-    (233,117):32,
-    (233,118):33,
-    (233,119):34,
-    (233,120):35,
-    (233,121):36,
-    (233,123):37,
-    (233,124):39,
-    (233,125):38,
-    (233,126):40,
-    (233,127):41,
-    (233,128):42,
-    (233,129):43,
-    (239,137):262,
-    (240,112):29,
-    (240,113):23,
-    (240,115):30,
-    (240,116):31,
-    (240,117):32,
-    (240,118):33,
-    (240,119):34,
-    (240,120):35,
-    (240,121):36,
-    (240,123):37,
-    (240,124):39,
-    (240,125):38,
-    (240,126):40,
-    (240,127):41,
-    (240,128):42,
-    (240,129):43,
-    (240,130):17,
-    (240,131):18,
-    (240,132):19,
-    (240,133):20,
-    (240,134):21,
-    (240,135):22,
-    (240,136):8,
-    (240,144):7,
-    (240,148):6,
-    (240,153):5,
-    (240,159):4,
-    (240,160):3,
-    (240,161):265,
-    (243,112):29,
-    (243,113):23,
-    (243,115):30,
-    (243,116):31,
-    (243,117):32,
-    (243,118):33,
-    (243,119):34,
-    (243,120):35,
-    (243,121):36,
-    (243,123):37,
-    (243,124):39,
-    (243,125):38,
-    (243,126):40,
-    (243,127):41,
-    (243,128):42,
-    (243,129):43,
-    (243,130):17,
-    (243,131):18,
-    (243,132):19,
-    (243,133):20,
-    (243,134):21,
-    (243,135):22,
-    (243,136):8,
-    (243,144):7,
-    (243,148):6,
-    (243,153):5,
-    (243,159):4,
-    (243,160):3,
-    (243,161):266,
-    (246,112):29,
-    (246,113):23,
-    (246,115):30,
-    (246,116):31,
-    (246,117):32,
-    (246,118):33,
-    (246,119):34,
-    (246,120):35,
-    (246,121):36,
-    (246,123):37,
-    (246,124):39,
-    (246,125):38,
-    (246,126):40,
-    (246,127):41,
-    (246,128):42,
-    (246,129):43,
-    (246,130):17,
-    (246,131):18,
-    (246,132):19,
-    (246,133):20,
-    (246,134):21,
-    (246,135):22,
-    (246,136):8,
-    (246,144):7,
-    (246,148):6,
-    (246,153):5,
-    (246,159):4,
-    (246,160):3,
-    (246,161):267,
-    (247,139):268,
-    (249,112):29,
-    (249,113):23,
-    (249,115):30,
-    (249,116):31,
-    (249,117):32,
-    (249,118):33,
-    (249,119):34,
-    (249,120):35,
-    (249,121):36,
-    (249,123):37,
-    (249,124):39,
-    (249,125):38,
-    (249,126):40,
-    (249,127):41,
-    (249,128):42,
-    (249,129):43,
-    (249,130):269,
-    (249,131):18,
-    (249,132):19,
-    (249,133):20,
-    (249,134):21,
-    (249,135):22,
-    (260,112):29,
-    (260,113):23,
-    (260,115):30,
-    (260,116):31,
-    (260,117):32,
-    (260,118):33,
-    (260,119):34,
-    (260,120):35,
-    (260,121):36,
-    (260,123):37,
-    (260,124):39,
-    (260,125):38,
-    (260,126):40,
-    (260,127):41,
-    (260,128):42,
-    (260,129):43,
-    (260,130):17,
-    (260,131):18,
-    (260,132):19,
-    (260,133):20,
-    (260,134):21,
-    (260,135):22,
-    (260,136):8,
-    (260,144):7,
-    (260,148):6,
-    (260,153):5,
-    (260,159):4,
-    (260,160):3,
-    (260,161):279,
-    (261,112):29,
-    (261,113):23,
-    (261,115):30,
-    (261,116):31,
-    (261,117):32,
-    (261,118):33,
-    (261,119):34,
-    (261,120):35,
-    (261,121):36,
-    (261,123):37,
-    (261,124):39,
-    (261,125):38,
-    (261,126):40,
-    (261,127):41,
-    (261,128):42,
-    (261,129):43,
-    (261,130):17,
-    (261,131):18,
-    (261,132):19,
-    (261,133):20,
-    (261,134):21,
-    (261,135):22,
-    (261,136):8,
-    (261,144):7,
-    (261,148):6,
-    (261,153):5,
-    (261,159):4,
-    (261,160):3,
-    (261,161):280,
-    (263,112):29,
-    (263,113):23,
-    (263,115):30,
-    (263,116):31,
-    (263,117):32,
-    (263,118):33,
-    (263,119):34,
-    (263,120):35,
-    (263,121):36,
-    (263,123):37,
-    (263,124):39,
-    (263,125):38,
-    (263,126):40,
-    (263,127):41,
-    (263,128):42,
-    (263,129):43,
-    (263,130):17,
-    (263,131):18,
-    (263,132):19,
-    (263,133):20,
-    (263,134):21,
-    (263,135):22,
-    (263,136):8,
-    (263,144):7,
-    (263,148):6,
-    (263,153):5,
-    (263,159):4,
-    (263,160):3,
-    (263,161):281,
-    (271,112):29,
-    (271,113):23,
-    (271,115):30,
-    (271,116):31,
-    (271,117):32,
-    (271,118):33,
-    (271,119):34,
-    (271,120):35,
-    (271,121):36,
-    (271,123):37,
-    (271,124):39,
-    (271,125):38,
-    (271,126):40,
-    (271,127):41,
-    (271,128):42,
-    (271,129):43,
-    (271,130):17,
-    (271,131):18,
-    (271,132):19,
-    (271,133):20,
-    (271,134):21,
-    (271,135):22,
-    (271,136):8,
-    (271,144):7,
-    (271,148):6,
-    (271,153):5,
-    (271,159):4,
-    (271,160):3,
-    (271,161):284,
-    (275,112):29,
-    (275,113):23,
-    (275,115):30,
-    (275,116):31,
-    (275,117):32,
-    (275,118):33,
-    (275,119):34,
-    (275,120):35,
-    (275,121):36,
-    (275,123):37,
-    (275,124):39,
-    (275,125):38,
-    (275,126):40,
-    (275,127):41,
-    (275,128):42,
-    (275,129):43,
-    (275,130):17,
-    (275,131):18,
-    (275,132):19,
-    (275,133):20,
-    (275,134):21,
-    (275,135):22,
-    (275,136):8,
-    (275,144):7,
-    (275,148):6,
-    (275,153):5,
-    (275,159):4,
-    (275,160):3,
-    (275,161):288,
-    (278,112):289,
-    (278,115):30,
-    (278,116):31,
-    (278,117):32,
-    (278,118):33,
-    (278,119):34,
-    (278,120):35,
-    (278,121):36,
-    (278,123):37,
-    (278,124):39,
-    (278,125):38,
-    (278,126):40,
-    (278,127):41,
-    (278,128):42,
-    (278,129):43,
-    (283,112):29,
-    (283,113):23,
-    (283,115):30,
-    (283,116):31,
-    (283,117):32,
-    (283,118):33,
-    (283,119):34,
-    (283,120):35,
-    (283,121):36,
-    (283,123):37,
-    (283,124):39,
-    (283,125):38,
-    (283,126):40,
-    (283,127):41,
-    (283,128):42,
-    (283,129):43,
-    (283,130):17,
-    (283,131):18,
-    (283,132):19,
-    (283,133):20,
-    (283,134):21,
-    (283,135):22,
-    (283,136):8,
-    (283,144):7,
-    (283,148):6,
-    (283,153):5,
-    (283,159):4,
-    (283,160):3,
-    (283,161):293,
-    (286,112):29,
-    (286,113):23,
-    (286,115):30,
-    (286,116):31,
-    (286,117):32,
-    (286,118):33,
-    (286,119):34,
-    (286,120):35,
-    (286,121):36,
-    (286,123):37,
-    (286,124):39,
-    (286,125):38,
-    (286,126):40,
-    (286,127):41,
-    (286,128):42,
-    (286,129):43,
-    (286,130):17,
-    (286,131):18,
-    (286,132):19,
-    (286,133):20,
-    (286,134):21,
-    (286,135):22,
-    (286,136):8,
-    (286,144):7,
-    (286,148):6,
-    (286,153):5,
-    (286,159):4,
-    (286,160):3,
-    (286,161):296,
-    (287,112):29,
-    (287,113):23,
-    (287,115):30,
-    (287,116):31,
-    (287,117):32,
-    (287,118):33,
-    (287,119):34,
-    (287,120):35,
-    (287,121):36,
-    (287,123):37,
-    (287,124):39,
-    (287,125):38,
-    (287,126):40,
-    (287,127):41,
-    (287,128):42,
-    (287,129):43,
-    (287,130):17,
-    (287,131):18,
-    (287,132):19,
-    (287,133):20,
-    (287,134):21,
-    (287,135):22,
-    (287,136):8,
-    (287,144):7,
-    (287,148):6,
-    (287,153):5,
-    (287,159):4,
-    (287,160):3,
-    (287,161):297,
-    (295,112):29,
-    (295,113):23,
-    (295,115):30,
-    (295,116):31,
-    (295,117):32,
-    (295,118):33,
-    (295,119):34,
-    (295,120):35,
-    (295,121):36,
-    (295,123):37,
-    (295,124):39,
-    (295,125):38,
-    (295,126):40,
-    (295,127):41,
-    (295,128):42,
-    (295,129):43,
-    (295,130):17,
-    (295,131):18,
-    (295,132):19,
-    (295,133):20,
-    (295,134):21,
-    (295,135):22,
-    (295,136):8,
-    (295,144):7,
-    (295,148):6,
-    (295,153):5,
-    (295,159):4,
-    (295,160):3,
-    (295,161):300,
-}
+R0={0:(2,s2),9:(112,s112),10:(113,s113),12:(116,s116),24:(124,s124),25:(125,s125),26:(126,s126),27:(127,s127),45:(130,s130),67:(137,s137),68:(138,s138),115:(183,s183),120:(189,s189),128:(198,s198),179:(211,s211),180:(212,s212),184:(216,s216),213:(236,s236),221:(250,s250),223:(252,s252),240:(265,s265),243:(266,s266),246:(267,s267),260:(279,s279),261:(280,s280),263:(281,s281),271:(284,s284),275:(288,s288),283:(293,s293),286:(296,s296),287:(297,s297),295:(300,s300),}
+R1={89:(156,s156),90:(157,s157),91:(158,s158),92:(159,s159),93:(160,s160),94:(161,s161),95:(162,s162),96:(163,s163),97:(164,s164),98:(165,s165),99:(166,s166),100:(167,s167),101:(168,s168),102:(169,s169),103:(170,s170),104:(171,s171),105:(172,s172),106:(173,s173),107:(174,s174),108:(175,s175),109:(176,s176),110:(177,s177),182:(214,s214),187:(222,s222),200:(230,s230),}
+R1.update({v:(8,s8) for v in E5})
+R2={11:(114,s114),13:(117,s117),14:(118,s118),15:(119,s119),16:(121,s121),111:(178,s178),185:(220,s220),217:(220,s220),249:(269,s269),}
 
+Ez={0,3,9,10,12,24,25,26,27,45,67,68,77,83,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,115,120,128,179,180,182,184,187,200,213,221,223,240,243,246,260,261,263,271,275,283,286,287,295}
+R2.update({v:(17,s17) for v in Ez})
+R3={47:(133,s133),71:(143,s143),72:(145,s145),129:(199,s199),134:(204,s204),}
+R3.update({v:(23,s23) for v in E6})
+R4={23:(122,s122),46:(132,s132),133:(122,s122),143:(122,s122),145:(122,s122),199:(122,s122),202:(231,s231),204:(122,s122),233:(258,s258),278:(289,s289),}
 
-H = {
-    0: s0,
-    1: s1,
-    2: s2,
-    3: s3,
-    4: s4,
-    5: s5,
-    6: s6,
-    7: s7,
-    8: s8,
-    9: s9,
-    10: s9,
-    11: s11,
-    12: s12,
-    13: s13,
-    14: s13,
-    15: s15,
-    16: s13,
-    17: s17,
-    18: s18,
-    19: s18,
-    20: s18,
-    21: s18,
-    22: s18,
-    23: s23,
-    24: s24,
-    25: s25,
-    26: s26,
-    27: s27,
-    28: s28,
-    29: s29,
-    30: s30,
-    31: s30,
-    32: s30,
-    33: s30,
-    34: s30,
-    35: s30,
-    36: s30,
-    37: s30,
-    38: s30,
-    39: s30,
-    40: s30,
-    41: s30,
-    42: s30,
-    43: s30,
-    44: s44,
-    45: s24,
-    46: s46,
-    47: s46,
-    48: s48,
-    49: s49,
-    50: s50,
-    51: s51,
-    52: s52,
-    53: s53,
-    54: s54,
-    55: s55,
-    56: s56,
-    57: s57,
-    58: s58,
-    59: s59,
-    60: s60,
-    61: s61,
-    62: s62,
-    63: s63,
-    64: s64,
-    65: s65,
-    66: s66,
-    67: s26,
-    68: s68,
-    69: s69,
-    70: s70,
-    71: s71,
-    72: s72,
-    73: s73,
-    74: s74,
-    75: s75,
-    76: s76,
-    77: s77,
-    78: s78,
-    79: s79,
-    80: s80,
-    81: s81,
-    82: s82,
-    83: s77,
-    84: s84,
-    85: s85,
-    86: s86,
-    87: s87,
-    88: s88,
-    89: s13,
-    90: s13,
-    91: s13,
-    92: s13,
-    93: s13,
-    94: s13,
-    95: s13,
-    96: s13,
-    97: s13,
-    98: s13,
-    99: s13,
-    100: s13,
-    101: s13,
-    102: s13,
-    103: s13,
-    104: s13,
-    105: s13,
-    106: s13,
-    107: s13,
-    108: s13,
-    109: s13,
-    110: s13,
-    111: s13,
-    112: s112,
-    113: s113,
-    114: s114,
-    115: s24,
-    116: s116,
-    117: s117,
-    118: s118,
-    119: s119,
-    120: s27,
-    121: s121,
-    122: s122,
-    123: s123,
-    124: s124,
-    125: s125,
-    126: s126,
-    127: s127,
-    128: s128,
-    129: s129,
-    130: s130,
-    131: s131,
-    132: s132,
-    133: s133,
-    134: s46,
-    135: s135,
-    136: s136,
-    137: s137,
-    138: s138,
-    139: s139,
-    140: s140,
-    141: s141,
-    142: s142,
-    143: s143,
-    144: s144,
-    145: s145,
-    146: s146,
-    147: s147,
-    148: s148,
-    149: s149,
-    150: s150,
-    151: s151,
-    152: s152,
-    153: s153,
-    154: s154,
-    155: s155,
-    156: s156,
-    157: s157,
-    158: s158,
-    159: s159,
-    160: s160,
-    161: s161,
-    162: s162,
-    163: s163,
-    164: s164,
-    165: s165,
-    166: s166,
-    167: s167,
-    168: s168,
-    169: s169,
-    170: s170,
-    171: s171,
-    172: s172,
-    173: s173,
-    174: s174,
-    175: s175,
-    176: s176,
-    177: s177,
-    178: s178,
-    179: s179,
-    180: s179,
-    181: s181,
-    182: s13,
-    183: s183,
-    184: s184,
-    185: s13,
-    186: s186,
-    187: s13,
-    188: s188,
-    189: s189,
-    190: s190,
-    191: s191,
-    192: s192,
-    193: s193,
-    194: s194,
-    195: s195,
-    196: s196,
-    197: s197,
-    198: s198,
-    199: s199,
-    200: s13,
-    201: s201,
-    202: s46,
-    203: s203,
-    204: s204,
-    205: s205,
-    206: s206,
-    207: s207,
-    208: s208,
-    209: s209,
-    210: s210,
-    211: s211,
-    212: s212,
-    213: s179,
-    214: s214,
-    215: s215,
-    216: s216,
-    217: s217,
-    218: s218,
-    219: s219,
-    220: s220,
-    221: s179,
-    222: s222,
-    223: s27,
-    224: s224,
-    225: s225,
-    226: s226,
-    227: s227,
-    228: s228,
-    229: s229,
-    230: s230,
-    231: s231,
-    232: s232,
-    233: s46,
-    234: s234,
-    235: s235,
-    236: s236,
-    237: s237,
-    238: s238,
-    239: s239,
-    240: s240,
-    241: s241,
-    242: s242,
-    243: s12,
-    244: s244,
-    245: s245,
-    246: s246,
-    247: s247,
-    248: s248,
-    249: s13,
-    250: s250,
-    251: s251,
-    252: s252,
-    253: s253,
-    254: s254,
-    255: s255,
-    256: s256,
-    257: s257,
-    258: s258,
-    259: s259,
-    260: s179,
-    261: s179,
-    262: s262,
-    263: s240,
-    264: s264,
-    265: s265,
-    266: s266,
-    267: s267,
-    268: s268,
-    269: s269,
-    270: s270,
-    271: s179,
-    272: s272,
-    273: s273,
-    274: s274,
-    275: s27,
-    276: s276,
-    277: s277,
-    278: s46,
-    279: s279,
-    280: s280,
-    281: s281,
-    282: s282,
-    283: s184,
-    284: s284,
-    285: s285,
-    286: s27,
-    287: s27,
-    288: s288,
-    289: s289,
-    290: s290,
-    291: s291,
-    292: s292,
-    293: s293,
-    294: s294,
-    295: s27,
-    296: s296,
-    297: s297,
-    298: s298,
-    299: s299,
-    300: s300,
-    301: s301,
-    302: s302,
-    303: s303,
-}
+E10={0,3,9,10,11,12,13,14,15,16,24,25,26,27,45,47,67,68,71,72,77,83,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,115,120,128,129,134,179,180,182,184,185,187,200,213,217,221,223,240,243,246,249,260,261,263,271,275,283,286,287,295}
+R4.update({v:(29,s29) for v in E10})
+R5={77:(152,s152),}
 
+E11={0,3,9,10,12,24,25,26,27,45,67,68,115,120,128,179,180,184,213,221,223,240,243,246,260,261,263,271,275,283,286,287,295}
+R5.update({v:(5,s5) for v in E11})
+R6={83:(154,s154),}
 
+E12={0,3,9,10,12,24,25,26,27,45,67,68,77,115,120,128,179,180,184,213,221,223,240,243,246,260,261,263,271,275,283,286,287,295}
+R6.update({v:(6,s6) for v in E12})
+R7={3:(73,s73),}
+R7.update({v:(4,s4) for v in E1})
+R8={74:(147,s147),114:(181,s181),214:(237,s237),}
+R9={5:(76,s76),75:(151,s151),}
+Ra={6:(82,s82),81:(153,s153),}
+Rb={7:(88,s88),87:(155,s155),}
+Rc={185:(218,s218),217:(244,s244),}
+Rd={220:(248,s248),247:(268,s268),}
+Re={216:(242,s242),239:(262,s262),}
 
 def parse(lexical_iterator: ms_parser.lexical.LexicalBase):
     a = [0]
